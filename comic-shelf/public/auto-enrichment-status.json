@@ -1,0 +1,13 @@
+{
+  "status": "finished",
+  "message": "Automatic pass complete. Items in Needs review still require checking.",
+  "current": "",
+  "total": 4000,
+  "processed": 4000,
+  "pid": 24272,
+  "updatedAt": "2026-09-14T12:25:31.057756+00:00",
+  "reviewCount": 3898,
+  "pendingLookups": 50,
+  "automatic": 3342,
+  "editorial": 355
+}

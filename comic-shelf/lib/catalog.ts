@@ -1,6 +1,14 @@
 export type Source = { label: string; url: string };
 export type Enrichment = {
   level?: 'basic';
+  automation?: {
+    version: number;
+    characterMentions: string[];
+    suggestedIssues: string[];
+    reviewCandidate?: {title:string; url:string; criticScore:number} | null;
+    suggestedReadingPath: {name: string; position: number; note: string} | null;
+    reasons: string[];
+  };
   summary: string;
   pages: number | null;
   pagesSource: string;
@@ -86,7 +94,7 @@ export function matchesCharacter(b: Book, c: string, verified = false) {
   const appearance = b.detail?.characters.some(
     (x) => normalize(x.name) === target,
   );
-  return !!appearance || (!verified && normalize(b.title).includes(target));
+  return !!appearance || (!verified && (normalize(b.title).includes(target) || !!b.detail?.automation?.characterMentions.some(n => normalize(n) === target)));
 }
 export function filterBooks(books: Book[], f: Filters): Book[] {
   const terms = f.query.trim().split(/\s+/).filter(Boolean).map(normalize);
@@ -107,6 +115,7 @@ export function filterBooks(books: Book[], f: Filters): Book[] {
             b.detail?.summary,
             ...(b.detail?.stories.map((s) => s.title) ?? []),
             ...(b.detail?.characters.map((c) => c.name) ?? []),
+            ...(b.detail?.automation?.characterMentions ?? []),
           ].join(' '),
         ).includes(t),
       ),

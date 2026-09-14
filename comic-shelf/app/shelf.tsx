@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
 import { flushSync } from 'react-dom';
+import EnrichmentControls from './enrichment-controls';
 import {
   BookOpen,
   Search,
@@ -199,7 +200,7 @@ export default function Shelf() {
       'X-Men',
       ...Array.from(
         new Set(
-          books.flatMap((b) => b.detail?.characters.map((c) => c.name) ?? []),
+          books.flatMap((b) => [...(b.detail?.characters.map((c) => c.name) ?? []), ...(b.detail?.automation?.characterMentions ?? [])]),
         ),
       )
         .filter(
@@ -373,7 +374,7 @@ export default function Shelf() {
               label="Match type"
               value={filters.match}
               options={[
-                ['any', 'Title + sourced appearances'],
+                ['any', 'Titles + appearances + mentions'],
                 ['verified', 'Sourced appearances only'],
               ]}
               onChange={(v) => update({ match: v })}
@@ -409,8 +410,8 @@ export default function Shelf() {
             <div className="filter-note">
               <Info size={17} />
               <p>
-                Appearances are checked for the pilot. Other books match by
-                title. Team membership alone does not count as an appearance.
+                Automatic mentions are suggestions. Choose sourced appearances
+                only for checked entries. Team membership does not prove an appearance.
               </p>
             </div>
             <details className="data-details">
@@ -435,9 +436,7 @@ export default function Shelf() {
             </details>
           </aside>
           <div className="results-panel">
-            {progress && <p className="scope-note" role="status">
-              Metadata pass: {progress.status} · {progress.processed.toLocaleString()} / {progress.total.toLocaleString()} checked · {progress.basic} basic matches · {progress.fullyChecked} fully checked. {progress.message}
-            </p>}
+            <EnrichmentControls onSelect={setSelected} />
             <div className="result-controls">
               <Tabs
                 value={filters.scope}
@@ -475,7 +474,7 @@ export default function Shelf() {
               {filters.sort === 'reading'
                 ? 'Reading order is grouped by run. Alternative collections overlap; they are not extra steps.'
                 : filters.scope === 'pilot'
-                  ? 'Includes basic ISBN matches and fully checked books. Basic matches still need story, character, and reading-order checks.'
+                  ? 'Includes checked story details, automatic suggestions, and basic ISBN matches. Suggestions still need review.'
                   : 'All imported records. Missing descriptions, page counts, and ratings have not been guessed.'}{' '}
               {['critic', 'user', 'pages-asc', 'pages-desc'].includes(
                 filters.sort,
@@ -548,7 +547,7 @@ export default function Shelf() {
                             <span className="start-badge">START HERE</span>
                           ) : (
                             <span>
-                              {b.detail?.level === 'basic' ? 'BASIC METADATA' : b.detail ? 'STORY DETAILS' : 'CATALOG RECORD'}
+                              {b.detail?.automation ? 'AUTO · NEEDS REVIEW' : b.detail?.level === 'basic' ? 'BASIC METADATA' : b.detail ? 'STORY DETAILS' : 'CATALOG RECORD'}
                             </span>
                           )}
                           <span>{b.publication}</span>
@@ -642,7 +641,7 @@ export default function Shelf() {
                     {detail?.pages ?? '—'}
                     <span>
                       {detail?.pages
-                        ? 'pages · Google Books'
+                        ? 'pages · matched edition'
                         : 'page count unavailable'}
                     </span>
                   </strong>
@@ -713,6 +712,15 @@ export default function Shelf() {
                       synopsis. This is not a complete cameo index.
                     </p>
                   </section>
+                  {detail.automation && <section className="detail-section">
+                    <h3>Automatic suggestions · needs review</h3>
+                    <p className="subtle">Extracted from the publisher description and catalog title. Mentions can refer to comparisons or backstory; they are not confirmed appearances.</p>
+                    {detail.automation.characterMentions.length>0 && <p><strong>Characters mentioned:</strong> {detail.automation.characterMentions.join(', ')}</p>}
+                    {detail.automation.suggestedReadingPath && <p><strong>Possible volume order:</strong> {detail.automation.suggestedReadingPath.name}, volume {detail.automation.suggestedReadingPath.position}. {detail.automation.suggestedReadingPath.note}</p>}
+                    {detail.automation.suggestedIssues.length>0 && <details><summary>Suggested collected issues</summary><ul className="issue-list">{detail.automation.suggestedIssues.map(i=><li key={i}>{i}</li>)}</ul><p>Not used for overlap matching until the edition is confirmed.</p></details>}
+                    {detail.automation.reviewCandidate && <p><strong>Possible review match:</strong> <a className="secondary-link" href={detail.automation.reviewCandidate.url} target="_blank" rel="noreferrer">{detail.automation.reviewCandidate.title}</a>. Matches the suggested issue set; confirm the edition before using its score.</p>}
+                    <ul>{detail.automation.reasons.map(r=><li key={r}>{r}</li>)}</ul>
+                  </section>}
                   <section className="detail-section">
                     <h3>
                       <Route size={18} />
@@ -798,7 +806,7 @@ export default function Shelf() {
                         Overlapping collections
                       </h3>
                       <p className="subtle">
-                        These pilot books share verified issues. Extra material
+                        These books share checked issues. Extra material
                         can differ.
                       </p>
                       {shared.map(({ book, count }) => (

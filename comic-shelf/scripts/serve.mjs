@@ -3,6 +3,8 @@ import http from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { enrichmentApi } from './enrichment_api.mjs';
+const api = enrichmentApi(fileURLToPath(new URL('../', import.meta.url)));
 const root = path.resolve(
   fileURLToPath(new URL('../dist/client/', import.meta.url)),
 );
@@ -23,6 +25,9 @@ const types = {
 const server = http.createServer(async (req, res) => {
   res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('Referrer-Policy', 'no-referrer');
+  try {
+    if (await api(req, res, new URL(req.url, 'http://127.0.0.1'))) return;
+  } catch { res.writeHead(500); res.end('Enrichment service unavailable'); return; }
   if (!['GET', 'HEAD'].includes(req.method)) {
     res.writeHead(405);
     res.end();

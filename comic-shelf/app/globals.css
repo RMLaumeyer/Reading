@@ -989,3 +989,15 @@ h1 {
     width: 100%;
   }
 }
+
+.enrichment-controls { border: 1px solid #ccd5e0; border-radius: 12px; padding: 18px; margin-bottom: 22px; background: #f5f8fc; }
+.enrichment-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; }
+.enrichment-actions button { cursor: pointer; font-size: 14px; }
+.enrichment-actions button:disabled { cursor: default; opacity: .55; }
+.enrichment-controls .scope-note { margin: 12px 0 8px; }
+.review-queue { border-top: 1px solid #ccd5e0; margin-top: 16px; padding-top: 16px; }
+.review-queue select { font: inherit; border: 1px solid #9ca9bb; border-radius: 6px; padding: 6px; margin-left: 8px; max-width: 100%; }
+.review-queue ul { list-style: none; padding: 0; }
+.review-queue li { padding: 12px 0; border-bottom: 1px solid #dce3ed; }
+.review-queue li button { text-align: left; font-size: 16px; font-weight: 600; color: #214a79; cursor: pointer; }
+.review-queue li small { display: block; font-size: 14px; margin-top: 5px; color: #506079; }

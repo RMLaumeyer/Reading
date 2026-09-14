@@ -21,6 +21,70 @@ const get = (isbn: string) => {
   assert.ok(b);
   return b;
 };
+test('Fifth batch corrects wrong synopses and distinguishes overlapping editions', () => {
+  const ids = JSON.parse(readFileSync(new URL('../data/deep-batch-05.json', root), 'utf8')) as string[];
+  const prior = JSON.parse(readFileSync(new URL('../data/deep-batch-04.json', root), 'utf8')) as string[];
+  assert.equal(ids.length, 50);
+  assert.equal(new Set([...ids, ...prior]).size, 150);
+  for (const isbn of ids) {
+    const d = get(isbn).detail!;
+    assert.ok(d.summary && d.stories.length && d.sources.length && d.issueKeys.length);
+    assert.notEqual(d.level, 'basic');
+    assert.ok(!d.automation);
+  }
+  const coming = get('9780785171485').detail!;
+  assert.ok(coming.summary.includes('Hope'));
+  assert.ok(!coming.summary.includes('Basilisk'));
+  assert.equal(coming.pages, null);
+  assert.ok(coming.issueKeys.includes('X-Force (2008) #28'));
+  assert.equal(overlaps(get('9781302967314'), [get('9781302940157')]).length, 0);
+  assert.equal(overlaps(get('9781302517489'), [get('9781302479787')])[0].count, 8);
+  assert.equal(overlaps(get('9781302533014'), [get('9781302939113')])[0].count, 4);
+  assert.ok(!get('9781302488819').detail!.issueKeys.includes('S.W.O.R.D. (2020) #1'));
+  assert.equal(ids.filter(isbn => get(isbn).detail!.review).length, 5);
+});
+test('Fourth research batch adds 100 distinct books with edition-safe reviews and overlaps', () => {
+  const ids = JSON.parse(readFileSync(new URL('../data/deep-batch-04.json', root), 'utf8')) as string[];
+  const previous = ['01', '02', '03'].flatMap(n => JSON.parse(readFileSync(new URL(`../data/xmen-batch-${n}.json`, root), 'utf8')) as string[]);
+  assert.equal(ids.length, 100);
+  assert.equal(new Set([...previous, ...ids]).size, 250);
+  for (const isbn of ids) {
+    const detail = get(isbn).detail!;
+    assert.ok(detail.summary && detail.stories.length && detail.sources.length);
+    assert.notEqual(detail.level, 'basic');
+    assert.ok(!detail.automation);
+  }
+  assert.ok(get('9781302515423').detail!.issueKeys.includes('Giant-Size Astonishing X-Men (2008) #1'));
+  assert.equal(get('9781302515423').detail!.readingPath.name, get('9780785170068').detail!.readingPath.name);
+  for (const isbn of ['9781302478711', '9781302533083', '9781302531669']) assert.ok(!get(isbn).detail!.review);
+  assert.equal(ids.filter(isbn => get(isbn).detail!.review).length, 33);
+  assert.ok(!get('9781302506414').detail!.characters.some(c => c.name === 'X-Men'));
+  assert.ok(get('9781302533977').detail!.issueKeys.includes('X-Factor (1986) #27'));
+  assert.ok(!get('9781302533977').detail!.issueKeys.includes('X-Factor (1986) #51'));
+});
+test('Third X-Men batch preserves distinct editions, gaps and prior batches', () => {
+  const batches = ['01', '02', '03'].map(n => JSON.parse(readFileSync(new URL(`../data/xmen-batch-${n}.json`, root), 'utf8')) as string[]);
+  assert.ok(batches.every(ids => ids.length === 50));
+  assert.equal(new Set(batches.flat()).size, 150);
+  for (const isbn of batches.flat()) {
+    const d = get(isbn).detail!;
+    assert.ok(d && d.level !== 'basic' && d.summary && d.stories.length && d.sources.length);
+  }
+  assert.equal(get('9780785178798').detail!.readingPath.position, 7);
+  assert.equal(get('9780785179627').detail!.readingPath.position, 8);
+  assert.equal(get('9780785179801').detail!.readingPath.position, 9);
+  assert.ok(!get('9780785182108').detail!.issueKeys.includes('Uncanny X-Men (2011) #5'));
+  assert.ok(!get('9780785183006').detail!.issueKeys.includes('Uncanny X-Men (2011) #10'));
+  assert.ok(!get('9781302479626').detail!.issueKeys.includes('Uncanny X-Men (1963) #160'));
+  assert.ok(get('9781302377717').detail!.issueKeys.includes('Uncanny X-Men (2013) #15.INH'));
+  assert.ok(!get('9781302377717').detail!.issueKeys.includes('Uncanny X-Men (2013) #15'));
+  assert.ok(get('9781302479596').detail!.issueKeys.includes('X-Men Annual (1970) #4'));
+  const master = get('9781302479602').detail!.issueKeys;
+  assert.equal(master.filter(k => get('9780785180012').detail!.issueKeys.includes(k)).length, 3);
+  assert.ok(get('9781302508715').detail!.issueKeys.includes('Uncanny X-Men (1963) #534.1'));
+  assert.ok(get('9781302530754').detail!.issueKeys.every(k => !k.startsWith('Weapon X-Men (2025)')));
+  assert.ok(get('9781302534158').detail!.issueKeys.every(k => k.startsWith('Weapon X-Men (2025)')));
+});
 test('Imported catalog reconciles; identifiers stay strings', () => {
   assert.equal(books.length, 4000);
   assert.equal(new Set(books.map((b) => b.id)).size, 4000);
@@ -83,7 +147,21 @@ test('Team membership is not treated as an appearance', () => {
     character: 'Avengers',
     match: 'verified',
   });
-  assert.equal(found.length, 0);
+  assert.ok(found.every(b=>b.detail!.characters.some(c=>c.name==='Avengers')));
+  assert.ok(!found.some(b=>b.isbn==='9781302514075'));
+});
+test('X-Men batch contains fifty records with conservative edition matching', () => {
+  const ids = JSON.parse(readFileSync(new URL('../data/xmen-batch-01.json', root), 'utf8')) as string[];
+  assert.equal(ids.length,50);
+  assert.equal(new Set(ids).size,50);
+  assert.ok(ids.every(isbn=>get(isbn).detail?.stories.length));
+  assert.ok(!get('9781302392925').detail!.issueKeys.some(x=>x.endsWith('#30')));
+  assert.ok(!get('9781302498870').detail!.issueKeys.some(x=>x.endsWith('#21')));
+  assert.equal(get('9781302478865').detail!.review,undefined);
+  assert.ok(!get('9781302481605').detail!.characters.some(c=>c.name==='X-Men'));
+  const shared = overlaps(get('9781302527464'), books);
+  assert.equal(shared.find(x=>x.book.isbn==='9780785170037')?.count,6);
+  assert.equal(shared.find(x=>x.book.isbn==='9780785170044')?.count,6);
 });
 test('Search handles punctuation and character aliases', () => {
   assert.ok(
@@ -97,6 +175,20 @@ test('Search handles punctuation and character aliases', () => {
       (b) => b.isbn === '9781302935818',
     ),
   );
+});
+test('Second X-Men batch preserves separate universes, overlap and gaps', () => {
+  const ids = JSON.parse(readFileSync(new URL('../data/xmen-batch-02.json', root), 'utf8')) as string[];
+  const first = JSON.parse(readFileSync(new URL('../data/xmen-batch-01.json', root), 'utf8')) as string[];
+  assert.equal(new Set([...ids,...first]).size,100);
+  assert.ok(ids.every(isbn=>get(isbn).detail!.summary.length>60));
+  assert.notEqual(get('9781302530365').detail!.readingPath.name,get('9780785171256').detail!.readingPath.name);
+  assert.equal(overlaps(get('9781302530365'),[get('9780785171256')]).length,0);
+  assert.equal(overlaps(get('9781302532048'),[get('9780785171256'),get('9780785171263')]).length,2);
+  assert.equal(overlaps(get('9781302508203'),[get('9781302479152')])[0].count,4);
+  assert.ok(!get('9781302482312').detail!.issueKeys.some(i=>i.endsWith('#12')));
+  assert.ok(!get('9781302524258').detail!.issueKeys.some(i=>i.endsWith('#6')));
+  assert.equal(get('9781302530365').detail!.review,undefined);
+  assert.equal(get('9781302436469').detail!.review,undefined);
 });
 test('Availability filter retains unconfirmed records without claiming Hoopla', () => {
   const list = filterBooks(books, {

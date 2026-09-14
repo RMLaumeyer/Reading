@@ -52,7 +52,9 @@ def main():
         editorial[b['id']]=d
     payload['books'].update(editorial)
     payload['updatedAt']=datetime.date.today().isoformat()
-    write_json(ROOT/'data/editorial-enrichment.json',editorial)
+    editorial_path=ROOT/'data/editorial-enrichment.json'
+    previous=json.loads(editorial_path.read_text(encoding='utf-8')) if editorial_path.exists() else {}
+    write_json(editorial_path,{**previous,**editorial})
     for directory in [ROOT/'public',ROOT/'dist/client']:
         write_json(directory/'enrichment.json',payload)
     report={'moonKnightTitles':sum('moon knight' in b['title'].lower() for b in catalog),'newStoryAnnotations':len(editorial),'newReviews':len(REVIEWS),'unresolved':['Bendis Volume 2 issue range conflict; Killed Not Dead issue 10 conflict; additional review matches and exhaustive cameo indexing remain'],'reviewStatus':'Eight new trade-specific scores; unavailable scores remain blank.'}
