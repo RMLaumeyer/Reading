@@ -1,0 +1,53 @@
+# Panel — your local Marvel shelf
+
+Double-click **Start Panel.cmd** in the Reading folder. It opens http://localhost:5173/ in your browser. Double-click **Stop Panel.cmd** to stop the local server. Closing the browser leaves the small server running; restarting Windows stops it. Nothing is hosted publicly.
+
+## What is ready
+
+- All 4,000 imported catalog records are searchable. The default availability filter includes the 3,948 explicitly listing Hoopla; 52 are retained as unconfirmed.
+- The **Enriched pilot** contains 26 books: Moon Knight, Spider-Man, and one X-Men collection. Each has a short original synopsis, named storylines, page count, a reading path, source links, and an exact Hoopla title link extracted from OCLS.
+- 18 pilot collections have Comic Book Roundup critic and reader scores where available. Missing scores are not zeros; sorting places them last.
+- Character filters combine title matches with appearances supported by the pilot sources. **Sourced appearances only** excludes unverified title matches. This is not yet an exhaustive appearance or cameo index for 4,000 books.
+- Reading order groups books within runs. Complete collections are marked as alternatives, and overlapping issues are shown in book details. Starting-point suggestions are editorial recommendations, not externally scored rankings.
+
+## Data limits
+
+The export is a snapshot, not live borrowing availability and not proof that every Marvel title at OCLS is included. Grouped catalog records can represent multiple editions. ISBNs remain strings. Review matches use title, creators, series, and collected issues, rather than an exact digital ISBN. Critic aggregates cover the issues reviewed by Comic Book Roundup and can omit annuals or bonus material. The review detail panel states this explicitly.
+
+Page counts come from ISBN-matched Google Books bibliographic records; a platform may count covers, advertisements, and bonus pages differently. Dates in the CSV describe catalog editions rather than original story chronology. The Hunted publisher listing has a supplemental-issue suffix discrepancy, which is noted and excluded from overlap indexing.
+
+All catalog and enrichment JSON is stored locally. Browsing and sorting do not call data APIs. Covers are loaded from Google Books or Comic Book Roundup, so cover images and external borrowing/review links require internet access. No paid API, model, subscription, or API key is used. No library credentials are stored.
+
+## Maintenance
+
+Source CSVs in the parent folder remain unchanged. `public/catalog.json` is rebuilt by `scripts/import_catalog.py`. `data/pilot.json` identifies the pilot ISBNs; `scripts/build_pilot.py` contains explicit editorial annotations and produces `public/enrichment.json` plus `data/audit.json`.
+
+The collection scripts cache public HTML in ignored `data/cache/`. OCLS requests are spaced at least 20 seconds apart according to its crawl policy. Requests to restricted endpoints are not used. Review matching is explicitly recorded in `data/review-matches.json`; there is no indiscriminate full-site crawler or automatic background refresh.
+
+To rebuild with installed tools:
+
+```text
+python scripts/import_catalog.py
+python scripts/build_pilot.py
+npm run build
+npm start
+```
+
+Python scripts use only the standard library. The launcher uses the bundled Node runtime if available, falling back to a system Node installation. Node 22.13 or newer is required for development. The saved app uses a zero-dependency Node static server bound to 127.0.0.1; it exposes only `dist/client`, with no write routes.
+
+The build command includes a Windows-only one-second graceful-exit shim for Vinext's native bundler teardown. It does not suppress nonzero exit codes or build errors.
+
+## Validation
+
+`npm test` checks reconciliation, source coverage, missing-value sorting, appearance matching outside titles, edition overlap, and reading order. `npm run typecheck` checks TypeScript. Production HTTP checks verify the saved page, data files, and browser asset references. Browser interaction and visual testing were not requested and have not been performed. An optional WebMCP search tool is feature-detected; no supported validation context was available, so that tool is not claimed as tested.
+
+The next expansion is metadata enrichment beyond the pilot, especially Avengers/X-Men appearance mapping and more review matches. Unknown data is deliberately left unfilled until verified.
+# Bulk enrichment
+
+Double-click `Enrich Panel.cmd` in the parent Reading folder to start or resume the free ISBN metadata pass. It processes the 967 Spider-Man, Moon Knight, Avengers, and X-Men title matches first, then the rest of the 4,000-record catalog. Keep the computer awake and online. The full pass can take several hours; each new request waits at least three seconds. `Pause Enrichment.cmd` stops after the current request. Starting twice does not create competing workers.
+
+Panel refreshes enrichment and progress every 15 seconds. **Basic metadata** means an exact ISBN match with any available page count, cover, and short publisher excerpt linked to the full synopsis. It does not mean that story arcs, character appearances, reviews, or reading order have been checked. The 26 editorial pilot records retain their fuller annotations and take precedence over automatic data. Missing ISBN matches and errors are recorded separately; no scores or reading-order steps are invented.
+
+Progress lives in `data/enrichment-progress.json`; automatic records live in `data/automatic-enrichment.json`. Public metadata is updated as each record finishes, so no rebuild is required. HTTP 401/403/429 or a traffic challenge pauses the pass. Resume later instead of bypassing a source restriction. To retry previously unmatched or failed records manually, run `python scripts/enrich_catalog.py --retry` after the current pass has stopped. Cached pages are reused.
+
+Validation for this extension: `python scripts/test_enrichment.py`, `npm test`, `npm run typecheck`, and `npm run build`. Browser interactions have not been tested.

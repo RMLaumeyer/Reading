@@ -1,0 +1,14 @@
+{
+  "status": "paused",
+  "message": "Open Library pass paused: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>. Completed results are saved.",
+  "total": 4000,
+  "processed": 4000,
+  "priorityTotal": 967,
+  "priorityProcessed": 967,
+  "unmatched": 55,
+  "errors": 269,
+  "updatedAt": "2026-09-13T22:37:35.973546+00:00",
+  "enriched": 3676,
+  "fullyChecked": 26,
+  "basic": 3650
+}

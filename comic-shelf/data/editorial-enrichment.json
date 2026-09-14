@@ -1,0 +1,1851 @@
+{
+  "36981a78-8ffd-a893-9b96-610daaf9ff70-eng": {
+    "summary": "A sampler spanning Moon Knight’s debut as a werewolf hunter, encounters with Daredevil and Spider-Man, and a time-travel conflict involving Kang. It offers several different periods of the character rather than a single continuous story.",
+    "pages": 112,
+    "pagesSource": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=iRRWEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72lIKUJktB-EySLUwxTPp_rRIWGChq_eGEZ4auE3kbmO22mIrp7DrRr5egn0h00YEBzUNo52Z1Wqu2sLEOHmJYp7yaxQbCOOzAfTvWYf1IxA6jJr1-ADBYciBgag5_QLMDNQvDS",
+    "coverSource": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ"
+      },
+      {
+        "name": "Werewolf by Night",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ"
+      },
+      {
+        "name": "Daredevil",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ"
+      },
+      {
+        "name": "Spider-Man",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ"
+      },
+      {
+        "name": "Kang",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Marvel_Verse.html?id=iRRWEAAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Origins, team-ups and a Kang encounter",
+        "coverage": "Cross-era anthology"
+      }
+    ],
+    "issueKeys": [
+      "Werewolf by Night (1972) #32",
+      "Werewolf by Night (1972) #33",
+      "Moon Knight (1980) #13"
+    ],
+    "startingPoint": true,
+    "readingPath": {
+      "name": "Moon Knight — standalone samplers",
+      "position": 1,
+      "note": "Independent sampler. Includes annual material and a partial Spider-Man story; overlap indexing is incomplete.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Independent sampler. Includes annual material and a partial Spider-Man story; overlap indexing is incomplete.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "47f85dde-fc1f-2156-65e0-90d5fbb26300-eng": {
+    "summary": "Marc moves to Los Angeles and becomes entangled in a criminal scheme involving Ultron’s inert body. Versions of familiar Avengers appear inside his mind, complicating his attempt to confront the threat.",
+    "pages": 288,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_By_Brian_Michael_Bendis_Alex.html?id=636PDwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=636PDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE720epidZp2tCw7Xq-B5-sKDpr7HKwYsoRtb8z6Xg4ctjmCGI6K1YncS7GxHT_JivfayvB0kqxLxS_Xz0R5MiEVLKiR-07HZzjzIUKAQdNpQ-UHurgjzbS4kc4HwH1HwkUQS_84P",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_By_Brian_Michael_Bendis_Alex.html?id=636PDwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_By_Brian_Michael_Bendis_Alex.html?id=636PDwAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_By_Brian_Michael_Bendis_Alex.html?id=636PDwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Bendis & Maleev complete run",
+        "coverage": "Complete run"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2011) #1",
+      "Moon Knight (2011) #2",
+      "Moon Knight (2011) #3",
+      "Moon Knight (2011) #4",
+      "Moon Knight (2011) #5",
+      "Moon Knight (2011) #6",
+      "Moon Knight (2011) #7",
+      "Moon Knight (2011) #8",
+      "Moon Knight (2011) #9",
+      "Moon Knight (2011) #10",
+      "Moon Knight (2011) #11",
+      "Moon Knight (2011) #12"
+    ],
+    "startingPoint": true,
+    "readingPath": {
+      "name": "Moon Knight — Bendis & Maleev (2011)",
+      "position": 1,
+      "note": "Complete run; overlaps Volume 2. The Avengers described in the synopsis are mental manifestations, not verified physical guest appearances.",
+      "alternative": true
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Complete run; overlaps Volume 2. The Avengers described in the synopsis are mental manifestations, not verified physical guest appearances.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "7823a7c6-59d4-6b1a-fa75-63aec6332bed-eng": {
+    "summary": "Marc’s television project causes friction with Marlene while his conflict with Los Angeles’s criminal leadership escalates. This concluding volume brings the fight over the city to a costly climax.",
+    "pages": null,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=C73MCQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=C73MCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70iv5sSMkV2UIEH0oqgHfMrO-lPk48s-h-N3lW1U8ppKX1tkMSrllepoQKxmSjQfT6sdVBUmBtQsybWcN6VIfUsx2lK-7ezxjueRtmxqP8jAwpx7zFixRr5CIMO6oEKnvOpH9fk",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=C73MCQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=C73MCQAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=C73MCQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Los Angeles showdown",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Bendis & Maleev (2011)",
+      "position": 2,
+      "note": "Concluding volume. Catalog lists issues 8–12; publisher synopsis does not confirm the range, so overlap indexing awaits verification.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Concluding volume. Catalog lists issues 8–12; publisher synopsis does not confirm the range, so overlap indexing awaits verification.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "8ba0a022-a52d-4c3d-9535-7a5226dfcbc0-eng": {
+    "summary": "Marc wakes in an institution whose records contradict his memories. Competing identities and unsettling shifts in reality lead him toward an examination of his past and his connection to Khonshu.",
+    "pages": 320,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_By_Lemire_Smallwood.html?id=sGagDwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=sGagDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70DDIoXkd3D6WPPw6R2MzRfv8GV4RE2Zc-8wxWuJNXrrej4St00Do75uKlQXbFFMd0fR3KFr-bjNTG5-jpqHoDEXGWtFnPT9z72QlITl23JqKU5ndqlISB3oc6xmDipne4_jtW9",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_By_Lemire_Smallwood.html?id=sGagDwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_By_Lemire_Smallwood.html?id=sGagDwAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_By_Lemire_Smallwood.html?id=sGagDwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Lunatic / Reincarnations / Birth and Death",
+        "coverage": "Complete run"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2016) #1",
+      "Moon Knight (2016) #2",
+      "Moon Knight (2016) #3",
+      "Moon Knight (2016) #4",
+      "Moon Knight (2016) #5",
+      "Moon Knight (2016) #6",
+      "Moon Knight (2016) #7",
+      "Moon Knight (2016) #8",
+      "Moon Knight (2016) #9",
+      "Moon Knight (2016) #10",
+      "Moon Knight (2016) #11",
+      "Moon Knight (2016) #12",
+      "Moon Knight (2016) #13",
+      "Moon Knight (2016) #14"
+    ],
+    "startingPoint": true,
+    "readingPath": {
+      "name": "Moon Knight — Lemire & Smallwood (2016)",
+      "position": 1,
+      "note": "Alternative edition of the complete Lemire run; overlaps the three smaller volumes and the other Complete Collection.",
+      "alternative": true
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Alternative edition of the complete Lemire run; overlaps the three smaller volumes and the other Complete Collection.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "0991f407-d057-e3c9-f312-18d9ae37d04b-eng": {
+    "summary": "A collection of Moon Knight’s earliest appearances, spanning monster encounters, guest spots and the opening of his first solo series. Its contents reach across several titles rather than forming one continuous named arc.",
+    "pages": 504,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=ZTczBQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=ZTczBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71VVXhh1TWz86mVjKhPMU7hK2cqb7fRN2L8N_xdk2QJgROY3GUFw72bDwzjZpsPuaMUjbJTo8R3Kf8MkKeuDzNoJMqU_wu5hFBwKocAVA3PXIQlQFWM37HgO28PsJ7daYIc7U0_",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=ZTczBQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=ZTczBQAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=ZTczBQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Early appearances and solo-series launch",
+        "coverage": "Early appearances anthology"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (1980) #1",
+      "Moon Knight (1980) #2",
+      "Moon Knight (1980) #3",
+      "Moon Knight (1980) #4",
+      "Werewolf by Night (1972) #32",
+      "Werewolf by Night (1972) #33"
+    ],
+    "startingPoint": true,
+    "readingPath": {
+      "name": "Moon Knight — early collected history",
+      "position": 1,
+      "note": "First Epic Collection. The overlap index covers only the solo issues and Werewolf by Night; many additional guest appearances and magazine stories are included.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. First Epic Collection. The overlap index covers only the solo issues and Werewolf by Night; many additional guest appearances and magazine stories are included.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "9134cab0-1b0e-0087-1d71-424837c4b8c7-eng": {
+    "summary": "Marc’s attempt to leave vigilantism behind ends when danger in Egypt draws him back to Khonshu. Renewed conflicts with Bushman and other enemies test both his heroic role and his relationship with Marlene.",
+    "pages": 456,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=tkx2EAAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=tkx2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73IfmYLQs9aOAoqFuuOfqZA5B6RHWlbfte7AYCeAAGVbGchlAu4qaDtDv4mEGPa_cMIPRLui1Mki6By2A-eLLSLLdx7hEZYVT6N4-8zrCZ7XzWAnwPFczmfmond2HTg11E5us18",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=tkx2EAAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=tkx2EAAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=tkx2EAAAQBAJ"
+      },
+      {
+        "name": "Brother Voodoo",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=tkx2EAAAQBAJ"
+      },
+      {
+        "name": "Black Cat",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=tkx2EAAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Butcher’s Moon",
+        "coverage": "Multiple series and guest stories"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (1985) #1",
+      "Moon Knight (1985) #2",
+      "Moon Knight (1985) #3",
+      "Moon Knight (1985) #4",
+      "Moon Knight (1985) #5",
+      "Moon Knight (1985) #6",
+      "Marc Spector: Moon Knight (1989) #1",
+      "Marc Spector: Moon Knight (1989) #2",
+      "Marc Spector: Moon Knight (1989) #3",
+      "Marc Spector: Moon Knight (1989) #4",
+      "Marc Spector: Moon Knight (1989) #5",
+      "Marc Spector: Moon Knight (1989) #6",
+      "Marc Spector: Moon Knight (1989) #7"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — early collected history",
+      "position": 4,
+      "note": "Bridges the 1985 miniseries and the opening of Marc Spector: Moon Knight. Additional guest stories are not fully indexed.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Bridges the 1985 miniseries and the opening of Marc Spector: Moon Knight. Additional guest stories are not fully indexed.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "f05fe76a-2277-9be2-decd-77312beb9c5f-eng": {
+    "summary": "A mysterious illness threatens Marc’s life as encounters with Doctor Doom and the Infinity War complicate his search for help. He considers a successor while allies and enemies become entangled in his struggle to survive.",
+    "pages": 496,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=RCXUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70wedKTdlBZ0J9sYBemlt7zZ_6fStzhMyicK35Hege-TO7v-BoNY7rJTjAtBpBrhAVuqI2PT87O7eneLaLWEuLR9a8miY8ECPCeUTMIuBg7b2NKRgjhESVrPw5DIIb_rA32jowJ",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ"
+      },
+      {
+        "name": "Doctor Doom",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ"
+      },
+      {
+        "name": "Doctor Strange",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ"
+      },
+      {
+        "name": "Spider-Man",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ"
+      },
+      {
+        "name": "Shang-Chi",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=RCXUEAAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Death Watch",
+        "coverage": "Collected run with event tie-ins"
+      }
+    ],
+    "issueKeys": [
+      "Marc Spector: Moon Knight (1989) #39",
+      "Marc Spector: Moon Knight (1989) #40",
+      "Marc Spector: Moon Knight (1989) #41",
+      "Marc Spector: Moon Knight (1989) #42",
+      "Marc Spector: Moon Knight (1989) #43",
+      "Marc Spector: Moon Knight (1989) #44",
+      "Marc Spector: Moon Knight (1989) #45",
+      "Marc Spector: Moon Knight (1989) #46",
+      "Marc Spector: Moon Knight (1989) #47",
+      "Marc Spector: Moon Knight (1989) #48",
+      "Marc Spector: Moon Knight (1989) #49",
+      "Marc Spector: Moon Knight (1989) #50",
+      "Marc Spector: Moon Knight (1989) #51",
+      "Web of Spider-Man (1985) #93",
+      "Web of Spider-Man (1985) #94"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — early collected history",
+      "position": 7,
+      "note": "Follows Scarlet Redemption. Includes Infinity War tie-ins, specials and additional material, not the complete Infinity War event.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follows Scarlet Redemption. Includes Infinity War tie-ins, specials and additional material, not the complete Infinity War event.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "805f2c7b-a0f5-fe80-f513-78405f28f7d9-eng": {
+    "summary": "The original series moves toward its conclusion through encounters with Stained Glass Scarlet, Black Spectre and Werewolf by Night. A threat involving Marlene leads Marc to seek Doctor Strange’s help.",
+    "pages": 488,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=cNl7DwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=cNl7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72rpbu7sk2FJLA04YCu4wPVJnnlHNKA69mILH7BaBnOfjoLmRS7Xsr5PHpSQuMEwf07Yy6SKQNQKPYZh82jZv792-YAU6Ji2ySyDqRBLsjkY4wUm_0MRM0DtixiRT0VDssC-bcI",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=cNl7DwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=cNl7DwAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=cNl7DwAAQBAJ"
+      },
+      {
+        "name": "Werewolf by Night",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=cNl7DwAAQBAJ"
+      },
+      {
+        "name": "Doctor Strange",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=cNl7DwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Final Rest",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (1980) #24",
+      "Moon Knight (1980) #25",
+      "Moon Knight (1980) #26",
+      "Moon Knight (1980) #27",
+      "Moon Knight (1980) #28",
+      "Moon Knight (1980) #29",
+      "Moon Knight (1980) #30",
+      "Moon Knight (1980) #31",
+      "Moon Knight (1980) #32",
+      "Moon Knight (1980) #33",
+      "Moon Knight (1980) #34",
+      "Moon Knight (1980) #35",
+      "Moon Knight (1980) #36",
+      "Moon Knight (1980) #37",
+      "Moon Knight (1980) #38"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — early collected history",
+      "position": 3,
+      "note": "Follows Shadows of the Moon; concludes the 1980 series.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follows Shadows of the Moon; concludes the 1980 series.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "6ec39465-2518-902c-10cf-8867fef8557e-eng": {
+    "summary": "Stained Glass Scarlet’s return brings a bloody reckoning. Moon Knight also joins Spider-Man against a demonic Hobgoblin and becomes involved in a larger confrontation with a cybernetically enhanced enemy.",
+    "pages": 456,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=eklwEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=eklwEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73BKQBWCdXPafduqQ81h8DHqnIv2MM9TDMrRYWY6z2UbmEehNBWEAvYI3IttrFB1hbRbjQxMOBlSPmjINEMRRhOF01jO2JnwpEjfq20zbt1CqHXb70FDBe7GbOuY4WB2yxzKxWs",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=eklwEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=eklwEQAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=eklwEQAAQBAJ"
+      },
+      {
+        "name": "Spider-Man",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=eklwEQAAQBAJ"
+      },
+      {
+        "name": "Punisher",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=eklwEQAAQBAJ"
+      },
+      {
+        "name": "Hobgoblin",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=eklwEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Scarlet Redemption",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Marc Spector: Moon Knight (1989) #26",
+      "Marc Spector: Moon Knight (1989) #27",
+      "Marc Spector: Moon Knight (1989) #28",
+      "Marc Spector: Moon Knight (1989) #29",
+      "Marc Spector: Moon Knight (1989) #30",
+      "Marc Spector: Moon Knight (1989) #31",
+      "Marc Spector: Moon Knight (1989) #32",
+      "Marc Spector: Moon Knight (1989) #33",
+      "Marc Spector: Moon Knight (1989) #34",
+      "Marc Spector: Moon Knight (1989) #35",
+      "Marc Spector: Moon Knight (1989) #36",
+      "Marc Spector: Moon Knight (1989) #37",
+      "Marc Spector: Moon Knight (1989) #38",
+      "Amazing Spider-Man (1963) #353",
+      "Amazing Spider-Man (1963) #354",
+      "Amazing Spider-Man (1963) #355",
+      "Amazing Spider-Man (1963) #356",
+      "Amazing Spider-Man (1963) #357",
+      "Amazing Spider-Man (1963) #358"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — early collected history",
+      "position": 6,
+      "note": "Follows The Trial of Marc Spector; precedes Death Watch. Positions here describe story sequence, not printed Epic volume numbers.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follows The Trial of Marc Spector; precedes Death Watch. Positions here describe story sequence, not printed Epic volume numbers.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "34261d95-e502-42f5-4609-11a9079f49f4-eng": {
+    "summary": "Moon Knight encounters Stained Glass Scarlet, Morpheus and returning enemies while Marc’s competing identities complicate his work. A Daredevil encounter adds another vigilante to this stretch of the original series.",
+    "pages": 512,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=dY56CgAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=dY56CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71VTnzkoguqkX9UhvhioS3ZmS0nHem4peHaQtD9hb6l1E7PWVyplcGAUsYI5MuIZ7F9_DSNv0Fx4sA6j212umdwSTj67idZGAJl7mt6QaIXxywmwZeyLhs5i3P45LeIg4VzIff9",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=dY56CgAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=dY56CgAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=dY56CgAAQBAJ"
+      },
+      {
+        "name": "Daredevil",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=dY56CgAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Shadows of the Moon",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (1980) #5",
+      "Moon Knight (1980) #6",
+      "Moon Knight (1980) #7",
+      "Moon Knight (1980) #8",
+      "Moon Knight (1980) #9",
+      "Moon Knight (1980) #10",
+      "Moon Knight (1980) #11",
+      "Moon Knight (1980) #12",
+      "Moon Knight (1980) #13",
+      "Moon Knight (1980) #14",
+      "Moon Knight (1980) #15",
+      "Moon Knight (1980) #16",
+      "Moon Knight (1980) #17",
+      "Moon Knight (1980) #18",
+      "Moon Knight (1980) #19",
+      "Moon Knight (1980) #20",
+      "Moon Knight (1980) #21",
+      "Moon Knight (1980) #22",
+      "Moon Knight (1980) #23"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — early collected history",
+      "position": 2,
+      "note": "Follows Bad Moon Rising.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follows Bad Moon Rising.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "de40cf7d-86aa-5e2e-63cf-b9d6625d014f-eng": {
+    "summary": "Marc’s mercenary history leads to an accusation of murder while Bushman and the Secret Empire create fresh threats. Spider-Man and the Punisher become involved as he fights both his enemies and the consequences of his past.",
+    "pages": 472,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=4RgNEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=4RgNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73pSj_-dZdYUe_Fs5T34Sck-wI9ELWeudNgByb0r6z3SdNU0uwUFk-SqcbLOSP24OvA3YIdg8n4whIcldSfgm1cFsYlMk7ZLP7dzi6ccYEe_qgkIBjJXg-lMDRs7gPWpmI3l3fy",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=4RgNEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=4RgNEQAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=4RgNEQAAQBAJ"
+      },
+      {
+        "name": "Spider-Man",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=4RgNEQAAQBAJ"
+      },
+      {
+        "name": "Punisher",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Epic_Collection.html?id=4RgNEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Trial of Marc Spector",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Marc Spector: Moon Knight (1989) #8",
+      "Marc Spector: Moon Knight (1989) #9",
+      "Marc Spector: Moon Knight (1989) #10",
+      "Marc Spector: Moon Knight (1989) #11",
+      "Marc Spector: Moon Knight (1989) #12",
+      "Marc Spector: Moon Knight (1989) #13",
+      "Marc Spector: Moon Knight (1989) #14",
+      "Marc Spector: Moon Knight (1989) #15",
+      "Marc Spector: Moon Knight (1989) #16",
+      "Marc Spector: Moon Knight (1989) #17",
+      "Marc Spector: Moon Knight (1989) #18",
+      "Marc Spector: Moon Knight (1989) #19",
+      "Marc Spector: Moon Knight (1989) #20",
+      "Marc Spector: Moon Knight (1989) #21",
+      "Marc Spector: Moon Knight (1989) #22",
+      "Marc Spector: Moon Knight (1989) #23",
+      "Marc Spector: Moon Knight (1989) #24",
+      "Marc Spector: Moon Knight (1989) #25"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — early collected history",
+      "position": 5,
+      "note": "Follows Butcher’s Moon. Also includes material from Punisher Annual #2.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follows Butcher’s Moon. Also includes material from Punisher Annual #2.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "59e05d7b-8ce9-b5c9-cc3b-2142f0462431-eng": {
+    "summary": "Marc Spector struggles to return to vigilantism after his life has fallen apart. His dependence on Khonshu makes the hoped-for comeback a troubling bargain rather than a clean new beginning.",
+    "pages": 152,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Vol_1.html?id=hxM3AgAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=hxM3AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73jnQXxkxPbTn-nqsY4Bd49w84e82d9V-39sppfdZz0_EtgsUbEM5BxgVskg8U-mlXZ8pBOXhll-dZfIWK9t2bOBzmbVJGfJqSB_lBHEfX3_W-Q3IwtsaLPJNKqekNhZqTVHaRJ",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Vol_1.html?id=hxM3AgAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Vol_1.html?id=hxM3AgAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Vol_1.html?id=hxM3AgAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Bottom",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2006) #1",
+      "Moon Knight (2006) #2",
+      "Moon Knight (2006) #3",
+      "Moon Knight (2006) #4",
+      "Moon Knight (2006) #5",
+      "Moon Knight (2006) #6"
+    ],
+    "startingPoint": true,
+    "readingPath": {
+      "name": "Moon Knight (2006)",
+      "position": 1,
+      "note": "Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 7.6,
+      "criticCount": 20,
+      "userScore": 7.4,
+      "userCount": 4,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight Vol. 1: The Bottom: Issues #1-6",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "98f4f8b4-0f87-b39b-0371-16471e4e71fd-eng": {
+    "summary": "Marc’s return attracts scrutiny from other heroes while a brutal adversary leaves bodies and messages at familiar crime scenes. The threat is personal, and Moon Knight must confront someone who knows his history.",
+    "pages": 221,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_2006_Volume_2.html?id=Is2sBwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=Is2sBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73e5DMx3lS-NT9rMwGsyumOBT1V04C_svh2YceYvLWXJjaPaRbjMbGsixgPgx0AIqvE54mdamvAUMAmu7N3CFhCpBAVtZAF4JkrhM322I9mpJ_IPSSiL1wBkkktu7yKKTZrxXPQ",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_2006_Volume_2.html?id=Is2sBwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_2006_Volume_2.html?id=Is2sBwAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_2006_Volume_2.html?id=Is2sBwAAQBAJ"
+      },
+      {
+        "name": "Spider-Man",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_2006_Volume_2.html?id=Is2sBwAAQBAJ"
+      },
+      {
+        "name": "Punisher",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_2006_Volume_2.html?id=Is2sBwAAQBAJ"
+      },
+      {
+        "name": "Captain America",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_2006_Volume_2.html?id=Is2sBwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Midnight Sun",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2006) #7",
+      "Moon Knight (2006) #8",
+      "Moon Knight (2006) #9",
+      "Moon Knight (2006) #10",
+      "Moon Knight (2006) #11",
+      "Moon Knight (2006) #12",
+      "Moon Knight (2006) #13"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight (2006)",
+      "position": 2,
+      "note": "Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 6.9,
+      "criticCount": 13,
+      "userScore": 6.8,
+      "userCount": 4,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight Vol. 2: Midnight Sun: Issues #7-13",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "62e671af-f567-04ae-754a-c052554fee4f-eng": {
+    "summary": "Moon Knight’s violent methods test the limits of his official registration. Tony Stark faces growing pressure to act as Marc leaves a trail that the Initiative can no longer ignore.",
+    "pages": 184,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=Fcc-DQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=Fcc-DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72KlH5Kk2bR7wCyLIdfSWfFIT0SczUqWRBzYKvoMsphPdCP66tLxeqPvIvHpRT2Id9fK6ZMl3re6Av4cnWrZ5NSAwSiK1eR5AXpobSb9nQ6nRHe5ZEpi2FM7DDJVj8VPFBuMSHl",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=Fcc-DQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=Fcc-DQAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=Fcc-DQAAQBAJ"
+      },
+      {
+        "name": "Iron Man",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=Fcc-DQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "God & Country",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2006) #14",
+      "Moon Knight (2006) #15",
+      "Moon Knight (2006) #16",
+      "Moon Knight (2006) #17",
+      "Moon Knight (2006) #18",
+      "Moon Knight (2006) #19",
+      "Moon Knight (2006) #20"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight (2006)",
+      "position": 3,
+      "note": "Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 8.8,
+      "criticCount": 16,
+      "userScore": 7.4,
+      "userCount": 4,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight Vol. 3: God & Country: Issues #14-20",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "d9207fc7-7c48-d37f-ad12-d0d8af9d8be1-eng": {
+    "summary": "Norman Osborn unleashes the Thunderbolts against Moon Knight, forcing Marc to find a desperate way out. A separate holiday story follows his pursuit of hitmen on Christmas Eve.",
+    "pages": 152,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=NMU-DQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=NMU-DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71zkqIr3ML1IH_C4_em0mP3daWkBVBew4ZpMN0u-8EmlxIc0LdHOSqwu69NgVrBSFlCxkfcH9VIskwj_ssj6wWjKfyihyyBlN_YfHlv9sEveVhxBS8pqK8pSeP0s4WYTVyDDw0a",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=NMU-DQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=NMU-DQAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=NMU-DQAAQBAJ"
+      },
+      {
+        "name": "Thunderbolts",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=NMU-DQAAQBAJ"
+      },
+      {
+        "name": "Norman Osborn",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=NMU-DQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "The Death of Marc Spector",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2006) #21",
+      "Moon Knight (2006) #22",
+      "Moon Knight (2006) #23",
+      "Moon Knight (2006) #24",
+      "Moon Knight (2006) #25"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight (2006)",
+      "position": 4,
+      "note": "Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+      "alternative": false
+    },
+    "contentsNote": "Also contains Moon Knight: Silent Knight #1; that bonus issue is not included in the overlap index.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 7.9,
+      "criticCount": 14,
+      "userScore": 7.0,
+      "userCount": 3,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight Vol. 4: The Death of Marc Spector: Issues #21-25",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "f09edbf0-5916-7aae-9438-73aea4abaef1-eng": {
+    "summary": "Hiding in Mexico City, Moon Knight becomes involved in a kidnapping and a confrontation with corrupt police. The Punisher’s presence turns the rescue into a collision between two uncompromising vigilantes.",
+    "pages": null,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Vol_5.html?id=hlw6DwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=hlw6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72t0K54s3cCQDgnkrrdKEfvrdAL-uxBaA75dlPwFnUuBocQFA3BW5hZ_1Y-ayNqbI7Wlb36metQXVaSFzf9DND3ZCSUSlQDn4IfNeOEtvXtRvD89sF1LXWOwnVjxT3FfMi_spyz",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Vol_5.html?id=hlw6DwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Vol_5.html?id=hlw6DwAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Vol_5.html?id=hlw6DwAAQBAJ"
+      },
+      {
+        "name": "Punisher",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Vol_5.html?id=hlw6DwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Down South",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2006) #26",
+      "Moon Knight (2006) #27",
+      "Moon Knight (2006) #28",
+      "Moon Knight (2006) #29",
+      "Moon Knight (2006) #30"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight (2006)",
+      "position": 5,
+      "note": "Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follow numbered volumes in this 2006 series; then Vengeance of the Moon Knight (2009).",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 8.2,
+      "criticCount": 8,
+      "userScore": 7.7,
+      "userCount": 3,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-%282006%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight Vol. 5: Down South: Issues #26-30",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "a9755f86-7652-b8cf-da43-fc05facc18c4-eng": {
+    "summary": "Different creative teams explore Moon Knight through short stories rendered in black, white and red. The collection includes future incarnations, an adventure with Spider-Man and a request for Doctor Strange’s assistance.",
+    "pages": 136,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=XBymEAAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=XBymEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72APFJR3MY-XwrB9C2BIJGaedU0ATr3evk58_ur862R-WQDrxZEI3n4RXjFgLOPrRlv9QGnW2T9E0Mv6vYUmHQlgJDfzY0QgsrbUptGhqz3-2eyUCXGzHOlGNE9RgsLCrIYiAT_",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=XBymEAAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=XBymEAAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=XBymEAAAQBAJ"
+      },
+      {
+        "name": "Spider-Man",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=XBymEAAAQBAJ"
+      },
+      {
+        "name": "Doctor Strange",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=XBymEAAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Black, White & Blood",
+        "coverage": "Complete anthology"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight: Black, White & Blood (2022) #1",
+      "Moon Knight: Black, White & Blood (2022) #2",
+      "Moon Knight: Black, White & Blood (2022) #3",
+      "Moon Knight: Black, White & Blood (2022) #4"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Black, White & Blood",
+      "position": 1,
+      "note": "Standalone anthology; no single place in the main reading chronology.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Standalone anthology; no single place in the main reading chronology.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "99d16595-47af-85e8-5c69-f6baff196515-eng": {
+    "pages": 172,
+    "pagesSource": "https://lib2go.overdrive.com/addc-rogers/content/media/8612800",
+    "coverSource": "",
+    "summary": "Early magazine adventures confront Marc with threats tied to espionage, a killer he suspects is his brother, and a terrorist claiming his own heroic identity. Frenchie and Marlene feature alongside a Hulk appearance.",
+    "stories": [
+      {
+        "title": "Countdown to Dark",
+        "coverage": "Early magazine anthology"
+      }
+    ],
+    "readingPath": {
+      "name": "Moon Knight — early magazine stories",
+      "position": 1,
+      "note": "Independent collection of material from Hulk Magazine 13–15, 17–18, 20–21 and Marvel Preview 21. Shares some magazine material with Bad Moon Rising; partial stories are not indexed as whole-issue overlaps.",
+      "alternative": false
+    },
+    "issueKeys": [],
+    "startingPoint": false,
+    "editorialBatch": "moon-knight",
+    "checkedAt": "2026-09-13",
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://lib2go.overdrive.com/addc-rogers/content/media/8612800"
+      },
+      {
+        "name": "Hulk",
+        "role": "Featured in publisher synopsis",
+        "source": "https://lib2go.overdrive.com/addc-rogers/content/media/8612800"
+      }
+    ],
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Independent collection of material from Hulk Magazine 13–15, 17–18, 20–21 and Marvel Preview 21. Shares some magazine material with Bad Moon Rising; partial stories are not indexed as whole-issue overlaps.",
+    "sources": [
+      {
+        "label": "OverDrive · matching digital ISBN, 172 pages and publisher synopsis; not an OCLS availability claim",
+        "url": "https://lib2go.overdrive.com/addc-rogers/content/media/8612800"
+      }
+    ],
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "c0534b4f-b14e-33ba-c0bc-095f01e41723-eng": {
+    "summary": "Marc returns to a Midnight Mission that changed during his absence. Rejoining his allies brings immediate conflict with dangerous forces willing to endanger everyone around them.",
+    "pages": 144,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=rSRSEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=rSRSEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70jLEcoL7VGGt_VUE1onuQBFmNSwNWfsb-xcmlH3nRPsQhrJgwCPQ_t8J71vqVUyIsl5v6uWH-Cdxu-BjM82H48qix4xkSrphOhGLBwC6qFiLTEx-aM7VyDhPmC0nDArlxlRwXT",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=rSRSEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=rSRSEQAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-fist-of-khonshu-%282024%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=rSRSEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Leave Home",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight: Fist of Khonshu (2024) #0",
+      "Moon Knight: Fist of Khonshu (2024) #1",
+      "Moon Knight: Fist of Khonshu (2024) #2",
+      "Moon Knight: Fist of Khonshu (2024) #3",
+      "Moon Knight: Fist of Khonshu (2024) #4",
+      "Moon Knight: Fist of Khonshu (2024) #5"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Midnight Mission continuation",
+      "position": 3,
+      "note": "Fist of Khonshu Volume 1; follows Vengeance (2024) and the Blood Hunt period.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Fist of Khonshu Volume 1; follows Vengeance (2024) and the Blood Hunt period.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 9.0,
+      "criticCount": 11,
+      "userScore": 9.0,
+      "userCount": 1,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-fist-of-khonshu-%282024%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight: Fist of Khonshu Vol. 1 - Leave Home: Issues #0-5",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "8a808817-2c65-7f62-6a5f-d3d310f0e743-eng": {
+    "summary": "A fractured team and a difficult reckoning with Khonshu leave Marc under pressure. Meanwhile, 8-Ball faces the temptation of a new criminal crew and Carver brings another violent threat to the Mission.",
+    "pages": 128,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight_Fist_Of_Khonshu_Vol_2.html?id=o0lwEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=o0lwEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71HINa0nai5uMO2GJRPpdY6HkdnyIpAJndnWReT7GcAmHbk4HMM0EczrW1oacYERaI8jNlOrVrLGnItjFn_g5CRRt24WyQLqxSgwU5HUpP3DwPh_olszEB3gR9SRch8kVCEv0fD",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight_Fist_Of_Khonshu_Vol_2.html?id=o0lwEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight_Fist_Of_Khonshu_Vol_2.html?id=o0lwEQAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-fist-of-khonshu-%282024%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight_Fist_Of_Khonshu_Vol_2.html?id=o0lwEQAAQBAJ"
+      },
+      {
+        "name": "8-Ball",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Fist_Of_Khonshu_Vol_2.html?id=o0lwEQAAQBAJ"
+      },
+      {
+        "name": "Carver",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight_Fist_Of_Khonshu_Vol_2.html?id=o0lwEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Subterranean Jungle",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight: Fist of Khonshu (2024) #6",
+      "Moon Knight: Fist of Khonshu (2024) #7",
+      "Moon Knight: Fist of Khonshu (2024) #8",
+      "Moon Knight: Fist of Khonshu (2024) #9",
+      "Moon Knight: Fist of Khonshu (2024) #10"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Midnight Mission continuation",
+      "position": 4,
+      "note": "Fist of Khonshu Volume 2; follows Leave Home.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Fist of Khonshu Volume 2; follows Leave Home.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 9.2,
+      "criticCount": 6,
+      "userScore": null,
+      "userCount": null,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-fist-of-khonshu-%282024%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight: Fist of Khonshu Vol. 2: Subterranean Jungle: Issues #6-10",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "ba4827ed-7767-80db-423e-1b8d79bf9d76-eng": {
+    "summary": "Returning figures complicate life for Marc and his identities as the Mission faces another crisis. When the Wrecker seeks help with ghosts from his past, Moon Knight must decide whether an enemy deserves his assistance.",
+    "pages": 112,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=gEGbEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=gEGbEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70cXa9wzbIRDjujtzXHFhU10Ep6ceqMS_cJRKCfrWzhgK-C6ExCM4F1bpsaIOs1dqtZDrGJztLkhorPKhqa327hTTTKvLdeCe7RIk_8zm7amCz6TBBj_eaBfcCvjoKLnxEBNjAz",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=gEGbEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=gEGbEQAAQBAJ"
+      },
+      {
+        "label": "Comic Book Roundup · specific collection row in Trades section",
+        "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-fist-of-khonshu-%282024%29"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=gEGbEQAAQBAJ"
+      },
+      {
+        "name": "Wrecker",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=gEGbEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "We’re Outta Here",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight: Fist of Khonshu (2024) #11",
+      "Moon Knight: Fist of Khonshu (2024) #12",
+      "Moon Knight: Fist of Khonshu (2024) #13",
+      "Moon Knight: Fist of Khonshu (2024) #14",
+      "Moon Knight: Fist of Khonshu (2024) #15"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Midnight Mission continuation",
+      "position": 5,
+      "note": "Fist of Khonshu Volume 3; follows Subterranean Jungle. Story title comes from the ISBN-matched bibliographic title.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Fist of Khonshu Volume 3; follows Subterranean Jungle. Story title comes from the ISBN-matched bibliographic title.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "Verified collection-row aggregate"
+    },
+    "review": {
+      "criticScore": 8.9,
+      "criticCount": 8,
+      "userScore": null,
+      "userCount": null,
+      "url": "https://comicbookroundup.com/comic-books/reviews/marvel-comics/moon-knight-fist-of-khonshu-%282024%29",
+      "checkedAt": "2026-09-13",
+      "title": "Moon Knight: Fist of Khonshu Vol. 3: Issues #11-15",
+      "match": "Matched to the specific trade row by volume, title and issue count on the series page.",
+      "scope": "Trade-row aggregate of reviewed issues, not the overall series score. Supplemental material may be excluded; Leave Home excludes issue 0."
+    }
+  },
+  "902607f6-6a8d-dfb6-d0db-243bdb107232-eng": {
+    "summary": "The Sun King threatens Marc’s role as Khonshu’s champion while another enemy, the Truth, attacks vulnerable people. Bushman’s involvement and a secret kept by Jake Lockley make the conflict painfully personal.",
+    "pages": 136,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=JKJODwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=JKJODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71b_aCqa8mjsdydlZyMRmpNZAe57W5uoinu7fFR74NQgN6TvpP-jslSxR5QWY3bPhGE7miBY6VIii8z9FC7vQhtbGt8CbIcF_TAbfgzABsInNdLh7XS9409mSLjFKY7XOpZqSHE",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=JKJODwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=JKJODwAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=JKJODwAAQBAJ"
+      },
+      {
+        "name": "Sun King",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=JKJODwAAQBAJ"
+      },
+      {
+        "name": "Bushman",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=JKJODwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Crazy Runs in the Family",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2017) #188",
+      "Moon Knight (2017) #189",
+      "Moon Knight (2017) #190",
+      "Moon Knight (2017) #191",
+      "Moon Knight (2017) #192",
+      "Moon Knight (2017) #193"
+    ],
+    "startingPoint": true,
+    "readingPath": {
+      "name": "Moon Knight — Max Bemis / Legacy (2017)",
+      "position": 1,
+      "note": "Start this two-volume run here, or choose its Complete Collection.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Start this two-volume run here, or choose its Complete Collection.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "8b892f96-3af9-71c2-eb50-700f680eacc8-eng": {
+    "summary": "A traumatic part of Marc’s childhood resurfaces as he confronts the Collective and other disturbing threats. The run moves toward a confrontation with old enemies and the forces shaping his identities.",
+    "pages": null,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knigh.html?id=vxx9DwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=vxx9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ODNvzpH-XCXAc3ufRdGO5rwgJID7m8C5zv1v9B-vHd-geQJnQnuquQLfq3s12ARwCkOyc302F2ZfA9G_VFfgBaUG99Y5DIY5wbfOyK2fJR22rCssgIpqWuoZc5UErslXTRdoT",
+    "coverSource": "https://books.google.com/books/about/Moon_Knigh.html?id=vxx9DwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knigh.html?id=vxx9DwAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knigh.html?id=vxx9DwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Phases",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2017) #194",
+      "Moon Knight (2017) #195",
+      "Moon Knight (2017) #196",
+      "Moon Knight (2017) #197",
+      "Moon Knight (2017) #198",
+      "Moon Knight (2017) #199",
+      "Moon Knight (2017) #200"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Max Bemis / Legacy (2017)",
+      "position": 2,
+      "note": "Read after Crazy Runs in the Family; also contained in Legacy: The Complete Collection.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Read after Crazy Runs in the Family; also contained in Legacy: The Complete Collection.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "ae74bd5c-df09-49f0-ff13-fa4359c2a465-eng": {
+    "summary": "The full Legacy run follows Marc’s conflict with the Sun King, revelations involving Jake Lockley and a return to painful events in his past. It combines the material published separately as Crazy Runs in the Family and Phases.",
+    "pages": 312,
+    "pagesSource": "https://books.google.com/books/about/Moon_Knight.html?id=TCBbEAAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=TCBbEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72ib78OSjcYVHNTNPZ-DNKjiAKyyCJBOYW_5_Te2gD_8zKt__m6hM0n4KM8Tbt47rbjkeNvbeyKzg0K6-__FjMNg8TccvayoEpCpPU-rUesq4ybTp1MAyIaTrj0nS517yoH_URe",
+    "coverSource": "https://books.google.com/books/about/Moon_Knight.html?id=TCBbEAAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Moon_Knight.html?id=TCBbEAAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=TCBbEAAAQBAJ"
+      },
+      {
+        "name": "Sun King",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=TCBbEAAAQBAJ"
+      },
+      {
+        "name": "Bushman",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Moon_Knight.html?id=TCBbEAAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Crazy Runs in the Family / Phases",
+        "coverage": "Complete run"
+      }
+    ],
+    "issueKeys": [
+      "Moon Knight (2017) #188",
+      "Moon Knight (2017) #189",
+      "Moon Knight (2017) #190",
+      "Moon Knight (2017) #191",
+      "Moon Knight (2017) #192",
+      "Moon Knight (2017) #193",
+      "Moon Knight (2017) #194",
+      "Moon Knight (2017) #195",
+      "Moon Knight (2017) #196",
+      "Moon Knight (2017) #197",
+      "Moon Knight (2017) #198",
+      "Moon Knight (2017) #199",
+      "Moon Knight (2017) #200"
+    ],
+    "startingPoint": true,
+    "readingPath": {
+      "name": "Moon Knight — Max Bemis / Legacy (2017)",
+      "position": 1,
+      "note": "Alternative to both smaller Legacy volumes.",
+      "alternative": true
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Alternative to both smaller Legacy volumes.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "4b428e6e-de38-21e7-a562-fa309b994ff7-eng": {
+    "summary": "Stories explore Marc alongside other bearers of the Moon Knight identity across different eras. Historical and future Fists of Khonshu broaden the mythology beyond one hero’s life.",
+    "pages": 136,
+    "pagesSource": "https://books.google.com/books/about/Phases_Of_The_Moon_Knight.html?id=27tEEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=27tEEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71DmoJJ0-tfNwNzTs3-WH5fydBNegyZc_PvzlAdwqnM_PGqRORsj6BIXtBE8kSbYfqxCD3OAHTGPQURfavKfpfG-AudCnJ8_Fr_bkS64hfaPuUVdS_Ov-c2-EC6rzt4tkeHUrI9",
+    "coverSource": "https://books.google.com/books/about/Phases_Of_The_Moon_Knight.html?id=27tEEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Phases_Of_The_Moon_Knight.html?id=27tEEQAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Phases_Of_The_Moon_Knight.html?id=27tEEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Phases of the Moon Knight",
+        "coverage": "Complete anthology"
+      }
+    ],
+    "issueKeys": [],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Phases anthology",
+      "position": 1,
+      "note": "Standalone anthology of incarnations. Publisher confirms issues 1–4 but its bibliographic series year is not used as an original issue year.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Standalone anthology of incarnations. Publisher confirms issues 1–4 but its bibliographic series year is not used as an original issue year.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "6cf7e489-8a35-1214-bf65-4dfadd5c1833-eng": {
+    "summary": "The Midnight Mission struggles to continue after Marc’s death. A mysterious new Moon Knight challenges the surviving allies, forcing Hunter’s Moon and the Mission to confront a familiar symbol turned against them.",
+    "pages": 112,
+    "pagesSource": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=oOgHEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=oOgHEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE737BToXgXklw2uS17X4zog2MI2E-Sa_8aOW_2x0nYY8ENeakpW_oi3cmugoxjReChBLtE1HEt3EuM6jsZfXsX5gzf17kU--b1lhp-YUSqCGUqDki40r94_ve51PjDYTTHKjDwG-",
+    "coverSource": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=oOgHEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=oOgHEQAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=oOgHEQAAQBAJ"
+      },
+      {
+        "name": "Hunter’s Moon",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=oOgHEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "New Moon",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Vengeance of the Moon Knight (2024) #1",
+      "Vengeance of the Moon Knight (2024) #2",
+      "Vengeance of the Moon Knight (2024) #3",
+      "Vengeance of the Moon Knight (2024) #4"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Midnight Mission continuation",
+      "position": 1,
+      "note": "Read after The Last Days of Moon Knight (2021 series Volume 5).",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Read after The Last Days of Moon Knight (2021 series Volume 5).",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "bfd70dd3-822c-c90c-c8e5-1c439eac4a48-eng": {
+    "summary": "Moon Knight returns to New York with new equipment and a renewed determination to act as a hero. His challenge to Norman Osborn brings him back into conflict with the man who drove him away.",
+    "pages": 152,
+    "pagesSource": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=wf46DwAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=wf46DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE714rLksxPNOeX0yTLBm3WkkIxx-1SnyfjKqRzv8b81Tcg-xtYV5M_draMhPN2rIbJ0wD7J_cgzDL98xoEsezsjDmDqCmxkYtC5yWwQXo4ktDgF5b5Tq4iqHQaiSiE81OXKaitGz",
+    "coverSource": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=wf46DwAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=wf46DwAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=wf46DwAAQBAJ"
+      },
+      {
+        "name": "Norman Osborn",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_1.html?id=wf46DwAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Shock and Awe",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Vengeance of the Moon Knight (2009) #1",
+      "Vengeance of the Moon Knight (2009) #2",
+      "Vengeance of the Moon Knight (2009) #3",
+      "Vengeance of the Moon Knight (2009) #4",
+      "Vengeance of the Moon Knight (2009) #5",
+      "Vengeance of the Moon Knight (2009) #6"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Vengeance of the Moon Knight (2009)",
+      "position": 1,
+      "note": "Follows the 2006 Moon Knight series; distinct from Vengeance (2024).",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follows the 2006 Moon Knight series; distinct from Vengeance (2024).",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "d0298df3-3098-7aa2-7718-e61fb95a6b70-eng": {
+    "summary": "The struggle over Moon Knight’s identity collides with the vampire crisis of Blood Hunt. Hunter’s Moon, Tigra and the Mission defend New York while trying to secure a future for their community.",
+    "pages": 112,
+    "pagesSource": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_2.html?id=FTgkEQAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=FTgkEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73pyFDKALqGq5gnwTLlcQ2njZ2AndxkO6vvlAyoCSEhdq5lqldZmvy4-4cAPpPSwFVPJZeGvCUpkQboSbEGKY4x1bKPweRD0Hhd0O87N69G5AfzeJcA-KoIs8vsiXDbPZfGs-nG",
+    "coverSource": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_2.html?id=FTgkEQAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_2.html?id=FTgkEQAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_2.html?id=FTgkEQAAQBAJ"
+      },
+      {
+        "name": "Hunter’s Moon",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_2.html?id=FTgkEQAAQBAJ"
+      },
+      {
+        "name": "Tigra",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Vengeance_Of_The_Moon_Knight_Vol_2.html?id=FTgkEQAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "It’s Alive / Blood Hunt tie-in",
+        "coverage": "Event tie-in and run conclusion"
+      }
+    ],
+    "issueKeys": [
+      "Vengeance of the Moon Knight (2024) #5",
+      "Vengeance of the Moon Knight (2024) #6",
+      "Vengeance of the Moon Knight (2024) #7",
+      "Vengeance of the Moon Knight (2024) #8",
+      "Vengeance of the Moon Knight (2024) #9"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Moon Knight — Midnight Mission continuation",
+      "position": 2,
+      "note": "Read after New Moon. Ties into Blood Hunt; does not collect the main event.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Read after New Moon. Ties into Blood Hunt; does not collect the main event.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  },
+  "df073554-6d7b-1809-a087-9f957b1abb48-eng": {
+    "summary": "Deadpool is hired to kill a man who is already dying, and Moon Knight must decide whether to protect him. A classic magazine story accompanies this clash between the two vigilantes.",
+    "pages": 128,
+    "pagesSource": "https://books.google.com/books/about/Vengeance_of_the_Moon_Knight_Vol_2.html?id=fjIKDAAAQBAJ",
+    "coverUrl": "https://books.google.com/books/publisher/content?id=fjIKDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70dbJpOfGZVluzxGt-1LiYykAzZcKe_i5DtnLjov1XXrotsyvl9iz8JQtTCyNWKaaygk1M3MbAUX4QU0Didlu4U3gC3I_JMcxmmSYktutAXvBHkfXEekMc5v4Ds8d7p980stOFS",
+    "coverSource": "https://books.google.com/books/about/Vengeance_of_the_Moon_Knight_Vol_2.html?id=fjIKDAAAQBAJ",
+    "checkedAt": "2026-09-13",
+    "sources": [
+      {
+        "label": "Google Books · ISBN-matched publisher synopsis and contents",
+        "url": "https://books.google.com/books/about/Vengeance_of_the_Moon_Knight_Vol_2.html?id=fjIKDAAAQBAJ"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Moon Knight",
+        "role": "Lead character / featured incarnation",
+        "source": "https://books.google.com/books/about/Vengeance_of_the_Moon_Knight_Vol_2.html?id=fjIKDAAAQBAJ"
+      },
+      {
+        "name": "Deadpool",
+        "role": "Featured in publisher synopsis",
+        "source": "https://books.google.com/books/about/Vengeance_of_the_Moon_Knight_Vol_2.html?id=fjIKDAAAQBAJ"
+      }
+    ],
+    "stories": [
+      {
+        "title": "Killed, Not Dead",
+        "coverage": "Collected storyline"
+      }
+    ],
+    "issueKeys": [
+      "Vengeance of the Moon Knight (2009) #7",
+      "Vengeance of the Moon Knight (2009) #8",
+      "Vengeance of the Moon Knight (2009) #9"
+    ],
+    "startingPoint": false,
+    "readingPath": {
+      "name": "Vengeance of the Moon Knight (2009)",
+      "position": 2,
+      "note": "Follows Shock and Awe. Publisher lists issues 7–9 and Marvel Preview #21, while the catalog says 7–10; issue 10 is not treated as verified.",
+      "alternative": false
+    },
+    "contentsNote": "Overlap index includes only the explicitly indexed issues, not all bonus material. Follows Shock and Awe. Publisher lists issues 7–9 and Marvel Preview #21, while the catalog says 7–10; issue 10 is not treated as verified.",
+    "editorialBatch": "moon-knight",
+    "checks": {
+      "edition": "ISBN matched",
+      "story": "Publisher synopsis reviewed",
+      "characters": "Synopsis appearances only; cameos not exhaustive",
+      "readingOrder": "Editorial sequence from series and issue coverage",
+      "review": "No additional verified review score attached"
+    }
+  }
+}
