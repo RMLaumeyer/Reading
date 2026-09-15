@@ -1,0 +1,11 @@
+{
+  "batch": "deep-06",
+  "records": 100,
+  "reviews": 40,
+  "missingPages": 9,
+  "remainingXMen": 0,
+  "notes": "100 researched records; previous work preserved. Edition uncertainties and missing ratings remain explicit.",
+  "xMenRecords": 25,
+  "spiderManRecords": 75,
+  "remainingSpiderMan": 225
+}

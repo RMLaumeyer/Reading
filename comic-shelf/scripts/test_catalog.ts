@@ -21,6 +21,55 @@ const get = (isbn: string) => {
   assert.ok(b);
   return b;
 };
+test('Seventh batch preserves crossover gaps, partial material and alternate editions', () => {
+  const ids = JSON.parse(readFileSync(new URL('../data/deep-batch-07.json', root), 'utf8')) as string[];
+  const previous = ['04','05','06'].flatMap(n => JSON.parse(readFileSync(new URL(`../data/deep-batch-${n}.json`, root), 'utf8')) as string[]);
+  assert.equal(ids.length,90);
+  assert.equal(new Set([...previous,...ids]).size,340);
+  assert.ok(ids.every(isbn => get(isbn).detail?.level !== 'basic' && get(isbn).detail?.summary));
+  assert.match(get('9781302527327').detail!.readingPath.note,/Carnage Reigns/);
+  assert.match(get('9781302532260').detail!.readingPath.note,/Pools of Blood/);
+  assert.deepEqual(get('9781302964924').detail!.issueKeys,[
+    'Miles Morales: Spider-Man (2022) #30','Miles Morales: Spider-Man (2022) #31',
+    'Deadpool (2024) #11','Deadpool (2024) #12',
+  ]);
+  for (const isbn of ['9781302531546','9781302532260']) {
+    assert.ok(!get(isbn).detail!.issueKeys.some(k=>k.includes('Annual') || k.endsWith('#25')));
+  }
+  assert.equal(overlaps(get('9781302513627'),[get('9781302535377')])[0]?.count,16);
+  assert.equal(overlaps(get('9781302479336'),[get('9781302485719')]).length,0);
+  assert.equal(overlaps(get('9781302510572'),[get('9780785182177')])[0]?.count,5);
+  assert.equal(overlaps(get('9781302532956'),[get('9780785179474')])[0]?.count,4);
+  assert.equal(get('9781302515041').detail!.review,undefined);
+  assert.equal(get('9781302485665').detail!.issueKeys.length,0);
+  assert.ok(get('9781302529192').detail!.characters.some(c=>c.name==='Moon Knight 2099'));
+  assert.ok(!get('9781302529192').detail!.characters.some(c=>c.name==='Moon Knight'));
+});
+test('Sixth batch finishes X-Men and adds Spider-Man without conflating editions or issue suffixes', () => {
+  const ids = JSON.parse(readFileSync(new URL('../data/deep-batch-06.json', root), 'utf8')) as string[];
+  const previous = ['04','05'].flatMap(n => JSON.parse(readFileSync(new URL(`../data/deep-batch-${n}.json`, root), 'utf8')) as string[]);
+  assert.equal(ids.length, 100);
+  assert.equal(new Set([...previous, ...ids]).size, 250);
+  for (const isbn of ids) {
+    const d = get(isbn).detail!;
+    assert.ok(d.summary && d.stories.length && d.sources.length && d.issueKeys.length);
+    assert.notEqual(d.level, 'basic');
+    assert.ok(!d.automation);
+  }
+  assert.equal(books.filter(b => b.title.toLowerCase().includes('x-men') && (!b.detail || b.detail.level === 'basic')).length, 0);
+  assert.equal(ids.filter(isbn => get(isbn).detail!.review).length, 40);
+  assert.equal(overlaps(get('9781302479817'), [get('9781302478476')]).length, 0);
+  assert.ok(get('9781302479817').detail!.issueKeys.includes('Edge of Spider-Verse (2014) #5'));
+  assert.equal(overlaps(get('9781302513924'), [get('9781302485504')])[0].count, 5);
+  assert.equal(overlaps(get('9781302513924'), [get('9781302489199')])[0].count, 6);
+  assert.equal(overlaps(get('9781302936006'), [get('9781302935993')]).length, 0);
+  assert.ok(get('9781302936006').detail!.issueKeys.includes('Amazing Spider-Man (2018) #50.LR'));
+  assert.ok(get('9781302940195').detail!.issueKeys.includes('Amazing Spider-Man (2018) #78.BEY'));
+  assert.equal(get('9781302516420').detail!.readingPath.name,get('9781302507206').detail!.readingPath.name);
+  assert.equal(get('9781302516420').detail!.readingPath.position,5);
+  assert.equal(get('9781302939588').detail!.readingPath.position,15);
+  assert.ok(!get('9780785182177').detail!.issueKeys.includes('Avenging Spider-Man (2011) #6'));
+});
 test('Fifth batch corrects wrong synopses and distinguishes overlapping editions', () => {
   const ids = JSON.parse(readFileSync(new URL('../data/deep-batch-05.json', root), 'utf8')) as string[];
   const prior = JSON.parse(readFileSync(new URL('../data/deep-batch-04.json', root), 'utf8')) as string[];
