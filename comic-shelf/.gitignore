@@ -38,6 +38,8 @@ next-env.d.ts
 /work/
 # Raw source-page caches are local working material, not application assets.
 data/cache/
+data/local-ai-trials/
+scripts/__pycache__/
 panel.log
 panel-error.log
 .panel.pid

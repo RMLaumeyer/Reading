@@ -1,0 +1,15 @@
+{
+  "description": "Ten-book blind cached-source benchmark. Source selection is curated; model answers are independent. No publication or autonomous source discovery.",
+  "books": [
+    {"isbn":"9781302942519","reviewCache":"deep07-ben-reilly-spider-man-(2022).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/ben-reilly-spider-man-(2022)"},
+    {"isbn":"9780785170259"},
+    {"isbn":"9781302515041","reviewCache":"deep07-friendly-neighborhood-spider-man-(2019).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/friendly-neighborhood-spider-man-(2019)"},
+    {"isbn":"9781302527327","reviewCache":"deep07-miles-morales-spider-man-(2023).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/miles-morales-spider-man-(2023)"},
+    {"isbn":"9781302532260","reviewCache":"deep07-miles-morales-spider-man-(2023).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/miles-morales-spider-man-(2023)"},
+    {"isbn":"9781302964924","reviewCache":"deep07-miles-morales-spider-man-(2023).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/miles-morales-spider-man-(2023)"},
+    {"isbn":"9781302479336","reviewCache":"deep07-spider-man-2099-(2014).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/spider-man-2099-(2014)"},
+    {"isbn":"9781302485719","reviewCache":"deep07-spider-man-2099-(2015).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/spider-man-2099-(2015)"},
+    {"isbn":"9781302532956"},
+    {"isbn":"9781302524692","reviewCache":"deep07-spider-man-(2022).html","reviewUrl":"https://comicbookroundup.com/comic-books/reviews/marvel-comics/spider-man-(2022)"}
+  ]
+}
