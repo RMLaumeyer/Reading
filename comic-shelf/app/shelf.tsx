@@ -315,6 +315,7 @@ export default function Shelf() {
           </span>
           PANEL<span className="brand-light">/ your comic shelf</span>
         </a>
+        <a href="/reading-guides/" className="local-label">CHARACTER & TEAM READING GUIDES →</a>
         <span className="local-label">
           ON THIS COMPUTER · ORANGE COUNTY, FL
         </span>

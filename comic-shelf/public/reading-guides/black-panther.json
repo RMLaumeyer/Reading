@@ -1,0 +1,135 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Black Panther",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "T’Challa’s classic and modern highlights, from Wakandan politics to the Priest and Coates eras.",
+  "sources": {
+    "best": {
+      "label": "GamesRadar · Black Panther highlights",
+      "url": "https://www.gamesradar.com/best-black-panther-comics/"
+    },
+    "readers": {
+      "label": "Readers · Panther’s Rage, Priest and Coates",
+      "url": "https://www.reddit.com/r/Marvel/comments/1us3xra/which_is_the_best_black_panther_story/"
+    },
+    "order": {
+      "label": "How to Love Comics · Black Panther reading guide",
+      "url": "https://www.howtolovecomics.com/2018/01/26/black-panther-reading-order-guide/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "black-panther-1",
+      "label": "Panther’s Rage",
+      "description": "A foundational Wakandan saga and the introduction of Killmonger."
+    },
+    {
+      "storyId": "black-panther-2",
+      "label": "The Client & Enemy of the State",
+      "description": "Priest’s opening establishes a politically sharp, strategically minded T’Challa."
+    },
+    {
+      "storyId": "black-panther-3",
+      "label": "Who Is the Black Panther?",
+      "description": "Hudlin and Romita Jr. offer an approachable reintroduction to Wakanda."
+    }
+  ],
+  "stories": [
+    {
+      "id": "black-panther-1",
+      "year": 1973,
+      "date": "1973–1975",
+      "title": "Panther’s Rage",
+      "issues": "Jungle Action (1972) #6–18",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A foundational Wakandan saga and the introduction of Killmonger.",
+      "isbns": [
+        "9781302488772"
+      ],
+      "match": "Marvel Masterworks: The Black Panther Vol. 1 collects Jungle Action #6–24, including Panther’s Rage. The #6–24 in the catalog title is Jungle Action numbering.",
+      "sources": [
+        "best",
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "black-panther-2",
+      "year": 1998,
+      "date": "1998–1999",
+      "title": "The Client & Enemy of the State",
+      "issues": "Black Panther (1998) #1–12",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Priest’s opening establishes a politically sharp, strategically minded T’Challa.",
+      "isbns": [
+        "9781302481728"
+      ],
+      "match": "Complete Collection Vol. 1 covers #1–17; it contains these opening arcs.",
+      "sources": [
+        "best",
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "black-panther-3",
+      "year": 2005,
+      "date": "2005",
+      "title": "Who Is the Black Panther?",
+      "issues": "Black Panther (2005) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Hudlin and Romita Jr. offer an approachable reintroduction to Wakanda.",
+      "isbns": [
+        "9780785170143"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "black-panther-4",
+      "year": 2008,
+      "date": "2008",
+      "title": "See Wakanda and Die",
+      "issues": "Black Panther (2005) #39–41",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A concentrated showcase of Wakanda during Secret Invasion.",
+      "isbns": [
+        "9781302479657"
+      ],
+      "match": "Secret Invasion: Black Panther collects the exact #39–41 story. This is not the main Secret Invasion event book.",
+      "sources": [
+        "best",
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "black-panther-5",
+      "year": 2016,
+      "date": "2016–2017",
+      "title": "A Nation Under Our Feet",
+      "issues": "Black Panther (2016) #1–12",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Coates begins with questions of power, monarchy and Wakanda’s people.",
+      "isbns": [
+        "9781302515461"
+      ],
+      "match": "This full twelve-issue collection overlaps the three shorter A Nation Under Our Feet books.",
+      "sources": [
+        "best",
+        "readers",
+        "order"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "title": "Rogue",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "A route from Rogue’s difficult beginnings to her later partnership with Gambit. Shared titles also appear in Gambit’s guide.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "ring-fire",
+      "label": "Modern relationship route",
+      "description": "Ring of Fire, then the wedding and Mr. and Mrs. X."
+    },
+    {
+      "storyId": "solo",
+      "label": "Early solo",
+      "description": "The four-issue 1995 miniseries."
+    }
+  ],
+  "sources": {
+    "roguedebut": {
+      "label": "Marvel · Rogue debut issue",
+      "url": "https://www.marvel.com/comics/issue/6924/x"
+    },
+    "rogueguide": {
+      "label": "Marvel readers · Rogue and Gambit highlights",
+      "url": "https://www.reddit.com/r/Marvel/comments/f3tq7d/"
+    },
+    "couple": {
+      "label": "Rogue and Gambit readers · recommendations",
+      "url": "https://www.reddit.com/r/Marvel/comments/1emritq/"
+    },
+    "couple3": {
+      "label": "Snapping Turtle Gallery · Rogue and Gambit sequence",
+      "url": "https://www.stgcollection.com/blogs/news/rogue-gambit-reading-guide-mr-and-mrs-x"
+    }
+  },
+  "stories": [
+    {
+      "id": "debut",
+      "year": 1981,
+      "date": "1981",
+      "title": "Rogue’s debut",
+      "issues": "Avengers Annual #10",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Her first appearance is a key milestone.",
+      "isbns": [
+        "9781302939854",
+        "9781302479619"
+      ],
+      "match": "I, Magneto and Uncanny Masterworks Vol.7 both index Avengers Annual #10; choose one.",
+      "sources": [
+        "roguedebut",
+        "rogueguide"
+      ]
+    },
+    {
+      "id": "joins",
+      "year": 1983,
+      "date": "1983",
+      "title": "Rogue joins the X-Men",
+      "issues": "Uncanny X-Men #171",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A pivotal team transition.",
+      "isbns": [
+        "9781302485863",
+        "9781302940157"
+      ],
+      "match": "Both contain #171. This is a team story, not a solo miniseries.",
+      "sources": [
+        "rogueguide"
+      ]
+    },
+    {
+      "id": "solo",
+      "year": 1995,
+      "date": "1995",
+      "title": "Rogue’s first solo miniseries",
+      "issues": "Rogue (1995) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short early solo selection.",
+      "isbns": [
+        "9781302493967"
+      ],
+      "match": "X-Men: Gambit & Rogue collects the 1990s solo material, not the 2018 relationship miniseries.",
+      "sources": [
+        "rogueguide"
+      ]
+    },
+    {
+      "id": "ring-fire",
+      "year": 2018,
+      "date": "2018",
+      "title": "Rogue & Gambit: Ring of Fire",
+      "issues": "Rogue & Gambit (2018) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A reader-recommended relationship starting point.",
+      "isbns": [
+        "9781302505103"
+      ],
+      "match": "Begin here before the marriage-era series. Power Play is the separate 2023 miniseries.",
+      "sources": [
+        "couple",
+        "couple3"
+      ]
+    },
+    {
+      "id": "wedding",
+      "year": 2018,
+      "date": "2018",
+      "title": "The wedding",
+      "issues": "X-Men Gold #30",
+      "universe": "Main universe",
+      "start": false,
+      "why": "The bridge into Mr. and Mrs. X.",
+      "isbns": [],
+      "match": "No confirmed #30 collection match selected in this guide. The catalog’s Gold Vol.1 and Vol.2 cover earlier issues.",
+      "sources": [
+        "couple3"
+      ]
+    },
+    {
+      "id": "mr-mrs",
+      "year": 2018,
+      "date": "2018–2019",
+      "title": "Mr. and Mrs. X",
+      "issues": "Mr. and Mrs. X #1–12",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Continue Rogue and Gambit’s shared story.",
+      "isbns": [
+        "9781302508845",
+        "9781302514631"
+      ],
+      "match": "Read Vol.1 (#1–6), then Vol.2 (#7–12); these are consecutive volumes.",
+      "sources": [
+        "couple",
+        "couple3"
+      ]
+    }
+  ]
+}

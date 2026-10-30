@@ -1,0 +1,143 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Wasp",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Janet van Dyne’s team milestones and solo stories, plus a clearly labeled Nadia branch. Janet has fewer solo collections, so team stories are important here.",
+  "sources": {
+    "order": {
+      "label": "Comic Book Herald · Wasp reading guide",
+      "url": "https://www.comicbookherald.com/wasp-reading-order/"
+    },
+    "guide": {
+      "label": "Comic Book Treasury · Janet van Dyne guide",
+      "url": "https://www.comicbooktreasury.com/wasp-reading-order/"
+    },
+    "review": {
+      "label": "AIPT · Small Worlds review",
+      "url": "https://aiptcomics.com/2023/07/05/the-wasp-small-worlds-tpb-review/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "wasp-1",
+      "label": "The Wasp’s origin",
+      "description": "Janet’s original introduction, before the Avengers form."
+    },
+    {
+      "storyId": "wasp-4",
+      "label": "The Unstoppable Wasp: G.I.R.L. Power",
+      "description": "Nadia’s science-focused solo series, with Janet as an important supporting figure."
+    },
+    {
+      "storyId": "wasp-5",
+      "label": "Small Worlds",
+      "description": "Janet and Nadia share a short, largely self-contained anniversary adventure."
+    }
+  ],
+  "stories": [
+    {
+      "id": "wasp-1",
+      "year": 1963,
+      "date": "1963",
+      "title": "The Wasp’s origin",
+      "issues": "Tales to Astonish (1959) #44, Ant-Man and Wasp story",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Janet’s original introduction, before the Avengers form.",
+      "isbns": [
+        "9781302525125"
+      ],
+      "match": "Wasp: Small Worlds includes the original #44 story as bonus material. Its main story is separately listed at 2023.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "wasp-2",
+      "year": 1963,
+      "date": "1963–1964",
+      "title": "Founding the Avengers",
+      "issues": "Avengers (1963) #1–10",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Janet helps found and name the team.",
+      "isbns": [
+        "9780785170099"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "wasp-3",
+      "year": 1986,
+      "date": "1986–1987",
+      "title": "Under Siege",
+      "issues": "Avengers (1963) #270–277",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major test during Janet’s tenure as team leader.",
+      "isbns": [
+        "9781302486136"
+      ],
+      "match": "The Under Siege Epic spans #264–277.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "wasp-4",
+      "year": 2017,
+      "date": "2017",
+      "title": "The Unstoppable Wasp: G.I.R.L. Power",
+      "issues": "The Unstoppable Wasp (2017) #1–8",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Nadia’s science-focused solo series, with Janet as an important supporting figure.",
+      "isbns": [
+        "9781302510541"
+      ],
+      "match": "This is Nadia van Dyne’s series. The G.I.R.L. Power volume covers #1–8.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "wasp-5",
+      "year": 2023,
+      "date": "2023",
+      "title": "Small Worlds",
+      "issues": "Wasp (2023) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Janet and Nadia share a short, largely self-contained anniversary adventure.",
+      "isbns": [
+        "9781302525125"
+      ],
+      "match": "The same book also reprints Janet’s 1963 origin; borrow once for both guide entries.",
+      "sources": [
+        "review",
+        "guide"
+      ]
+    },
+    {
+      "id": "wasp-6",
+      "year": 2023,
+      "date": "2023–2024",
+      "title": "Avengers Inc.",
+      "issues": "Avengers Inc. (2023) #1–5",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Continue from Small Worlds into Janet’s superhero detective story.",
+      "isbns": [
+        "9781302527969"
+      ],
+      "match": "A direct next step after Small Worlds, collected as Action, Mystery, Adventure.",
+      "sources": [
+        "guide"
+      ]
+    }
+  ]
+}

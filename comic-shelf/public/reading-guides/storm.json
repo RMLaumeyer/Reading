@@ -1,0 +1,150 @@
+{
+  "title": "Storm",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Ororo’s leadership and personal milestones, including team books where she takes center stage.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "lifedeath",
+      "label": "Character classic",
+      "description": "The two Lifedeath stories."
+    },
+    {
+      "storyId": "red",
+      "label": "Modern leader",
+      "description": "Storm on Arakko; some Krakoa context helps."
+    }
+  ],
+  "sources": {
+    "storm": {
+      "label": "Comic Book Herald · Storm reading order",
+      "url": "https://www.comicbookherald.com/storm-x-men-reading-order/"
+    },
+    "stormreaders": {
+      "label": "Storm readers · essential stories",
+      "url": "https://www.reddit.com/r/storm/comments/1wej6vv/what_are_some_essential_storm_books_to_read/"
+    },
+    "dueldate": {
+      "label": "UncannyXMen.net · 1986 publication history",
+      "url": "https://uncannyxmen.net/publication-history/1986"
+    },
+    "stormpak": {
+      "label": "Greg Pak · Storm solo series",
+      "url": "https://gregpak.com/category/comics/storm/"
+    },
+    "stormred": {
+      "label": "Marvel · X-Men Red by Al Ewing contents",
+      "url": "https://www.marvel.com/comics/collection/96795/"
+    }
+  },
+  "stories": [
+    {
+      "id": "second-genesis",
+      "year": 1975,
+      "date": "1975",
+      "title": "Second Genesis",
+      "issues": "Giant-Size X-Men (1975) #1; X-Men #94–100",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Ororo’s debut and a classic team starting point.",
+      "isbns": [
+        "9781302377564",
+        "9781302496708"
+      ],
+      "match": "Choose either collection; both contain Giant-Size #1 and the early new-team issues.",
+      "sources": [
+        "storm"
+      ]
+    },
+    {
+      "id": "morlocks",
+      "year": 1983,
+      "date": "1983",
+      "title": "Storm and the Morlocks",
+      "issues": "Uncanny X-Men #169–170",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A defining leadership confrontation.",
+      "isbns": [
+        "9781302485863",
+        "9781302531027"
+      ],
+      "match": "Both collections include these issues. Choose one; the larger volumes contain additional stories.",
+      "sources": [
+        "storm"
+      ]
+    },
+    {
+      "id": "lifedeath",
+      "year": 1984,
+      "date": "1984–1985",
+      "title": "Lifedeath I & II",
+      "issues": "Uncanny X-Men #186, #198",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A character-first Storm landmark.",
+      "isbns": [
+        "9781302486068"
+      ],
+      "match": "The dedicated Lifedeath book contains both stories and bonus issues.",
+      "sources": [
+        "storm",
+        "stormreaders"
+      ]
+    },
+    {
+      "id": "duel",
+      "year": 1986,
+      "date": "1986",
+      "title": "Duel",
+      "issues": "Uncanny X-Men #201",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Storm’s claim to leadership is tested.",
+      "isbns": [
+        "9781302534172",
+        "9781302938291"
+      ],
+      "match": "Both collections index #201; choose either edition.",
+      "sources": [
+        "storm",
+        "dueldate"
+      ]
+    },
+    {
+      "id": "pak",
+      "year": 2014,
+      "date": "2014",
+      "title": "Storm by Greg Pak",
+      "issues": "Storm (2014) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A recommended solo entry point.",
+      "isbns": [],
+      "match": "No confirmed match for the 2014 solo opening. Storm: Blowback is a different 2023 series.",
+      "sources": [
+        "stormpak",
+        "stormreaders"
+      ]
+    },
+    {
+      "id": "red",
+      "year": 2022,
+      "date": "2022",
+      "title": "X-Men Red by Al Ewing",
+      "issues": "X-Men Red (2022) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern Storm-led team opening.",
+      "isbns": [
+        "9781302944285"
+      ],
+      "match": "This is the 2022 series on Arakko. Familiarity with House of X/Powers of X and the Krakoa setting helps.",
+      "sources": [
+        "stormred",
+        "stormreaders"
+      ]
+    }
+  ]
+}

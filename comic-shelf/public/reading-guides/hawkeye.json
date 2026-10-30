@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Hawkeye",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Clint Barton’s key stories, with Kate Bishop’s solo branch labeled. The two Hawkeyes share the Fraction era.",
+  "sources": {
+    "order": {
+      "label": "Comic Book Herald · Hawkeye reading order",
+      "url": "https://www.comicbookherald.com/hawkeye-reading-order/"
+    },
+    "readers": {
+      "label": "Hawkeye readers · Fraction, Blindspot and Freefall",
+      "url": "https://www.reddit.com/r/HAWKEYE/comments/1qle65x/what_to_read_after_fractions_run/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "hawkeye-1",
+      "label": "Hawkeye’s first solo miniseries",
+      "description": "A concise classic introduction to Clint and Mockingbird."
+    },
+    {
+      "storyId": "hawkeye-3",
+      "label": "My Life as a Weapon / Little Hits",
+      "description": "Fraction and Aja’s street-level Clint-and-Kate run is a strong modern start."
+    },
+    {
+      "storyId": "hawkeye-4",
+      "label": "Kate Bishop: Anchor Points",
+      "description": "Kate’s solo detective adventures offer a distinct entry route."
+    }
+  ],
+  "stories": [
+    {
+      "id": "hawkeye-1",
+      "year": 1983,
+      "date": "1983",
+      "title": "Hawkeye’s first solo miniseries",
+      "issues": "Hawkeye (1983) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A concise classic introduction to Clint and Mockingbird.",
+      "isbns": [
+        "9781302480646"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "hawkeye-2",
+      "year": 2011,
+      "date": "2011",
+      "title": "Blindspot",
+      "issues": "Hawkeye: Blindspot #1–4",
+      "universe": "Main universe",
+      "start": false,
+      "why": "An important Clint-focused story; familiarity with his earlier career adds weight.",
+      "isbns": [
+        "9781302478575"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "hawkeye-3",
+      "year": 2012,
+      "date": "2012–2013",
+      "title": "My Life as a Weapon / Little Hits",
+      "issues": "Hawkeye (2012) #1–11",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Fraction and Aja’s street-level Clint-and-Kate run is a strong modern start.",
+      "isbns": [
+        "9781302367749",
+        "9781302368814"
+      ],
+      "match": "Read Vol. 1 (#1–5), then Vol. 2 (#6–11). Later L.A. Woman and Rio Bravo split the parallel Kate/Clint threads.",
+      "sources": [
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "hawkeye-4",
+      "year": 2016,
+      "date": "2016–2017",
+      "title": "Kate Bishop: Anchor Points",
+      "issues": "Hawkeye (2016) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Kate’s solo detective adventures offer a distinct entry route.",
+      "isbns": [
+        "9781302497767"
+      ],
+      "match": "This is Kate Bishop, not Clint Barton. The Private Eye collection overlaps it.",
+      "sources": [
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "hawkeye-5",
+      "year": 2020,
+      "date": "2020",
+      "title": "Freefall",
+      "issues": "Hawkeye: Freefall #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A self-contained modern Clint caper often recommended by readers.",
+      "isbns": [
+        "9781302935238"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order",
+        "readers"
+      ]
+    }
+  ]
+}

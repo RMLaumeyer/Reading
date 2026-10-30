@@ -1,0 +1,150 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Vision",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "The synthezoid Vision’s beginnings, family stories and identity crises. These stories share main continuity but were published decades apart.",
+  "sources": {
+    "order": {
+      "label": "Comic Book Herald · Vision and Wanda history",
+      "url": "https://www.comicbookherald.com/scarlet-witch-reading-order/"
+    },
+    "readers": {
+      "label": "Readers · Vision solo recommendations",
+      "url": "https://www.reddit.com/r/Marvel/comments/1kbig6u/which_version_of_vision_is_more_interesting/"
+    },
+    "king": {
+      "label": "Men’s Health · essential Vision stories",
+      "url": "https://www.menshealth.com/entertainment/a74251340/visionquest-vision-ultron-speed-marvel-comics/"
+    },
+    "quest": {
+      "label": "Marvel · Vision Quest collection contents",
+      "url": "https://www.marvel.com/comics/collection/51440/"
+    },
+    "family": {
+      "label": "Grand Comics Database · 1985 Vision/Scarlet Witch series",
+      "url": "https://www.comics.org/series/3057/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "vision-1",
+      "label": "Behold… the Vision!",
+      "description": "Vision’s introduction and admission into the Avengers."
+    },
+    {
+      "storyId": "vision-2",
+      "label": "Vision and the Scarlet Witch",
+      "description": "A compact introduction to their life outside the team."
+    },
+    {
+      "storyId": "vision-5",
+      "label": "Yesterday & Tomorrow",
+      "description": "A short Geoff Johns solo story recommended by Vision readers."
+    }
+  ],
+  "stories": [
+    {
+      "id": "vision-1",
+      "year": 1968,
+      "date": "1968",
+      "title": "Behold… the Vision!",
+      "issues": "Avengers (1963) #57–58",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Vision’s introduction and admission into the Avengers.",
+      "isbns": [
+        "9781302479824"
+      ],
+      "match": "The Behold… The Vision Epic covers #57–76.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "vision-2",
+      "year": 1982,
+      "date": "1982–1983",
+      "title": "Vision and the Scarlet Witch",
+      "issues": "Vision and the Scarlet Witch (1982) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A compact introduction to their life outside the team.",
+      "isbns": [
+        "9781302479886"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "vision-3",
+      "year": 1985,
+      "date": "1985–1986",
+      "title": "A Year in the Life",
+      "issues": "Vision and the Scarlet Witch (1985) #1–12",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A key family chapter for both characters.",
+      "isbns": [
+        "9781302488833"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "family"
+      ]
+    },
+    {
+      "id": "vision-4",
+      "year": 1989,
+      "date": "1989",
+      "title": "Vision Quest",
+      "issues": "West Coast Avengers (1985) #42–45",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major change in Vision’s identity and appearance.",
+      "isbns": [
+        "9781302479831"
+      ],
+      "match": "The matched collection spans #42–50; the core transformation begins in #42–45.",
+      "sources": [
+        "quest"
+      ]
+    },
+    {
+      "id": "vision-5",
+      "year": 2002,
+      "date": "2002–2003",
+      "title": "Yesterday & Tomorrow",
+      "issues": "Avengers Icons: The Vision #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short Geoff Johns solo story recommended by Vision readers.",
+      "isbns": [
+        "9781302480073"
+      ],
+      "match": "The catalog’s Vision: Yesterday & Tomorrow is the Johns miniseries; do not confuse it with the 1994 Vision series.",
+      "sources": [
+        "readers"
+      ]
+    },
+    {
+      "id": "vision-6",
+      "year": 2015,
+      "date": "2015–2016",
+      "title": "The Vision by Tom King",
+      "issues": "Vision (2015) #1–12",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A tense domestic tragedy and an acclaimed modern starting point.",
+      "isbns": [
+        "9781302502072"
+      ],
+      "match": "This full-run collection overlaps Little Worse Than a Man (#1–6) and Little Better Than a Beast (#7–12).",
+      "sources": [
+        "king"
+      ]
+    }
+  ]
+}

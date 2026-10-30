@@ -1,0 +1,167 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Ant-Man",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "A mantle shared by Hank Pym, Scott Lang and Eric O’Grady. Identity labels matter: these are distinct characters, not successive volumes about one person.",
+  "sources": {
+    "reader": {
+      "label": "Ant-Man readers · Spencer and World Hive",
+      "url": "https://www.reddit.com/r/antman/comments/1sgf6i3/ant_man_comic_recommendations/"
+    },
+    "review": {
+      "label": "Slings & Arrows · Ant-Iversary review",
+      "url": "https://theslingsandarrows.com/ant-man-ant-iversary/"
+    },
+    "publisher": {
+      "label": "Marvel · Ant-Iversary contents",
+      "url": "https://www.marvel.com/comics/collection/98789/"
+    },
+    "origins": {
+      "label": "Crushing Krisis · Ant-Man identities and collections",
+      "url": "https://www.crushingkrisis.com/crushing-comics-guide-collecting-marvel-comic-books/ant-man-giant-man-definitive-collecting-guide-reading-order/"
+    },
+    "spencer": {
+      "label": "Readers · Spencer’s Scott Lang starting point",
+      "url": "https://www.reddit.com/r/Marvel/comments/ultsyx/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "ant-man-1",
+      "label": "Scott Lang’s debut",
+      "description": "The foundation of Scott’s story and his relationship with Cassie."
+    },
+    {
+      "storyId": "ant-man-3",
+      "label": "Second-Chance Man",
+      "description": "Nick Spencer’s Scott Lang run is a practical modern starting point."
+    },
+    {
+      "storyId": "ant-man-4",
+      "label": "Ant-Man and the Wasp: Lost and Found",
+      "description": "A short team-up pairing Scott Lang with Nadia van Dyne."
+    }
+  ],
+  "stories": [
+    {
+      "id": "ant-man-hank-origin",
+      "year": 1962,
+      "date": "1962",
+      "title": "The Man in the Ant-Hill / Ant-Man’s first costume",
+      "issues": "Tales to Astonish (1959) #27, #35",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Hank Pym’s original beginning: the scientist first, then the costumed hero.",
+      "isbns": [],
+      "match": "No confirmed collection match for these original issues. Season One is a later retelling, not these 1962 stories.",
+      "sources": [
+        "origins"
+      ]
+    },
+    {
+      "id": "ant-man-1",
+      "year": 1979,
+      "date": "1979",
+      "title": "Scott Lang’s debut",
+      "issues": "Marvel Premiere (1972) #47–48",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The foundation of Scott’s story and his relationship with Cassie.",
+      "isbns": [
+        "9781302944698"
+      ],
+      "match": "Ant-Man No More includes Marvel Premiere #47–48 among other Hank Pym and related stories. It overlaps the dedicated Scott Lang anthology.",
+      "sources": [
+        "origins"
+      ]
+    },
+    {
+      "id": "ant-man-2",
+      "year": 2006,
+      "date": "2006–2007",
+      "title": "The Irredeemable Ant-Man",
+      "issues": "The Irredeemable Ant-Man (2006) #1–12",
+      "universe": "Main universe",
+      "start": false,
+      "why": "An intentionally unlikeable new Ant-Man: Eric O’Grady.",
+      "isbns": [
+        "9781302368135",
+        "9781302368142"
+      ],
+      "match": "Read Low-Life (#1–6), then Small-Minded (#7–12). This is Eric, not Scott or Hank.",
+      "sources": [
+        "origins"
+      ]
+    },
+    {
+      "id": "ant-man-3",
+      "year": 2015,
+      "date": "2015",
+      "title": "Second-Chance Man",
+      "issues": "Ant-Man (2015) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Nick Spencer’s Scott Lang run is a practical modern starting point.",
+      "isbns": [
+        "9781302480806"
+      ],
+      "match": "Continue with The Astonishing Ant-Man; its Vol. 1 is a later relaunch, not this same first book.",
+      "sources": [
+        "spencer"
+      ]
+    },
+    {
+      "id": "ant-man-4",
+      "year": 2018,
+      "date": "2018",
+      "title": "Ant-Man and the Wasp: Lost and Found",
+      "issues": "Ant-Man and the Wasp (2018) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short team-up pairing Scott Lang with Nadia van Dyne.",
+      "isbns": [
+        "9781302507305"
+      ],
+      "match": "Nadia is the Wasp here, not Janet. The Saga of Scott Lang collection overlaps this story.",
+      "sources": [
+        "origins"
+      ]
+    },
+    {
+      "id": "ant-man-5",
+      "year": 2020,
+      "date": "2020",
+      "title": "World Hive",
+      "issues": "Ant-Man (2020) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short Scott-and-Cassie adventure recommended by readers.",
+      "isbns": [
+        "9781302521806"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "reader"
+      ]
+    },
+    {
+      "id": "ant-man-6",
+      "year": 2022,
+      "date": "2022",
+      "title": "Ant-Iversary",
+      "issues": "Ant-Man (2022) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A compact tour of multiple Ant-Men and their different eras.",
+      "isbns": [
+        "9781302944704"
+      ],
+      "match": "The volume includes older bonus stories; the main four-issue anniversary story was published in 2022.",
+      "sources": [
+        "review",
+        "publisher"
+      ]
+    }
+  ]
+}

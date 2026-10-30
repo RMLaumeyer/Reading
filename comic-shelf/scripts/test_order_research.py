@@ -83,6 +83,18 @@ class ResearchTests(unittest.TestCase):
         for url in (self.url.replace('https:', 'http:'), self.url+'?secret=1', self.url.replace('comicbookreadingorders.com', 'evil.test')):
             with self.assertRaises(ValueError): cb.check_url(url)
 
+    def test_order_disagreement_becomes_evidence_linked_research_task(self):
+        a,b=self.path([1,2]),self.path([2,1]);b['sourceUrl']='https://other.example'
+        for path in (a,b):
+            for node in path['orderedIssues']:node['quote']='Example #'+str(node['issue']['number'])
+        comparison=research.compare(a,b)
+        tasks=research.research_tasks([a,b],[],[comparison])
+        conflicts=[t for t in tasks if t['kind']=='reading_order_disagreement']
+        self.assertEqual(len(conflicts),1)
+        self.assertEqual(len(conflicts[0]['evidence']),4)
+        self.assertEqual({e['url'] for e in conflicts[0]['evidence']},{a['sourceUrl'],b['sourceUrl']})
+        self.assertEqual(conflicts[0]['priority'],1)
+
     def test_wrong_event_page_cannot_supply_a_plausible_list(self):
         raw=self.page('<p>Example #1 (2020)</p>').replace('<h1>Example</h1>','<h1>Other Event</h1>')
         with self.assertRaises(ValueError):cb.parse(raw,self.url)

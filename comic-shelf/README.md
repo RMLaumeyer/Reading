@@ -4,6 +4,12 @@ Double-click **Start Panel.cmd** in the Reading folder. It opens http://localhos
 
 ## What is ready
 
+- **Team and character guide index:** `/reading-guides/` now links 28 guides, including Avengers, X-Men, twelve Avengers members, eleven X-Men members, Moon Knight, Black Knight, and Spider-Man. The 196 page-level selections include 181 with catalog matches (shared stories can occur on multiple guides). Search the index by character or team. Each guide has publication chronology, starting points, source links, catalog links, identity/continuity labels, and partial/overlapping-collection notes. This is a curated member set, not a measured popularity ranking.
+
+Guide JSON is the source of truth. Run `npm run guides:build` after editing it to validate ISBNs, ordering, evidence references and anchors, regenerate the HTML index/pages, and copy guide assets into the local static build if present. Run `npm run guides:test` for renderer/filter checks across every guide. The guide build does not rewrite the catalog or enrichment records. The source shelf header and the saved home page link to the guide index.
+
+- **Spider-Man reading guide:** open `/reading-guides/spider-man.html` or use the header link. It contains 24 curated starting points/key stories in original publication order, 19 with exact-ISBN Hoopla-listed catalog matches and five with no confirmed match. Continuity labels, source links, edition-overlap notes, and availability/starting-point filters are included. Research is dated October 27, 2026; borrowing status remains the imported catalog snapshot. Guide data and assets live in `public/reading-guides/` and copy into static builds.
+
 - All 4,000 imported catalog records are searchable. The default availability filter includes the 3,948 explicitly listing Hoopla; 52 are retained as unconfirmed.
 - The **Enriched pilot** contains 26 books: Moon Knight, Spider-Man, and one X-Men collection. Each has a short original synopsis, named storylines, page count, a reading path, source links, and an exact Hoopla title link extracted from OCLS.
 - 18 pilot collections have Comic Book Roundup critic and reader scores where available. Missing scores are not zeros; sorting places them last.

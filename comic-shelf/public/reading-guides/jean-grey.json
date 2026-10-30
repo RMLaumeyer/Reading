@@ -1,0 +1,147 @@
+{
+  "title": "Jean Grey / Phoenix",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Jean’s milestones cross solo and team books. Phoenix stories can reveal major changes in her life.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "red",
+      "label": "Jean leads",
+      "description": "The 2018 team opening."
+    },
+    {
+      "storyId": "phoenix-solo",
+      "label": "Cosmic solo",
+      "description": "Begin the 2024 Phoenix series."
+    }
+  ],
+  "sources": {
+    "jean": {
+      "label": "Comic Book Treasury · Jean Grey essentials",
+      "url": "https://www.comicbooktreasury.com/jean-grey-reading-order/"
+    }
+  },
+  "stories": [
+    {
+      "id": "phoenix-begins",
+      "year": 1976,
+      "date": "1976",
+      "title": "The Phoenix begins",
+      "issues": "X-Men (1963) #101–108",
+      "universe": "Main universe",
+      "start": false,
+      "why": "The start of Jean’s Phoenix era.",
+      "isbns": [
+        "9781302378684"
+      ],
+      "match": "Masterworks Vol.2 covers #101–110.",
+      "sources": [
+        "jean"
+      ]
+    },
+    {
+      "id": "dark-phoenix",
+      "year": 1980,
+      "date": "1980",
+      "title": "The Dark Phoenix Saga",
+      "issues": "X-Men (1963) #129–137",
+      "universe": "Main universe",
+      "start": false,
+      "why": "The essential early Phoenix turning point.",
+      "isbns": [
+        "9781302514440",
+        "9781302936860"
+      ],
+      "match": "The Milestones volume contains the saga; Fate of the Phoenix also includes later issues. Choose one.",
+      "sources": [
+        "jean"
+      ]
+    },
+    {
+      "id": "adventures",
+      "year": 1994,
+      "date": "1994",
+      "title": "The Adventures of Cyclops and Phoenix",
+      "issues": "The Adventures of Cyclops and Phoenix #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A compact Scott-and-Jean story.",
+      "isbns": [
+        "9781302397494"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "jean"
+      ]
+    },
+    {
+      "id": "new-xmen",
+      "year": 2001,
+      "date": "2001",
+      "title": "New X-Men: E Is for Extinction",
+      "issues": "New X-Men (2001) #114–117",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern team start featuring Jean.",
+      "isbns": [
+        "9780785170846"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "jean"
+      ]
+    },
+    {
+      "id": "resurrection",
+      "year": 2017,
+      "date": "2017–2018",
+      "title": "Phoenix Resurrection",
+      "issues": "Phoenix Resurrection: The Return of Jean Grey #1–5",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major return; best after the earlier milestones.",
+      "isbns": [
+        "9781302503802"
+      ],
+      "match": "The miniseries began in 2017 and continued into 2018.",
+      "sources": [
+        "jean"
+      ]
+    },
+    {
+      "id": "red",
+      "year": 2018,
+      "date": "2018",
+      "title": "X-Men Red: The Hate Machine",
+      "issues": "X-Men Red (2018) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Jean leads a new team.",
+      "isbns": [
+        "9781302505837"
+      ],
+      "match": "This is Tom Taylor’s 2018 Red, not Al Ewing’s 2022 Storm-led series.",
+      "sources": [
+        "jean"
+      ]
+    },
+    {
+      "id": "phoenix-solo",
+      "year": 2024,
+      "date": "2024",
+      "title": "Phoenix: Orbital Resonance",
+      "issues": "Phoenix (2024) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A new cosmic solo opening.",
+      "isbns": [
+        "9781302531843"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "jean"
+      ]
+    }
+  ]
+}

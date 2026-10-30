@@ -111,6 +111,8 @@ def main():
             if original.get(key,{}).get('level')!='basic' and key in original: continue
             if record.get('detail'): merged[key]=record['detail']; automatic[key]=record['detail']
         queue=[dict(id=b['id'],title=b['title'],reasons=records[b['id']]['reasons'],status=records[b['id']]['status']) for b in catalog if b['id'] in records and records[b['id']].get('reasons')]
+        import approved_synopses
+        merged = approved_synopses.apply(merged, ROOT/'data/approved-synopses.json')
         counts=dict(state['status'],reviewCount=len(queue),pendingLookups=sum(r['status'] in ('pending','error') for r in records.values()),automatic=sum(bool(d.get('automation')) for d in merged.values()),editorial=sum(d.get('level')!='basic' for d in merged.values()))
         write_json(AUTO,automatic)
         for directory in [ROOT/'public',ROOT/'dist/client']:

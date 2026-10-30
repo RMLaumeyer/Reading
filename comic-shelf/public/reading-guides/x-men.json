@@ -1,0 +1,205 @@
+{
+  "title": "X-Men",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Classic team milestones and modern entry points. These highlights are not a complete crossover checklist.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "second-genesis",
+      "label": "Classic team",
+      "description": "Start with the new roster in 1975."
+    },
+    {
+      "storyId": "gifted",
+      "label": "Modern team",
+      "description": "A six-issue introduction."
+    },
+    {
+      "storyId": "house-powers",
+      "label": "Krakoa era",
+      "description": "A major status-quo reset."
+    }
+  ],
+  "sources": {
+    "team": {
+      "label": "X-Men readers · classic starting points",
+      "url": "https://www.reddit.com/r/xmen/comments/e0b3qu/"
+    },
+    "teammodern": {
+      "label": "Comic Book Herald · X-Men reading order",
+      "url": "https://www.comicbookherald.com/the-complete-x-men-reading-order-guide-modern-marvel-comics-era/"
+    },
+    "hox": {
+      "label": "Marvel · House of X / Powers of X reading order",
+      "url": "https://www.marvel.com/comics/guides/1556/house-of-x-powers-of-x"
+    },
+    "classics": {
+      "label": "X-Men readers · classic story sequence",
+      "url": "https://www.reddit.com/r/xmen/comments/11li4oo/"
+    }
+  },
+  "stories": [
+    {
+      "id": "second-genesis",
+      "year": 1975,
+      "date": "1975",
+      "title": "Second Genesis",
+      "issues": "Giant-Size X-Men (1975) #1; X-Men #94–100",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The classic new-team beginning.",
+      "isbns": [
+        "9781302377564",
+        "9781302496708"
+      ],
+      "match": "Choose either collection; both contain Giant-Size #1 and the early new-team issues.",
+      "sources": [
+        "team"
+      ]
+    },
+    {
+      "id": "dark-phoenix",
+      "year": 1980,
+      "date": "1980",
+      "title": "The Dark Phoenix Saga",
+      "issues": "X-Men (1963) #129–137",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A central Jean Grey milestone.",
+      "isbns": [
+        "9781302514440",
+        "9781302936860"
+      ],
+      "match": "The Milestones volume contains the saga; Fate of the Phoenix also includes later issues. Choose one.",
+      "sources": [
+        "team"
+      ]
+    },
+    {
+      "id": "days-future",
+      "year": 1981,
+      "date": "1981",
+      "title": "Days of Future Past",
+      "issues": "X-Men (1963) #141–142",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A compact classic with a future timeline.",
+      "isbns": [
+        "9780785180012",
+        "9781302936860"
+      ],
+      "match": "Both include #141–142. Doomsday is a later prequel, not a substitute.",
+      "sources": [
+        "team"
+      ]
+    },
+    {
+      "id": "god-loves",
+      "year": 1982,
+      "date": "1982",
+      "title": "God Loves, Man Kills",
+      "issues": "Marvel Graphic Novel #5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A contained introduction to the team’s central conflict.",
+      "isbns": [
+        "9781302531027"
+      ],
+      "match": "The Epic Collection includes the graphic novel as well as surrounding team stories.",
+      "sources": [
+        "team"
+      ]
+    },
+    {
+      "id": "mutant-massacre",
+      "year": 1986,
+      "date": "1986",
+      "title": "Mutant Massacre",
+      "issues": "Uncanny X-Men #210–213 and crossover chapters",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major crossover; read after meeting the classic cast.",
+      "isbns": [
+        "9781302536060"
+      ],
+      "match": "The dedicated Epic is a collection match. Read its internal crossover order; the issue label here identifies the core team chapters.",
+      "sources": [
+        "classics"
+      ]
+    },
+    {
+      "id": "age-apocalypse",
+      "year": 1995,
+      "date": "1995",
+      "title": "Age of Apocalypse",
+      "issues": "X-Men Alpha; the Age of Apocalypse series; X-Men Omega",
+      "universe": "Alternate continuity",
+      "start": false,
+      "why": "A prominent alternate-reality event.",
+      "isbns": [
+        "9781302481902",
+        "9781302482619",
+        "9781302483814"
+      ],
+      "match": "These are consecutive Alpha → Reign → Omega volumes, not alternative editions. Read all three for this collected sequence.",
+      "sources": [
+        "team"
+      ]
+    },
+    {
+      "id": "new-xmen",
+      "year": 2001,
+      "date": "2001",
+      "title": "New X-Men: E Is for Extinction",
+      "issues": "New X-Men (2001) #114–117",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Morrison’s new-era opening.",
+      "isbns": [
+        "9780785170846",
+        "9781302528782"
+      ],
+      "match": "Choose the short first volume or the larger Epic (#114–126).",
+      "sources": [
+        "teammodern"
+      ]
+    },
+    {
+      "id": "gifted",
+      "year": 2004,
+      "date": "2004",
+      "title": "Astonishing X-Men: Gifted",
+      "issues": "Astonishing X-Men (2004) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "An accessible modern team adventure.",
+      "isbns": [
+        "9780785170037",
+        "9781302527464"
+      ],
+      "match": "Choose Vol.1 for #1–6 or the Modern Era Epic for #1–12.",
+      "sources": [
+        "teammodern"
+      ]
+    },
+    {
+      "id": "house-powers",
+      "year": 2019,
+      "date": "2019",
+      "title": "House of X / Powers of X",
+      "issues": "House of X #1–6; Powers of X #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The doorway into the Krakoa era.",
+      "isbns": [
+        "9781302517410"
+      ],
+      "match": "Read the interwoven order in the collected edition; these are parallel miniseries, not two sequential blocks.",
+      "sources": [
+        "hox",
+        "teammodern"
+      ]
+    }
+  ]
+}

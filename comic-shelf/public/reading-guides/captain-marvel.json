@@ -1,0 +1,176 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Captain Marvel",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "This guide follows Carol Danvers, including her earlier Ms. Marvel identity. Mar-Vell and Monica Rambeau are different characters with their own histories.",
+  "sources": {
+    "starter": {
+      "label": "Comic Book Revolution · Carol Danvers starter guide",
+      "url": "https://www.comicbookrevolution.com/comic-book-starter-guide-carol-danvers-from-ms-marvel-to-captain-marvel/"
+    },
+    "order": {
+      "label": "Comic Book Herald · Captain Marvel / Ms. Marvel order",
+      "url": "https://www.comicbookherald.com/captain-marvel-ms-marvel-reading-order/"
+    },
+    "readers": {
+      "label": "Captain Marvel readers · recommended runs",
+      "url": "https://www.reddit.com/r/Captain_Marvel/comments/1qb7d3n/carol_danvers_comics_recomendations/"
+    },
+    "life": {
+      "label": "Captain Marvel readers · Life of Captain Marvel starting point",
+      "url": "https://www.reddit.com/r/Captain_Marvel/comments/1kzw0ju/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "captain-marvel-1",
+      "label": "This Woman, This Warrior",
+      "description": "Carol’s first solo identity, for readers who want the classic foundation."
+    },
+    {
+      "storyId": "captain-marvel-2",
+      "label": "The Ms. Marvel Years: opening",
+      "description": "A modern look at Carol before she adopts the Captain Marvel title."
+    },
+    {
+      "storyId": "captain-marvel-3",
+      "label": "In Pursuit of Flight",
+      "description": "A recommended beginning for Carol’s Captain Marvel era."
+    }
+  ],
+  "stories": [
+    {
+      "id": "captain-marvel-1",
+      "year": 1977,
+      "date": "1977–1978",
+      "title": "This Woman, This Warrior",
+      "issues": "Ms. Marvel (1977) #1–14",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Carol’s first solo identity, for readers who want the classic foundation.",
+      "isbns": [
+        "9781302507992"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "starter",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "captain-marvel-2",
+      "year": 2006,
+      "date": "2006–2007",
+      "title": "The Ms. Marvel Years: opening",
+      "issues": "Ms. Marvel (2006) #1–17",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern look at Carol before she adopts the Captain Marvel title.",
+      "isbns": [
+        "9781302503147"
+      ],
+      "match": "This is Carol Danvers’s Ms. Marvel series, not Kamala Khan’s later book.",
+      "sources": [
+        "starter",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "captain-marvel-3",
+      "year": 2012,
+      "date": "2012",
+      "title": "In Pursuit of Flight",
+      "issues": "Captain Marvel (2012) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A recommended beginning for Carol’s Captain Marvel era.",
+      "isbns": [
+        "9781302370008"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "starter",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "captain-marvel-4",
+      "year": 2014,
+      "date": "2014",
+      "title": "Higher, Further, Faster, More",
+      "issues": "Captain Marvel (2014) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A spacefaring new #1 that is friendly to newcomers.",
+      "isbns": [
+        "9781302401580"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "starter",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "captain-marvel-5",
+      "year": 2018,
+      "date": "2018",
+      "title": "The Life of Captain Marvel",
+      "issues": "The Life of Captain Marvel (2018) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A later origin-focused story; its publication position is kept here.",
+      "isbns": [
+        "9781302519711"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "life",
+        "order"
+      ]
+    },
+    {
+      "id": "captain-marvel-6",
+      "year": 2019,
+      "date": "2019",
+      "title": "Re-Entry",
+      "issues": "Captain Marvel (2019) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Kelly Thompson begins a long solo run with Carol back on Earth.",
+      "isbns": [
+        "9781302514808"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "starter",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "captain-marvel-7",
+      "year": 2019,
+      "date": "2019–2020",
+      "title": "The Last Avenger",
+      "issues": "Captain Marvel (2019) #12–17",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A later Thompson-era conflict involving Carol and the Avengers.",
+      "isbns": [
+        "9781302521226"
+      ],
+      "match": "Read after the opening volumes; this is Vol. 3 of the 2019 series.",
+      "sources": [
+        "starter",
+        "order",
+        "readers"
+      ]
+    }
+  ]
+}

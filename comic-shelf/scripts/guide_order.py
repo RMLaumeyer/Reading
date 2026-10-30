@@ -11,6 +11,7 @@ from urllib.parse import urlsplit
 import collection_path
 import series_references as refs
 import order_identity
+import issue_designators
 
 
 def check_url(url):
@@ -132,6 +133,9 @@ def parse(raw, url, sections, references):
         if not match or not 0 <= int(match[4] or match[3])-int(match[3]) <= 150:
             sequence.append({'position': len(sequence)+1, 'section': current, 'quote': text,
                              'sourceUrl': url, 'issue': None, 'identityState': 'unsupported'})
+            designation = issue_designators.decimal_issue(text)
+            if designation:
+                sequence[-1]['unsupportedIssueDesignation'] = designation
             problems.append({'section': current, 'quote': text, 'reason': 'Unsupported issue range'})
             continue
         name, year, first, last = match.groups()
@@ -203,7 +207,7 @@ def main():
     save('edition-identity-audit.json', {'warnings': identity_warnings})
     save('manifest.json', {'inputs': inputs, 'url': args.url, 'sections': args.section,
                           'codeSha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in
-                                         [Path(__file__), Path(collection_path.__file__), Path(refs.__file__), Path(order_identity.__file__)]}})
+                                         [Path(__file__), Path(collection_path.__file__), Path(refs.__file__), Path(order_identity.__file__), Path(issue_designators.__file__)]}})
     try:
         body, url, encoding = download(args.url)
         (folder/'source.html').write_bytes(body)

@@ -24,6 +24,16 @@ def build(path, editions, unavailable=()):
                                     'portion': entry.get('portion'), 'inventoryEvidence': entry['evidence'],
                                     'identityRequiresReview': bool(entry.get('identityResolution') or entry.get('identityConflicts')),
                                     'reason': 'Inventoried in this edition but not listed in this source; no event membership or reading requirement inferred.'})
+        for entry in edition['result']['contents'].get('decimalEntries', []):
+            issue = {'series':entry['series'],'year':entry['year'],
+                     'number':entry['designator'],'numberKind':'decimal'}
+            key=(edition['isbn'],identity(issue),entry['extent'],entry.get('portion'))
+            if identity(issue) not in source_identities and key not in outside_seen:
+                outside_seen.add(key)
+                outside.append({'isbn':edition['isbn'],'issue':issue,'extent':entry['extent'],
+                    'portion':entry.get('portion'),'inventoryEvidence':entry['evidence'],
+                    'identityRequiresReview':True,
+                    'reason':'Draft decimal inventory not listed in this source; no event membership or reading requirement inferred.'})
     for source_node in path['orderedIssues']:
         issue = source_node['issue']
         options, candidates = [], []
@@ -31,7 +41,12 @@ def build(path, editions, unavailable=()):
             result = edition['result']
             matches = [e for e in result['contents']['entries']
                        if e['series'].casefold() == issue['series'].casefold()
-                       and e['year'] == issue['year'] and e['first'] <= issue['number'] <= e['last']]
+                       and e['year'] == issue['year'] and isinstance(issue['number'], int)
+                       and e['first'] <= issue['number'] <= e['last']]
+            matches.extend(e for e in result['contents'].get('decimalEntries', [])
+                           if e['series'].casefold() == issue['series'].casefold()
+                           and e['year'] == issue['year'] and e['designator'] == issue['number']
+                           and issue.get('numberKind') == 'decimal')
             explicit = [e for e in matches if not e.get('identityResolution') and not e.get('identityConflicts') and not source_node.get('identityRequiresReview')]
             if explicit:
                 whole = any(e['extent'] == 'whole' for e in explicit)
@@ -55,7 +70,7 @@ def build(path, editions, unavailable=()):
                     draft_spans.setdefault(edition['isbn'], []).append(source_node['position'])
             unresolved = [e for e in result['contents'].get('unresolvedEntries', [])
                           if e['series'].casefold() == issue['series'].casefold()
-                          and e['first'] <= issue['number'] <= e['last']]
+                          and isinstance(issue['number'], int) and e['first'] <= issue['number'] <= e['last']]
             if unresolved:
                 candidates.append({'isbn': edition['isbn'], 'reason': 'Series identity unresolved; no automatic substitution',
                                    'entries': unresolved})
@@ -101,6 +116,7 @@ def build(path, editions, unavailable=()):
                 'identityReviewWarnings': [warning for entry in e['result']['contents']['entries']
                                            for warning in entry.get('identityConflicts', [])],
                 'acceptedInventoryEntries': len(e['result']['contents']['entries']),
+                'draftDecimalInventoryEntries': len(e['result']['contents'].get('decimalEntries',[])),
                 'unresolvedEntries': len(e['result']['contents'].get('unresolvedEntries', [])),
                 'unparsedContents': len(e['result']['contents'].get('unparsed', [])),
                 'inventoryNote': e['result']['contents'].get('reason'),

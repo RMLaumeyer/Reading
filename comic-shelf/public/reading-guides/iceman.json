@@ -1,0 +1,18 @@
+{
+  "title":"Iceman", "subtitle":"Bobby Drake’s solo adventures, identity, and extraordinary powers.", "group":"X-Men", "intro":"Start with Sina Grace’s Thawing Out for a personal modern solo series. Frozen is a darker team-book spotlight; Astonishing Iceman belongs to the later Fall of X period.", "checkedAt":"2026-10-27",
+  "starts":[{"storyId":"thawing","label":"Modern solo starting point","description":"Sina Grace · Thawing Out"},{"storyId":"original-solo","label":"Classic solo adventure","description":"Iceman · 1984–1985"}],
+  "sources":{
+    "readers":{"label":"r/Marvel · recommended Iceman stories","url":"https://www.reddit.com/r/Marvel/comments/bttlb6/"},
+    "modern":{"label":"r/xmen · modern Iceman reading path","url":"https://www.reddit.com/r/xmen/comments/1bbgmtj/"},
+    "classic":{"label":"UncannyXMen.net · original Iceman series","url":"https://uncannyxmen.net/comics/series/iceman-1st-series"},
+    "frozen":{"label":"House to Astonish · Frozen review and issues","url":"https://www.housetoastonish.com/?p=2101"},
+    "solos":{"label":"r/xmen · discussion of Iceman solo series","url":"https://www.reddit.com/r/xmen/comments/1vudblu/opinions_on_the_iceman_solos/"}
+  },
+  "stories":[
+    {"id":"original-solo","year":1984,"date":"1984–1985","title":"Iceman’s first solo miniseries","issues":"Iceman (1984) #1–4","universe":"Main universe","start":true,"why":"A classic standalone detour away from the team, with family and time-travel complications.","isbns":["9781302501921"],"match":"X-Men: Iceman contains the original four-issue series. It is not the 2017 series with the same character name.","sources":["classic"]},
+    {"id":"frozen","year":2013,"date":"2013","title":"Frozen","issues":"Astonishing X-Men (2004) #62–65","universe":"Main universe","why":"A frequently recommended, darker exploration of Bobby’s power and emotional life.","isbns":[],"match":"No confirmed collection match in the supplied catalog. Astonishing X-Men: Northstar (#48–51) does not reach this arc.","sources":["readers","frozen"]},
+    {"id":"thawing","year":2017,"date":"2017–2018","title":"Thawing Out & Absolute Zero","issues":"Iceman (2017) #1–11","universe":"Main universe","start":true,"why":"A modern solo focus on Bobby’s life, relationships, and self-understanding.","isbns":["9781302501587","9781302503888"],"match":"Read Thawing Out (#1–5), then Absolute Zero (#6–11). They are consecutive volumes of the same series.","sources":["readers","solos"]},
+    {"id":"amazing-friends","year":2018,"date":"2018–2019","title":"Amazing Friends","issues":"Iceman (2018) #1–5","universe":"Main universe","why":"Sina Grace’s follow-up to the 2017 solo series.","isbns":["9781302510220"],"match":"Cataloged as Iceman Vol. 3: Amazing Friends, but the issues restart at #1. Read after the two 2017 volumes.","sources":["modern","solos"]},
+    {"id":"astonishing","year":2023,"date":"2023","title":"Astonishing Iceman: Out Cold","issues":"Astonishing Iceman (2023) #1–5","universe":"Main universe · Fall of X","why":"A later solo adventure during the Fall of X crisis. Some Krakoan-era context helps.","isbns":["9781302527952"],"match":"Out Cold collects the five-issue Steve Orlando series. It is separate from the older Astonishing X-Men team title.","sources":["modern","solos"]}
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Scarlet Witch",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Wanda Maximoff’s team milestones and solo starting points. Events are included for their impact, not as prerequisites for every solo run.",
+  "sources": {
+    "best": {
+      "label": "GamesRadar · Scarlet Witch highlights",
+      "url": "https://www.gamesradar.com/scarlet-witch-comics-wanda-maximoff-comic-books/"
+    },
+    "order": {
+      "label": "Comic Book Herald · Wanda reading order",
+      "url": "https://www.comicbookherald.com/scarlet-witch-reading-order/"
+    },
+    "readers": {
+      "label": "Scarlet Witch readers · Robinson and Orlando",
+      "url": "https://www.reddit.com/r/ScarletWitch/comments/1mleimd"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "scarlet-witch-2",
+      "label": "Vision and the Scarlet Witch",
+      "description": "The couple’s first shared miniseries."
+    },
+    {
+      "storyId": "scarlet-witch-7",
+      "label": "Witches’ Road",
+      "description": "Robinson’s solo run puts Wanda’s magic and perspective at the center."
+    },
+    {
+      "storyId": "scarlet-witch-8",
+      "label": "The Last Door",
+      "description": "Orlando’s solo opening offers a modern heroic starting point."
+    }
+  ],
+  "stories": [
+    {
+      "id": "scarlet-witch-1",
+      "year": 1965,
+      "date": "1965",
+      "title": "Cap’s Kooky Quartet",
+      "issues": "Avengers (1963) #16 onward",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Wanda’s move from antagonist to Avenger is a foundational milestone.",
+      "isbns": [
+        "9781302368579"
+      ],
+      "match": "Avengers Masterworks Vol. 2 covers #11–20 and includes the new team’s formation.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "scarlet-witch-2",
+      "year": 1982,
+      "date": "1982–1983",
+      "title": "Vision and the Scarlet Witch",
+      "issues": "Vision and the Scarlet Witch (1982) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The couple’s first shared miniseries.",
+      "isbns": [
+        "9781302479886"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "scarlet-witch-3",
+      "year": 1985,
+      "date": "1985–1986",
+      "title": "A Year in the Life",
+      "issues": "Vision and the Scarlet Witch (1985) #1–12",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A central domestic chapter in Wanda and Vision’s history.",
+      "isbns": [
+        "9781302488833"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "scarlet-witch-4",
+      "year": 2004,
+      "date": "2004",
+      "title": "Avengers Disassembled",
+      "issues": "Avengers (1963) #500–503; Avengers Finale",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A consequential, divisive Wanda milestone rather than a balanced solo introduction.",
+      "isbns": [
+        "9780785170112"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "scarlet-witch-5",
+      "year": 2005,
+      "date": "2005",
+      "title": "House of M",
+      "issues": "House of M #1–8",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major reality-changing event with lasting consequences for Wanda and the mutants.",
+      "isbns": [
+        "9780785170570"
+      ],
+      "match": "Use the core House of M book; the many similarly named tie-ins are not substitutes.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "scarlet-witch-6",
+      "year": 2010,
+      "date": "2010–2012",
+      "title": "The Children’s Crusade",
+      "issues": "Avengers: The Children’s Crusade #1–9",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A crucial later chapter following Disassembled and House of M.",
+      "isbns": [
+        "9780785136385"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "scarlet-witch-7",
+      "year": 2015,
+      "date": "2015–2017",
+      "title": "Witches’ Road",
+      "issues": "Scarlet Witch (2015) #1–15",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Robinson’s solo run puts Wanda’s magic and perspective at the center.",
+      "isbns": [
+        "9781302935320"
+      ],
+      "match": "The Complete Collection covers the run. Witches’ Road, World of Witchcraft and The Final Hex are overlapping smaller volumes.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    },
+    {
+      "id": "scarlet-witch-8",
+      "year": 2023,
+      "date": "2023",
+      "title": "The Last Door",
+      "issues": "Scarlet Witch (2023) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Orlando’s solo opening offers a modern heroic starting point.",
+      "isbns": [
+        "9781302525385"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "readers"
+      ]
+    }
+  ]
+}

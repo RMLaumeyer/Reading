@@ -1,0 +1,135 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Hulk",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Bruce Banner’s recommended highlights, including alternate-future stories and the distinct horror approach of Immortal Hulk.",
+  "sources": {
+    "best": {
+      "label": "GamesRadar · best Hulk stories",
+      "url": "https://www.gamesradar.com/best-hulk-stories/"
+    },
+    "readers": {
+      "label": "Hulk readers · release-order path",
+      "url": "https://www.reddit.com/r/hulk/comments/1k12lxw/"
+    },
+    "list": {
+      "label": "ComicBook.com · Hulk recommendations",
+      "url": "https://comicbook.com/comics/list/10-best-hulk-comics-for-non-hulk-fans/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "hulk-1",
+      "label": "Future Imperfect",
+      "description": "A compact Peter David/George Pérez encounter with a possible future."
+    },
+    {
+      "storyId": "hulk-2",
+      "label": "Hulk: Gray",
+      "description": "A reflective retelling of Banner’s early days."
+    },
+    {
+      "storyId": "hulk-3",
+      "label": "Planet Hulk",
+      "description": "An accessible off-world adventure and one of the most frequent reader recommendations."
+    }
+  ],
+  "stories": [
+    {
+      "id": "hulk-1",
+      "year": 1992,
+      "date": "1992–1993",
+      "title": "Future Imperfect",
+      "issues": "Incredible Hulk: Future Imperfect #1–2",
+      "universe": "Alternate future",
+      "start": true,
+      "why": "A compact Peter David/George Pérez encounter with a possible future.",
+      "isbns": [
+        "9781302479947"
+      ],
+      "match": "The matched book collects the two-part story.",
+      "sources": [
+        "best",
+        "readers",
+        "list"
+      ]
+    },
+    {
+      "id": "hulk-2",
+      "year": 2003,
+      "date": "2003–2004",
+      "title": "Hulk: Gray",
+      "issues": "Hulk: Gray #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A reflective retelling of Banner’s early days.",
+      "isbns": [
+        "9780785178439"
+      ],
+      "match": "Published decades after the origin; placed here by publication.",
+      "sources": [
+        "best",
+        "readers",
+        "list"
+      ]
+    },
+    {
+      "id": "hulk-3",
+      "year": 2006,
+      "date": "2006–2007",
+      "title": "Planet Hulk",
+      "issues": "Incredible Hulk (1999) #92–105",
+      "universe": "Main universe",
+      "start": true,
+      "why": "An accessible off-world adventure and one of the most frequent reader recommendations.",
+      "isbns": [
+        "9780785170624"
+      ],
+      "match": "The catalog title’s “#1–14” is not the original Incredible Hulk numbering. The collection is Planet Hulk; original core issues are #92–105.",
+      "sources": [
+        "best",
+        "readers",
+        "list"
+      ]
+    },
+    {
+      "id": "hulk-4",
+      "year": 2007,
+      "date": "2007",
+      "title": "World War Hulk",
+      "issues": "World War Hulk #1–5",
+      "universe": "Main universe",
+      "start": false,
+      "why": "The direct follow-up to Planet Hulk; read the exile story first.",
+      "isbns": [
+        "9780785171393"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "readers",
+        "list"
+      ]
+    },
+    {
+      "id": "hulk-5",
+      "year": 2018,
+      "date": "2018–2019",
+      "title": "Immortal Hulk: Or Is He Both?",
+      "issues": "Immortal Hulk (2018) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Ewing’s horror-focused relaunch offers another strong starting point.",
+      "isbns": [
+        "9781302507169"
+      ],
+      "match": "This opens the fifty-issue Immortal Hulk run; later volumes continue it.",
+      "sources": [
+        "best",
+        "readers",
+        "list"
+      ]
+    }
+  ]
+}

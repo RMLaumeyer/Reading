@@ -1,0 +1,175 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Captain America",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "A Steve Rogers-focused path with a Sam Wilson continuation. Modern retellings appear at publication date rather than being moved back to World War II.",
+  "sources": {
+    "best": {
+      "label": "GamesRadar · Captain America highlights",
+      "url": "https://www.gamesradar.com/best-captain-america-comics/"
+    },
+    "order": {
+      "label": "Comic Book Herald · Captain America order",
+      "url": "https://www.comicbookherald.com/captain-america-reading-order-modern-marvel-era/"
+    },
+    "guide": {
+      "label": "Comic Book Treasury · Captain America eras",
+      "url": "https://www.comicbooktreasury.com/captain-america-reading-order/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "captain-america-3",
+      "label": "Operation Rebirth",
+      "description": "Waid and Garney provide an energetic modern-classic introduction."
+    },
+    {
+      "storyId": "captain-america-4",
+      "label": "The Winter Soldier",
+      "description": "A strong modern entry point built around espionage and Steve’s past."
+    },
+    {
+      "storyId": "captain-america-6",
+      "label": "Man Out of Time",
+      "description": "A compact introduction to Steve’s displacement into the modern world."
+    }
+  ],
+  "stories": [
+    {
+      "id": "captain-america-1",
+      "year": 1973,
+      "date": "1973–1974",
+      "title": "The Secret Empire",
+      "issues": "Captain America (1968) #169–176",
+      "universe": "Main universe",
+      "start": false,
+      "why": "An important political crisis for Steve’s ideals.",
+      "isbns": [
+        "9781302524548"
+      ],
+      "match": "The Epic Collection covers #160–179; this is the 1970s Secret Empire, not the 2017 event.",
+      "sources": [
+        "best",
+        "order",
+        "guide"
+      ]
+    },
+    {
+      "id": "captain-america-2",
+      "year": 1987,
+      "date": "1987–1989",
+      "title": "The Captain",
+      "issues": "Captain America (1968) #332–350",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Steve’s conflict over who owns the symbol becomes the central question.",
+      "isbns": [
+        "9781302481988"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "guide"
+      ]
+    },
+    {
+      "id": "captain-america-3",
+      "year": 1995,
+      "date": "1995–1996",
+      "title": "Operation Rebirth",
+      "issues": "Captain America (1968) #444–448",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Waid and Garney provide an energetic modern-classic introduction.",
+      "isbns": [
+        "9781302368005"
+      ],
+      "match": "The collection also continues with #450–454.",
+      "sources": [
+        "best",
+        "order",
+        "guide"
+      ]
+    },
+    {
+      "id": "captain-america-4",
+      "year": 2005,
+      "date": "2005–2006",
+      "title": "The Winter Soldier",
+      "issues": "Captain America (2005) #1–9, #11–14",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A strong modern entry point built around espionage and Steve’s past.",
+      "isbns": [
+        "9781302531782"
+      ],
+      "match": "The Premier Collection has the core arc; it skips #10. Do not confuse it with Brubaker’s separate 2011 relaunch.",
+      "sources": [
+        "best",
+        "order",
+        "guide"
+      ]
+    },
+    {
+      "id": "captain-america-5",
+      "year": 2007,
+      "date": "2007–2008",
+      "title": "The Death of Captain America",
+      "issues": "Captain America (2005) #25–42",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major legacy story that follows the Winter Soldier era and Civil War.",
+      "isbns": [
+        "9780785170181",
+        "9780785170198",
+        "9780785170204"
+      ],
+      "match": "Read all three volumes in listed order: #25–30, #31–36, then #37–42.",
+      "sources": [
+        "best",
+        "order",
+        "guide"
+      ]
+    },
+    {
+      "id": "captain-america-6",
+      "year": 2010,
+      "date": "2010–2011",
+      "title": "Man Out of Time",
+      "issues": "Captain America: Man Out of Time #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A compact introduction to Steve’s displacement into the modern world.",
+      "isbns": [
+        "9781302370336"
+      ],
+      "match": "A later retelling of his early modern-day adjustment; placed here by publication.",
+      "sources": [
+        "best",
+        "order",
+        "guide"
+      ]
+    },
+    {
+      "id": "captain-america-7",
+      "year": 2015,
+      "date": "2015–2016",
+      "title": "Sam Wilson: Captain America",
+      "issues": "Captain America: Sam Wilson (2015) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A different bearer of the shield confronts what representing America means.",
+      "isbns": [
+        "9781302485542"
+      ],
+      "match": "Sam Wilson is Captain America here; this is a new starting point within the same universe.",
+      "sources": [
+        "best",
+        "order",
+        "guide"
+      ]
+    }
+  ]
+}

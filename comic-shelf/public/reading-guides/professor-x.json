@@ -1,0 +1,18 @@
+{
+  "title":"Professor X", "subtitle":"Charles Xavier: the dream, the secrets, and the consequences.", "group":"X-Men", "intro":"Xavier is usually best understood through team stories. New X-Men is a modern entrance; Legacy is the more focused character study, but its opening collections could not be confirmed in this catalog.", "checkedAt":"2026-10-27",
+  "starts":[{"storyId":"new-xmen","label":"A modern school-era entrance","description":"New X-Men · 2001"},{"storyId":"legacy","label":"Xavier’s character study","description":"Legacy · catalog match unconfirmed"}],
+  "sources":{
+    "herald":{"label":"Comic Book Herald · Professor X essentials","url":"https://www.comicbookherald.com/professor-x-reading-order/"},
+    "legacy":{"label":"Marvel · Divided He Stands contents and focus","url":"https://www.marvel.com/comics/collection/22595/x-men_legacy_-_divided_he_stands_trade_paperback"},
+    "classic":{"label":"Marvel · Xavier’s history in Uncanny #161","url":"https://www.marvel.com/comics/discover/267/hydr"},
+    "krakoa":{"label":"Marvel · Start Here: X-Men","url":"https://share.marvel.com/comics/discover/1188/start-here-x-men"}
+  },
+  "stories":[
+    {"id":"first-meeting","year":1982,"date":"1982","title":"Xavier & Magneto’s first meeting","issues":"Uncanny X-Men (1963) #161","universe":"Main universe · historical flashback","why":"A key look at Charles’s past and his relationship with Magneto.","isbns":["9781302479626"],"match":"Uncanny Masterworks Vol. 8 includes #161–167. Read the #161 flashback here; the collection also continues the broader team story.","sources":["classic"]},
+    {"id":"new-xmen","year":2001,"date":"2001","title":"E Is for Extinction","issues":"New X-Men (2001) #114–117","universe":"Main universe","start":true,"why":"A modern team relaunch that changes Xavier’s public role.","isbns":["9780785170846"],"match":"The dedicated Vol. 1 contains #114–117 and the 2001 annual. The larger E Is for Extinction Epic is an alternative covering more issues.","sources":["herald"]},
+    {"id":"deadly-genesis","year":2005,"date":"2005–2006","title":"Deadly Genesis","issues":"X-Men: Deadly Genesis (2005) #1–6","universe":"Main universe","why":"A major reassessment of Xavier’s decisions. Read after some classic X-Men context.","isbns":[],"match":"No confirmed matching collection in the supplied catalog. This is the six-issue Brubaker series, not a generic origin collection.","sources":["herald"]},
+    {"id":"legacy","year":2008,"date":"2008","title":"Legacy: Divided He Stands","issues":"X-Men: Legacy (2008) #208–212","universe":"Main universe","start":true,"why":"A Xavier-centered recovery and reflection story following Messiah Complex.","isbns":[],"match":"No confirmed match for this opening Legacy collection. The catalog’s Lost Legions and Five Miles South of the Universe are later arcs and do not replace it.","sources":["herald","legacy"]},
+    {"id":"life-of-x","year":2017,"date":"2017–2018","title":"Life of X & A Man Called X","issues":"Astonishing X-Men (2017) #1–12","universe":"Main universe","why":"A pivotal Xavier return, best with earlier familiarity.","isbns":["9781302502607","9781302505318"],"match":"Read Life of X (#1–6), then A Man Called X (#7–12). These are consecutive volumes, not alternative editions.","sources":["herald"]},
+    {"id":"krakoa","year":2019,"date":"2019","title":"House of X / Powers of X","issues":"House of X (2019) #1–6; Powers of X (2019) #1–6","universe":"Main universe","start":true,"why":"Xavier helps launch a new mutant status quo.","isbns":["9781302517410"],"match":"The combined collection supplies the interleaved twelve-part reading order. X-Men ’92: House of XCII is a different version.","sources":["krakoa"]}
+  ]
+}

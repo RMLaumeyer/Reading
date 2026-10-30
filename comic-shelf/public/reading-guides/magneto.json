@@ -1,0 +1,155 @@
+{
+  "title": "Magneto",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Erik’s milestones move between adversary, ally, and solo lead. His origin story is placed at its publication date.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "infamous",
+      "label": "Solo antihero",
+      "description": "Cullen Bunn’s 2014 opening."
+    },
+    {
+      "storyId": "god-loves",
+      "label": "Classic team story",
+      "description": "A contained story with a substantial role."
+    }
+  ],
+  "sources": {
+    "magnetoguide": {
+      "label": "Comic Book Treasury · Magneto essentials",
+      "url": "https://www.comicbooktreasury.com/magneto-comics-reading-order/"
+    },
+    "magneto": {
+      "label": "Magneto readers · recommended runs",
+      "url": "https://www.reddit.com/r/xmen/comments/1hef25n/"
+    },
+    "magnetoorder": {
+      "label": "Crushing Krisis · Magneto collected editions",
+      "url": "https://crushingkrisis.com/definitive-guide-to-collecting-x-men-as-graphic-novels/magneto-collecting-guide-trade-reading-order/"
+    }
+  },
+  "stories": [
+    {
+      "id": "i-magneto",
+      "year": 1981,
+      "date": "1981",
+      "title": "I, Magneto",
+      "issues": "Uncanny X-Men #150",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A landmark in his portrayal.",
+      "isbns": [
+        "9781302939854",
+        "9781302479602"
+      ],
+      "match": "Both collections contain #150; choose either edition.",
+      "sources": [
+        "magnetoguide"
+      ]
+    },
+    {
+      "id": "god-loves",
+      "year": 1982,
+      "date": "1982",
+      "title": "God Loves, Man Kills",
+      "issues": "Marvel Graphic Novel #5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A contained team story with Magneto in an important role.",
+      "isbns": [
+        "9781302531027"
+      ],
+      "match": "The Epic Collection includes the graphic novel as well as surrounding team stories.",
+      "sources": [
+        "magnetoguide"
+      ]
+    },
+    {
+      "id": "trial",
+      "year": 1985,
+      "date": "1985",
+      "title": "The Trial of Magneto",
+      "issues": "Uncanny X-Men #200",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major Claremont-era turning point.",
+      "isbns": [
+        "9781302534172",
+        "9781302519803"
+      ],
+      "match": "These collections contain #200. The Trial of Magneto (2021) is a different event.",
+      "sources": [
+        "magnetoguide"
+      ]
+    },
+    {
+      "id": "testament",
+      "year": 2008,
+      "date": "2008–2009",
+      "title": "Magneto Testament",
+      "issues": "X-Men: Magneto Testament #1–5",
+      "universe": "Main universe · historical retrospective",
+      "start": true,
+      "why": "A frequently recommended historical origin story.",
+      "isbns": [],
+      "match": "No confirmed collection match in the supplied catalog. This recounts his childhood but belongs here by publication date.",
+      "sources": [
+        "magneto"
+      ]
+    },
+    {
+      "id": "infamous",
+      "year": 2014,
+      "date": "2014",
+      "title": "Magneto: Infamous",
+      "issues": "Magneto (2014) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Cullen Bunn’s solo opening.",
+      "isbns": [
+        "9781302401146"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "magneto"
+      ]
+    },
+    {
+      "id": "red",
+      "year": 2022,
+      "date": "2022",
+      "title": "X-Men Red by Al Ewing",
+      "issues": "X-Men Red (2022) #1–5 to begin",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A modern ensemble role alongside Storm.",
+      "isbns": [
+        "9781302944285"
+      ],
+      "match": "This starts the Red run; later volumes and Judgment Day develop the arc.",
+      "sources": [
+        "magneto",
+        "magnetoorder"
+      ]
+    },
+    {
+      "id": "resurrection",
+      "year": 2024,
+      "date": "2024",
+      "title": "Resurrection of Magneto",
+      "issues": "Resurrection of Magneto #1–4",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A later milestone after X-Men Red.",
+      "isbns": [
+        "9781302529697"
+      ],
+      "match": "Best after the Red/Judgment Day context; not an isolated first read.",
+      "sources": [
+        "magneto"
+      ]
+    }
+  ]
+}

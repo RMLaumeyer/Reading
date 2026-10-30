@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 import re
 import urllib.request
 from urllib.parse import urlsplit
+import issue_designators
 
 
 def check_url(url):
@@ -111,6 +112,10 @@ def parse(raw, url):
                     'issue': {'series': m[1], 'year': None, 'number': int(m[2])} if m else None,
                     'identityState': 'unresolved' if m and not candidates else 'unsupported'}
             sequence.append(slot)
+            if not m:
+                designation = issue_designators.decimal_issue(line)
+                if designation:
+                    slot['unsupportedIssueDesignation'] = designation
             if not m or len(candidates) != 1 or not 1900 <= next(iter(candidates)) <= 2100:
                 problems.append({'quote': line, 'reason': 'Unsupported issue or missing/conflicting year for exact series within selected tab'})
                 continue

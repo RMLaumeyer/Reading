@@ -1,0 +1,148 @@
+{
+  "title": "Cyclops",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Scott Summers often shines inside team stories. These entries explain that focus rather than treating every X-Men appearance as a solo story.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "gifted",
+      "label": "Adult Scott as leader",
+      "description": "Begin with a modern team story."
+    },
+    {
+      "storyId": "starstruck",
+      "label": "Young Scott solo",
+      "description": "A space adventure with his father."
+    }
+  ],
+  "sources": {
+    "cyclops": {
+      "label": "ComicsXF · Cyclops essential stories",
+      "url": "https://comicsxf.com/2026/02/10/cyclops-10-best-stories-according-to-battle-of-the-atom/"
+    },
+    "dueldate": {
+      "label": "UncannyXMen.net · 1986 publication history",
+      "url": "https://uncannyxmen.net/publication-history/1986"
+    },
+    "cyclops2": {
+      "label": "Comic Vine · Cyclops must-reads",
+      "url": "https://comicvine.gamespot.com/articles/cyclops-must-read-stories/1100-149897/"
+    },
+    "cyclops3": {
+      "label": "Cyclops readers · recommended starting points",
+      "url": "https://www.reddit.com/r/Cyclopswasright/comments/1v07dph/cyclops_recommendations/"
+    },
+    "adventures": {
+      "label": "X-Men readers · Cyclops highlights",
+      "url": "https://www.reddit.com/r/xmen/comments/1epq9mx/"
+    }
+  },
+  "stories": [
+    {
+      "id": "romances",
+      "year": 1983,
+      "date": "1983",
+      "title": "Romances",
+      "issues": "Uncanny X-Men #174–175",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A Scott-focused relationship turning point.",
+      "isbns": [
+        "9781302485863"
+      ],
+      "match": "Masterworks Vol.9 contains both issues; this is a team collection.",
+      "sources": [
+        "cyclops"
+      ]
+    },
+    {
+      "id": "duel",
+      "year": 1986,
+      "date": "1986",
+      "title": "Duel",
+      "issues": "Uncanny X-Men #201",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A test of Scott’s leadership.",
+      "isbns": [
+        "9781302534172",
+        "9781302938291"
+      ],
+      "match": "Wounded Wolf and Masterworks Vol.13 both index #201. Choose one; they overlap.",
+      "sources": [
+        "cyclops",
+        "dueldate"
+      ]
+    },
+    {
+      "id": "adventures",
+      "year": 1994,
+      "date": "1994",
+      "title": "The Adventures of Cyclops and Phoenix",
+      "issues": "The Adventures of Cyclops and Phoenix #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Scott and Jean share a family-centered miniseries.",
+      "isbns": [
+        "9781302397494"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "adventures"
+      ]
+    },
+    {
+      "id": "gifted",
+      "year": 2004,
+      "date": "2004",
+      "title": "Astonishing X-Men: Gifted",
+      "issues": "Astonishing X-Men (2004) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A team entry point with Scott as leader.",
+      "isbns": [
+        "9780785170037",
+        "9781302527464"
+      ],
+      "match": "Choose Vol.1 for #1–6 or the Modern Era Epic for #1–12.",
+      "sources": [
+        "cyclops2"
+      ]
+    },
+    {
+      "id": "passion",
+      "year": 2012,
+      "date": "2012",
+      "title": "The Passion of Scott Summers",
+      "issues": "Uncanny X-Men (2011) #19",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A Scott-focused chapter during Avengers vs. X-Men.",
+      "isbns": [
+        "9781302368456"
+      ],
+      "match": "Vol.4 contains #15–20. Read with the Avengers vs. X-Men event for context.",
+      "sources": [
+        "cyclops"
+      ]
+    },
+    {
+      "id": "starstruck",
+      "year": 2014,
+      "date": "2014",
+      "title": "Cyclops: Starstruck",
+      "issues": "Cyclops (2014) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A solo route following time-displaced young Scott.",
+      "isbns": [
+        "9781302470968"
+      ],
+      "match": "This is younger Scott displaced into the present, not adult Scott’s next chapter.",
+      "sources": [
+        "cyclops3"
+      ]
+    }
+  ]
+}

@@ -13,6 +13,8 @@ import series_references
 import order_identity
 import order_sources
 import order_discovery
+import decimal_membership
+import decimal_research
 
 REGISTRY = {'annihilation': [
     {'adapter': 'marvelguides', 'url': 'https://marvelguides.com/annihilation-reading-order',
@@ -53,12 +55,25 @@ def compare(left, right):
             'note': 'Agreement does not establish source independence, completeness, or required prerequisites. Differences remain evidence; no automatic merged order.'}
 
 
-def research_tasks(paths, edition_warnings):
+def research_tasks(paths, edition_warnings, comparisons=()):
     """Keep a finite, evidence-linked work list without inventing identity answers."""
     tasks = [{'kind':'edition_identity_disagreement','priority':1,'evidence':warning,
               'action':'Find dated original-series evidence and verify target ISBN contents; do not pick a year by majority.'}
              for warning in edition_warnings]
     grouped = {}
+    for comparison in comparisons:
+        for conflict in comparison['orderConflicts']:
+            evidence=[]
+            for path in paths:
+                if path['sourceUrl'] not in comparison['sources']:continue
+                for node in path['orderedIssues']:
+                    if identity(node) in (tuple(conflict['first']),tuple(conflict['second'])):
+                        evidence.append({'url':path['sourceUrl'],'position':node['position'],
+                            'quote':node['quote'],'issue':node['issue'],
+                            'sourceIssue':node.get('sourceIssue'),'identityRequiresReview':node.get('identityRequiresReview',False)})
+            tasks.append({'kind':'reading_order_disagreement','priority':1,
+                'issues':conflict,'evidence':evidence,
+                'action':'Acquire explicit sequence evidence for this pair; retain both recommendations and do not merge by majority.'})
     for path in paths:
         for slot in path.get('sourceSequence',[]):
             if slot.get('identityState')=='resolved':continue
@@ -112,7 +127,7 @@ def main():
     save(folder/'manifest.json', {'event': args.event, 'sources': sources, 'inputs': hashes,
          'codeSha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__),
              Path(cbro_order.__file__), Path(guide_order.__file__), Path(collection_path.__file__), Path(series_references.__file__), Path(order_identity.__file__),
-             Path(order_sources.__file__),Path(order_sources.edition_sources.__file__),Path(order_sources.edition_trial.__file__),Path(order_discovery.__file__)]},
+             Path(order_sources.__file__),Path(order_sources.edition_sources.__file__),Path(order_sources.edition_trial.__file__),Path(order_discovery.__file__),Path(guide_order.issue_designators.__file__),Path(decimal_membership.__file__),Path(decimal_research.__file__)]},
          'identityDiscoveryRequested':args.discover_identities,'maxIdentityPages':args.max_identity_pages,
          'discoveryMode': 'Exact event lookup in public indexes' if args.discover_guides else 'Registered public sources; no general web discovery'})
     paths, failures, extracted = [], [], []
@@ -147,25 +162,39 @@ def main():
         books = json.loads(catalog_file.read_text(encoding='utf-8'))['books']
         save(folder/'catalog-input.json',{'sha256':hashlib.sha256(catalog_file.read_bytes()).hexdigest()})
         unresolved_paths = [order_identity.resolve(p,editions) for _,p in extracted]
-        plan = order_sources.plan(unresolved_paths,books,[e['isbn'] for e in editions],args.max_identity_pages,
+        decimal_candidates = decimal_research.plan(unresolved_paths, books,args.event.replace('-',' '),
+            [e['isbn'] for e in editions], min(2,args.max_identity_pages))
+        plan = order_sources.plan(unresolved_paths,books,[e['isbn'] for e in editions]+[c['isbn'] for c in decimal_candidates],args.max_identity_pages-len(decimal_candidates),
                                   event_label=args.event.replace('-',' '))
         identity_sources = order_sources.acquire(plan,books,folder/'identity-discovery')
+    packets = [json.loads(Path(filename).read_text(encoding='utf-8')) for filename in hashes
+               if Path(filename).name == 'packet.json']
+    if args.discover_identities:
+        packets.extend(decimal_research.acquire(decimal_candidates,folder/'decimal-discovery'))
+    decimal_report = decimal_membership.match_paths([p for _,p in extracted], packets)
+    decimal_editions = decimal_membership.draft_inventory(editions, decimal_report)
+    save(folder/'decimal-membership.json', decimal_report)
+    save(folder/'decimal-inventory.json', [{'isbn': e['isbn'],
+         'decimalEntries':e['result']['contents'].get('decimalEntries',[])} for e in decimal_editions])
     for target, path in extracted:
         try:
             path = order_identity.resolve(path, editions, identity_sources)
+            path = decimal_membership.resolve_path(path, decimal_report)
             save(target/'path.json',path)
-            save(target/'collection-path.json',collection_path.build(path,editions))
+            save(target/'collection-path.json',collection_path.build(path,decimal_editions))
             paths.append(path)
         except (ValueError,KeyError,TypeError) as exc:
             failure={'url':path['sourceUrl'],'stage':'identity_mapping','errorType':type(exc).__name__}
             failures.append(failure);save(target/'mapping-error.json',failure)
     comparisons = [compare(a, b) for i, a in enumerate(paths) for b in paths[i+1:]]
-    tasks = research_tasks(paths,identity_warnings)
+    tasks = research_tasks(paths,identity_warnings,comparisons)
     save(folder/'research-tasks.json',tasks)
     report = {'acquiredSources': len(paths), 'failures': failures, 'comparisons': comparisons,
               'guideDiscovery':discovery_report,
               'editionIdentityWarnings': identity_warnings,
               'researchTaskCount':len(tasks),
+              'decimalMembershipCandidates':sum(bool(m['membershipCandidates']) for m in decimal_report['matches']),
+              'decimalEquivalentNumberingSupported':decimal_report['positionsWithSupportedEquivalentNumbering'],
               'state': 'needs_review' if identity_warnings or failures or not comparisons or any(c['state'] == 'needs_review' for c in comparisons) else 'agreement_on_listed_issues',
               'eligibleForPublication': False}
     save(folder/'report.json', report)

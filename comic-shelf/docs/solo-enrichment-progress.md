@@ -165,3 +165,47 @@ guide. Conflicting years and unverified volume aliases remain unresolved.
 227 tests pass; Annihilation sequence controls remain unchanged, and 5,642
 pre-existing public/data files were preserved. Complete reading order and
 verified edition coverage remain outstanding.
+
+## Index discovery and decimal capture — 2026-10-08
+
+[Discovery assessment](solo-index-discovery.md) records automatic event-page
+discovery, bounded ISBN identity research and overlapping-year conflict warnings.
+Black Vortex now resolves eight of thirteen identities per source, with six and
+four of twelve adjacent pairs. Complete order and verified placements remain
+outstanding. Original Sin discovery preserved 67 and 141 source positions in
+different scopes; these are operational results without accuracy adjudication.
+Decimal capture retains nine and one previously unsupported designations without
+accepting identities or membership. All six saved-source regression sequences
+remain unchanged. 252 tests pass and 5,651 pre-existing public/data files are
+unchanged. Reading order and contained/featured stories remain the priorities.
+
+## Automatic decimal membership evidence — 2026-10-08
+
+[Decimal membership trial](solo-decimal-membership.md) automatically links four
+Original Sin source positions to explicit ISBN-matched equivalent numbering.
+Six decimal positions remain without evidence. Both guides were discovered and
+downloaded in a live run. Candidates retain the existing inventory conflict and
+do not add accepted identities. 255 tests pass; prior resolved sequences and
+5,651 pre-existing public/data files remain unchanged.
+
+## Scoped numbering reconciliation — 2026-10-08
+
+The [decimal membership collector](solo-decimal-membership.md) now automatically
+checks catalog numbering against the explicit alias and all supplied collecting
+evidence. Four Original Sin candidates pass; six decimal positions still lack
+evidence. Global conflicts and identity review remain visible. A fresh live
+run preserved previous accepted sequences; 258 tests pass and the preservation
+audit finds no changes to 5,651 pre-existing public/data files. Typed decimal
+mapping and independent accuracy validation remain outstanding.
+
+## Typed decimal mapping and unattended event collection — 2026-10-08
+
+[Unattended event trial](solo-unattended-event.md) now selects edition candidates
+from the catalog and runs local enrichment plus guide discovery from a single
+event slug. The seven-edition Original Sin run completed with no model stage
+errors, producing 26/50 draft reading-path identities and four decimal placements
+per guide. Explicit alias normalization revealed four source order inversions,
+now retained as evidence-linked research tasks. Zero placements are fully
+verified; issue-level named stories remain absent. 270 tests pass. Annihilation
+29/33 sequences remain unchanged, and all 6,211 pre-run public/data files are
+preserved. Unaided accuracy and completeness remain unproven.

@@ -1,0 +1,182 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Avengers",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Team highlights across classic and modern eras. Bendis and Busiek offer accessible beginnings; Hickman is a longer connected project. Team membership changes, so this is not one fixed roster.",
+  "sources": {
+    "readers": {
+      "label": "Readers · Avengers starting points",
+      "url": "https://www.reddit.com/r/marvelcomics/comments/1kce77y/"
+    },
+    "order": {
+      "label": "Comic Book Reading Orders · Avengers chronology",
+      "url": "https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/"
+    },
+    "ultron": {
+      "label": "ComicBook.com · Ultron Unlimited recommendation",
+      "url": "https://comicbook.com/comics/feature/this-is-the-greatest-avengers-story-ever-and-its-not-in-print-anymore/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "avengers-1",
+      "label": "The Coming of the Avengers",
+      "description": "The original formation, including Captain America’s arrival. A classic-era starting point."
+    },
+    {
+      "storyId": "avengers-4",
+      "label": "Busiek & Pérez: Heroes Return",
+      "description": "A useful bridge into classic team dynamics with a fresh launch."
+    },
+    {
+      "storyId": "avengers-7",
+      "label": "New Avengers: Breakout",
+      "description": "Bendis launches a new team with a very different mix of heroes."
+    }
+  ],
+  "stories": [
+    {
+      "id": "avengers-1",
+      "year": 1963,
+      "date": "1963–1964",
+      "title": "The Coming of the Avengers",
+      "issues": "Avengers (1963) #1–10",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The original formation, including Captain America’s arrival. A classic-era starting point.",
+      "isbns": [
+        "9780785170099"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "avengers-2",
+      "year": 1971,
+      "date": "1971–1972",
+      "title": "The Kree/Skrull War",
+      "issues": "Avengers (1963) #89–97",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major early cosmic team epic.",
+      "isbns": [
+        "9780785170129"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "avengers-3",
+      "year": 1986,
+      "date": "1986–1987",
+      "title": "Under Siege",
+      "issues": "Avengers (1963) #270–277",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A defining siege of Avengers Mansion.",
+      "isbns": [
+        "9781302486136"
+      ],
+      "match": "The Under Siege Epic covers #264–277, including the core siege.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "avengers-4",
+      "year": 1998,
+      "date": "1998",
+      "title": "Busiek & Pérez: Heroes Return",
+      "issues": "Avengers (1998) #1–11",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A useful bridge into classic team dynamics with a fresh launch.",
+      "isbns": [
+        "9780785170075"
+      ],
+      "match": "Avengers Assemble Vol. 1 is the Busiek/Pérez collection, not the animated Marvel Universe Avengers Assemble series.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "avengers-5",
+      "year": 1998,
+      "date": "1998–1999",
+      "title": "Avengers Forever",
+      "issues": "Avengers Forever (1998) #1–12",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A time-travel celebration of Avengers history; save until the team feels familiar.",
+      "isbns": [
+        "9780785170082"
+      ],
+      "match": "This is the 1998 Busiek/Pacheco series, not Jason Aaron’s later Avengers Forever.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "avengers-6",
+      "year": 1999,
+      "date": "1999",
+      "title": "Ultron Unlimited",
+      "issues": "Avengers (1998) #19–22",
+      "universe": "Main universe",
+      "start": false,
+      "why": "An acclaimed Busiek/Pérez confrontation with Ultron.",
+      "isbns": [
+        "9781302014124"
+      ],
+      "match": "Avengers Assemble Vol. 2 covers #12–23 and #0; the core Ultron story is inside.",
+      "sources": [
+        "ultron",
+        "order"
+      ]
+    },
+    {
+      "id": "avengers-7",
+      "year": 2005,
+      "date": "2005",
+      "title": "New Avengers: Breakout",
+      "issues": "New Avengers (2005) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Bendis launches a new team with a very different mix of heroes.",
+      "isbns": [
+        "9780785170815"
+      ],
+      "match": "Choose this six-issue Breakout volume to begin; Complete Collection Vol. 1 overlaps it.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "avengers-8",
+      "year": 2012,
+      "date": "2012–2013",
+      "title": "Hickman: Avengers World / Everything Dies",
+      "issues": "Avengers (2012) #1–6; New Avengers (2013) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Two parallel series begin a larger saga. Read both before moving toward Infinity and Time Runs Out.",
+      "isbns": [
+        "9781302013622",
+        "9781302013738"
+      ],
+      "match": "These are complementary books, not alternate editions: Avengers World starts Avengers; Everything Dies starts New Avengers.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    }
+  ]
+}

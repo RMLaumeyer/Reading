@@ -9,6 +9,7 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 from parse_sources import Page
+import approved_synopses
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / 'data/cache'
@@ -55,6 +56,7 @@ def publish(automatic, state):
     existing = json.loads((ROOT/'public/enrichment.json').read_text(encoding='utf-8'))
     editorial = {k:v for k,v in existing['books'].items() if v.get('level') != 'basic'}
     books = {**automatic, **editorial}
+    books = approved_synopses.apply(books, ROOT/'data/approved-synopses.json')
     status = dict(state['summary'], enriched=len(books), fullyChecked=len(editorial), basic=len(automatic))
     write_json(AUTO, automatic)
     write_json(STATE, state)

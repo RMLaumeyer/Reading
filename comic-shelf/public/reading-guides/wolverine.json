@@ -1,0 +1,142 @@
+{
+  "title": "Wolverine",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Logan’s defining solo stories, ordered by publication rather than by his long in-universe lifespan.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "japan",
+      "label": "A classic solo start",
+      "description": "Claremont and Miller’s four issues."
+    },
+    {
+      "storyId": "adamantium-men",
+      "label": "Modern action",
+      "description": "Jason Aaron’s solo opening."
+    }
+  ],
+  "sources": {
+    "wolv": {
+      "label": "GamesRadar · Wolverine best stories",
+      "url": "https://www.gamesradar.com/comics/marvel-comics/best-wolverine-comics/"
+    },
+    "wolvorder": {
+      "label": "Walt’s Comic Shop · Wolverine essentials and issues",
+      "url": "https://waltscomicshop.com/blogs/beyond-the-panels-comics-wiki-reading-orders/best-wolverine-comics-essential-stories-reading-order-for-logan-fans"
+    },
+    "wolvreaders": {
+      "label": "Wolverine readers · essential-story discussion",
+      "url": "https://www.reddit.com/r/Wolverine/comments/1unmknb/top_20_wolverine_stories_part_12_dying_game_won/"
+    }
+  },
+  "stories": [
+    {
+      "id": "japan",
+      "year": 1982,
+      "date": "1982",
+      "title": "Wolverine by Claremont & Miller",
+      "issues": "Wolverine (1982) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A focused first solo story.",
+      "isbns": [
+        "9780785178248",
+        "9781302940478"
+      ],
+      "match": "Choose the standard or deluxe edition; both contain the original four-issue miniseries.",
+      "sources": [
+        "wolv",
+        "wolvorder"
+      ]
+    },
+    {
+      "id": "weapon-x",
+      "year": 1991,
+      "date": "1991",
+      "title": "Weapon X",
+      "issues": "Marvel Comics Presents (1988) #72–84",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The adamantium experiment story.",
+      "isbns": [
+        "9781302370015"
+      ],
+      "match": "This is Barry Windsor-Smith’s Weapon X, not the later Return of Weapon X or Wolverine Weapon X series.",
+      "sources": [
+        "wolvorder"
+      ]
+    },
+    {
+      "id": "origin",
+      "year": 2001,
+      "date": "2001",
+      "title": "Origin",
+      "issues": "Origin (2001) #1–6",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A childhood milestone, published much later.",
+      "isbns": [
+        "9780785178255"
+      ],
+      "match": "Cataloged as Wolverine: Origin; kept here by publication date despite its early setting.",
+      "sources": [
+        "wolv"
+      ]
+    },
+    {
+      "id": "enemy-state",
+      "year": 2004,
+      "date": "2004",
+      "title": "Enemy of the State",
+      "issues": "Wolverine (2003) #20–32",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A fast-paced action choice.",
+      "isbns": [
+        "9780785171331"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "wolv",
+        "wolvorder"
+      ]
+    },
+    {
+      "id": "old-man",
+      "year": 2008,
+      "date": "2008–2009",
+      "title": "Old Man Logan",
+      "issues": "Wolverine (2003) #66–72; Wolverine: Old Man Logan Giant-Size #1",
+      "universe": "Alternate continuity",
+      "start": false,
+      "why": "An alternate-future story for later reading.",
+      "isbns": [
+        "9780785171355",
+        "9781302532581"
+      ],
+      "match": "Choose either edition of the original story. The later Old Man Logan ongoing and Warzones are different stories.",
+      "sources": [
+        "wolv"
+      ]
+    },
+    {
+      "id": "adamantium-men",
+      "year": 2009,
+      "date": "2009",
+      "title": "Wolverine Weapon X: Adamantium Men",
+      "issues": "Wolverine Weapon X (2009) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern solo jumping-on point.",
+      "isbns": [
+        "9780785171379"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "wolvreaders",
+        "wolvorder"
+      ]
+    }
+  ]
+}

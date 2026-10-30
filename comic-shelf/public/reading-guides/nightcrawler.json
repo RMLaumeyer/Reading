@@ -1,0 +1,156 @@
+{
+  "title": "Nightcrawler",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Kurt’s swashbuckling and spiritual sides, including collected team stories that feature him.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "cockrum",
+      "label": "Short solo adventure",
+      "description": "Cockrum’s four-issue miniseries."
+    },
+    {
+      "storyId": "way-x",
+      "label": "Modern Kurt",
+      "description": "Start the Krakoa-era chain."
+    }
+  ],
+  "sources": {
+    "kurt2": {
+      "label": "X-Men readers · starting with Nightcrawler",
+      "url": "https://www.reddit.com/r/xmen/comments/1q7ltv8/what_are_some_of_the_best_nightcrawler_comics_for/"
+    },
+    "kurt": {
+      "label": "Nightcrawler readers · solo and team highlights",
+      "url": "https://www.reddit.com/r/Nightcrawler/comments/1telo4d/what_are_the_best_nightcrawler_centered_issues_of/"
+    },
+    "excalibur": {
+      "label": "Nightcrawler readers · Excalibur starting point",
+      "url": "https://www.reddit.com/r/comicbooks/comments/1du8jfi/"
+    }
+  },
+  "stories": [
+    {
+      "id": "second-genesis",
+      "year": 1975,
+      "date": "1975",
+      "title": "Second Genesis",
+      "issues": "Giant-Size X-Men (1975) #1; X-Men #94–100",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Kurt’s debut and the classic new-team beginning.",
+      "isbns": [
+        "9781302377564",
+        "9781302496708"
+      ],
+      "match": "Choose either collection; both contain Giant-Size #1 and the early new-team issues.",
+      "sources": [
+        "kurt2"
+      ]
+    },
+    {
+      "id": "inferno-annual",
+      "year": 1980,
+      "date": "1980",
+      "title": "Nightcrawler’s Inferno",
+      "issues": "X-Men Annual #4",
+      "universe": "Main universe",
+      "start": false,
+      "why": "An early Kurt-centered team adventure.",
+      "isbns": [
+        "9781302479596"
+      ],
+      "match": "Uncanny Masterworks Vol.5 includes Annual #4 as well as #132–140. This is not the later Inferno crossover.",
+      "sources": [
+        "kurt"
+      ]
+    },
+    {
+      "id": "cockrum",
+      "year": 1985,
+      "date": "1985–1986",
+      "title": "Nightcrawler by Dave Cockrum",
+      "issues": "Nightcrawler (1985) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A playful solo miniseries.",
+      "isbns": [
+        "9781302519803"
+      ],
+      "match": "Hidden catalog match: Uncanny X-Men Masterworks Vol.12 indexes all four Nightcrawler issues.",
+      "sources": [
+        "kurt"
+      ]
+    },
+    {
+      "id": "excalibur",
+      "year": 1987,
+      "date": "1987–1988",
+      "title": "Excalibur: The Sword Is Drawn & the team launch",
+      "issues": "Excalibur Special Edition; Excalibur (1988) #1 onward",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A frequently recommended team home for Kurt.",
+      "isbns": [],
+      "match": "No confirmed opening-volume match in the supplied catalog. Its later Excalibur Epics and Tini Howard series do not cover this launch. The special first appeared in 1987 and is often cataloged as a 1988 issue.",
+      "sources": [
+        "excalibur"
+      ]
+    },
+    {
+      "id": "way-x",
+      "year": 2021,
+      "date": "2021",
+      "title": "Way of X",
+      "issues": "Way of X #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern Kurt-led Krakoa story.",
+      "isbns": [
+        "9781302939830"
+      ],
+      "match": "Read with familiarity with House of X/Powers of X. The Onslaught Revelation bridges to Legion of X.",
+      "sources": [
+        "kurt",
+        "kurt2"
+      ]
+    },
+    {
+      "id": "legion-x",
+      "year": 2022,
+      "date": "2022–2023",
+      "title": "Legion of X",
+      "issues": "Legion of X #1–10",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Continue the Way of X thread.",
+      "isbns": [
+        "9781302944469",
+        "9781302525262"
+      ],
+      "match": "Read Vol.1 and Vol.2 consecutively. These follow Way of X and its Onslaught conclusion.",
+      "sources": [
+        "kurt2"
+      ]
+    },
+    {
+      "id": "spider",
+      "year": 2023,
+      "date": "2023",
+      "title": "Uncanny Spider-Man",
+      "issues": "Uncanny Spider-Man #1–5",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Kurt takes a new identity during Fall of X.",
+      "isbns": [
+        "9781302528867"
+      ],
+      "match": "This is a Nightcrawler story, not Peter Parker’s Spider-Man series; Fall of X context helps.",
+      "sources": [
+        "kurt",
+        "kurt2"
+      ]
+    }
+  ]
+}

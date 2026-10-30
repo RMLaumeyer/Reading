@@ -1,0 +1,155 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Iron Man",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Tony Stark’s major classic and modern starting points. Collections often span separate arcs; notes identify the core story.",
+  "sources": {
+    "best": {
+      "label": "Comic Zombie · essential Iron Man picks",
+      "url": "https://comiczombie.net/2023/02/11/essential-reads-iron-man/"
+    },
+    "order": {
+      "label": "Comic Book Herald · Iron Man order",
+      "url": "https://www.comicbookherald.com/iron-man-reading-order/"
+    },
+    "reader": {
+      "label": "Iron Man readers · classic and modern runs",
+      "url": "https://www.reddit.com/r/ironman/comments/1deo03u/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "iron-man-1",
+      "label": "Demon in a Bottle",
+      "description": "A defining Tony Stark story about pressure, responsibility, and addiction."
+    },
+    {
+      "storyId": "iron-man-3",
+      "label": "Armor Wars",
+      "description": "Stark’s technology and his responsibility for its misuse drive this classic."
+    },
+    {
+      "storyId": "iron-man-4",
+      "label": "Extremis",
+      "description": "A short, modern technology-focused reinvention and practical first read."
+    }
+  ],
+  "stories": [
+    {
+      "id": "iron-man-1",
+      "year": 1979,
+      "date": "1979",
+      "title": "Demon in a Bottle",
+      "issues": "Iron Man (1968) #120–128",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A defining Tony Stark story about pressure, responsibility, and addiction.",
+      "isbns": [
+        "9780785170723"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "reader"
+      ]
+    },
+    {
+      "id": "iron-man-2",
+      "year": 1981,
+      "date": "1981",
+      "title": "Doomquest",
+      "issues": "Iron Man (1968) #149–150",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Tony and Doctor Doom clash far from the present day.",
+      "isbns": [
+        "9781302507510"
+      ],
+      "match": "The collection also includes the later #249–250 sequel; this entry is anchored to the original story.",
+      "sources": [
+        "best",
+        "order",
+        "reader"
+      ]
+    },
+    {
+      "id": "iron-man-3",
+      "year": 1987,
+      "date": "1987–1988",
+      "title": "Armor Wars",
+      "issues": "Iron Man (1968) #225–232",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Stark’s technology and his responsibility for its misuse drive this classic.",
+      "isbns": [
+        "9780785170716"
+      ],
+      "match": "This is Tony’s original Armor Wars, not the Secret Wars Warzones miniseries.",
+      "sources": [
+        "best",
+        "order",
+        "reader"
+      ]
+    },
+    {
+      "id": "iron-man-4",
+      "year": 2005,
+      "date": "2005–2006",
+      "title": "Extremis",
+      "issues": "Iron Man (2005) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short, modern technology-focused reinvention and practical first read.",
+      "isbns": [
+        "9780785170730"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "reader"
+      ]
+    },
+    {
+      "id": "iron-man-5",
+      "year": 2008,
+      "date": "2008",
+      "title": "The Five Nightmares",
+      "issues": "Invincible Iron Man (2008) #1–7",
+      "universe": "Main universe",
+      "start": true,
+      "why": "An accessible beginning to Fraction and Larroca’s long run.",
+      "isbns": [
+        "9780785170693"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "best",
+        "order",
+        "reader"
+      ]
+    },
+    {
+      "id": "iron-man-6",
+      "year": 2008,
+      "date": "2008–2009",
+      "title": "World’s Most Wanted",
+      "issues": "Invincible Iron Man (2008) #8–19",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Continue from Five Nightmares into Stark’s flight from the new power structure.",
+      "isbns": [
+        "9780785170662",
+        "9780785170679"
+      ],
+      "match": "These are consecutive books: #8–13 then #14–19.",
+      "sources": [
+        "best",
+        "order",
+        "reader"
+      ]
+    }
+  ]
+}

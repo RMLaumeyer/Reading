@@ -1,0 +1,143 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Black Widow",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Natasha Romanoff’s spy stories, with her history and Yelena Belova clearly distinguished from later solo relaunches.",
+  "sources": {
+    "order": {
+      "label": "Comic Book Herald · Black Widow recommendations and order",
+      "url": "https://www.comicbookherald.com/black-widow-reading-order/"
+    },
+    "series": {
+      "label": "Marvel · Waid/Samnee Black Widow series",
+      "url": "https://www.marvel.com/comics/series/20448/black_widow_%282016_-_present%29"
+    },
+    "readers": {
+      "label": "Readers · Black Widow run recommendations",
+      "url": "https://www.reddit.com/r/marvelcomics/comments/1msu8si/best_heroes_day_85_tigra_wins_day_84/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "black-widow-1",
+      "label": "Itsy-Bitsy Spider",
+      "description": "A compact Natasha/Yelena introduction."
+    },
+    {
+      "storyId": "black-widow-3",
+      "label": "The Name of the Rose",
+      "description": "A short, character-focused espionage story and practical first read."
+    },
+    {
+      "storyId": "black-widow-4",
+      "label": "The Finely Woven Thread",
+      "description": "Edmondson and Noto begin a visually distinctive solo era."
+    }
+  ],
+  "stories": [
+    {
+      "id": "black-widow-1",
+      "year": 1999,
+      "date": "1999–2001",
+      "title": "Itsy-Bitsy Spider",
+      "issues": "Black Widow (1999) #1–3; Black Widow (2001) #1–3",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A compact Natasha/Yelena introduction.",
+      "isbns": [
+        "9781302478964"
+      ],
+      "match": "This collection combines two three-issue miniseries.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "black-widow-2",
+      "year": 2004,
+      "date": "2004–2005",
+      "title": "Homecoming",
+      "issues": "Black Widow (2004) #1–6",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Natasha’s past returns in a spy-focused miniseries.",
+      "isbns": [
+        "9781302508883"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "black-widow-3",
+      "year": 2010,
+      "date": "2010",
+      "title": "The Name of the Rose",
+      "issues": "Black Widow (2010) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short, character-focused espionage story and practical first read.",
+      "isbns": [
+        "9780785178460"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "black-widow-4",
+      "year": 2014,
+      "date": "2014",
+      "title": "The Finely Woven Thread",
+      "issues": "Black Widow (2014) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Edmondson and Noto begin a visually distinctive solo era.",
+      "isbns": [
+        "9781302378813"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "black-widow-5",
+      "year": 2016,
+      "date": "2016",
+      "title": "S.H.I.E.L.D.’s Most Wanted",
+      "issues": "Black Widow (2016) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Waid and Samnee open an action-driven chase story.",
+      "isbns": [
+        "9781302493707"
+      ],
+      "match": "Continue with No More Secrets (#7–12).",
+      "sources": [
+        "series",
+        "readers"
+      ]
+    },
+    {
+      "id": "black-widow-6",
+      "year": 2020,
+      "date": "2020–2021",
+      "title": "The Ties That Bind",
+      "issues": "Black Widow (2020) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Thompson and Casagrande begin a new Natasha-centered chapter.",
+      "isbns": [
+        "9781302936679"
+      ],
+      "match": "This first volume is also included in the larger Black Widow By Kelly Thompson #1–15 collection.",
+      "sources": [
+        "readers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "checkedAt": "2026-10-27",
+  "title": "Thor",
+  "subtitle": "Recommended starting points & key stories",
+  "group": "Avengers",
+  "intro": "Thor Odinson is the central path, with Jane Foster’s Thor explicitly identified. Short arcs and longer run openings are mixed deliberately.",
+  "sources": {
+    "readers": {
+      "label": "Thor readers · starting-point recommendations",
+      "url": "https://www.reddit.com/r/Thor/comments/1v15p67/need_recommendations_for_where_to_start_with_thor/"
+    },
+    "order": {
+      "label": "Comic Book Herald · Thor reading order",
+      "url": "https://www.comicbookherald.com/thor-reading-order/comment-page-2/"
+    },
+    "review": {
+      "label": "AIPT · The Devourer King review",
+      "url": "https://aiptcomics.com/2020/10/28/thor-vol-1-the-devourer-king-review/"
+    }
+  },
+  "starts": [
+    {
+      "storyId": "thor-1",
+      "label": "Walt Simonson: the opening",
+      "description": "A classic starting point and the beginning of Simonson’s celebrated run."
+    },
+    {
+      "storyId": "thor-3",
+      "label": "Thor by J. Michael Straczynski",
+      "description": "A modern relaunch rebuilding Thor’s world."
+    },
+    {
+      "storyId": "thor-4",
+      "label": "The God Butcher & Godbomb",
+      "description": "A focused modern epic following Thor across different ages."
+    }
+  ],
+  "stories": [
+    {
+      "id": "thor-1",
+      "year": 1983,
+      "date": "1983–1984",
+      "title": "Walt Simonson: the opening",
+      "issues": "Thor (1966) #337–345",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A classic starting point and the beginning of Simonson’s celebrated run.",
+      "isbns": [
+        "9781302500313"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "thor-2",
+      "year": 1984,
+      "date": "1984–1985",
+      "title": "The Surtur saga continues",
+      "issues": "Thor (1966) #346–355",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Continue directly from Simonson’s first collection.",
+      "isbns": [
+        "9781302502089"
+      ],
+      "match": "This is a continuation, not an alternative first volume.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "thor-3",
+      "year": 2007,
+      "date": "2007–2008",
+      "title": "Thor by J. Michael Straczynski",
+      "issues": "Thor (2007) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern relaunch rebuilding Thor’s world.",
+      "isbns": [
+        "9780785171089"
+      ],
+      "match": "Some knowledge of the preceding Ragnarok helps; this is still a new #1.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "thor-4",
+      "year": 2012,
+      "date": "2012–2013",
+      "title": "The God Butcher & Godbomb",
+      "issues": "Thor: God of Thunder (2012) #1–11",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A focused modern epic following Thor across different ages.",
+      "isbns": [
+        "9781302942243"
+      ],
+      "match": "The Saga of Gorr collects #1–11. Separate God Butcher and Godbomb volumes overlap this book.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "thor-5",
+      "year": 2014,
+      "date": "2014–2015",
+      "title": "The Goddess of Thunder",
+      "issues": "Thor (2014) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The Jane Foster era begins with a mystery surrounding the hammer’s new wielder.",
+      "isbns": [
+        "9781302480431"
+      ],
+      "match": "Jane’s Thor belongs to the main continuity, but this is a different person wearing the title.",
+      "sources": [
+        "readers",
+        "order"
+      ]
+    },
+    {
+      "id": "thor-6",
+      "year": 2020,
+      "date": "2020",
+      "title": "The Devourer King",
+      "issues": "Thor (2020) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "Cates and Klein begin a new cosmic chapter for Odinson.",
+      "isbns": [
+        "9781302935009"
+      ],
+      "match": "Matched by exact ISBN and collection title in the supplied catalog. Open the library record to check borrowing.",
+      "sources": [
+        "review"
+      ]
+    }
+  ]
+}

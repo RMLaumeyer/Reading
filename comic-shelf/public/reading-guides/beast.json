@@ -1,0 +1,17 @@
+{
+  "title":"Beast", "subtitle":"Hank McCoy’s science, self-image, and difficult choices.", "group":"X-Men", "intro":"Gifted offers a clear modern introduction to Hank’s personal stakes. His solo transformation stories are an important earlier milestone; later team books show increasingly complicated decisions.", "checkedAt":"2026-10-27",
+  "starts":[{"storyId":"gifted","label":"Modern Beast focus","description":"Astonishing X-Men: Gifted"},{"storyId":"origins","label":"A short origin retelling","description":"X-Men Origins: Beast"}],
+  "sources":{
+    "readers":{"label":"r/xmen · Beast-focused reading recommendations","url":"https://www.reddit.com/r/xmen/comments/1ekfmmh/tell_me_something_about_beast_hank_mccoy_that/"},
+    "more":{"label":"r/xmen · essential Beast arcs","url":"https://www.reddit.com/r/xmen/comments/1cufqj9/"},
+    "origin":{"label":"Michigan State University · Origins collection contents","url":"https://comics.lib.msu.edu/rri/mrri/marvcomx.htm"},
+    "release":{"label":"Marvel · All-New X-Men (2012) #1","url":"https://www.marvel.com/comics/issue/43462/slug"}
+  },
+  "stories":[
+    {"id":"transformation","year":1972,"date":"1972–1973","title":"Beast’s transformation","issues":"Amazing Adventures (1970) #11–17","universe":"Main universe","start":true,"why":"Hank’s defining physical transformation and a short early solo stretch.","isbns":[],"match":"No confirmed collection match in the supplied catalog. New X-Men covers a later transformation, not these original stories.","sources":["readers","more"]},
+    {"id":"new-xmen","year":2001,"date":"2001–2002","title":"New X-Men: E Is for Extinction & Imperial","issues":"New X-Men (2001) #114–126","universe":"Main universe","why":"Hank’s changed appearance and place at the school receive renewed attention within Morrison’s team run.","isbns":["9781302528782"],"match":"The E Is for Extinction Modern Era Epic covers #114–126. It is a team collection, with Hank among the leads.","sources":["readers"]},
+    {"id":"gifted","year":2004,"date":"2004","title":"Gifted","issues":"Astonishing X-Men (2004) #1–6","universe":"Main universe","start":true,"why":"The mutant-cure dilemma makes this an accessible Beast-focused team story.","isbns":["9780785170037"],"match":"The dedicated Gifted collection covers the six core issues. Larger Gifted/Ultimate Collection editions overlap it.","sources":["readers"]},
+    {"id":"origins","year":2008,"date":"2008","title":"X-Men Origins: Beast","issues":"X-Men Origins: Beast (2008) #1","universe":"Main universe · origin retelling","start":true,"why":"A concise return to Hank’s early life; published later than the events it retells.","isbns":["9781302490539"],"match":"X-Men Origins contains the Beast one-shot alongside other character spotlights. Origins II is a separate companion collection.","sources":["more","origin"]},
+    {"id":"all-new","year":2012,"date":"2012–2013","title":"Yesterday’s X-Men","issues":"All-New X-Men (2012) #1–5","universe":"Main universe · time-displaced original team","why":"A consequential Hank decision brings the original team into the present. A key milestone, not a solo book.","isbns":["9781302013608"],"match":"Use Vol. 1: Yesterday’s X-Men (#1–5). The larger All-New X-Men Vol. 1 (#1–10) is an overlapping alternative.","sources":["readers","release"]}
+  ]
+}

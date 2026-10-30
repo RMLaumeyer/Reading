@@ -1,0 +1,144 @@
+{
+  "title": "Gambit",
+  "subtitle": "Starting points & key stories",
+  "group": "X-Men",
+  "intro": "Remy’s solo adventures and the Rogue partnership. Shared stories are intentionally linked in both character guides.",
+  "checkedAt": "2026-10-27",
+  "starts": [
+    {
+      "storyId": "king-thieves",
+      "label": "Modern solo",
+      "description": "Asmus and Mann’s complete run."
+    },
+    {
+      "storyId": "ring-fire",
+      "label": "With Rogue",
+      "description": "Begin their 2018 shared series."
+    }
+  ],
+  "sources": {
+    "gambit": {
+      "label": "ComicBook.com · Gambit key stories",
+      "url": "https://comicbook.com/comics/list/10-best-gambit-storylines-in-marvel-comics-ranked-by-impact/"
+    },
+    "gambitguide": {
+      "label": "My Comics Collection · Gambit starting points",
+      "url": "https://www.mycomicscollection.com/en/blog/gambit-reading-guide-where-to-start/"
+    },
+    "couple": {
+      "label": "Rogue and Gambit readers · recommendations",
+      "url": "https://www.reddit.com/r/Marvel/comments/1emritq/"
+    },
+    "couple3": {
+      "label": "Snapping Turtle Gallery · Rogue and Gambit sequence",
+      "url": "https://www.stgcollection.com/blogs/news/rogue-gambit-reading-guide-mr-and-mrs-x"
+    }
+  },
+  "stories": [
+    {
+      "id": "debut",
+      "year": 1990,
+      "date": "1990",
+      "title": "Gambit meets Storm",
+      "issues": "Uncanny X-Men #266–267",
+      "universe": "Main universe",
+      "start": false,
+      "why": "His early introduction is a character milestone.",
+      "isbns": [],
+      "match": "No confirmed collection match for #266–267 selected from the supplied catalog.",
+      "sources": [
+        "gambit"
+      ]
+    },
+    {
+      "id": "first-solo",
+      "year": 1993,
+      "date": "1993",
+      "title": "Gambit’s first solo miniseries",
+      "issues": "Gambit (1993) #1–4",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short route into the Thieves Guild side of Remy.",
+      "isbns": [
+        "9781302486051"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "gambitguide"
+      ]
+    },
+    {
+      "id": "nicieza",
+      "year": 1999,
+      "date": "1999",
+      "title": "Gambit by Fabian Nicieza",
+      "issues": "Gambit (1999) #1–11 to begin",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A recommended extended solo run.",
+      "isbns": [
+        "9781302484552"
+      ],
+      "match": "Complete Collection Vol.1 begins the 1999 series; Vol.2 continues it. This is not the 2012 Asmus series.",
+      "sources": [
+        "gambitguide",
+        "gambit"
+      ]
+    },
+    {
+      "id": "king-thieves",
+      "year": 2012,
+      "date": "2012",
+      "title": "Gambit: King of Thieves",
+      "issues": "Gambit (2012) #1–17",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern solo entry point.",
+      "isbns": [
+        "9781302513306"
+      ],
+      "match": "The Complete Collection contains the full series; Once a Thief is the shorter opening volume.",
+      "sources": [
+        "gambitguide",
+        "gambit"
+      ]
+    },
+    {
+      "id": "ring-fire",
+      "year": 2018,
+      "date": "2018",
+      "title": "Rogue & Gambit: Ring of Fire",
+      "issues": "Rogue & Gambit (2018) #1–5",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A recommended start for the couple.",
+      "isbns": [
+        "9781302505103"
+      ],
+      "match": "Exact catalog ISBN/title match; use the linked collection for these issues.",
+      "sources": [
+        "couple",
+        "couple3"
+      ]
+    },
+    {
+      "id": "mr-mrs",
+      "year": 2018,
+      "date": "2018–2019",
+      "title": "Mr. and Mrs. X",
+      "issues": "Mr. and Mrs. X #1–12",
+      "universe": "Main universe",
+      "start": false,
+      "why": "The marriage-era follow-up.",
+      "isbns": [
+        "9781302508845",
+        "9781302514631"
+      ],
+      "match": "Read Ring of Fire, then X-Men Gold #30, then these two volumes in order. The wedding issue has no confirmed match selected here.",
+      "sources": [
+        "couple",
+        "couple3"
+      ]
+    }
+  ]
+}
