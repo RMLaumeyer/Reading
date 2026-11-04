@@ -1,0 +1,253 @@
+{
+  "title": "Fantastic Four",
+  "subtitle": "Marvel’s First Family: foundational stories, modern starts, and the Hickman saga.",
+  "group": "More Marvel",
+  "checkedAt": "2026-10-30",
+  "intro": "Start with Waid and Wieringo for a modern family introduction, Ryan North for a later entry, or Lee and Kirby for the original foundation. Hickman’s Fantastic Four/FF adds Reed, Doom, and family background to Secret Wars (2015); it is useful optional reading, while Avengers/New Avengers supplies the direct event buildup.",
+  "starts": [
+    {
+      "storyId": "waid",
+      "label": "Modern family introduction",
+      "description": "Waid and Wieringo’s Imaginauts."
+    },
+    {
+      "storyId": "north",
+      "label": "Science-fiction puzzles",
+      "description": "Ryan North’s 2022 opening."
+    },
+    {
+      "storyId": "origin",
+      "label": "The original foundation",
+      "description": "Lee and Kirby from 1961."
+    }
+  ],
+  "sources": {
+    "start": {
+      "label": "Comic Book Treasury · Fantastic Four starting points",
+      "url": "https://www.comicbooktreasury.com/where-to-start-with-fantastic-four-comics/"
+    },
+    "readers": {
+      "label": "Fantastic Four readers · recommended entry points",
+      "url": "https://www.reddit.com/r/FantasticFour/comments/1uz4x9k/what_are_good_starting_comics_to_get_into_the/"
+    },
+    "milestones": {
+      "label": "GamesRadar · classic Fantastic Four stories",
+      "url": "https://www.gamesradar.com/how-to-read-fantastic-four-comics-marvel/"
+    },
+    "monster": {
+      "label": "Marvel · This Man… This Monster!",
+      "url": "https://www.marvel.com/articles/comics/kirby-100-this-man-this-monster"
+    },
+    "hickman": {
+      "label": "How to Love Comics · Hickman Fantastic Four order",
+      "url": "https://www.howtolovecomics.com/2025/07/02/jonathan-hickmans-fantastic-four-reading-order/"
+    },
+    "hickman1": {
+      "label": "Penguin Random House · Hickman Complete Collection1 contents",
+      "url": "https://www.penguinrandomhouse.com/books/695409/fantastic-four-by-jonathan-hickman-the-complete-collection-vol-1-by-jonathan-hickman/"
+    },
+    "secret": {
+      "label": "Marvel · Secret Wars (2015) collection contents",
+      "url": "https://www.marvel.com/comics/collection/54948/secret_wars_trade_paperback"
+    },
+    "optional": {
+      "label": "Den of Geek · Secret Wars background guide",
+      "url": "https://www.denofgeek.com/comics/marvel-secret-wars-a-readers-guide/"
+    },
+    "order": {
+      "label": "Comic Book Reading Orders · Fantastic Four chronology",
+      "url": "https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/"
+    }
+  },
+  "stories": [
+    {
+      "id": "origin",
+      "year": 1961,
+      "date": "1961–1963",
+      "title": "The Fantastic Four begins",
+      "issues": "Fantastic Four (1961) #1–10",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The family’s original adventures and first major foes.",
+      "isbns": [
+        "9780785170525",
+        "9781302397357"
+      ],
+      "match": "Choose Masterworks Vol. 1 for #1–10 or the larger World’s Greatest Comic Magazine Epic for #1–18. These overlap.",
+      "sources": [
+        "start"
+      ]
+    },
+    {
+      "id": "galactus",
+      "year": 1966,
+      "date": "1966",
+      "title": "The Galactus Trilogy",
+      "issues": "Fantastic Four (1961) #48–50",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A classic cosmic milestone.",
+      "isbns": [
+        "9781302411183",
+        "9781302505332"
+      ],
+      "match": "Masterworks Vol. 5 includes #41–50. The Coming of Galactus Epic includes #33–51 and also covers the next entry.",
+      "sources": [
+        "milestones",
+        "readers"
+      ]
+    },
+    {
+      "id": "monster",
+      "year": 1966,
+      "date": "1966",
+      "title": "This Man… This Monster!",
+      "issues": "Fantastic Four (1961) #51",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A defining Thing story.",
+      "isbns": [
+        "9781302497286",
+        "9781302505332"
+      ],
+      "match": "Masterworks Vol. 6 begins at #51; the Coming of Galactus Epic also includes it. Do not borrow overlapping editions unnecessarily.",
+      "sources": [
+        "monster"
+      ]
+    },
+    {
+      "id": "byrne",
+      "year": 1981,
+      "date": "1981–1982",
+      "title": "John Byrne: Back to the Basics",
+      "issues": "Fantastic Four (1961) #232–240",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A classic new creative-run starting point.",
+      "isbns": [
+        "9781302503970",
+        "9781302517403"
+      ],
+      "match": "Visionaries John Byrne Vol. 1 and Masterworks Vol. 21 both cover #232–240. Choose one.",
+      "sources": [
+        "start",
+        "readers"
+      ]
+    },
+    {
+      "id": "trial-reed",
+      "year": 1983,
+      "date": "1983–1984",
+      "title": "The Trial of Reed Richards",
+      "issues": "Fantastic Four (1961) #262",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A later Byrne-era milestone.",
+      "isbns": [
+        "9781302504007"
+      ],
+      "match": "Visionaries John Byrne Vol. 4 covers #258–267. The issue is cover-dated January 1984; preceding Galactus stories provide context.",
+      "sources": [
+        "milestones",
+        "order"
+      ]
+    },
+    {
+      "id": "waid",
+      "year": 2002,
+      "date": "2002",
+      "title": "Waid & Wieringo: Imaginauts",
+      "issues": "Fantastic Four (1998) #60–66",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A widely recommended modern family introduction.",
+      "isbns": [
+        "9781302410575",
+        "9781302937287"
+      ],
+      "match": "Ultimate Collection Book 1 includes the opening; Imaginauts is another edition. Ultimate Collection is a format label, not the Ultimate universe.",
+      "sources": [
+        "start",
+        "readers"
+      ]
+    },
+    {
+      "id": "unthinkable",
+      "year": 2003,
+      "date": "2003",
+      "title": "Unthinkable",
+      "issues": "Fantastic Four (1998) #67–70; Fantastic Four #500",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A major Doctor Doom story after Imaginauts.",
+      "isbns": [
+        "9781302533304",
+        "9781302937294"
+      ],
+      "match": "Both Unthinkable collections list #67–70 and #500–502, including the arc and aftermath. Choose either edition.",
+      "sources": [
+        "milestones"
+      ]
+    },
+    {
+      "id": "hickman",
+      "year": 2009,
+      "date": "2009–2012",
+      "title": "Jonathan Hickman’s Fantastic Four / FF saga",
+      "issues": "Dark Reign: Fantastic Four #1–5; Fantastic Four #570–588, #600–611 and #605.1; FF (2011) #1–23",
+      "universe": "Main universe",
+      "start": false,
+      "why": "An ambitious family-and-cosmic saga; useful optional background for Secret Wars.",
+      "isbns": [
+        "9781302510442",
+        "9781302514815",
+        "9781302936952",
+        "9781302369149",
+        "9781302376789"
+      ],
+      "match": "These are consecutive parts, not alternatives: Complete Collections 1–3 cover Dark Reign, Fantastic Four #570–588/#600–604 and FF #1–16; finish with Fantastic Four by Hickman Vol. 6 (#605,605.1,606–611) and FF Vol. 4 (#17–23). The two series interleave: follow the linked issue order. Solve Everything alone covers only #570–588, not the full saga.",
+      "sources": [
+        "start",
+        "hickman",
+        "hickman1",
+        "optional"
+      ]
+    },
+    {
+      "id": "secret-wars",
+      "year": 2015,
+      "date": "2015–2016",
+      "title": "Secret Wars (2015)",
+      "issues": "Secret Wars (2015) #1–9",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A later payoff for Reed, Doom, and Hickman’s broader Marvel saga.",
+      "isbns": [
+        "9781302482732"
+      ],
+      "match": "This is the 2015 event, not the twelve-issue 1984 Marvel Super Heroes Secret Wars. Avengers/New Avengers and Time Runs Out form the direct lead-in; Fantastic Four/FF is optional background.",
+      "sources": [
+        "secret",
+        "hickman",
+        "optional"
+      ]
+    },
+    {
+      "id": "north",
+      "year": 2022,
+      "date": "2022–2023",
+      "title": "Ryan North: Whatever Happened to the Fantastic Four?",
+      "issues": "Fantastic Four (2022) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A later entry built around the family and inventive science-fiction problems.",
+      "isbns": [
+        "9781302524920"
+      ],
+      "match": "This starts North’s 2022 series. Save Everyone begins his separate 2025 relaunch and is not the same Vol. 1.",
+      "sources": [
+        "start"
+      ]
+    }
+  ]
+}

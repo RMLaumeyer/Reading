@@ -114,6 +114,12 @@ a {
   letter-spacing: 0.12em;
   color: #c0cbd5;
 }
+.shelf-navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .workspace {
   max-width: 1480px;
   margin: auto;
@@ -279,6 +285,12 @@ h1 {
   }
 }
 @media (max-width: 700px) {
+  .masthead {
+    flex-wrap: wrap;
+  }
+  .shelf-navigation .local-label {
+    display: block;
+  }
   .brand-light,
   .local-label {
     display: none;

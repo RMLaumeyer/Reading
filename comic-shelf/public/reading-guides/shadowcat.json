@@ -1,0 +1,194 @@
+{
+  "title": "Shadowcat / Kitty Pryde",
+  "subtitle": "Kitty and Kate Pryde: from the newest X-Man to Captain Kate.",
+  "group": "X-Men",
+  "checkedAt": "2026-10-30",
+  "intro": "Kitty Pryde, Kate Pryde, Sprite, Ariel, and Shadowcat are the same character at different stages. Many defining stories are in team collections. Gifted is a useful modern entry; the classic solo miniseries explains the Shadowcat identity.",
+  "starts": [
+    {
+      "storyId": "gifted",
+      "label": "Modern Kitty",
+      "description": "Start with Astonishing X-Men: Gifted."
+    },
+    {
+      "storyId": "kitty-wolverine",
+      "label": "Becoming Shadowcat",
+      "description": "The original six-issue miniseries."
+    },
+    {
+      "storyId": "marauders",
+      "label": "Captain Kate",
+      "description": "A Krakoa-era team opening; some setting context helps."
+    }
+  ],
+  "sources": {
+    "treasury": {
+      "label": "Comic Book Treasury · Kitty Pryde essentials",
+      "url": "https://www.comicbooktreasury.com/kitty-pryde-comics/"
+    },
+    "classic": {
+      "label": "Shadow and Flame · greatest Kitty Pryde stories",
+      "url": "https://shadowandflamewithmagik.com/2013/09/06/csbgs-greatest-kitty-pryde-stories/"
+    },
+    "readers": {
+      "label": "X-Men readers · favorite Kitty Pryde stories",
+      "url": "https://www.reddit.com/r/xmen/comments/1dpwzee/"
+    },
+    "unstoppable": {
+      "label": "Marvel · Unstoppable collection contents",
+      "url": "https://www.marvel.com/comics/collection/21422/"
+    },
+    "excalibur": {
+      "label": "Crushing Krisis · Excalibur publication and collection guide",
+      "url": "https://crushingkrisis.com/definitive-guide-to-collecting-x-men-as-graphic-novels/collecting-excalibur-captain-britain-comic-books-as-graphic-novels/"
+    }
+  },
+  "stories": [
+    {
+      "id": "debut",
+      "year": 1980,
+      "date": "1980 (cover dates; #129 released in 1979)",
+      "title": "Kitty Pryde enters the X-Men",
+      "issues": "X-Men (1963) #129–132",
+      "universe": "Main universe",
+      "start": false,
+      "why": "Her introduction during the Dark Phoenix era.",
+      "isbns": [
+        "9781302936860"
+      ],
+      "match": "The Fate of the Phoenix Epic contains #129–143, so it also covers the next two entries. This is a team collection.",
+      "sources": [
+        "treasury"
+      ]
+    },
+    {
+      "id": "days-future",
+      "year": 1981,
+      "date": "1981",
+      "title": "Days of Future Past",
+      "issues": "X-Men (1963) #141–142",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A pivotal Kitty-centered team story.",
+      "isbns": [
+        "9780785180012",
+        "9781302936860"
+      ],
+      "match": "Both contain the two-issue story; choose one. The Fate of the Phoenix Epic overlaps the debut and demon entries.",
+      "sources": [
+        "treasury",
+        "classic"
+      ]
+    },
+    {
+      "id": "demon",
+      "year": 1981,
+      "date": "1981",
+      "title": "Demon",
+      "issues": "X-Men (1963) #143",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A short early solo spotlight.",
+      "isbns": [
+        "9781302936860",
+        "9781302479602"
+      ],
+      "match": "Fate of the Phoenix and Uncanny Masterworks Vol. 6 both include #143; either supplies this story.",
+      "sources": [
+        "treasury",
+        "classic"
+      ]
+    },
+    {
+      "id": "kitty-wolverine",
+      "year": 1984,
+      "date": "1984–1985",
+      "title": "Kitty Pryde and Wolverine",
+      "issues": "Kitty Pryde and Wolverine (1984) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "The miniseries in which Kitty becomes Shadowcat.",
+      "isbns": [
+        "9781302479800"
+      ],
+      "match": "Use the original six-issue collection. Wolverine and Kitty Pryde (#1–5) is a different, much later follow-up.",
+      "sources": [
+        "treasury",
+        "classic"
+      ]
+    },
+    {
+      "id": "excalibur",
+      "year": 1987,
+      "date": "1987–1988",
+      "title": "Excalibur: The Sword Is Drawn and the team launch",
+      "issues": "Excalibur Special Edition; Excalibur (1988) #1 onward",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A major new team home for Kitty. ",
+      "isbns": [],
+      "match": "No confirmed opening-volume match in the supplied catalog. The later Excalibur Epics do not cover this launch. The special first appeared in 1987 and is commonly indexed with a 1988 date.",
+      "sources": [
+        "treasury",
+        "excalibur"
+      ]
+    },
+    {
+      "id": "gifted",
+      "year": 2004,
+      "date": "2004",
+      "title": "Astonishing X-Men: Gifted",
+      "issues": "Astonishing X-Men (2004) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A modern team entry with Kitty in a prominent role.",
+      "isbns": [
+        "9780785170037",
+        "9781302515416"
+      ],
+      "match": "Choose Gifted for #1–6 or Ultimate Collection Book 1 for #1–12. Ultimate Collection is an edition label, not an alternate universe.",
+      "sources": [
+        "treasury",
+        "classic"
+      ]
+    },
+    {
+      "id": "unstoppable",
+      "year": 2006,
+      "date": "2006–2008",
+      "title": "Astonishing X-Men: Unstoppable",
+      "issues": "Astonishing X-Men (2004) #19–24; Giant-Size Astonishing X-Men (2008) #1",
+      "universe": "Main universe",
+      "start": false,
+      "why": "A defining payoff for Kitty after the preceding Astonishing arcs.",
+      "isbns": [
+        "9780785170068",
+        "9781302515423"
+      ],
+      "match": "Both include the Giant-Size finale. The Ultimate Collection Book 2 also contains #13–18; it follows Book 1. Choose one of these editions for the ending.",
+      "sources": [
+        "treasury",
+        "unstoppable"
+      ]
+    },
+    {
+      "id": "marauders",
+      "year": 2019,
+      "date": "2019–2020",
+      "title": "Marauders: Captain Kate Pryde",
+      "issues": "Marauders (2019) #1–6",
+      "universe": "Main universe",
+      "start": true,
+      "why": "A reader-recommended Kate-led opening.",
+      "isbns": [
+        "9781302520397",
+        "9781302938826"
+      ],
+      "match": "Choose the #1–6 volume or the larger #1–12 edition. Read House of X/Powers of X first for the Krakoa premise; the Steve Orlando series is later.",
+      "sources": [
+        "treasury",
+        "readers"
+      ]
+    }
+  ]
+}

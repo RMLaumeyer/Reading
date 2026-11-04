@@ -6,6 +6,14 @@ import review_decisions as review
 
 
 class DecisionTests(unittest.TestCase):
+    def test_delegation_requires_authorization(self):
+        with self.assertRaises(ValueError):
+            review.record(self.queue, self.decisions, '123', 'accept', 'Assistant', 'delegated', 'Assessed source')
+        event = review.record(self.queue, self.decisions, '123', 'accept', 'Assistant', 'delegated',
+                              'Assessed source', authorization='Synthetic user instruction to publish reviewed results')
+        self.assertEqual(event['reviewerKind'], 'delegated')
+        self.assertTrue(event['authorization'])
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)

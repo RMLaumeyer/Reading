@@ -1,0 +1,164 @@
+{
+  "title": "Avengers vs. X-Men",
+  "subtitle": "The Phoenix returns and two teams collide",
+  "years": "2011–2013",
+  "intro": "The 2012 AvX conflict. Schism and X-Sanction are optional context; the main #0–12 series tells the central story. VS expands fights and does not replace the main issues. Read Consequences after the finale before moving into the new team era. Tie-in placements vary across guides; the optional VS recipe follows the linked Herald order and keeps the two series clearly distinct.",
+  "sources": {
+    "order": {
+      "label": "Comic Book Herald · AvX trade and issue order",
+      "url": "https://www.comicbookherald.com/the-complete-marvel-reading-order-guide/guide-part-16-avengers-vs-x-men/"
+    },
+    "setup": {
+      "label": "Comic Compass · Schism and X-Sanction background",
+      "url": "https://comic-compass.app/reading-orders/avengers-vs-x-men"
+    },
+    "collections": {
+      "label": "Comic Book Treasury · AvX collected editions",
+      "url": "https://www.comicbooktreasury.com/avengers-vs-x-men-reading-order/"
+    },
+    "companion": {
+      "label": "Comic Price Guide · AvX Companion contents",
+      "url": "https://www.comicpriceguide.co.uk/us_comic.php?tc=avsxmcomp"
+    },
+    "aftermath": {
+      "label": "Readers · AvX and Consequences editions",
+      "url": "https://www.reddit.com/r/comicbooks/comments/r5bele"
+    },
+    "successor": {
+      "label": "AS / Meristation · Consequences and Uncanny Avengers connection",
+      "url": "https://as.com/meristation/comics/criticas/resena-de-los-vengadores-vs-la-patrulla-x-el-enfrentamiento-sonado-por-millones-de-fans-de-marvel-f202610-n/"
+    }
+  },
+  "steps": [
+    {
+      "id": "schism",
+      "title": "Schism: why the X-Men are divided",
+      "issues": "X-Men: Schism #1–5",
+      "phase": "Setup",
+      "role": "Recommended",
+      "year": 2011,
+      "date": "2011",
+      "why": "Optional background on the Cyclops/Wolverine split before AvX.",
+      "isbns": [
+        "9780785181927"
+      ],
+      "match": "The Schism collection includes the five-part split. It is not a substitute for AvX itself.",
+      "sources": [
+        "setup"
+      ]
+    },
+    {
+      "id": "x-sanction",
+      "title": "Avengers: X-Sanction",
+      "issues": "Avengers: X-Sanction #1–4",
+      "phase": "Setup",
+      "role": "Optional",
+      "year": 2011,
+      "date": "2011–2012",
+      "why": "Cable and Hope context immediately before AvX.",
+      "isbns": [],
+      "match": "No confirmed full X-Sanction collection match in the supplied catalog. An isolated first issue in a sampler would not complete this four-part setup.",
+      "sources": [
+        "order",
+        "setup"
+      ],
+      "order": [
+        "Avengers: X-Sanction #1–4",
+        "Avengers vs. X-Men #0"
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Avengers vs. X-Men — the complete main series",
+      "issues": "Avengers vs. X-Men (2012) #0–12",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2012,
+      "date": "2012",
+      "why": "Start with #0, then read #1–12 for the complete central conflict.",
+      "isbns": [
+        "9781302515430"
+      ],
+      "match": "This is the confirmed #0–12 catalog edition. The older ISBN 9780785179948 has an existing contents discrepancy in local enrichment and is not offered as an equivalent here.",
+      "sources": [
+        "collections"
+      ],
+      "order": [
+        "Avengers vs. X-Men #0",
+        "Avengers vs. X-Men #1–12"
+      ]
+    },
+    {
+      "id": "vs",
+      "title": "VS: optional expanded battles",
+      "issues": "AvX: VS #1–6",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2012,
+      "date": "2012",
+      "why": "Individual matchups expand battles already in the main series. Skip this branch without losing the central plot.",
+      "isbns": [
+        "9781302369019"
+      ],
+      "match": "The VS volume contains the six side-fight issues plus A-Babies vs. X-Babies, a separate playful extra. Borrow the main event separately.",
+      "sources": [
+        "order",
+        "collections"
+      ],
+      "order": [
+        "Avengers vs. X-Men #0–2",
+        "AvX: VS #1",
+        "Avengers vs. X-Men #3–4",
+        "AvX: VS #2",
+        "Avengers vs. X-Men #5",
+        "AvX: VS #3",
+        "Avengers vs. X-Men #6",
+        "AvX: VS #4",
+        "Avengers vs. X-Men #7",
+        "AvX: VS #5",
+        "Avengers vs. X-Men #8–12",
+        "AvX: VS #6"
+      ]
+    },
+    {
+      "id": "consequences",
+      "title": "AvX: Consequences",
+      "issues": "AvX: Consequences #1–5",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2012,
+      "date": "2012",
+      "why": "The direct epilogue follows the fallout, especially for Cyclops. Read after main-series #12.",
+      "isbns": [
+        "9781302013646"
+      ],
+      "match": "Avengers vs. X-Men Companion includes Consequences #1–5 among many parallel tie-ins. Jump to Consequences for this step; do not read the whole companion before #12 because it contains aftermath spoilers.",
+      "sources": [
+        "companion",
+        "aftermath"
+      ],
+      "order": [
+        "Avengers vs. X-Men #12",
+        "AvX: Consequences #1–5"
+      ]
+    },
+    {
+      "id": "unity",
+      "title": "Next era: Uncanny Avengers",
+      "issues": "Uncanny Avengers (2012) #1–5",
+      "phase": "Aftermath",
+      "role": "Optional",
+      "year": 2012,
+      "date": "2012–2013",
+      "why": "The Unity Squad is a new ongoing direction after AvX, not an extra chapter required to complete it.",
+      "isbns": [
+        "9781302013776"
+      ],
+      "match": "The Red Shadow starts the successor series. Read after Consequences for this guided path, though the new series began publication during the epilogue’s release.",
+      "sources": [
+        "successor"
+      ]
+    }
+  ],
+  "checkedAt": "2026-10-30"
+}

@@ -46,15 +46,22 @@ def promote(root, package, queue, decisions, receipt):
     # Rebuild from current queue/decisions/catalog. Approval withdrawal or changed
     # sources invalidates the package even if the stored payload was untouched.
     with tempfile.TemporaryDirectory() as directory:
-        checked = stage.build(queue, decisions, root/'public/catalog.json', root/'public/enrichment.json', Path(directory)/'check')
-        for field in ('queueSha256', 'catalogSha256', 'beforeSha256', 'stagedSha256', 'decisionsSha256'):
+        checked = stage.build(queue, decisions, root/'public/catalog.json', root/'public/enrichment.json', Path(directory)/'check',
+                              initialize_isbns=manifest.get('initializeIsbns', []))
+        for field in ('queueSha256', 'catalogSha256', 'beforeSha256', 'stagedSha256', 'decisionsSha256', 'changes'):
             if checked[field] != manifest[field]:
                 raise ValueError('Stale staging inputs: '+field)
     overlay_path = root/'data/approved-synopses.json'
     overlay = json.loads(overlay_path.read_text(encoding='utf-8')) if overlay_path.exists() else {'books': {}}
     for change in manifest['changes']:
         after = change['after']
-        overlay['books'][change['catalogId']] = {k: after[k] for k in ('summary', 'synopsisReview', 'sources')}
+        key = change['catalogId']
+        marker = overlay['books'].get(key, {}).get('initializeMissing')
+        if change['before'] is None:
+            marker = {'kind': 'reviewed_synopsis_only', 'checkedAt': after['checkedAt']}
+        overlay['books'][key] = {k: after[k] for k in ('summary', 'synopsisReview', 'sources')}
+        if marker:
+            overlay['books'][key]['initializeMissing'] = marker
     payload = (package/'enrichment.staged.json').read_bytes()
     targets = {overlay_path: encoded(overlay), root/'public/enrichment.json': payload}
     if (root/'dist/client').exists():

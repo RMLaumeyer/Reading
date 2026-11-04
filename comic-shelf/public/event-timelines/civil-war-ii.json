@@ -1,0 +1,161 @@
+{
+  "title": "Civil War II",
+  "subtitle": "Carol Danvers and Tony Stark clash over predictive justice",
+  "years": "2016–2017",
+  "intro": "A separate 2016 conflict, not a direct continuation you must read immediately after Civil War. The core collection is sufficient for the main plot. Optional books expand character viewpoints. Numbered steps group setup, the central event, parallel branches and fallout; the issue-order notes show where selected branches fit. Reading-order guides differ on scenes that overlap, so this uses whole-issue placements rather than claiming one definitive panel-level chronology.",
+  "sources": {
+    "core": {
+      "label": "Marvel · Civil War II collection contents",
+      "url": "https://www.marvel.com/comics/collection/62606/civil_war_ii_2017"
+    },
+    "order": {
+      "label": "Comic Book Herald · Civil War II issue and trade order",
+      "url": "https://www.comicbookherald.com/the-complete-marvel-reading-order-guide/civil-war-2/"
+    },
+    "guide": {
+      "label": "Marvel Guides · Civil War II phases",
+      "url": "https://marvelguides.com/part-6-civil-war-ii"
+    },
+    "collections": {
+      "label": "Comic Book Treasury · Civil War II collections",
+      "url": "https://www.comicbooktreasury.com/marvel-civil-war-ii-reading-order/"
+    },
+    "oath": {
+      "label": "Marvel · The Oath publication",
+      "url": "https://www.marvel.com/comics/issue/60574/"
+    },
+    "edition": {
+      "label": "OverDrive · Empire Building exact digital ISBN and contents",
+      "url": "https://librariesniuk.overdrive.com/media/4455502"
+    }
+  },
+  "steps": [
+    {
+      "id": "war-machines",
+      "title": "The War Machines",
+      "issues": "Invincible Iron Man (2015) #6–11",
+      "phase": "Setup",
+      "role": "Optional",
+      "year": 2016,
+      "date": "2016",
+      "why": "Pre-event Tony and Rhodey context; it is not required to understand the opening.",
+      "isbns": [
+        "9781302489946"
+      ],
+      "match": "Invincible Iron Man Vol. 2 contains #6–11. Reboot is the preceding volume if you want the wider solo run.",
+      "sources": [
+        "order"
+      ]
+    },
+    {
+      "id": "ulysses",
+      "title": "Ulysses: optional origin branch",
+      "issues": "Civil War II: Ulysses #1–3 (print); Ulysses Infinite Comic #1–6 (digital version)",
+      "phase": "Setup",
+      "role": "Optional",
+      "year": 2016,
+      "date": "2016",
+      "why": "An extra perspective on Ulysses and Karnak. The two formats represent the same story, not nine consecutive issues.",
+      "isbns": [],
+      "match": "No confirmed Ulysses collection match in the supplied catalog. Do not mistake Choosing Sides for this miniseries.",
+      "sources": [
+        "guide",
+        "order"
+      ],
+      "order": [
+        "Civil War II #0",
+        "Civil War II: Ulysses #1–3 (or Infinite Comic #1–6)",
+        "Civil War II #1"
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Civil War II — the complete main series",
+      "issues": "Civil War II #0–8; Free Comic Book Day 2016 (Civil War II) #1, Civil War II story",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2016,
+      "date": "2016",
+      "why": "The complete central conflict. The FCBD story overlaps the action of #1; reading it just after #1 avoids switching mid-issue.",
+      "isbns": [
+        "9781302496043"
+      ],
+      "match": "The supplied catalog and publisher contents both include #0–8 and FCBD material. The FCBD issue also contains material outside this event.",
+      "sources": [
+        "core",
+        "order"
+      ],
+      "order": [
+        "Civil War II #0",
+        "Civil War II #1",
+        "Free Comic Book Day 2016 (Civil War II) #1 — Civil War II story only",
+        "Civil War II #2–8"
+      ]
+    },
+    {
+      "id": "carol",
+      "title": "Optional Captain Marvel track",
+      "issues": "Captain Marvel (2016) #6–10",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2016,
+      "date": "2016",
+      "why": "Carol’s viewpoint expands the main conflict. The order below is a selective reading recipe; core anchors repeat intentionally.",
+      "isbns": [
+        "9781302496036"
+      ],
+      "match": "Captain Marvel Vol. 2: Civil War II covers #6–10. Its last issue is an epilogue, so the whole volume should not be finished before the core finale.",
+      "sources": [
+        "order"
+      ],
+      "order": [
+        "Civil War II #1",
+        "Captain Marvel (2016) #6",
+        "Civil War II #2–3",
+        "Captain Marvel (2016) #7–9",
+        "Civil War II #4–8",
+        "Captain Marvel (2016) #10"
+      ]
+    },
+    {
+      "id": "choosing-sides",
+      "title": "Choosing Sides: optional anthology",
+      "issues": "Civil War II: Choosing Sides #1–6",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2016,
+      "date": "2016",
+      "why": "Short viewpoints from across the Marvel Universe. Read after the main series as a parallel companion to avoid interrupting it.",
+      "isbns": [
+        "9781302494476"
+      ],
+      "match": "This six-issue anthology is separate from both Civil War II’s core and the first Civil War’s Choosing Sides one-shot.",
+      "sources": [
+        "collections"
+      ]
+    },
+    {
+      "id": "oath",
+      "title": "The Oath: immediate epilogue",
+      "issues": "Civil War II: The Oath #1",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2017,
+      "date": "2017",
+      "why": "Read after #8. Steve Rogers’s own ongoing series adds context; this epilogue points toward Secret Empire.",
+      "isbns": [
+        "9781302499167"
+      ],
+      "match": "Empire Building (Steve Rogers Vol. 3) contains The Oath alongside #12–16. A local blurb for Vol. 2 also mentions it, but the exact-ISBN Vol. 3 listing is independently confirmed. This is not Doctor Strange: The Oath.",
+      "sources": [
+        "oath",
+        "edition"
+      ],
+      "order": [
+        "Civil War II #8",
+        "Civil War II: The Oath #1"
+      ]
+    }
+  ],
+  "checkedAt": "2026-10-30"
+}

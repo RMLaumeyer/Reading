@@ -8,6 +8,8 @@
   "scripts": {
     "guides:build": "node scripts/build_reading_guides.mjs",
     "guides:test": "node scripts/test_reading_guides.mjs",
+    "timelines:build": "node scripts/build_event_timelines.mjs",
+    "timelines:test": "node scripts/test_event_timelines.mjs",
     "dev": "vinext dev",
     "build": "node --require ./scripts/windows-build-exit.cjs ./node_modules/vinext/dist/cli.js build",
     "start": "node scripts/serve.mjs",

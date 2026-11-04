@@ -1,0 +1,189 @@
+{
+  "title": "Civil War",
+  "subtitle": "Registration divides the heroes",
+  "years": "2006–2007",
+  "intro": "The 2006 comic event, not the film, Civil War II, or 2015’s Battleworld Civil War: Warzones. The seven-issue main series gives the complete central conflict. Setup and side books are optional; the side-track order lists repeat core issues as anchors, not additional books to read twice. This is a selective library path rather than every tie-in. Published dates and story-placement order can differ.",
+  "sources": {
+    "core": {
+      "label": "Marvel · Civil War event and suggested reading",
+      "url": "https://www.marvel.com/comics/discover/114/civil-war-the-complete-event"
+    },
+    "order": {
+      "label": "Comic Book Reading Orders · Civil War issue order",
+      "url": "https://comicbookreadingorders.com/marvel/events/civil-war-reading-order/"
+    },
+    "collections": {
+      "label": "How to Love Comics · Civil War collected editions",
+      "url": "https://www.howtolovecomics.com/2014/11/30/marvel-civil-war-reading-order-guide/"
+    },
+    "iron": {
+      "label": "CountyCat · Civil War: Iron Man contents",
+      "url": "https://countycat.mcfls.org/Record/.b33889107"
+    },
+    "frontline": {
+      "label": "Reading Orders · Civil War expanded timeline",
+      "url": "https://www.readingorders.com/reading-orders/civil-war"
+    }
+  },
+  "steps": [
+    {
+      "id": "road",
+      "title": "The Road to Civil War",
+      "issues": "Amazing Spider-Man (1999) #529–531; Fantastic Four (1998) #536–537; New Avengers: Illuminati (2006) one-shot",
+      "phase": "Setup",
+      "role": "Recommended",
+      "year": 2006,
+      "date": "2006",
+      "why": "Political background before the Stamford crisis. Useful context, not a prerequisite.",
+      "isbns": [
+        "9780785170280"
+      ],
+      "match": "The Road to Civil War contains these setup stories. The Illuminati one-shot is not the later five-issue Illuminati miniseries.",
+      "sources": [
+        "core",
+        "collections"
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Civil War — the complete main series",
+      "issues": "Civil War (2006) #1–7",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2006,
+      "date": "2006–2007",
+      "why": "Read all seven issues in numbered order; this is the central event.",
+      "isbns": [
+        "9780785170242",
+        "9781302532567"
+      ],
+      "match": "Choose either edition: both collect #1–7. Warzones, House of M: Civil War, and the movie prelude do not replace this story.",
+      "sources": [
+        "core"
+      ],
+      "order": [
+        "Civil War #1",
+        "Civil War #2",
+        "Civil War #3",
+        "Civil War #4",
+        "Civil War #5",
+        "Civil War #6",
+        "Civil War #7"
+      ]
+    },
+    {
+      "id": "spider",
+      "title": "Optional Spider-Man track",
+      "issues": "Amazing Spider-Man (1999) #532–538",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2006,
+      "date": "2006–2007",
+      "why": "Peter’s decisions and personal cost. Use this selective interleave if you want his side alongside the core.",
+      "isbns": [
+        "9780785170259"
+      ],
+      "match": "Civil War: Amazing Spider-Man collects #532–538. The separate Peter Parker, Spider-Man volume collects Sensational Spider-Man, a different parallel branch.",
+      "sources": [
+        "order",
+        "collections"
+      ],
+      "order": [
+        "Civil War #1–2",
+        "Amazing Spider-Man #532–534",
+        "Civil War #3–4",
+        "Amazing Spider-Man #535",
+        "Civil War #5",
+        "Amazing Spider-Man #536–537",
+        "Civil War #6–7",
+        "Amazing Spider-Man #538"
+      ]
+    },
+    {
+      "id": "front-line",
+      "title": "Optional civilian viewpoint: Front Line",
+      "issues": "Civil War: Front Line #1–11",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2006,
+      "date": "2006–2007",
+      "why": "Reporters follow the conflict beyond the headline battles. Its final issue belongs after the main finale.",
+      "isbns": [
+        "9781302518585"
+      ],
+      "match": "The Complete Collection covers #1–11. The two smaller Front Line volumes overlap it. This side book is not needed to finish the core.",
+      "sources": [
+        "frontline",
+        "collections"
+      ],
+      "order": [
+        "Civil War: Front Line #1–10 — parallel to Civil War #1–7; read after the core as a companion if avoiding switches",
+        "Civil War #7 must precede Civil War: Front Line #11"
+      ]
+    },
+    {
+      "id": "cap25",
+      "title": "Captain America #25: immediate fallout",
+      "issues": "Captain America (2005) #25",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2007,
+      "date": "2007",
+      "why": "The major Captain America consequence comes after the event’s finale.",
+      "isbns": [
+        "9780785170181"
+      ],
+      "match": "The Death of the Dream contains #25–30. Read #25 here; #26–30 continue Cap’s own series after these immediate epilogues.",
+      "sources": [
+        "order"
+      ],
+      "order": [
+        "Civil War #7",
+        "Captain America (2005) #25"
+      ]
+    },
+    {
+      "id": "confession",
+      "title": "The Confession",
+      "issues": "Civil War: The Confession #1",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2007,
+      "date": "2007",
+      "why": "A focused epilogue for Tony and Steve. Read after Captain America #25.",
+      "isbns": [
+        "9780785179436"
+      ],
+      "match": "Civil War: Iron Man includes The Confession plus Iron Man #13–14 and Casualties of War. This step uses only The Confession; the other contents belong earlier.",
+      "sources": [
+        "iron",
+        "order"
+      ],
+      "order": [
+        "Captain America (2005) #25",
+        "Civil War: The Confession #1"
+      ]
+    },
+    {
+      "id": "fallen-son",
+      "title": "Fallen Son: The Death of Captain America",
+      "issues": "Fallen Son: The Death of Captain America #1–5",
+      "phase": "Aftermath",
+      "role": "Optional",
+      "year": 2007,
+      "date": "2007",
+      "why": "Five reactions to the loss explored in Captain America #25.",
+      "isbns": [],
+      "match": "No confirmed collection match in the supplied catalog. The Death of Captain America collections are Brubaker’s ongoing story, not this separate miniseries.",
+      "sources": [
+        "order"
+      ],
+      "order": [
+        "Captain America (2005) #25",
+        "Civil War: The Confession #1",
+        "Fallen Son #1–5"
+      ]
+    }
+  ],
+  "checkedAt": "2026-10-30"
+}

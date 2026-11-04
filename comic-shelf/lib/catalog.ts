@@ -10,6 +10,10 @@ export type Enrichment = {
     reasons: string[];
   };
   summary: string;
+  synopsisReview?: {
+    decisionId: string;
+    reviewerKind: 'human' | 'assistant' | 'delegated';
+  };
   pages: number | null;
   pagesSource: string;
   coverUrl?: string;

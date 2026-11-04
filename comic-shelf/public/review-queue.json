@@ -185,6 +185,14 @@
       "status": "editorial"
     },
     {
+      "id": "29d6aa3b-72b3-9188-66ea-03dcf63e0932-eng",
+      "title": "Adventures of Spider-Man: Spectacular Foes: Issues #7-12",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "831fc777-c81d-5afd-6232-1faacc036071-eng",
       "title": "Aero & Sword Master: Origins and Odysseys: Issue #1-6",
       "reasons": [
@@ -773,6 +781,42 @@
       "status": "processed"
     },
     {
+      "id": "7cac52eb-093b-cd8e-e0d4-93eac167dfdf-eng",
+      "title": "All-New X-Men Vol. 1: Issues #1-10",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c55d23fb-1744-41f5-678b-c17b26b92f0e-eng",
+      "title": "All-New X-Men Vol. 2: Issues #11-15, 18-21",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ae5f99bd-153c-0098-d531-fdb4d1bce649-eng",
+      "title": "All-New X-Men Vol. 3",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "08c0dd2b-39af-d680-3c01-321610a2963a-eng",
+      "title": "All-New X-Men Vol. 4: Issues #31-41",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "742b0339-f01d-f2d6-ab2b-94891e0abd78-eng",
       "title": "All-New X-Men Vol. 6: The Ultimate Adventure: Issues #31-36",
       "reasons": [
@@ -886,8 +930,285 @@
       "status": "processed"
     },
     {
+      "id": "764ff317-521c-9cb5-70ac-57a630610d3e-eng",
+      "title": "Amazing Spider-Man 2099 Companion",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "d2da3237-496e-3f33-6959-de0f9bdbeaeb-eng",
+      "title": "Amazing Spider-Man By Nick Spencer Vol. 10: Green Goblin Returns: Issues #48-49",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f68ef5e6-96f3-5d5d-1958-5c8f2a11cfa6-eng",
+      "title": "Amazing Spider-Man By Nick Spencer Vol. 8: Threats & Menaces: Issues #37-43",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "17a6b158-e9a3-1195-c591-5831d83fe0a8-eng",
+      "title": "Amazing Spider-Man by Zeb Wells Omnibus Vol. 1",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e2a2c8b8-3a9c-5037-902a-196ce6627ddc-eng",
+      "title": "Amazing Spider-Man Epic Collection: Big Apple Battleground",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "64b3aad8-8dd1-5748-f033-50fba53bf67b-eng",
+      "title": "Amazing Spider-Man Epic Collection: Ghosts of the Past",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "213b9481-1843-673f-5c03-bb9a03a69bf4-eng",
+      "title": "Amazing Spider-Man Epic Collection: Invasion of the Spider-Slayers",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "97394ef3-5acb-2458-1df2-5279dfcc5a02-eng",
       "title": "Amazing Spider-Man Epic Collection: Kraven's Last Hunt",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "50b3d8c4-b301-1604-aaec-4472e611766e-eng",
+      "title": "Amazing Spider-Man Epic Collection: Lifetheft: Issues #381-393",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "383922d5-2d96-7416-a2ba-dcb07aef52d6-eng",
+      "title": "Amazing Spider-Man Epic Collection: Man-Wolf At Midnight: Issues #124-142",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a9925474-b4b8-428c-2dd7-18e88fc5f22a-eng",
+      "title": "Amazing Spider-Man Epic Collection: Nine Lives Has the Black Cat: Issues #186-206",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "0b4005d5-eaf2-7af3-d2e2-6279b16d84d6-eng",
+      "title": "Amazing Spider-Man Epic Collection: Return Of The Sinister Six: Issues #334-350",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8c96a4a8-e771-1136-c963-037c6586333a-eng",
+      "title": "Amazing Spider-Man Epic Collection: Spider-Man or Spider-Clone?",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "445a1f1a-2c59-5b6c-5c59-cac947124611-eng",
+      "title": "Amazing Spider-Man Epic Collection: Spider-Man: Threat or Menace?",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "6ac9b545-19e2-35e1-cc7b-b83903ab8937-eng",
+      "title": "Amazing Spider-Man Epic Collection: The Death Of Captain Stacy: Issues #86-104",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "2b75a8f6-efc7-9e44-0be9-54dd7d13ed9e-eng",
+      "title": "Amazing Spider-Man Epic Collection: The Hero Killers",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "4c87ffa1-4518-6906-b93a-d5ebd01d9409-eng",
+      "title": "Amazing Spider-Man Epic Collection: Venom",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "80a6c588-3d0d-e512-292a-fb13877c7521-eng",
+      "title": "Amazing Spider-Man Epic Collection: Web of Life, Web of Death",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "256fee7e-5f53-ae08-7ea0-dd684f5e1f1b-eng",
+      "title": "Amazing Spider-Man Masterworks Vol. 1: Issues #1-10",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "04254ef5-415a-abc8-6d9b-b25d79f8b7ac-eng",
+      "title": "Amazing Spider-Man Masterworks Vol. 2: Issues #11-19",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f152d96e-e972-a180-abb8-fbaf412a45e9-eng",
+      "title": "Amazing Spider-Man Masterworks Vol. 3: Issues #20-30",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "eeea2afa-e263-3492-7410-25e7812ea0d2-eng",
+      "title": "Amazing Spider-Man Masterworks Vol. 4: Issues #31-40",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "464068bc-af7b-d7bd-33cb-4f266a210ef9-eng",
+      "title": "Amazing Spider-Man Masterworks Vol. 5: Issues #41-50",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ce3f16da-b7b1-e8ed-c04c-08d4d5f7995f-eng",
+      "title": "Amazing Spider-Man Modern Era Epic Collection: Big Time",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "6ecd8b89-1862-0956-7506-90376cb667af-eng",
+      "title": "Amazing Spider-Man Modern Era Epic Collection: Coming Home: Issues #30-45",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "05d244b4-d6c0-ec35-6ef4-a820561655b5-eng",
+      "title": "Amazing Spider-Man Modern Era Epic Collection: The Life and Death of Spiders: Issues #46-58, 500-502",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "7d35b0b6-bd76-1b82-6181-b583066ab173-eng",
+      "title": "Amazing Spider-Man: Blood Hunt: Issues #1-3",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a9fedaa3-f773-0d04-bfa6-d54862f311df-eng",
+      "title": "Amazing Spider-Man: Edge Of Spider-Verse: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "91dd9a03-2ac7-adc2-bb66-5db2cc8210f4-eng",
+      "title": "Amazing Spider-Man: Full Circle: Issue #1",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "6cb958be-b161-66a0-2f5d-e616623aee66-eng",
+      "title": "Amazing Spider-Man: Red Goblin: Issues #794-801",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "be74716f-d1de-54e3-fc75-648cda4bcb27-eng",
+      "title": "Amazing Spider-Man: Renew Your Vows: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "83b66565-a425-ae4c-9e5b-d860086d80f7-eng",
+      "title": "Amazing Spider-Man: The Clone Conspiracy: Issues #1-5",
+      "reasons": [
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "d727b422-c1ef-b462-f8d0-47b1f89aba47-eng",
+      "title": "Amazing Spider-Man: Torn: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "05ce55b6-1f83-4734-5112-7a45b3421063-eng",
+      "title": "Amazing Spider-Man: Worldwide Vol. 3: Issues #12-15",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a35e206a-313b-f868-89a8-6c01f56a18ce-eng",
+      "title": "Amazing Spider-Man: Worldwide Vol. 4: Issues #16-19",
       "reasons": [
         "Review score needs an exact collection match"
       ],
@@ -1272,6 +1593,32 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "87a4495f-b31c-20ad-89af-8e3cbe90a5d1-eng",
+      "title": "Astonishing Spider-Man & Wolverine: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8e11ed67-58ce-c510-cd42-a035d423e898-eng",
+      "title": "Astonishing X-Men by Joss Whedon & John Cassaday Ultimate Collection Book 1: Issues #1-12",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "4492254e-b8d1-200a-638b-61320097b2f8-eng",
+      "title": "Astonishing X-Men by Joss Whedon & John Cassaday Ultimate Collection Book 2: Issues #13-24",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
     },
     {
       "id": "abbbc291-ac16-e0ca-13e9-4388d45cae04-eng",
@@ -1915,10 +2262,9 @@
       "id": "96f7276f-a318-8b4c-b6c0-0a3ddd94016f-eng",
       "title": "Avengers Disassembled: Thor: Issues #80-85",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "unmatched"
     },
     {
       "id": "334a7253-c070-1eb5-e524-0bd7b5116e74-eng",
@@ -2349,6 +2695,15 @@
       "title": "Avengers vs. X-Men Companion",
       "reasons": [
         "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "49b45f11-cc13-b033-34ac-b0d6767b18ed-eng",
+      "title": "Avengers vs. X-Men: Issues #0-12",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
       ],
       "status": "editorial"
     },
@@ -2992,10 +3347,9 @@
       "id": "cd08f5fc-b7c0-e557-b881-e8315c2aeadb-eng",
       "title": "Avengers/Thunderbolts Vol. 1: The Nefaria Protocols",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "722bf867-c04f-f003-3c4c-84d741d2f7ab-eng",
@@ -3026,6 +3380,32 @@
       "title": "Avengers/X-Men: Utopia",
       "reasons": [
         "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "77199b21-c557-a732-753c-63ef5a6e9332-eng",
+      "title": "Avenging Spider-Man: My Friends Can Beat Up Your Friends: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "4552999a-57d5-f347-42ce-f1b777ff28f7-eng",
+      "title": "Avenging Spider-Man: The Complete Collection",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fc97be65-c302-fee8-3243-df3effa85446-eng",
+      "title": "Avenging Spider-Man: Threats & Menaces",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
       ],
       "status": "editorial"
     },
@@ -5282,10 +5662,9 @@
       "id": "c9cb03a6-b84e-769c-f458-47f415b3a8ea-eng",
       "title": "Captain America: The Captain: Issues #332-350",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "c4fc2e08-bfb7-c9f8-369a-b5809ee3e489-eng",
@@ -6279,6 +6658,15 @@
       "status": "processed"
     },
     {
+      "id": "9bc73664-3cf3-e9dd-3103-7717ab26ee0d-eng",
+      "title": "Chaos War: X-Men: Issues #1-2",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "46f0aa70-1326-295d-30d2-82857f8e70c1-eng",
       "title": "Chasm: Curse of Kaine: Issues #1-4",
       "reasons": [
@@ -6367,6 +6755,15 @@
       "status": "processed"
     },
     {
+      "id": "e7925cbf-cc64-e161-f88a-d3149d1be568-eng",
+      "title": "Civil War: Amazing Spider-Man: Issues #532-538",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "c9d77d4a-a8ec-9257-8b60-5c97317d6183-eng",
       "title": "Civil War: Black Panther: Issues #19-25",
       "reasons": [
@@ -6416,10 +6813,9 @@
       "id": "3b2e6df0-0e96-3ab1-93af-5a7e30eef7fd-eng",
       "title": "Civil War: Front Line Complete Collection: Issues #1-11",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "73c63c57-ae61-6e24-7d1e-7f57cd6e6a18-eng",
@@ -6488,13 +6884,21 @@
       "status": "processed"
     },
     {
+      "id": "ea55c211-9a7c-ebf2-e412-9a39b487db7e-eng",
+      "title": "Civil War: Peter Parker, Spider-Man: Issues #28-34",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "42a83771-2170-ec1c-5cc7-927ede91e76a-eng",
       "title": "Civil War: Punisher War Journal: Issues #1-4",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "e7dc87ae-4bc6-328f-ecf6-ea6f233b9fa1-eng",
@@ -8241,6 +8645,14 @@
       "status": "unmatched"
     },
     {
+      "id": "c1251b1e-a253-efb8-97ce-d02f7e873cd8-eng",
+      "title": "Dark Reign: The Sinister Spider-Man: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "2e17397b-4ede-5fe7-e76e-68f1dc46031b-eng",
       "title": "Dark Reign: The Underside",
       "reasons": [
@@ -9025,10 +9437,9 @@
       "id": "accf7870-07dd-df17-8a07-ea48d431ee63-eng",
       "title": "Deadpool Classic Vol. 7: Issues #46-56",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "9089c553-c6d6-9c8c-d666-2a80f877be65-eng",
@@ -9945,6 +10356,14 @@
       "status": "processed"
     },
     {
+      "id": "6017028d-f18d-67fc-945a-35395b87fdef-eng",
+      "title": "Deadpool/Amazing Spider-Man/Incredible Hulk: Identity Wars",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "f8da3e3f-4d6e-2ceb-5855-ea5228c5a562-eng",
       "title": "Deadpool/Wolverine: A Time of Stryfe: Issues #1-10",
       "reasons": [
@@ -10083,6 +10502,14 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "3d905276-6e58-ba7f-9073-b997229ae998-eng",
+      "title": "Decades: Marvel In The '60s - Spider-Man Meets The Marvel Universe",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "223441c2-72bf-cf56-4593-bc5b145fb353-eng",
@@ -10280,10 +10707,9 @@
       "id": "f5742a2c-d51e-0588-36d8-c345cec19efa-eng",
       "title": "Devil Dinosaur by Jack Kirby: The Complete Collection: Issues #1-9",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "91973ebc-41c4-c436-9869-ca1692120b1c-eng",
@@ -12534,10 +12960,9 @@
       "id": "5c7908b7-b7fd-83d6-9137-9119b3ab21b5-eng",
       "title": "Fantastic Four Vol. 3: Doomed: Issues #9-16",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "be295527-61aa-0ade-8c44-a22fc49b66e5-eng",
@@ -12880,10 +13305,9 @@
       "id": "c113545b-7fb9-68c4-5b76-20953a8a2da5-eng",
       "title": "Fantastic Four: The Master of Doom: Issues #562-569",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error _ssl.c:993: The handshake operation timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "4d1c6c42-c357-54b9-2f30-ee8ab1b62773-eng",
@@ -13038,6 +13462,14 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "95536860-6010-ae41-70c9-9af417a41f44-eng",
+      "title": "Fear Itself: Spider-Man: Issues #1-3",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "d697ce33-c439-2286-03c3-796b39ac5261-eng",
@@ -13224,6 +13656,15 @@
         "No exact ISBN metadata match"
       ],
       "status": "unmatched"
+    },
+    {
+      "id": "7f5a06cb-67c1-d4f9-b3df-3d90b89bc2b5-eng",
+      "title": "Friendly Neighborhood Spider-Man Vol. 1: Secrets and Rumors: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
     },
     {
       "id": "43263f81-1c07-8b87-bd06-1bc094228c21-eng",
@@ -14626,10 +15067,9 @@
       "id": "f7267a20-5d65-d378-7a74-68f7997acaf5-eng",
       "title": "Hawkeye by Fraction & Aja: The Saga of Barton and Bishop",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "728fad87-a037-7d35-c2d2-b1c469ef22fd-eng",
@@ -15066,10 +15506,9 @@
       "id": "d536d939-1bdf-6cd7-854b-ebeed8744e38-eng",
       "title": "Heroes Reborn: Return: Issues #1-4",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "74c0d75c-52cb-0536-8fbf-425e871c2e93-eng",
@@ -15181,6 +15620,14 @@
     {
       "id": "0a4e6ed7-d555-9278-8020-b79e6de29a57-eng",
       "title": "House of M: New X-Men: Issues #16-19",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ecbc7ed6-c836-72e3-eb16-517ec8405238-eng",
+      "title": "House of M: Spider-Man: Issues #1-5",
       "reasons": [
         "Review score needs an exact collection match"
       ],
@@ -16490,19 +16937,17 @@
       "id": "39e735e7-f527-3599-2564-dc616ce0f3db-eng",
       "title": "Incredible Hulk: Big Things: Issues #70-76",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "41ab503c-1a7f-c49c-a50b-bc56bfabcc0d-eng",
       "title": "Incredible Hulk: Crossroads: Issues #301-313",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error _ssl.c:993: The handshake operation timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "de036b7e-9d0f-0871-7747-affe475155e9-eng",
@@ -16516,28 +16961,25 @@
       "id": "33c6caaa-967e-e783-e15c-8f62e32328fb-eng",
       "title": "Incredible Hulk: Hide In Plain Sight: Issues #55-59",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "5056b7d0-fd8f-473b-0e90-a27075ea0ea2-eng",
       "title": "Incredible Hulk: Pardoned: Issues #269-285",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "e4c74cd5-b182-438b-313b-60be1f70bf81-eng",
       "title": "Incredible Hulk: Past Perfect: Issues #21-33",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "ead92b88-0e79-7fa1-7c0f-bb661c6d396d-eng",
@@ -16554,10 +16996,9 @@
       "id": "08256f68-f7ee-f5ff-12e9-43623b634b79-eng",
       "title": "Incredible Hulk: Regression",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "d4f11118-0295-fc8b-864c-25cca7f34597-eng",
@@ -16579,28 +17020,25 @@
       "id": "d8eb4081-0066-0cba-72f6-bd6c2306d41a-eng",
       "title": "Incredible Hulk: Transfer Of Power: Issues #44-49",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "5cb87b10-1f1d-dd90-05ec-21530b0e949b-eng",
       "title": "Incredible Hulks: Heart of the Monster: Issues #630-635",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "591013a5-9b1a-df7f-bac4-9f3d75aa2552-eng",
       "title": "Incredible Hulks: Planet Savage: Issues #623-629",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "00a214de-a7f3-c78b-9eab-fb79b043dab6-eng",
@@ -17637,10 +18075,9 @@
       "id": "728a6045-01c4-33c0-f7f6-49cd5f9831c0-eng",
       "title": "Iron Man: Armor Wars Omnibus",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "5302273e-6ac6-b286-e1f5-1967482cd96a-eng",
@@ -18436,6 +18873,14 @@
       "status": "processed"
     },
     {
+      "id": "b0bb8568-792e-c244-61bc-e677e3edba1d-eng",
+      "title": "Legends of Marvel: Spider-Man",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "9448f917-f4df-8c30-fb22-c95c77a24f4a-eng",
       "title": "Legion of X By Si Spurrier Vol. 1: Issues #1-5",
       "reasons": [
@@ -18472,10 +18917,9 @@
       "id": "a1346f29-2347-8a61-9cc3-333541b09936-eng",
       "title": "Lockjaw and the Pet Avengers Unleashed: Issues #1-4",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "2a32d168-8340-80c5-4ef6-4f8a86a34ed3-eng",
@@ -18581,10 +19025,9 @@
       "id": "aee973ec-fa6b-2d4f-08d7-223eb9707b7c-spa",
       "title": "Los 4 Fantásticos en…¡Ataque Del M.O.D.O.K.!: Issue #1",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "e7c3d114-a1ff-5a80-79f9-95d1b9065b62-spa",
@@ -18675,10 +19118,9 @@
       "id": "bd3ff780-ca82-9c64-0b95-4d9b9c22029b-eng",
       "title": "Madrox: Multiple Choice: Issues #1-5",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "a1f95a97-9157-bc47-5cf0-65d01c209b1b-eng",
@@ -18975,37 +19417,33 @@
       "id": "d32a4123-a176-2d5e-3bfa-af4f5e5d2366-eng",
       "title": "Marvel Action Avengers Vol. 2: The Ruby Egress: Issues #4-6",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "a8aa2853-b6d3-0e1a-7b8b-91c124237d75-eng",
       "title": "Marvel Action Avengers Vol. 3: The Fear Eaters: Issues #7-9",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "2b954396-5617-d477-ba54-89021ab2fce2-eng",
       "title": "Marvel Action Black Panther Book 1: Stormy Weather: Issues #1-3",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "481fca9c-ad29-cb34-c613-d1e58d5812c6-eng",
       "title": "Marvel Action Black Panther Book 2: Rise Together: Issues #4-6",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "09ed653a-748a-9286-7075-f5d4d6ba4864-eng",
@@ -19035,19 +19473,62 @@
       "id": "409ae9eb-cbf8-ed1d-c152-03571c07a9e0-eng",
       "title": "Marvel Action Captain Marvel: Ghost in the Machine: Issues #1-5",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "eeed2e79-01d6-75ec-4d29-9959c568eb96-eng",
       "title": "Marvel Action Chillers: Issues #1-4",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
+    },
+    {
+      "id": "267ff934-46da-f8b7-0038-034d3ccf1bdb-eng",
+      "title": "Marvel Action Spider-Man: A New Beginning: Issues #1-3",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "74fe3eb5-2661-f360-904f-ae895daec6f6-eng",
+      "title": "Marvel Action Spider-Man: Bad Luck: Issues #7-9",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "3c8a21dc-186b-06f9-365d-e647c548b6ac-eng",
+      "title": "Marvel Action Spider-Man: Shock to the System: Issues #1-3",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "963a2df2-777a-45e6-48fc-cee25c78333e-eng",
+      "title": "Marvel Action Spider-Man: Spider-Chase: Issues #4-6",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "483bf839-3d45-f90f-0702-b95e30121a32-eng",
+      "title": "Marvel Action Spider-Man: Venom: Issues #10-12",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
     },
     {
       "id": "2e2af5c0-012d-391b-1c20-1ab9f8a1707b-eng",
@@ -19059,6 +19540,22 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "cf9132af-62c6-06cf-6635-b150b3ba045b-eng",
+      "title": "Marvel Adventures Spider-Man & The Avengers: Issues #13-16",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8c7fcfee-055d-9cf5-4836-99266b37227e-eng",
+      "title": "Marvel Adventures Spider-Man Vol. 1: The Sinister Six: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "d656190e-858f-1e56-aef0-23e7e13c6cd3-eng",
@@ -19094,22 +19591,28 @@
       "status": "processed"
     },
     {
+      "id": "beb22d5c-14f2-c450-37c4-de8534cbc6d9-eng",
+      "title": "Marvel Archive Edition: Amazing Spider-Man: The Black Costume: Year One Gallery Edition: Issues #252-263",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "36210869-b6e0-e24e-76d0-956233eee71a-eng",
       "title": "Marvel Fanfare Omnibus Vol. 2: Issues #20-40",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "bb5b9f92-b55f-1118-ad28-a06a1c44546c-eng",
       "title": "Marvel Firsts: The 1960s",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "d613005c-f9fa-ef15-d3cd-1337cb4c57bb-eng",
@@ -19148,10 +19651,9 @@
       "id": "c217bcde-877c-e7b6-2a6e-fdb70e711aae-eng",
       "title": "Marvel Knights Punisher by Garth Ennis: The Complete Collection Vol. 1",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "69f15698-6ed7-9647-c854-2bb2aadd27f5-eng",
@@ -19324,6 +19826,14 @@
       "status": "processed"
     },
     {
+      "id": "3834e826-5279-7ca5-32b7-df51dfef667c-eng",
+      "title": "Marvel Masterworks: The Amazing Spider-Man Vol. 27: Issues #279-288",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "d695159d-ec13-b701-75ee-8fcb33349ac5-eng",
       "title": "Marvel Masterworks: The Avengers Vol. 16",
       "reasons": [
@@ -19361,19 +19871,17 @@
       "id": "62402e30-7d87-0674-ba0c-e068649977ff-eng",
       "title": "Marvel Masterworks: The Fantastic Four Vol. 10: Issues #94-104",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "2e74d204-8557-3d35-5aa7-7f38829ecfee-eng",
       "title": "Marvel Masterworks: The Fantastic Four Vol. 11: Issues #105-116",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "9ac6af05-c1b4-742f-6619-cf05c88bc0a4-eng",
@@ -19387,28 +19895,25 @@
       "id": "3b15447b-e05f-5ca3-dabe-9a57f730e0d3-eng",
       "title": "Marvel Masterworks: The Fantastic Four Vol. 13: Issues #129-141",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "640f2d92-01a5-4cba-d85f-230093156bf1-eng",
       "title": "Marvel Masterworks: The Fantastic Four Vol. 14: Issues #142-150",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "17a6be2b-3f65-28a5-a534-13dde543cd9f-eng",
       "title": "Marvel Masterworks: The Fantastic Four Vol. 15: Issues #151-163",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "17991542-bcd1-dbee-ee17-24bb660a316a-eng",
@@ -19648,6 +20153,14 @@
       "status": "processed"
     },
     {
+      "id": "f7739f8b-868f-fd3e-0d3a-bb665913e72e-eng",
+      "title": "Marvel Super Hero Adventures: Spider-Man",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "c5fdb833-0d61-51eb-2b06-58585e11523e-eng",
       "title": "Marvel Super Hero Adventures: To Wakanda and Beyond",
       "reasons": [
@@ -19718,10 +20231,9 @@
       "id": "75fa28c6-19ae-c0ab-8aa6-73db7edcd80a-eng",
       "title": "Marvel Team-Up Omnibus Vol. 1",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "3d639b87-5871-c2d5-1f23-613936b3fe53-eng",
@@ -19791,6 +20303,48 @@
       "status": "processed"
     },
     {
+      "id": "75b4401b-2c92-7ae0-fab9-f360a93446fe-eng",
+      "title": "Marvel Universe Ultimate Spider-Man & The Avengers: Issues #29-31",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "2b0cddf0-2a3c-a2ae-b271-33499baf7514-eng",
+      "title": "Marvel Universe Ultimate Spider-Man Vs. The Sinister Six Vol. 1: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "5ca5b470-4ba9-796c-dadf-663d1a39f849-eng",
+      "title": "Marvel Universe Ultimate Spider-Man Vs. The Sinister Six Vol. 2: Issues #5-8",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "22f06c8e-4965-6ca2-a83d-99ae2f2ed014-eng",
+      "title": "Marvel Universe Ultimate Spider-Man Vs. The Sinister Six Vol. 3: Issues 9-11",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "30882efc-0a72-c7d8-bd4e-242f28f56748-eng",
+      "title": "Marvel Universe Ultimate Spider-Man: Spider-Verse: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "46e74f3f-d515-4258-8891-9446b6b74865-eng",
       "title": "Marvel Universe vs. the Punisher: Issues #1-4",
       "reasons": [
@@ -19835,10 +20389,9 @@
       "id": "04af4624-5084-52ba-581d-e34a55a22a8b-eng",
       "title": "Marvel Vault Of Heroes: Hulk - Biggest And Best: Issues #1-12",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "9abdb40b-3f54-4add-4929-3a24002ac51b-eng",
@@ -20220,6 +20773,14 @@
       "status": "processed"
     },
     {
+      "id": "9629b5bd-2aa8-c3c1-e590-9008ce3186d3-eng",
+      "title": "Marvel-Verse: Miles Morales: Spider-Man",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "bd5ed5e5-5b99-df64-4ff3-90df27651f1a-eng",
       "title": "Marvel-Verse: Monica Rambeau: Photon",
       "reasons": [
@@ -20336,6 +20897,22 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "c0500913-5fb8-4ea4-c3b3-ca13377ea7bf-eng",
+      "title": "Marvel-Verse: Spider-Man & Madame Web",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "1377ca44-23b5-bdff-19f5-fe2bcdaae953-eng",
+      "title": "Marvel-Verse: Spider-Man: Issues #32-33",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "e4391daf-6f33-3684-2d8f-f894f9eacf39-eng",
@@ -20553,6 +21130,30 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "7525e2fe-7908-889b-56ba-da92d70dbe61-eng",
+      "title": "Marvel's Spider-Man: City At War: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "39422875-2f79-761c-1a82-a358402f9a62-eng",
+      "title": "Marvel's Spider-Man: The Black Cat Strikes: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "35bf19be-cd04-c014-441a-ab22b4e25c4d-eng",
+      "title": "Marvel's Spider-Man: Velocity: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "fbc1a542-c823-eb7c-2bd4-af3d7af0b340-eng",
@@ -20948,6 +21549,14 @@
       "status": "processed"
     },
     {
+      "id": "7a09cb94-5cbb-a98f-3650-a76c0fe9a57c-eng",
+      "title": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 - With Great Power…: Issues #1-10",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "2653ae75-b6d0-c7c7-1bc3-fa7b3f3114cf-eng",
       "title": "Mighty Marvel Masterworks: The Avengers Vol. 1 - The Coming of the Avengers: Issues #1-10",
       "reasons": [
@@ -21100,6 +21709,54 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "bca79e08-b8ad-26c1-1f36-8d84d66c85d8-eng",
+      "title": "Miles Morales: Spider-Man by Cody Ziglar Vol. 5: Blood Hunt: Issues #21-24, 26",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "cef0d077-16ea-84a6-b409-acc6b80c06d5-eng",
+      "title": "Miles Morales: Spider-Man by Cody Ziglar Vol. 6 – Webs of Wakanda",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "7d5cf5fd-f47a-f4c5-4673-522001261d6f-eng",
+      "title": "Miles Morales: Spider-Man Modern Era Epic Collection: Hero in Training",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "698ef5fb-d26b-a48c-ee16-dd41fe63ef8a-eng",
+      "title": "Miles Morales: Spider-Man Modern Era Epic Collection: Revivals and Revelations",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fb02fb60-83cb-7b7a-08cc-c11a8ceadf6e-eng",
+      "title": "Miles Morales: Spider-Man Modern Era Epic Collection: Spider-Man No More",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fac9b54f-58ed-6bf6-31e2-4f2a001b2db6-eng",
+      "title": "Miles Morales: Spider-man/Deadpool. Pools of blood",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "65782a71-cea5-f99b-e48a-28ce3ba03b2d-eng",
@@ -22947,6 +23604,15 @@
       "status": "editorial"
     },
     {
+      "id": "63ad4493-a4d0-9237-7f40-12b4871d4603-eng",
+      "title": "New X-Men: Academy X - The Complete Collection",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "de1faa27-5fac-544d-915c-62b0d0f4359f-eng",
       "title": "New X-Men: Academy X Vol. 2: Haunted: Issues #7-11",
       "reasons": [
@@ -23492,6 +24158,14 @@
       "status": "processed"
     },
     {
+      "id": "ba8ed6b8-b6b4-96a7-783b-51acb979fc8d-eng",
+      "title": "Peter Parker, Spider-Man: Return Of The Green Goblin: Issues #44-47",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "a04daa1f-6eaf-ba39-e4f2-33dbe635184e-eng",
       "title": "Peter Porker, The Spectacular Spider-Ham Vol. 1: Issues #1-5",
       "reasons": [
@@ -23731,6 +24405,14 @@
       "status": "processed"
     },
     {
+      "id": "46be0ce0-1abe-bfdf-103c-9257de8a0679-eng",
+      "title": "Predator vs. Spider-Man: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "58f490e7-add9-0582-2643-cf057906048d-eng",
       "title": "Predator vs. Wolverine: Issues #1-4",
       "reasons": [
@@ -23878,10 +24560,9 @@
       "id": "b5e3228f-61c4-2f2d-2a92-9026186cafc6-eng",
       "title": "Punisher MAX: From First to Last",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "b1974d0b-5cb1-3f90-8376-1d812c47bf5f-eng",
@@ -24145,10 +24826,9 @@
       "id": "4390a4eb-3dc3-5c24-81e3-b77f3a99a8d8-eng",
       "title": "PunisherMAX: Homeless: Issues #17-22",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "2beed207-0b7c-ad21-ed41-ae5d90188450-eng",
@@ -25249,6 +25929,14 @@
       "status": "processed"
     },
     {
+      "id": "29dda304-998b-f7a8-2106-cc06ecfb2da9-eng",
+      "title": "Secret Invasion: Amazing Spider-Man: Issues #1-3, 35",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "02b44ca7-f58d-03e5-e9a9-ffa5bb315ae4-eng",
       "title": "Secret Invasion: Black Panther: Issues #39-41",
       "reasons": [
@@ -25263,10 +25951,9 @@
       "id": "c139384c-f55e-8b8a-950e-913f9c111a12-eng",
       "title": "Secret Invasion: Captain Marvel: Issues #1-5",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "fe780cde-f1ac-e9f0-395a-687fd20b7802-eng",
@@ -26699,6 +27386,23 @@
       "status": "processed"
     },
     {
+      "id": "030d75b2-13a6-d290-be35-de414cf254ff-eng",
+      "title": "Spectacular Spider-Man Vol. 3: Here There Be Monsters: Issues #11-14",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "11d36f3b-64da-8103-f6e8-6de264001780-eng",
+      "title": "Spectacular Spider-Man Vol. 4: Disassembled: Issues #15-20",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "55d9461c-9437-c76b-8ff6-b5ec948d4e42-eng",
       "title": "Spider-Boy Vol. 1: The Web-Less Wonder: Issues #1-4",
       "reasons": [
@@ -27084,8 +27788,190 @@
       "status": "processed"
     },
     {
+      "id": "6af1390e-7e86-e467-b425-0a51b55c7c1d-eng",
+      "title": "Spider-Man '94: The Return: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "75cfa79f-efc5-2541-075e-968e386b3277-eng",
+      "title": "Spider-Man & The Secret Wars: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "1d914ba8-8e1f-ba28-a797-e772f93764f3-eng",
       "title": "Spider-Man & the X-Men: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "066b4159-96df-9127-8072-53757f8a41ba-eng",
+      "title": "Spider-Man & Venom: Double Trouble: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "411e3a4e-7661-70ed-eae2-dbaeef4c4b94-eng",
+      "title": "Spider-Man & Wolverine Vol. 1: The Janus Directory: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "0662ce6b-1c26-5e73-41a6-5edea3e8c7ff-eng",
+      "title": "Spider-Man & Wolverine Vol. 2: Life & Death Choices: Issues #6-10",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "032d31d3-5ffc-8f5c-71c1-3b5d5d2edbc6-eng",
+      "title": "Spider-Man 2099 Vol. 7: Back to Future Shock!: Issues #22-25",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c62ddd45-f6bb-78c4-7481-a1291a0f7bed-eng",
+      "title": "Spider-Man 2099 Vs. Venom 2099",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c7715a9c-4771-a5d5-c09b-24fd7a97c172-eng",
+      "title": "Spider-Man 2099: Dark Genesis: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fa146d56-9b3b-de87-e673-18dfaf119e43-eng",
+      "title": "Spider-Man 2099: Exodus: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "15152417-429d-f4dc-4b63-eccc3013194d-eng",
+      "title": "Spider-Man 2099: Miguel O'Hara: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c206eae3-37e2-142e-02ed-01994b533a92-eng",
+      "title": "Spider-Man By Mark Millar Ultimate Collection: Issues #1-12",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fe68ed69-876e-9f05-3dcd-9ed7ece9545c-eng",
+      "title": "Spider-Man By Todd Mcfarlane: The Complete Collection: Issues #1-14",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "b7ca63c6-89f6-9ec2-89a4-591809c37c68-eng",
+      "title": "Spider-Man Loves Mary Jane Vol. 1: Super Crush: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "dd3aebae-2fad-6fc4-4552-9ada1bcac2b5-eng",
+      "title": "Spider-Man Loves Mary Jane Vol. 2: The New Girl: Issues #6-10",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c8b9838f-1858-b747-5e9d-c2410602f1fb-eng",
+      "title": "Spider-Man Loves Mary Jane Vol. 3: My Secret Life: Issues #11-15",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "0c314565-2a58-618b-39e8-9fd17fd391ef-eng",
+      "title": "Spider-Man Loves Mary Jane Vol. 4: Still Friends: Issues #16-20",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "2b99f5d8-81a4-5b38-a5b3-21153121d00a-eng",
+      "title": "Spider-Man Noir: Hard-Boiled Origins: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c754dede-ba39-a708-b1ae-a5108b177b5c-eng",
+      "title": "Spider-Man Noir: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f76cdb12-78b9-50a9-3c07-3c675d65f463-eng",
+      "title": "Spider-Man Noir: The Gwen Stacy Affair: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "5125fe16-eb38-a04e-be03-6a0b9836ae2b-eng",
+      "title": "Spider-Man Vs. The Black Cat Vol. 1",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a5402b6e-97f9-adb3-3613-67b047057bab-eng",
+      "title": "Spider-Man: A New Goblin: Issues #176-180",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "9b78ecb8-16a8-fb58-33d5-28b47c662fd6-eng",
+      "title": "Spider-Man: Anti-Venom: Issues #1-3",
       "reasons": [
         "Review score needs an exact collection match"
       ],
@@ -34107,6 +34993,15 @@
       "status": "editorial"
     },
     {
+      "id": "2bd2d485-7348-ed3b-95f9-64dd3bf0d832-eng",
+      "title": "Ultimate X-Men Omnibus Vol. 3",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "11812b78-b81b-581f-b0b8-7f72a16f7549-eng",
       "title": "Ultimate X-Men Vol. 12: Hard Lessons: Issues #58-60",
       "reasons": [
@@ -34152,6 +35047,15 @@
       "title": "Ultimate X-Men Vol. 2: Return to Weapon X: Issues #7-12",
       "reasons": [
         "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ae8dd308-ff97-a0a7-cad7-559f2e649e4d-eng",
+      "title": "Ultimate X-Men/Fantastic Four",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
       ],
       "status": "editorial"
     },
@@ -34640,6 +35544,15 @@
       "status": "processed"
     },
     {
+      "id": "dd154bae-0304-c436-3178-03ef28046db3-eng",
+      "title": "Uncanny X-Men by Brian Michael Bendis Omnibus",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "416bbeaa-2cac-e538-2250-71f1ec7ee005-eng",
       "title": "Uncanny X-Men by Gail Simone Vol. 1: Red Wave: Issues #1-6",
       "reasons": [
@@ -34660,6 +35573,16 @@
       "title": "Uncanny X-Men by Gail Simone Vol. 4: Where Monsters Dwell: Issues #22-25",
       "reasons": [
         "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "de4b5f54-5496-28d6-594a-687d9d96de81-eng",
+      "title": "Uncanny X-Men by Kieron Gillen Omnibus",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
       ],
       "status": "editorial"
     },
@@ -36227,10 +37150,9 @@
       "id": "40b7847e-1663-1cdc-cd11-46d5928e478e-eng",
       "title": "Web of Spider-Man Omnibus Vol. 2 Bob Budiansky Cover",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "64117d48-1b24-1cc5-aa71-fde177dafc51-eng",
@@ -36714,6 +37636,22 @@
     {
       "id": "414e0eb9-5bf3-87eb-c471-e125567999cf-eng",
       "title": "Wolverine & the X-Men Vol. 1: Tomorrow Never Learns: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "d21002c7-4a24-4d15-2f83-32f82b915849-eng",
+      "title": "Wolverine & the X-Men Vol. 2: Death of Wolverine: Issues #7-12",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "39030f8e-bdf5-0430-a2f9-589e1df2a358-eng",
+      "title": "Wolverine & the X-Men: Alpha & Omega: Issues #1-5",
       "reasons": [
         "Review score needs an exact collection match"
       ],
@@ -37592,10 +38530,9 @@
       "id": "55b31e13-6926-6440-f18c-fdfccb1851d1-eng",
       "title": "Wolverine: The Reckoning",
       "reasons": [
-        "No exact ISBN metadata match",
-        "openlibrary: <urlopen error timed out>"
+        "No exact ISBN metadata match"
       ],
-      "status": "error"
+      "status": "pending"
     },
     {
       "id": "78c4270a-06c9-c058-dcfb-5749a8f5469d-eng",
@@ -37630,6 +38567,14 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "740c3b10-ac96-ac89-4321-b7292faf635f-eng",
+      "title": "Wolverine: Wolverine vs. The X-Men",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "f41e38ea-6056-bf22-af73-0915b89cd7e2-eng",
@@ -38129,6 +39074,16 @@
       "status": "processed"
     },
     {
+      "id": "ba8f3a39-3d6a-a519-f8b7-3e295b1cc637-eng",
+      "title": "X-Factor: The Original X-Men Omnibus Vol. 2",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "3c90e951-0869-1129-80ce-f7a9d9e12f6b-eng",
       "title": "X-Force By Benjamin Percy Vol. 1: Issues #1-6",
       "reasons": [
@@ -38305,8 +39260,987 @@
       "status": "processed"
     },
     {
+      "id": "b25cf0db-f398-b04e-db09-f73aaea50189-eng",
+      "title": "X-Men '92 Vol. 0: Warzones!: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "d77bcc5a-268b-91d7-beac-ad3273d1fc28-eng",
+      "title": "X-Men '92 Vol. 2: Lilapalooza: Issues #6-10",
+      "reasons": [
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a95efca4-b66b-af18-c84b-c04007fd602c-eng",
+      "title": "X-Men '92: House of XCII",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f35207e3-1c5b-a9ca-83f4-ddd24f913095-eng",
+      "title": "X-Men '92: The Saga Continues",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "dd0f0c56-1de6-f45f-ba02-564da7c3c533-eng",
+      "title": "X-Men '97: Great X-Pectations: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f105c833-81ac-5b35-03a4-d813c21a7469-eng",
+      "title": "X-Men by Gerry Duggan Omnibus: Issues #1-34",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a6fa3de2-96b9-5512-bb02-84844b4edd5b-eng",
+      "title": "X-Men by Jed Mackay Vol. 1: Homecoming: Issues #1-7",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "6f76ac64-5ff6-4f5d-dcd8-60c507aa404e-eng",
+      "title": "X-Men By Peter Milligan: Blood of Apocalypse",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "11377dc4-f4e0-91ee-2cef-87739ea2a0e8-eng",
+      "title": "X-Men Epic Collection Vol. 11: Lifedeath",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fa7418b9-39fc-d8a2-2206-659c359ea184-eng",
+      "title": "X-Men Epic Collection: Bishop's Crossing",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "dd08d64b-dab1-1eeb-6971-66ece6a44478-eng",
+      "title": "X-Men Epic Collection: Fatal Attractions",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c941bb7a-a506-1b80-3bee-15f4389f9706-eng",
+      "title": "X-Men Epic Collection: God Loves, Man Kills",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "9c5c86d1-42f8-7a18-6125-7dd7b9c5ba00-eng",
+      "title": "X-Men Epic Collection: I, Magneto: Issues #144-153",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8a6a399c-a32f-daee-a7ea-43ac6e51b3fb-eng",
+      "title": "X-Men Epic Collection: Legacies",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "06b3b065-71fa-ba35-e3eb-47539ab78381-eng",
+      "title": "X-Men Epic Collection: Mutant Genesis",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "bda49b5b-be62-fd39-572e-9cc3e7efc9a9-eng",
+      "title": "X-Men Epic Collection: Mutant Massacre",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "7f8b74e6-6bbd-716b-a900-69036cfce14a-eng",
+      "title": "X-Men Epic Collection: Second Genesis",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8a560f55-782f-8bec-d829-8669e8495149-eng",
+      "title": "X-Men Epic Collection: The Brood Saga",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "97df33ef-26c6-0e12-c07b-57626e48c241-eng",
+      "title": "X-Men Epic Collection: The Fate of the Phoenix: Issues #129-143",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "877730ae-8ee5-91e6-9628-294a48b2d51e-eng",
+      "title": "X-Men Epic Collection: The X-Cutioner's Song",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "2fde8236-17c4-c57f-8fc3-1319d9c430c9-eng",
+      "title": "X-Men Epic Collection: Wounded Wolf: Issues #199-210",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "2df5f599-8d45-6da2-8c88-0bf60e4e5170-eng",
+      "title": "X-Men Legacy: Five Miles South of the Universe: Issues #254-260",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "d610a2d6-9e0b-ec10-b95a-22153f0f2afc-eng",
+      "title": "X-Men Legacy: Lost Legions: Issues #250-253",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "1835e740-b17e-2e9c-b02e-5cca901467d0-eng",
+      "title": "X-Men legends: Past meets future",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "bb1f7b9e-7969-51f7-ed0c-a11630c0f00a-eng",
+      "title": "X-Men Milestones: Dark Phoenix Saga: Issues #129-137",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "9fddd347-3acb-15ec-238e-1f601185fb19-eng",
+      "title": "X-Men Milestones: Fall of the Mutants: Issues #225-227",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "84b36c7c-f0de-13e9-ba92-8cb05cfcbdee-eng",
+      "title": "X-Men Milestones: Inferno: Issues #239-243",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "65750c5a-787d-c353-993b-58a8652143cb-eng",
+      "title": "X-Men Milestones: Messiah Complex",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "79a21f0e-afa7-909f-7c21-a427288045bc-eng",
+      "title": "X-Men Milestones: Messiah War",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "745dcb41-ad7a-f120-0497-cccf4306869e-eng",
+      "title": "X-Men Milestones: Onslaught",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "27b162cf-15b4-af3c-9dca-43ffc7b6800d-eng",
+      "title": "X-Men Milestones: X-Cutioner's Song",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "19f3ecc4-f1eb-0c89-51a1-601bbe7715b1-eng",
+      "title": "X-Men Milestones: X-Tinction Agenda: Issues #235-238",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fc9364ac-43bf-a56d-d08b-6f07a942663b-eng",
+      "title": "X-Men Origins",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "60a63450-09ea-6212-8b04-32379001e5e1-eng",
+      "title": "X-Men Origins II",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f7d48460-8daf-c26b-0bd1-fe4247269de1-eng",
+      "title": "X-Men Vs. Apocalypse Vol. 1: The Twelve",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "88af12fb-636e-16d0-7d73-0eca1c605079-eng",
+      "title": "X-Men Vs. Apocalypse Vol. 2: Ages Of Apocalypse",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "37167c83-4a8f-5bcc-fc61-960a0f558383-eng",
+      "title": "X-Men Weddings",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c030d9b4-a1be-e985-2d3c-01e35590906b-eng",
+      "title": "X-Men: Age Of Apocalypse - Dawn",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "0f40b31a-0ed1-1d84-9758-fb86298367f4-eng",
+      "title": "X-Men: Age Of Apocalypse - Termination",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "913f8965-33a6-79f1-e88d-d066a7c060c7-eng",
+      "title": "X-Men: Age Of Apocalypse - Twilight",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e27d8b6e-7c5d-d8ed-0d3a-dcc32a2bab22-eng",
+      "title": "X-Men: Age Of Apocalypse Vol. 1 - Alpha",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8e65ffc3-f38d-34dc-de7b-53a15bc32731-eng",
+      "title": "X-Men: Age Of Apocalypse Vol. 2 - Reign",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "d327b731-0362-a75a-28eb-d02e3cb34c72-eng",
+      "title": "X-Men: Age Of Apocalypse Vol. 3 - Omega",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "639146b0-53c8-d384-4fc7-7f2177ad20a8-eng",
+      "title": "X-Men: Age of Krakoa - Dawn of X Omnibus Vol. 2",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "b0fb5bf0-b555-7975-8777-cbda6df3c181-eng",
+      "title": "X-Men: Age of Revelation - Overture",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "75a9d867-b432-359b-9deb-57475f305a24-eng",
+      "title": "X-Men: Age of Revelation: Book of revelation",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "dd3c2f64-f41d-7df5-7074-37071fd473b7-eng",
+      "title": "X-Men: Age of Revelation: World of revelation",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a31bafc6-9e42-009d-00b2-01f888518767-eng",
+      "title": "X-Men: Apocalypse Wars",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e7134cd6-13b4-2170-0a51-e18b30311132-eng",
+      "title": "X-Men: Apocalypse/Dracula: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "397e7d7a-2c2f-2224-bd74-4fcce553b389-eng",
+      "title": "X-Men: Battle of the Atom: Issues #1-2",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8665a752-1439-b41c-e0a1-3479bbe58247-eng",
+      "title": "X-Men: Bishop's Crossing",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "22e711aa-6eee-2248-7964-02493ab32dae-eng",
+      "title": "X-Men: Blinded by the Light: Issues #200-204",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "49e2d8b2-29dc-7a24-6a10-1aa46c875353-eng",
+      "title": "X-Men: Blood Hunt: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "0bafc917-e1cc-d3be-e06c-ca8e0df29840-eng",
+      "title": "X-Men: Curse Of The Mutants - Mutants Vs. Vampires: Issues #1-2",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "4869f9ba-5d0e-fb70-5539-cd498f74dfdc-eng",
+      "title": "X-Men: Cyclops & Phoenix - Past & Future",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e8defa46-2e63-2138-ac57-2e0c5ed961f1-eng",
+      "title": "X-Men: Dark Phoenix Saga [New Printing]: Issues #129-138",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e4bf4014-b4c2-6eb7-e483-f1a656be8a5b-eng",
+      "title": "X-Men: Dark Phoenix Saga: Issues #129-137",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "b0432c01-b4d0-bb72-0601-787d4aec71aa-eng",
+      "title": "X-Men: Days of Future Past: Doomsday: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
       "id": "a6f101ed-5cf5-106d-f026-19b33e7da1f4-eng",
       "title": "X-Men: Days Of Future Past: Issues #138-143",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a6587bff-35c0-c87f-1033-18457de0feb8-eng",
+      "title": "X-Men: Emperor Vulcan: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "de8da13c-28a9-3776-4b9c-0a01290f6530-eng",
+      "title": "X-Men: Evolution: Issues #1-9",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "1c705b04-3af2-bbe1-907a-8d53d4bd6b67-eng",
+      "title": "X-Men: Fallen Angels",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "60facbb6-64b4-0eaa-718c-72e6085c1297-eng",
+      "title": "X-Men: Fatal Attractions: Issues #298-300",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "be4affc5-a760-e664-d6e0-ceb31290e234-eng",
+      "title": "X-Men: First Class: Mutants 101: Issues #1-8",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "897937e5-3d26-1509-8cfc-d98d72a3af07-eng",
+      "title": "X-Men: First Class: Road Trips: Issues #1-9",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ea104db1-21eb-407d-d06f-b87ea822b2d4-eng",
+      "title": "X-Men: From the ashes",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "32721f10-721b-9651-eff0-ad5be97d8180-eng",
+      "title": "X-Men: From The Ashes: Issues #168-176",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8fa3ec53-673c-6ab9-e7f9-18f1c4fc4320-eng",
+      "title": "X-Men: Gambit - The Complete Collection Vol. 1: Issues #1/2, 1-11",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ee288e4d-31eb-a5f4-a836-0afb82267060-eng",
+      "title": "X-Men: Gambit - The Complete Collection Vol. 2: Issues #12-25",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c193c034-683d-8884-ab45-4cebd6ff3619-eng",
+      "title": "X-Men: Gambit & Rogue",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "657ef66f-f5c3-f31e-1be9-328773c0a782-eng",
+      "title": "X-Men: Grand Design Trilogy: Issues #1-2",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "b1a2a74c-d9fe-a9cd-6b31-0e884f51731f-eng",
+      "title": "X-Men: Hellfire gala",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c4699b26-7149-fae8-911e-97bfaf213c15-eng",
+      "title": "X-Men: Hellfire Gala - The Red Carpet Collection",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "00b24f02-78fd-c8a4-4b5b-7d1550b3382b-eng",
+      "title": "X-Men: Hellfire Gala: Fall of X",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "41f04656-9dce-543c-3e34-c17525a6555f-eng",
+      "title": "X-Men: Hellfire Gala: Immortal",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "061f67fd-fca5-1588-7231-c1063d7b31df-eng",
+      "title": "X-Men: Hellfire Galas",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c31f048b-69b7-0c0c-045d-dfc37cc66ba5-eng",
+      "title": "X-Men: Iceman: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "13eec0c0-ef50-5abf-69ed-cdc019e8c461-eng",
+      "title": "X-Men: Kitty Pryde & Wolverine: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ffd6ca4f-bf92-b209-8c6e-c0e8718eec79-eng",
+      "title": "X-Men: Lifedeath",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "3f7b5041-8aa8-2434-34c0-36a223869697-eng",
+      "title": "X-Men: Messiah Complex",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ab0ea1fb-68c3-2994-a9ec-820edd576e01-eng",
+      "title": "X-Men: Mutant Genesis: Issues #1-7",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "553b1bfa-0635-6a52-e456-32c575c1e90d-eng",
+      "title": "X-Men: Operation Zero Tolerance",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "56307814-1352-04e4-6a25-a50aea24a786-eng",
+      "title": "X-Men: Phoenix - Warsong: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "85ea04ab-e25d-8d03-1149-bfce08181511-eng",
+      "title": "X-Men: Phoenix Endsong: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ee2e3709-6d44-8390-85b0-7ecf41d05f12-eng",
+      "title": "X-Men: Phoenix in Darkness by Grant Morrison: Issues #146-154",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "1d028928-1ef0-25c3-cf28-176ca23b74ef-eng",
+      "title": "X-Men: Phoenix Rising",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "6017dd44-586a-0f2c-3b2a-5d6b1f1fb128-eng",
+      "title": "X-Men: Proteus",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "bd18488d-9334-0d57-af2e-2ddac960b037-eng",
+      "title": "X-Men: Reign Of X By Jonathan Hickman Vol. 1: Issues #1-9",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f7e2fffb-95d1-1d30-c5b0-9921c685b9c3-eng",
+      "title": "X-Men: Reign of X by Jonathan Hickman Vol. 2",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "07047295-3bf8-1264-e2d9-7ec4da89a5f5-eng",
+      "title": "X-Men: Road to Onslaught Omnibus Vol. 2",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "4c2150f3-9a78-a820-2097-0d2794e76b51-eng",
+      "title": "X-Men: S.W.O.R.D.: No Time to Breathe: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "6cdf2d58-f5fa-8c6a-7869-6b0e0d0ba481-eng",
+      "title": "X-Men: Schism: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "c7eb3dfd-1b12-4e75-28a5-879c46516975-eng",
+      "title": "X-Men: Second Coming: Issues #1-2",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a5a5da0c-399d-41e2-6f79-e8cbffc0a1ba-eng",
+      "title": "X-Men: Shattershot",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "fb16e88f-979e-766c-fffa-9a1fb4758509-eng",
+      "title": "X-Men: Skinning of Souls: Issues #17-24",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "337734f1-0bde-355c-cc40-e97d6083f75b-eng",
+      "title": "X-Men: Starjammers by Dave Cockrum",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "17a6dc4d-ff4a-4a35-4ec5-a698029f3c22-eng",
+      "title": "X-Men: Summers and Winter",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "dbe491a1-cb58-eb9c-170d-b75dad1568c4-eng",
+      "title": "X-Men: The Adventures of Cyclops and Phoenix",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "8123af5d-1f3b-ecea-c62e-84386d9b18ec-eng",
+      "title": "X-Men: The Animated Series - Feared And Hated: Issues #1-8",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "5a302f26-fbfe-aa83-72b5-77cf0c326f49-eng",
+      "title": "X-Men: The Animated Series: The Further Adventures: Issues #1-12",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ade23be6-4e69-02ee-3f86-cfcf10c436f6-eng",
+      "title": "X-Men: The Blood of Apocalypse: Issues #182-187",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "050e5a59-8869-09a5-e8e2-1b9077e00e15-eng",
+      "title": "X-Men: The End Book One: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "9bd01976-ec7c-e1f2-fcc3-566c9491a8d5-eng",
+      "title": "X-Men: The End Book Three: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e0291783-036d-3d8a-2af7-e26f4df5d68a-eng",
+      "title": "X-Men: The End Book Two: Issues #1-6",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "5c366b93-58f0-6143-907f-46394764b153-eng",
+      "title": "X-Men: The Messiah Trilogy Omnibus",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "002f8026-4b27-ddf9-d590-0f17f60b8f76-eng",
+      "title": "X-Men: The Rise of Apocalypse",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e011bbfb-5bc0-7562-1688-ee64570ca905-eng",
+      "title": "X-Men: The Trial of Gambit Omnibus",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing",
+        "Edition discrepancy needs checking; see collected-issue notes"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "b668c9b8-f986-fbd0-9c1d-c084f1254e32-eng",
+      "title": "X-Men: The Trial of Gambit: Issues #341-350",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f0e325c7-32e4-ea92-ba93-93759b061726-eng",
+      "title": "X-Men: Unstoppable: Issues #410-424",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "0f2f1b05-089d-0c9c-cbe4-d2482cdcc791-eng",
+      "title": "X-Men: Wedding Of Cyclops & Phoenix",
+      "reasons": [
+        "Review score needs an exact collection match",
+        "Page count missing"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ffe6ddb7-3085-eec4-273e-2ad41c387f54-eng",
+      "title": "X-Men: Wolverine/Gambit: Issues #1-4",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "2e587f10-c1b3-5e18-650c-e41acb11675a-eng",
+      "title": "X-Men: X-Cutioner's Song",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "e20ec3be-2e5a-da6b-3e76-7d7bc99a26c1-eng",
+      "title": "X-Men: X-Verse: Wolverine",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "2b81e8c4-8f3c-3a00-bff5-a6338123a8c2-eng",
+      "title": "X-Men: X-Verse: X-Villains",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "5f8192d3-e51c-0af6-1ffe-f6df3687cb68-eng",
+      "title": "X-Men: X-Verse: X-Women",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "0093ed78-df8b-072e-6085-bb913c22f45a-eng",
+      "title": "X-Men: Years of Future Past: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "ed2ba36e-c845-2f64-8a16-59f269726f13-eng",
+      "title": "X-Men/Avengers: Onslaught Vol. 1",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "f368d441-be50-1cf5-fadb-0aad32e71471-eng",
+      "title": "X-Men/Avengers: Onslaught Vol. 2",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "a705a17a-fef3-b5c4-09b4-72af385a43f2-eng",
+      "title": "X-Men/Avengers: Onslaught Vol. 3",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
+    },
+    {
+      "id": "071b2c9e-2ded-e4fd-15ab-0292ea34ec4e-eng",
+      "title": "X-Men/Fantastic Four: 4X: Issues #1-4",
       "reasons": [
         "Review score needs an exact collection match"
       ],
@@ -38356,6 +40290,14 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
+    },
+    {
+      "id": "d960bc6f-f273-0b36-0f17-c94f8b39e673-eng",
+      "title": "X-Treme X-Men by Claremont & Larroca: A New Beginning: Issues #1-5",
+      "reasons": [
+        "Review score needs an exact collection match"
+      ],
+      "status": "editorial"
     },
     {
       "id": "902a78ec-25a4-2b87-9160-379bc9681dd3-eng",
@@ -38471,2037 +40413,6 @@
         "Review score needs an exact collection match"
       ],
       "status": "processed"
-    },
-    {
-      "id": "7cac52eb-093b-cd8e-e0d4-93eac167dfdf-eng",
-      "title": "All-New X-Men Vol. 1: Issues #1-10",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "c55d23fb-1744-41f5-678b-c17b26b92f0e-eng",
-      "title": "All-New X-Men Vol. 2: Issues #11-15, 18-21",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "ae5f99bd-153c-0098-d531-fdb4d1bce649-eng",
-      "title": "All-New X-Men Vol. 3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "08c0dd2b-39af-d680-3c01-321610a2963a-eng",
-      "title": "All-New X-Men Vol. 4: Issues #31-41",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "8e11ed67-58ce-c510-cd42-a035d423e898-eng",
-      "title": "Astonishing X-Men by Joss Whedon & John Cassaday Ultimate Collection Book 1: Issues #1-12",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "4492254e-b8d1-200a-638b-61320097b2f8-eng",
-      "title": "Astonishing X-Men by Joss Whedon & John Cassaday Ultimate Collection Book 2: Issues #13-24",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "49b45f11-cc13-b033-34ac-b0d6767b18ed-eng",
-      "title": "Avengers vs. X-Men: Issues #0-12",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "9bc73664-3cf3-e9dd-3103-7717ab26ee0d-eng",
-      "title": "Chaos War: X-Men: Issues #1-2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "63ad4493-a4d0-9237-7f40-12b4871d4603-eng",
-      "title": "New X-Men: Academy X - The Complete Collection",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "2bd2d485-7348-ed3b-95f9-64dd3bf0d832-eng",
-      "title": "Ultimate X-Men Omnibus Vol. 3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Synopsis and contents checked against the matching-title print omnibus; this digital ISBN’s extras and page count are not independently confirmed. Crossover annuals are not indexed."
-      ]
-    },
-    {
-      "id": "ae8dd308-ff97-a0a7-cad7-559f2e649e4d-eng",
-      "title": "Ultimate X-Men/Fantastic Four",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "dd154bae-0304-c436-3178-03ef28046db3-eng",
-      "title": "Uncanny X-Men by Brian Michael Bendis Omnibus",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title publisher omnibus contents checked; digital ISBN page count remains unavailable. Includes 15.INH, not an ordinary issue 15."
-      ]
-    },
-    {
-      "id": "de4b5f54-5496-28d6-594a-687d9d96de81-eng",
-      "title": "Uncanny X-Men by Kieron Gillen Omnibus",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title publisher omnibus and smaller collected editions checked. Digital page count and additional extras remain unconfirmed."
-      ]
-    },
-    {
-      "id": "d21002c7-4a24-4d15-2f83-32f82b915849-eng",
-      "title": "Wolverine & the X-Men Vol. 2: Death of Wolverine: Issues #7-12",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "39030f8e-bdf5-0430-a2f9-589e1df2a358-eng",
-      "title": "Wolverine & the X-Men: Alpha & Omega: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "740c3b10-ac96-ac89-4321-b7292faf635f-eng",
-      "title": "Wolverine: Wolverine vs. The X-Men",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ba8f3a39-3d6a-a519-f8b7-3e295b1cc637-eng",
-      "title": "X-Factor: The Original X-Men Omnibus Vol. 2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title publisher edition contents confirmed; exact digital page count remains unconfirmed."
-      ]
-    },
-    {
-      "id": "b25cf0db-f398-b04e-db09-f73aaea50189-eng",
-      "title": "X-Men '92 Vol. 0: Warzones!: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "d77bcc5a-268b-91d7-beac-ad3273d1fc28-eng",
-      "title": "X-Men '92 Vol. 2: Lilapalooza: Issues #6-10",
-      "status": "editorial",
-      "reasons": [
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "a95efca4-b66b-af18-c84b-c04007fd602c-eng",
-      "title": "X-Men '92: House of XCII",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f35207e3-1c5b-a9ca-83f4-ddd24f913095-eng",
-      "title": "X-Men '92: The Saga Continues",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "dd0f0c56-1de6-f45f-ba02-564da7c3c533-eng",
-      "title": "X-Men '97: Great X-Pectations: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f105c833-81ac-5b35-03a4-d813c21a7469-eng",
-      "title": "X-Men by Gerry Duggan Omnibus: Issues #1-34",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title publisher print omnibus contents checked; exact digital extras/page count still need confirmation. Review row lists 40 issues rather than this 41-issue listing, so no omnibus score is attached."
-      ]
-    },
-    {
-      "id": "a6fa3de2-96b9-5512-bb02-84844b4edd5b-eng",
-      "title": "X-Men by Jed Mackay Vol. 1: Homecoming: Issues #1-7",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "ISBN source says issues 1–7; review collection row says six issues. Score withheld rather than mixing editions."
-      ]
-    },
-    {
-      "id": "6f76ac64-5ff6-4f5d-dcd8-60c507aa404e-eng",
-      "title": "X-Men By Peter Milligan: Blood of Apocalypse",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "11377dc4-f4e0-91ee-2cef-87739ea2a0e8-eng",
-      "title": "X-Men Epic Collection Vol. 11: Lifedeath",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "fa7418b9-39fc-d8a2-2206-659c359ea184-eng",
-      "title": "X-Men Epic Collection: Bishop's Crossing",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "dd08d64b-dab1-1eeb-6971-66ece6a44478-eng",
-      "title": "X-Men Epic Collection: Fatal Attractions",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c941bb7a-a506-1b80-3bee-15f4389f9706-eng",
-      "title": "X-Men Epic Collection: God Loves, Man Kills",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "9c5c86d1-42f8-7a18-6125-7dd7b9c5ba00-eng",
-      "title": "X-Men Epic Collection: I, Magneto: Issues #144-153",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "8a6a399c-a32f-daee-a7ea-43ac6e51b3fb-eng",
-      "title": "X-Men Epic Collection: Legacies",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "06b3b065-71fa-ba35-e3eb-47539ab78381-eng",
-      "title": "X-Men Epic Collection: Mutant Genesis",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "bda49b5b-be62-fd39-572e-9cc3e7efc9a9-eng",
-      "title": "X-Men Epic Collection: Mutant Massacre",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "7f8b74e6-6bbd-716b-a900-69036cfce14a-eng",
-      "title": "X-Men Epic Collection: Second Genesis",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Publisher blurb mistakenly names Warpath among the 1975 recruits; that appearance is not asserted. Contents follow the explicitly listed issues."
-      ]
-    },
-    {
-      "id": "8a560f55-782f-8bec-d829-8669e8495149-eng",
-      "title": "X-Men Epic Collection: The Brood Saga",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "97df33ef-26c6-0e12-c07b-57626e48c241-eng",
-      "title": "X-Men Epic Collection: The Fate of the Phoenix: Issues #129-143",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "877730ae-8ee5-91e6-9628-294a48b2d51e-eng",
-      "title": "X-Men Epic Collection: The X-Cutioner's Song",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "2fde8236-17c4-c57f-8fc3-1319d9c430c9-eng",
-      "title": "X-Men Epic Collection: Wounded Wolf: Issues #199-210",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "2df5f599-8d45-6da2-8c88-0bf60e4e5170-eng",
-      "title": "X-Men Legacy: Five Miles South of the Universe: Issues #254-260",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "d610a2d6-9e0b-ec10-b95a-22153f0f2afc-eng",
-      "title": "X-Men Legacy: Lost Legions: Issues #250-253",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "1835e740-b17e-2e9c-b02e-5cca901467d0-eng",
-      "title": "X-Men legends: Past meets future",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "bb1f7b9e-7969-51f7-ed0c-a11630c0f00a-eng",
-      "title": "X-Men Milestones: Dark Phoenix Saga: Issues #129-137",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "9fddd347-3acb-15ec-238e-1f601185fb19-eng",
-      "title": "X-Men Milestones: Fall of the Mutants: Issues #225-227",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "84b36c7c-f0de-13e9-ba92-8cb05cfcbdee-eng",
-      "title": "X-Men Milestones: Inferno: Issues #239-243",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "65750c5a-787d-c353-993b-58a8652143cb-eng",
-      "title": "X-Men Milestones: Messiah Complex",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "79a21f0e-afa7-909f-7c21-a427288045bc-eng",
-      "title": "X-Men Milestones: Messiah War",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "745dcb41-ad7a-f120-0497-cccf4306869e-eng",
-      "title": "X-Men Milestones: Onslaught",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Publisher listing has corrupted Avengers, Fantastic Four and Wolverine issue numbers. Those issues and ambiguously named Onslaught one-shots are not indexed; main Uncanny/X-Men/Cable ranges are clear."
-      ]
-    },
-    {
-      "id": "27b162cf-15b4-af3c-9dca-43ffc7b6800d-eng",
-      "title": "X-Men Milestones: X-Cutioner's Song",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "19f3ecc4-f1eb-0c89-51a1-601bbe7715b1-eng",
-      "title": "X-Men Milestones: X-Tinction Agenda: Issues #235-238",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "fc9364ac-43bf-a56d-d08b-6f07a942663b-eng",
-      "title": "X-Men Origins",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "60a63450-09ea-6212-8b04-32379001e5e1-eng",
-      "title": "X-Men Origins II",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f7d48460-8daf-c26b-0bd1-fe4247269de1-eng",
-      "title": "X-Men Vs. Apocalypse Vol. 1: The Twelve",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "88af12fb-636e-16d0-7d73-0eca1c605079-eng",
-      "title": "X-Men Vs. Apocalypse Vol. 2: Ages Of Apocalypse",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "37167c83-4a8f-5bcc-fc61-960a0f558383-eng",
-      "title": "X-Men Weddings",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "c030d9b4-a1be-e985-2d3c-01e35590906b-eng",
-      "title": "X-Men: Age Of Apocalypse - Dawn",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "0f40b31a-0ed1-1d84-9758-fb86298367f4-eng",
-      "title": "X-Men: Age Of Apocalypse - Termination",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "913f8965-33a6-79f1-e88d-d066a7c060c7-eng",
-      "title": "X-Men: Age Of Apocalypse - Twilight",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "e27d8b6e-7c5d-d8ed-0d3a-dcc32a2bab22-eng",
-      "title": "X-Men: Age Of Apocalypse Vol. 1 - Alpha",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "8e65ffc3-f38d-34dc-de7b-53a15bc32731-eng",
-      "title": "X-Men: Age Of Apocalypse Vol. 2 - Reign",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "d327b731-0362-a75a-28eb-d02e3cb34c72-eng",
-      "title": "X-Men: Age Of Apocalypse Vol. 3 - Omega",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "639146b0-53c8-d384-4fc7-7f2177ad20a8-eng",
-      "title": "X-Men: Age of Krakoa - Dawn of X Omnibus Vol. 2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title publisher print contents checked, but digital page count is unconfirmed. Wolverine 1 is partial material and is excluded from whole-issue overlaps."
-      ]
-    },
-    {
-      "id": "b0fb5bf0-b555-7975-8777-cbda6df3c181-eng",
-      "title": "X-Men: Age of Revelation - Overture",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "75a9d867-b432-359b-9deb-57475f305a24-eng",
-      "title": "X-Men: Age of Revelation: Book of revelation",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "dd3c2f64-f41d-7df5-7074-37071fd473b7-eng",
-      "title": "X-Men: Age of Revelation: World of revelation",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "a31bafc6-9e42-009d-00b2-01f888518767-eng",
-      "title": "X-Men: Apocalypse Wars",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "e7134cd6-13b4-2170-0a51-e18b30311132-eng",
-      "title": "X-Men: Apocalypse/Dracula: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "397e7d7a-2c2f-2224-bd74-4fcce553b389-eng",
-      "title": "X-Men: Battle of the Atom: Issues #1-2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "8665a752-1439-b41c-e0a1-3479bbe58247-eng",
-      "title": "X-Men: Bishop's Crossing",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "22e711aa-6eee-2248-7964-02493ab32dae-eng",
-      "title": "X-Men: Blinded by the Light: Issues #200-204",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "49e2d8b2-29dc-7a24-6a10-1aa46c875353-eng",
-      "title": "X-Men: Blood Hunt: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "0bafc917-e1cc-d3be-e06c-ca8e0df29840-eng",
-      "title": "X-Men: Curse Of The Mutants - Mutants Vs. Vampires: Issues #1-2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "4869f9ba-5d0e-fb70-5539-cd498f74dfdc-eng",
-      "title": "X-Men: Cyclops & Phoenix - Past & Future",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "e8defa46-2e63-2138-ac57-2e0c5ed961f1-eng",
-      "title": "X-Men: Dark Phoenix Saga [New Printing]: Issues #129-138",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "e4bf4014-b4c2-6eb7-e483-f1a656be8a5b-eng",
-      "title": "X-Men: Dark Phoenix Saga: Issues #129-137",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Catalog title says 129–137 but the ISBN metadata says 129–138. Index follows the metadata; exact final chapter needs digital-edition confirmation."
-      ]
-    },
-    {
-      "id": "b0432c01-b4d0-bb72-0601-787d4aec71aa-eng",
-      "title": "X-Men: Days of Future Past: Doomsday: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "a6587bff-35c0-c87f-1033-18457de0feb8-eng",
-      "title": "X-Men: Emperor Vulcan: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "de8da13c-28a9-3776-4b9c-0a01290f6530-eng",
-      "title": "X-Men: Evolution: Issues #1-9",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "1c705b04-3af2-bbe1-907a-8d53d4bd6b67-eng",
-      "title": "X-Men: Fallen Angels",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title Jo Duffy collection and original 1987 series checked; this digital ISBN’s exact extras and page count remain unconfirmed. Eight core issues indexed; bonus contents not inferred."
-      ]
-    },
-    {
-      "id": "60facbb6-64b4-0eaa-718c-72e6085c1297-eng",
-      "title": "X-Men: Fatal Attractions: Issues #298-300",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Imported publisher copy calls this the entire saga, but its listed contents omit important chapters found in other event editions. Only the explicitly listed ranges are indexed."
-      ]
-    },
-    {
-      "id": "be4affc5-a760-e664-d6e0-ceb31290e234-eng",
-      "title": "X-Men: First Class: Mutants 101: Issues #1-8",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "897937e5-3d26-1509-8cfc-d98d72a3af07-eng",
-      "title": "X-Men: First Class: Road Trips: Issues #1-9",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ea104db1-21eb-407d-d06f-b87ea822b2d4-eng",
-      "title": "X-Men: From the ashes",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "32721f10-721b-9651-eff0-ad5be97d8180-eng",
-      "title": "X-Men: From The Ashes: Issues #168-176",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "8fa3ec53-673c-6ab9-e7f9-18f1c4fc4320-eng",
-      "title": "X-Men: Gambit - The Complete Collection Vol. 1: Issues #1/2, 1-11",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ee288e4d-31eb-a5f4-a836-0afb82267060-eng",
-      "title": "X-Men: Gambit - The Complete Collection Vol. 2: Issues #12-25",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c193c034-683d-8884-ab45-4cebd6ff3619-eng",
-      "title": "X-Men: Gambit & Rogue",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "4a04e9be-1419-aa5b-4d01-eb3a6b5d8056-eng",
-      "title": "X-Men: Grand Design - Second Genesis: Issues #1-2",
-      "status": "editorial",
-      "reasons": [
-        "Publisher mentions a Giant-Size X-Men reprint without its year/number. That bonus is not included in the overlap index."
-      ]
-    },
-    {
-      "id": "657ef66f-f5c3-f31e-1be9-328773c0a782-eng",
-      "title": "X-Men: Grand Design Trilogy: Issues #1-2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "b1a2a74c-d9fe-a9cd-6b31-0e884f51731f-eng",
-      "title": "X-Men: Hellfire gala",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c4699b26-7149-fae8-911e-97bfaf213c15-eng",
-      "title": "X-Men: Hellfire Gala - The Red Carpet Collection",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "00b24f02-78fd-c8a4-4b5b-7d1550b3382b-eng",
-      "title": "X-Men: Hellfire Gala: Fall of X",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "41f04656-9dce-543c-3e34-c17525a6555f-eng",
-      "title": "X-Men: Hellfire Gala: Immortal",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "061f67fd-fca5-1588-7231-c1063d7b31df-eng",
-      "title": "X-Men: Hellfire Galas",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c31f048b-69b7-0c0c-045d-dfc37cc66ba5-eng",
-      "title": "X-Men: Iceman: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "13eec0c0-ef50-5abf-69ed-cdc019e8c461-eng",
-      "title": "X-Men: Kitty Pryde & Wolverine: Issues #1-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "ffd6ca4f-bf92-b209-8c6e-c0e8718eec79-eng",
-      "title": "X-Men: Lifedeath",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Imported synopsis describes a different Storm/Forge adventure. Replaced with the Lifedeath plot supported by Marvel; issue list retained. Partial issue 53 is not indexed."
-      ]
-    },
-    {
-      "id": "3f7b5041-8aa8-2434-34c0-36a223869697-eng",
-      "title": "X-Men: Messiah Complex",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ab0ea1fb-68c3-2994-a9ec-820edd576e01-eng",
-      "title": "X-Men: Mutant Genesis: Issues #1-7",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "553b1bfa-0635-6a52-e456-32c575c1e90d-eng",
-      "title": "X-Men: Operation Zero Tolerance",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "56307814-1352-04e4-6a25-a50aea24a786-eng",
-      "title": "X-Men: Phoenix - Warsong: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "85ea04ab-e25d-8d03-1149-bfce08181511-eng",
-      "title": "X-Men: Phoenix Endsong: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ee2e3709-6d44-8390-85b0-7ecf41d05f12-eng",
-      "title": "X-Men: Phoenix in Darkness by Grant Morrison: Issues #146-154",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "1d028928-1ef0-25c3-cf28-176ca23b74ef-eng",
-      "title": "X-Men: Phoenix Rising",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "6017dd44-586a-0f2c-3b2a-5d6b1f1fb128-eng",
-      "title": "X-Men: Proteus",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Classic X-Men 32–33 and 36 contain reprint/backup material; excluded from whole-issue overlaps to avoid counting duplicated main chapters twice."
-      ]
-    },
-    {
-      "id": "bd18488d-9334-0d57-af2e-2ddac960b037-eng",
-      "title": "X-Men: Reign Of X By Jonathan Hickman Vol. 1: Issues #1-9",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f7e2fffb-95d1-1d30-c5b0-9921c685b9c3-eng",
-      "title": "X-Men: Reign of X by Jonathan Hickman Vol. 2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "07047295-3bf8-1264-e2d9-7ec4da89a5f5-eng",
-      "title": "X-Men: Road to Onslaught Omnibus Vol. 2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title print omnibus checked; exact digital ISBN contents/page count remain unconfirmed. Yearbook extras omitted from the whole-story overlap index."
-      ]
-    },
-    {
-      "id": "4c2150f3-9a78-a820-2097-0d2794e76b51-eng",
-      "title": "X-Men: S.W.O.R.D.: No Time to Breathe: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "6cdf2d58-f5fa-8c6a-7869-6b0e0d0ba481-eng",
-      "title": "X-Men: Schism: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Core Schism 1–5 indexed. Publisher print and review collections include differing extras, unconfirmed for this digital ISBN; no collection score attached."
-      ]
-    },
-    {
-      "id": "c7eb3dfd-1b12-4e75-28a5-879c46516975-eng",
-      "title": "X-Men: Second Coming: Issues #1-2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Imported description incorrectly described Age of X. Replaced using Marvel’s Second Coming listing; core event contents checked against matching-title print edition, digital extras unconfirmed. Page count withheld because the imported metadata conflicts with the book’s identity."
-      ]
-    },
-    {
-      "id": "a5a5da0c-399d-41e2-6f79-e8cbffc0a1ba-eng",
-      "title": "X-Men: Shattershot",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "fb16e88f-979e-766c-fffa-9a1fb4758509-eng",
-      "title": "X-Men: Skinning of Souls: Issues #17-24",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "337734f1-0bde-355c-cc40-e97d6083f75b-eng",
-      "title": "X-Men: Starjammers by Dave Cockrum",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "17a6dc4d-ff4a-4a35-4ec5-a698029f3c22-eng",
-      "title": "X-Men: Summers and Winter",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "dbe491a1-cb58-eb9c-170d-b75dad1568c4-eng",
-      "title": "X-Men: The Adventures of Cyclops and Phoenix",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "8123af5d-1f3b-ecea-c62e-84386d9b18ec-eng",
-      "title": "X-Men: The Animated Series - Feared And Hated: Issues #1-8",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "5a302f26-fbfe-aa83-72b5-77cf0c326f49-eng",
-      "title": "X-Men: The Animated Series: The Further Adventures: Issues #1-12",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ade23be6-4e69-02ee-3f86-cfcf10c436f6-eng",
-      "title": "X-Men: The Blood of Apocalypse: Issues #182-187",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "050e5a59-8869-09a5-e8e2-1b9077e00e15-eng",
-      "title": "X-Men: The End Book One: Issues #1-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "9bd01976-ec7c-e1f2-fcc3-566c9491a8d5-eng",
-      "title": "X-Men: The End Book Three: Issues #1-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "e0291783-036d-3d8a-2af7-e26f4df5d68a-eng",
-      "title": "X-Men: The End Book Two: Issues #1-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "5c366b93-58f0-6143-907f-46394764b153-eng",
-      "title": "X-Men: The Messiah Trilogy Omnibus",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Publisher listings differ over Cable 11–12 and Hellbound/Blind Science extras. Only the shared core trilogy and Bishop miniseries are indexed; exact digital contents and page count need confirmation."
-      ]
-    },
-    {
-      "id": "002f8026-4b27-ddf9-d590-0f17f60b8f76-eng",
-      "title": "X-Men: The Rise of Apocalypse",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "e011bbfb-5bc0-7562-1688-ee64570ca905-eng",
-      "title": "X-Men: The Trial of Gambit Omnibus",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title omnibus contents checked; exact digital extras and page count unconfirmed. Partial Valentine material is excluded."
-      ]
-    },
-    {
-      "id": "b668c9b8-f986-fbd0-9c1d-c084f1254e32-eng",
-      "title": "X-Men: The Trial of Gambit: Issues #341-350",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f0e325c7-32e4-ea92-ba93-93759b061726-eng",
-      "title": "X-Men: Unstoppable: Issues #410-424",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "0f2f1b05-089d-0c9c-cbe4-d2482cdcc791-eng",
-      "title": "X-Men: Wedding Of Cyclops & Phoenix",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "ffe6ddb7-3085-eec4-273e-2ad41c387f54-eng",
-      "title": "X-Men: Wolverine/Gambit: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "2e587f10-c1b3-5e18-650c-e41acb11675a-eng",
-      "title": "X-Men: X-Cutioner's Song",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "e20ec3be-2e5a-da6b-3e76-7d7bc99a26c1-eng",
-      "title": "X-Men: X-Verse: Wolverine",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "2b81e8c4-8f3c-3a00-bff5-a6338123a8c2-eng",
-      "title": "X-Men: X-Verse: X-Villains",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "5f8192d3-e51c-0af6-1ffe-f6df3687cb68-eng",
-      "title": "X-Men: X-Verse: X-Women",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "0093ed78-df8b-072e-6085-bb913c22f45a-eng",
-      "title": "X-Men: Years of Future Past: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ed2ba36e-c845-2f64-8a16-59f269726f13-eng",
-      "title": "X-Men/Avengers: Onslaught Vol. 1",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f368d441-be50-1cf5-fadb-0aad32e71471-eng",
-      "title": "X-Men/Avengers: Onslaught Vol. 2",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "a705a17a-fef3-b5c4-09b4-72af385a43f2-eng",
-      "title": "X-Men/Avengers: Onslaught Vol. 3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "071b2c9e-2ded-e4fd-15ab-0292ea34ec4e-eng",
-      "title": "X-Men/Fantastic Four: 4X: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "d960bc6f-f273-0b36-0f17-c94f8b39e673-eng",
-      "title": "X-Treme X-Men by Claremont & Larroca: A New Beginning: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "29d6aa3b-72b3-9188-66ea-03dcf63e0932-eng",
-      "title": "Adventures of Spider-Man: Spectacular Foes: Issues #7-12",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "764ff317-521c-9cb5-70ac-57a630610d3e-eng",
-      "title": "Amazing Spider-Man 2099 Companion",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "d2da3237-496e-3f33-6959-de0f9bdbeaeb-eng",
-      "title": "Amazing Spider-Man By Nick Spencer Vol. 10: Green Goblin Returns: Issues #48-49",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f68ef5e6-96f3-5d5d-1958-5c8f2a11cfa6-eng",
-      "title": "Amazing Spider-Man By Nick Spencer Vol. 8: Threats & Menaces: Issues #37-43",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "17a6b158-e9a3-1195-c591-5831d83fe0a8-eng",
-      "title": "Amazing Spider-Man by Zeb Wells Omnibus Vol. 1",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title publisher omnibus checked; digital extras and page count remain unconfirmed. Review listing counts 29 issues against 30 here, so no score attached."
-      ]
-    },
-    {
-      "id": "e2a2c8b8-3a9c-5037-902a-196ce6627ddc-eng",
-      "title": "Amazing Spider-Man Epic Collection: Big Apple Battleground",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "64b3aad8-8dd1-5748-f033-50fba53bf67b-eng",
-      "title": "Amazing Spider-Man Epic Collection: Ghosts of the Past",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Matching-title collection story and contents checked; page count not transferred from another print/digital edition."
-      ]
-    },
-    {
-      "id": "213b9481-1843-673f-5c03-bb9a03a69bf4-eng",
-      "title": "Amazing Spider-Man Epic Collection: Invasion of the Spider-Slayers",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "50b3d8c4-b301-1604-aaec-4472e611766e-eng",
-      "title": "Amazing Spider-Man Epic Collection: Lifetheft: Issues #381-393",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "383922d5-2d96-7416-a2ba-dcb07aef52d6-eng",
-      "title": "Amazing Spider-Man Epic Collection: Man-Wolf At Midnight: Issues #124-142",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "a9925474-b4b8-428c-2dd7-18e88fc5f22a-eng",
-      "title": "Amazing Spider-Man Epic Collection: Nine Lives Has the Black Cat: Issues #186-206",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "0b4005d5-eaf2-7af3-d2e2-6279b16d84d6-eng",
-      "title": "Amazing Spider-Man Epic Collection: Return Of The Sinister Six: Issues #334-350",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "8c96a4a8-e771-1136-c963-037c6586333a-eng",
-      "title": "Amazing Spider-Man Epic Collection: Spider-Man or Spider-Clone?",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "445a1f1a-2c59-5b6c-5c59-cac947124611-eng",
-      "title": "Amazing Spider-Man Epic Collection: Spider-Man: Threat or Menace?",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "6ac9b545-19e2-35e1-cc7b-b83903ab8937-eng",
-      "title": "Amazing Spider-Man Epic Collection: The Death Of Captain Stacy: Issues #86-104",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Imported blurb misattributes the drug-addiction subplot to Norman. That claim is omitted; listed core issues and Captain Stacy/Morbius storylines are retained."
-      ]
-    },
-    {
-      "id": "2b75a8f6-efc7-9e44-0be9-54dd7d13ed9e-eng",
-      "title": "Amazing Spider-Man Epic Collection: The Hero Killers",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "4c87ffa1-4518-6906-b93a-d5ebd01d9409-eng",
-      "title": "Amazing Spider-Man Epic Collection: Venom",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "80a6c588-3d0d-e512-292a-fb13877c7521-eng",
-      "title": "Amazing Spider-Man Epic Collection: Web of Life, Web of Death",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "256fee7e-5f53-ae08-7ea0-dd684f5e1f1b-eng",
-      "title": "Amazing Spider-Man Masterworks Vol. 1: Issues #1-10",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "04254ef5-415a-abc8-6d9b-b25d79f8b7ac-eng",
-      "title": "Amazing Spider-Man Masterworks Vol. 2: Issues #11-19",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f152d96e-e972-a180-abb8-fbaf412a45e9-eng",
-      "title": "Amazing Spider-Man Masterworks Vol. 3: Issues #20-30",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "eeea2afa-e263-3492-7410-25e7812ea0d2-eng",
-      "title": "Amazing Spider-Man Masterworks Vol. 4: Issues #31-40",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "464068bc-af7b-d7bd-33cb-4f266a210ef9-eng",
-      "title": "Amazing Spider-Man Masterworks Vol. 5: Issues #41-50",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ce3f16da-b7b1-e8ed-c04c-08d4d5f7995f-eng",
-      "title": "Amazing Spider-Man Modern Era Epic Collection: Big Time",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "6ecd8b89-1862-0956-7506-90376cb667af-eng",
-      "title": "Amazing Spider-Man Modern Era Epic Collection: Coming Home: Issues #30-45",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "05d244b4-d6c0-ec35-6ef4-a820561655b5-eng",
-      "title": "Amazing Spider-Man Modern Era Epic Collection: The Life and Death of Spiders: Issues #46-58, 500-502",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "7d35b0b6-bd76-1b82-6181-b583066ab173-eng",
-      "title": "Amazing Spider-Man: Blood Hunt: Issues #1-3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "a9fedaa3-f773-0d04-bfa6-d54862f311df-eng",
-      "title": "Amazing Spider-Man: Edge Of Spider-Verse: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Imported synopsis belonged to Spider-Verse Prelude. Contents table and ISBN-matched library record confirm Edge of Spider-Verse 1–5. Page counts conflict, so length is withheld."
-      ]
-    },
-    {
-      "id": "91dd9a03-2ac7-adc2-bb66-5db2cc8210f4-eng",
-      "title": "Amazing Spider-Man: Full Circle: Issue #1",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "6cb958be-b161-66a0-2f5d-e616623aee66-eng",
-      "title": "Amazing Spider-Man: Red Goblin: Issues #794-801",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "be74716f-d1de-54e3-fc75-648cda4bcb27-eng",
-      "title": "Amazing Spider-Man: Renew Your Vows: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "83b66565-a425-ae4c-9e5b-d860086d80f7-eng",
-      "title": "Amazing Spider-Man: The Clone Conspiracy: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Silk uses the late-2015 series (the publisher’s 2015B label), not the earlier 2015 run. Partial FCBD material excluded."
-      ]
-    },
-    {
-      "id": "d727b422-c1ef-b462-f8d0-47b1f89aba47-eng",
-      "title": "Amazing Spider-Man: Torn: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "36e203be-68ba-85f3-ff7f-60dce439c4c7-eng",
-      "title": "Amazing Spider-Man: Worldwide Vol. 1: Issues #1-11",
-      "status": "editorial",
-      "reasons": [
-        "Imported synopsis incorrectly described issues 12–19. ISBN contents table confirms 1–11; rewritten from the matching smaller volumes’ publisher descriptions."
-      ]
-    },
-    {
-      "id": "05ce55b6-1f83-4734-5112-7a45b3421063-eng",
-      "title": "Amazing Spider-Man: Worldwide Vol. 3: Issues #12-15",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "a35e206a-313b-f868-89a8-6c01f56a18ce-eng",
-      "title": "Amazing Spider-Man: Worldwide Vol. 4: Issues #16-19",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "87a4495f-b31c-20ad-89af-8e3cbe90a5d1-eng",
-      "title": "Astonishing Spider-Man & Wolverine: Issues #1-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "77199b21-c557-a732-753c-63ef5a6e9332-eng",
-      "title": "Avenging Spider-Man: My Friends Can Beat Up Your Friends: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Imported Google copy says 1–6; ISBN-matched OverDrive and catalog agree on 1–5. Issue 6 is not indexed and an unmatched collection rating is withheld. Page count withheld until the edition mismatch is resolved."
-      ]
-    },
-    {
-      "id": "4552999a-57d5-f347-42ce-f1b777ff28f7-eng",
-      "title": "Avenging Spider-Man: The Complete Collection",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "fc97be65-c302-fee8-3243-df3effa85446-eng",
-      "title": "Avenging Spider-Man: Threats & Menaces",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "e7925cbf-cc64-e161-f88a-d3149d1be568-eng",
-      "title": "Civil War: Amazing Spider-Man: Issues #532-538",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Imported synopsis says 532–536; the catalog and ISBN-matched library publisher copy list 532–538. Conflicting length metadata is withheld."
-      ]
-    },
-    {
-      "id": "ea55c211-9a7c-ebf2-e412-9a39b487db7e-eng",
-      "title": "Civil War: Peter Parker, Spider-Man: Issues #28-34",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "c1251b1e-a253-efb8-97ce-d02f7e873cd8-eng",
-      "title": "Dark Reign: The Sinister Spider-Man: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "6017028d-f18d-67fc-945a-35395b87fdef-eng",
-      "title": "Deadpool/Amazing Spider-Man/Incredible Hulk: Identity Wars",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "3d905276-6e58-ba7f-9073-b997229ae998-eng",
-      "title": "Decades: Marvel In The '60s - Spider-Man Meets The Marvel Universe",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "95536860-6010-ae41-70c9-9af417a41f44-eng",
-      "title": "Fear Itself: Spider-Man: Issues #1-3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "7f5a06cb-67c1-d4f9-b3df-3d90b89bc2b5-eng",
-      "title": "Friendly Neighborhood Spider-Man Vol. 1: Secrets and Rumors: Issues #1-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Catalog says 1–6 but cached publisher copy says 1–5. Only uncontested 1–5 indexed; issue 6, length and review score withheld pending contents verification."
-      ]
-    },
-    {
-      "id": "ad5e8b16-cf73-a341-58a3-2bd0579a54b4-eng",
-      "title": "Friendly Neighborhood Spider-Man Vol. 2: Hostile Takeovers: Issues #2-14",
-      "status": "editorial",
-      "reasons": [
-        "Imported title has malformed issue range 2–14; publisher synopsis confirms 7–14."
-      ]
-    },
-    {
-      "id": "ecbc7ed6-c836-72e3-eb16-517ec8405238-eng",
-      "title": "House of M: Spider-Man: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "b0bb8568-792e-c244-61bc-e677e3edba1d-eng",
-      "title": "Legends of Marvel: Spider-Man",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "267ff934-46da-f8b7-0038-034d3ccf1bdb-eng",
-      "title": "Marvel Action Spider-Man: A New Beginning: Issues #1-3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "74fe3eb5-2661-f360-904f-ae895daec6f6-eng",
-      "title": "Marvel Action Spider-Man: Bad Luck: Issues #7-9",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "3c8a21dc-186b-06f9-365d-e647c548b6ac-eng",
-      "title": "Marvel Action Spider-Man: Shock to the System: Issues #1-3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "963a2df2-777a-45e6-48fc-cee25c78333e-eng",
-      "title": "Marvel Action Spider-Man: Spider-Chase: Issues #4-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "483bf839-3d45-f90f-0702-b95e30121a32-eng",
-      "title": "Marvel Action Spider-Man: Venom: Issues #10-12",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "cf9132af-62c6-06cf-6635-b150b3ba045b-eng",
-      "title": "Marvel Adventures Spider-Man & The Avengers: Issues #13-16",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "8c7fcfee-055d-9cf5-4836-99266b37227e-eng",
-      "title": "Marvel Adventures Spider-Man Vol. 1: The Sinister Six: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "beb22d5c-14f2-c450-37c4-de8534cbc6d9-eng",
-      "title": "Marvel Archive Edition: Amazing Spider-Man: The Black Costume: Year One Gallery Edition: Issues #252-263",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "3834e826-5279-7ca5-32b7-df51dfef667c-eng",
-      "title": "Marvel Masterworks: The Amazing Spider-Man Vol. 27: Issues #279-288",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f7739f8b-868f-fd3e-0d3a-bb665913e72e-eng",
-      "title": "Marvel Super Hero Adventures: Spider-Man",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Four named Super Hero Adventures one-shots are listed, but their exact series/year keys are not independently resolved; no speculative issue keys added."
-      ]
-    },
-    {
-      "id": "75b4401b-2c92-7ae0-fab9-f360a93446fe-eng",
-      "title": "Marvel Universe Ultimate Spider-Man & The Avengers: Issues #29-31",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "2b0cddf0-2a3c-a2ae-b271-33499baf7514-eng",
-      "title": "Marvel Universe Ultimate Spider-Man Vs. The Sinister Six Vol. 1: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "5ca5b470-4ba9-796c-dadf-663d1a39f849-eng",
-      "title": "Marvel Universe Ultimate Spider-Man Vs. The Sinister Six Vol. 2: Issues #5-8",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "22f06c8e-4965-6ca2-a83d-99ae2f2ed014-eng",
-      "title": "Marvel Universe Ultimate Spider-Man Vs. The Sinister Six Vol. 3: Issues 9-11",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Title says 9–11; publisher synopsis says 9–12. Only uncontested 9–11 indexed until the edition contents are confirmed."
-      ]
-    },
-    {
-      "id": "30882efc-0a72-c7d8-bd4e-242f28f56748-eng",
-      "title": "Marvel Universe Ultimate Spider-Man: Spider-Verse: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing",
-        "Catalog says 1–4; Marvel publisher listing says 13–16 under an ambiguous Spider-Verse series label. Issue keys and length withheld to avoid matching the wrong Spider-Verse series."
-      ]
-    },
-    {
-      "id": "9629b5bd-2aa8-c3c1-e590-9008ce3186d3-eng",
-      "title": "Marvel-Verse: Miles Morales: Spider-Man",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c0500913-5fb8-4ea4-c3b3-ca13377ea7bf-eng",
-      "title": "Marvel-Verse: Spider-Man & Madame Web",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "1377ca44-23b5-bdff-19f5-fe2bcdaae953-eng",
-      "title": "Marvel-Verse: Spider-Man: Issues #32-33",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "7525e2fe-7908-889b-56ba-da92d70dbe61-eng",
-      "title": "Marvel's Spider-Man: City At War: Issues #1-6",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "39422875-2f79-761c-1a82-a358402f9a62-eng",
-      "title": "Marvel's Spider-Man: The Black Cat Strikes: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "35bf19be-cd04-c014-441a-ab22b4e25c4d-eng",
-      "title": "Marvel's Spider-Man: Velocity: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "7a09cb94-5cbb-a98f-3650-a76c0fe9a57c-eng",
-      "title": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 - With Great Power…: Issues #1-10",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "bca79e08-b8ad-26c1-1f36-8d84d66c85d8-eng",
-      "title": "Miles Morales: Spider-Man by Cody Ziglar Vol. 5: Blood Hunt: Issues #21-24, 26",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "cef0d077-16ea-84a6-b409-acc6b80c06d5-eng",
-      "title": "Miles Morales: Spider-Man by Cody Ziglar Vol. 6 – Webs of Wakanda",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "7d5cf5fd-f47a-f4c5-4673-522001261d6f-eng",
-      "title": "Miles Morales: Spider-Man Modern Era Epic Collection: Hero in Training",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "698ef5fb-d26b-a48c-ee16-dd41fe63ef8a-eng",
-      "title": "Miles Morales: Spider-Man Modern Era Epic Collection: Revivals and Revelations",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "fb02fb60-83cb-7b7a-08cc-c11a8ceadf6e-eng",
-      "title": "Miles Morales: Spider-Man Modern Era Epic Collection: Spider-Man No More",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "fac9b54f-58ed-6bf6-31e2-4f2a001b2db6-eng",
-      "title": "Miles Morales: Spider-man/Deadpool. Pools of blood",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "ba8ed6b8-b6b4-96a7-783b-51acb979fc8d-eng",
-      "title": "Peter Parker, Spider-Man: Return Of The Green Goblin: Issues #44-47",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "46be0ce0-1abe-bfdf-103c-9257de8a0679-eng",
-      "title": "Predator vs. Spider-Man: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "29dda304-998b-f7a8-2106-cc06ecfb2da9-eng",
-      "title": "Secret Invasion: Amazing Spider-Man: Issues #1-3, 35",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Imported bonus number 35 is ambiguous; the main three issues are indexed, but the annual alias is withheld until edition confirmation."
-      ]
-    },
-    {
-      "id": "030d75b2-13a6-d290-be35-de414cf254ff-eng",
-      "title": "Spectacular Spider-Man Vol. 3: Here There Be Monsters: Issues #11-14",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "11d36f3b-64da-8103-f6e8-6de264001780-eng",
-      "title": "Spectacular Spider-Man Vol. 4: Disassembled: Issues #15-20",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "6af1390e-7e86-e467-b425-0a51b55c7c1d-eng",
-      "title": "Spider-Man '94: The Return: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "75cfa79f-efc5-2541-075e-968e386b3277-eng",
-      "title": "Spider-Man & The Secret Wars: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "066b4159-96df-9127-8072-53757f8a41ba-eng",
-      "title": "Spider-Man & Venom: Double Trouble: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "411e3a4e-7661-70ed-eae2-dbaeef4c4b94-eng",
-      "title": "Spider-Man & Wolverine Vol. 1: The Janus Directory: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "0662ce6b-1c26-5e73-41a6-5edea3e8c7ff-eng",
-      "title": "Spider-Man & Wolverine Vol. 2: Life & Death Choices: Issues #6-10",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "032d31d3-5ffc-8f5c-71c1-3b5d5d2edbc6-eng",
-      "title": "Spider-Man 2099 Vol. 7: Back to Future Shock!: Issues #22-25",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c62ddd45-f6bb-78c4-7481-a1291a0f7bed-eng",
-      "title": "Spider-Man 2099 Vs. Venom 2099",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c7715a9c-4771-a5d5-c09b-24fd7a97c172-eng",
-      "title": "Spider-Man 2099: Dark Genesis: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "fa146d56-9b3b-de87-e673-18dfaf119e43-eng",
-      "title": "Spider-Man 2099: Exodus: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "15152417-429d-f4dc-4b63-eccc3013194d-eng",
-      "title": "Spider-Man 2099: Miguel O'Hara: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c206eae3-37e2-142e-02ed-01994b533a92-eng",
-      "title": "Spider-Man By Mark Millar Ultimate Collection: Issues #1-12",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "fe68ed69-876e-9f05-3dcd-9ed7ece9545c-eng",
-      "title": "Spider-Man By Todd Mcfarlane: The Complete Collection: Issues #1-14",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "b7ca63c6-89f6-9ec2-89a4-591809c37c68-eng",
-      "title": "Spider-Man Loves Mary Jane Vol. 1: Super Crush: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "dd3aebae-2fad-6fc4-4552-9ada1bcac2b5-eng",
-      "title": "Spider-Man Loves Mary Jane Vol. 2: The New Girl: Issues #6-10",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "c8b9838f-1858-b747-5e9d-c2410602f1fb-eng",
-      "title": "Spider-Man Loves Mary Jane Vol. 3: My Secret Life: Issues #11-15",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "0c314565-2a58-618b-39e8-9fd17fd391ef-eng",
-      "title": "Spider-Man Loves Mary Jane Vol. 4: Still Friends: Issues #16-20",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "2b99f5d8-81a4-5b38-a5b3-21153121d00a-eng",
-      "title": "Spider-Man Noir: Hard-Boiled Origins: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "c754dede-ba39-a708-b1ae-a5108b177b5c-eng",
-      "title": "Spider-Man Noir: Issues #1-4",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "f76cdb12-78b9-50a9-3c07-3c675d65f463-eng",
-      "title": "Spider-Man Noir: The Gwen Stacy Affair: Issues #1-5",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "5125fe16-eb38-a04e-be03-6a0b9836ae2b-eng",
-      "title": "Spider-Man Vs. The Black Cat Vol. 1",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match",
-        "Page count missing"
-      ]
-    },
-    {
-      "id": "a5402b6e-97f9-adb3-3613-67b047057bab-eng",
-      "title": "Spider-Man: A New Goblin: Issues #176-180",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
-    },
-    {
-      "id": "9b78ecb8-16a8-fb58-33d5-28b47c662fd6-eng",
-      "title": "Spider-Man: Anti-Venom: Issues #1-3",
-      "status": "editorial",
-      "reasons": [
-        "Review score needs an exact collection match"
-      ]
     }
   ]
 }

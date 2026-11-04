@@ -1,0 +1,21 @@
+const byId = id => document.getElementById(id);
+const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl = value => {try {const url = new URL(value);return url.protocol === 'https:' ? escapeHtml(url.href) : '#';}catch{return '#';}};
+async function loadJson(url){const response = await fetch(url);if(!response.ok)throw new Error(`Could not load ${url}`);return response.json();}
+Promise.all([loadJson(`/event-timelines/${document.body.dataset.event}.json`),loadJson('/catalog.json')]).then(([event,catalog]) => {
+  const byIsbn = new Map(catalog.books.map(book => [book.isbn,book]));
+  const steps = event.steps.map((step,index) => ({...step,index,books:step.isbns.map(isbn => byIsbn.get(isbn)).filter(Boolean)}));
+  const listed = step => step.books.some(book => book.hooplaListed);
+  byId('stats').innerHTML = `<span><strong>${steps.length}</strong> selected stages</span><span><strong>${steps.filter(step=>step.role==='Core').length}</strong> core stages</span><span><strong>${steps.filter(listed).length}</strong> with Hoopla-listed matches</span><span><strong>${steps.filter(step=>!step.books.length).length}</strong> catalog gaps</span>`;
+  byId('sources').innerHTML = Object.values(event.sources).map(source => `<li><a href="${safeUrl(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.label)} ↗</a></li>`).join('');
+  function render(){
+    const route = byId('route').value, availability = byId('availability').value, phase = byId('phase').value;
+    const visible = steps.filter(step => (route === 'all' || (route === 'core' ? step.role === 'Core' : step.role !== 'Optional')) && (availability !== 'listed' || listed(step)) && (availability !== 'missing' || !step.books.length) && (phase === 'all' || phase === step.phase));
+    byId('shown').textContent = `${visible.length} of ${steps.length} stages · reading sequence`;
+    byId('timeline').innerHTML = visible.length ? visible.map(step => `<article class="story event-step" id="${escapeHtml(step.id)}"><div class="year"><span class="number">STAGE</span>${String(step.index+1).padStart(2,'0')}<span class="stage-date">${escapeHtml(step.date)}</span></div><div class="story-body"><div class="badges"><span class="badge ${step.role==='Core'?'core':''}">${escapeHtml(step.role.toUpperCase())}</span><span class="badge">${escapeHtml(step.phase)}</span><span class="badge ${listed(step)?'available':'gap'}">${listed(step)?'HOOPLA LISTED':step.books.length?'CATALOG MATCH · CHECK FORMAT':'NO CONFIRMED MATCH'}</span></div><h3>${escapeHtml(step.title)}</h3><p class="issues">${escapeHtml(step.issues)}</p><p>${escapeHtml(step.why)}</p>${step.order?.length?`<details class="issue-order"><summary>Issue order · ${step.order.length} reading blocks</summary><ol>${step.order.map(item=>`<li>${escapeHtml(item)}</li>`).join('')}</ol></details>`:''}<div class="matches"><h4>${step.books.length?'IN YOUR LIBRARY CATALOG':'LIBRARY MATCH TO CHECK'}</h4>${step.books.map(book=>`<div class="book"><a href="${safeUrl(book.catalogUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(book.title)} ↗</a><small>ISBN ${escapeHtml(book.isbn)} · ${escapeHtml(book.format || 'Check format')} · ${book.hooplaListed?'Hoopla listed in export':'Hoopla not confirmed in export'}</small></div>`).join('')}<p class="match-note">${escapeHtml(step.match)}</p></div><p class="evidence">Evidence: ${step.sources.map(key=>{const source=event.sources[key];return `<a href="${safeUrl(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.label)} ↗</a>`;}).join('')}</p></div></article>`).join('') : '<p class="empty">No stages match these filters. Reset filters to see the complete selected timeline.</p>';
+  }
+  byId('filters').addEventListener('submit', e=>e.preventDefault());
+  byId('filters').addEventListener('change',render);
+  byId('reset').addEventListener('click',()=>{byId('route').value='all';byId('availability').value='all';byId('phase').value='all';render();});
+  render();
+}).catch(error=>{byId('stats').textContent='Timeline data could not be loaded.';byId('timeline').textContent=`${error.message}. Reload from the running Panel site.`;});

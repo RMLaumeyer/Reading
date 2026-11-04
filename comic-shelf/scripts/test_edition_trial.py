@@ -6,6 +6,219 @@ import edition_trial as trial
 
 
 class EditionTests(unittest.TestCase):
+    def test_versus_abbreviation_keeps_entire_collecting_title(self):
+        for title in ('Black Panther vs. Deadpool','Black Panther Vs. Deadpool'):
+            quote=title+' (2018) #1-5'
+            result=trial.inventory(self.packet('Collects '+quote+'. A separate story begins.'))
+            self.assertEqual([(e['series'],e['year'],e['first'],e['last']) for e in result['entries']],[(title,2018,1,5)])
+            self.assertEqual(result['entries'][0]['evidence']['quote'],quote)
+            self.assertEqual(result['unparsed'],[])
+
+    def test_versus_title_without_year_stays_unresolved(self):
+        result=trial.inventory(self.packet('Collects Black Panther vs. Deadpool #1-5. A plot begins.'))
+        self.assertEqual(result['entries'],[])
+        self.assertEqual(result['unresolvedEntries'][0]['series'],'Black Panther vs. Deadpool')
+        self.assertIsNone(result['unresolvedEntries'][0]['year'])
+
+    def test_unnumbered_special_and_embedded_material_scope_stay_unparsed(self):
+        for conjunction in ('and material from','And Material From','AND MATERIAL FROM'):
+            compound='Anniversary Special '+conjunction+' Beta (2023) #1'
+            result=trial.inventory(self.packet('Collects Alpha (2020) #1, '+compound+', #3.'))
+            self.assertEqual([(e['series'],e['extent']) for e in result['entries']],[('Alpha','whole')])
+            self.assertEqual([e['quote'] for e in result['unparsed']],[compound,'#3'])
+            self.assertEqual(result['unresolvedEntries'],[])
+
+    def test_embedded_material_scope_cannot_become_a_disjoint_series(self):
+        result=trial.inventory(self.packet('Collects Anniversary Special and material from Beta (2023) #1 & #3.'))
+        self.assertEqual(result['entries'],[])
+        self.assertEqual(result['unresolvedEntries'],[])
+        self.assertTrue(result['unparsed'])
+
+    def test_space_before_period_separates_two_word_prose_name(self):
+        result=trial.inventory(self.packet('Collects Legion (2018) #1-5 .David Haller, the son of Charles Xavier, has a problem.'))
+        self.assertEqual([(e['series'],e['first'],e['last']) for e in result['entries']],[('Legion',1,5)])
+        self.assertEqual(result['entries'][0]['evidence']['quote'],'Legion (2018) #1-5')
+        self.assertEqual(result['unparsed'],[])
+        missing=trial.inventory(self.packet('Collects Legion #1-5 .David Haller, the son of Charles Xavier, has a problem.'))
+        self.assertEqual(missing['entries'],[])
+        self.assertEqual(missing['unresolvedEntries'][0]['series'],'Legion')
+
+    def test_proper_name_boundary_never_truncates_variants_or_decimals(self):
+        for suffix in ('#1.1','#1.AU','#1.David Haller','#1 .AU','#1 .David'):
+            result=trial.inventory(self.packet('Collects Alpha (2020) '+suffix))
+            self.assertEqual(result['entries'],[])
+            self.assertTrue(result['unparsed'])
+
+    def test_conjoined_material_clause_never_becomes_a_whole_issue_series(self):
+        result=trial.inventory(self.packet('Collects Alpha (1993) #35; And Material From Alpha (1993) #34, #36, #40-43, #48.'))
+        self.assertEqual([e['series'] for e in result['entries']],['Alpha']*5)
+        self.assertEqual([e['extent'] for e in result['entries']],['whole']+['partial']*4)
+        self.assertEqual(result['entries'][1]['evidence']['quote'],'And Material From Alpha (1993) #34')
+        self.assertTrue(all(e['portion']=='unspecified material' for e in result['entries'][1:]))
+
+    def test_conjoined_partial_clause_preserves_missing_year_and_source_boundary(self):
+        packet=self.packet('Collects Alpha (2020) #1; and material from Beta #2, #4.')
+        packet['sources'].append({'id':'S2','text':'Collects Gamma (2021) #1.'})
+        result=trial.inventory(packet)
+        self.assertEqual([(e['series'],e['extent']) for e in result['entries']],[('Alpha','whole'),('Gamma','whole')])
+        self.assertTrue(all(e['extent']=='partial' and e['year'] is None for e in result['unresolvedEntries']))
+        self.assertEqual(len(result['unresolvedEntries']),2)
+
+    def test_recovered_hash_range_cannot_hide_catalog_disagreement(self):
+        packet=self.packet('Collects Alpha (2020) #11-#13.')
+        packet['constraints']={'isbnMatched':True,'catalogRange':[11,14],'contentsConflict':False}
+        result=trial.inventory(packet)
+        self.assertEqual(result['catalogRangeDisagreement']['sourceRange'],[11,13])
+        self.assertEqual(result['catalogRangeDisagreement']['catalogRange'],[11,14])
+        packet['sources'].append({'id':'OD1','text':'Collects Alpha (2020) #11-13.'})
+        self.assertIn('catalogRangeDisagreement',trial.inventory(packet))
+
+    def test_matching_range_and_complex_or_partial_lists_do_not_trigger_single_range_check(self):
+        for text in ('Collects Alpha (2020) #11-14.',
+                     'Collects Alpha (2020) #11-13, Beta (2021) #1.',
+                     'Collects material from Alpha (2020) #11-13.'):
+            packet=self.packet(text)
+            packet['constraints']={'isbnMatched':True,'catalogRange':[11,14]}
+            self.assertNotIn('catalogRangeDisagreement',trial.inventory(packet))
+    def test_range_endpoint_hash_keeps_original_evidence_and_gaps(self):
+        text='Collects Alpha (2020) #1-#3, #8-#9 and Beta (2021) #4–#6.'
+        result=trial.inventory(self.packet(text))
+        self.assertEqual([(e['series'],e['year'],e['first'],e['last']) for e in result['entries']],
+                         [('Alpha',2020,1,3),('Alpha',2020,8,9),('Beta',2021,4,6)])
+        self.assertEqual([e['evidence']['quote'] for e in result['entries']],
+                         ['Alpha (2020) #1-#3','#8-#9','Beta (2021) #4–#6'])
+        self.assertEqual(result['unparsed'],[])
+
+    def test_endpoint_hash_preserves_partial_scope_and_missing_year(self):
+        result=trial.inventory(self.packet('Collects material from Alpha (2020) #1-#3, #8-#9.'))
+        self.assertTrue(all(e['extent']=='partial' for e in result['entries']))
+        missing=trial.inventory(self.packet('Collects Alpha #1-#3 & #8-#9.'))
+        self.assertEqual(missing['entries'],[])
+        self.assertEqual([(e['first'],e['last']) for e in missing['unresolvedEntries']],[(1,3),(8,9)])
+
+    def test_endpoint_hash_never_truncates_variants_decimals_or_reversed_ranges(self):
+        for issue in ('#1-#3.1','#1-#3A','#1-##3','#9-#2','#1-#999'):
+            with self.subTest(issue=issue):
+                result=trial.inventory(self.packet('Collects Alpha (2020) '+issue))
+                self.assertEqual(result['entries'],[])
+                self.assertTrue(result['unparsed'])
+
+    def test_question_mark_title_before_issue_number_is_not_a_plot_boundary(self):
+        for title in ('What If…? Venom','What If...? Venom','Who Do You Trust?'):
+            quote=title+' (2024) #1-5'
+            result=trial.inventory(self.packet('Collects '+quote+'. A separate plot begins.'))
+            self.assertEqual([(e['series'],e['year'],e['first'],e['last']) for e in result['entries']],[(title,2024,1,5)])
+            self.assertEqual(result['entries'][0]['evidence']['quote'],quote)
+            self.assertEqual(result['unparsed'],[])
+
+    def test_question_mark_title_missing_year_still_requires_identity_review(self):
+        result=trial.inventory(self.packet('Collects What If…? Venom #1-5. A plot begins.'))
+        self.assertEqual(result['entries'],[])
+        self.assertEqual(result['unresolvedEntries'][0]['series'],'What If…? Venom')
+        self.assertIsNone(result['unresolvedEntries'][0]['year'])
+
+    def test_title_question_protection_does_not_swallow_plot_or_unknown_suffix(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #1-3. Who rules the city? Ask Alpha #4.'))
+        self.assertEqual([(e['first'],e['last']) for e in result['entries']],[(1,3)])
+        self.assertEqual(result['unparsed'],[])
+        malformed=trial.inventory(self.packet('Collects What If…? Venom (2024) #1-#5.AU'))
+        self.assertEqual(malformed['entries'],[])
+
+    def test_thousands_in_titles_or_numbers_never_create_phantom_issues(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #46-62, Avengers 1,000,000 BC #1'))
+        self.assertEqual([(e['series'],e['first'],e['last']) for e in result['entries']],[('Alpha',46,62)])
+        self.assertEqual(result['unparsed'][0]['quote'],'Avengers 1,000,000 BC #1')
+        self.assertEqual(trial.inventory(self.packet('Collects Alpha (2020) #1,100'))['entries'],[])
+        spaced=trial.inventory(self.packet('Collects Alpha (2020) #1, #100'))
+        self.assertEqual([e['first'] for e in spaced['entries']],[1,100])
+
+    def test_comma_shorthand_and_following_series_do_not_merge(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #1, #4 and #7, #9 and material from Beta (2021) #2, #5.'))
+        self.assertEqual([(e['series'],e['first']) for e in result['entries']],
+                         [('Alpha',1),('Alpha',4),('Alpha',7),('Alpha',9),('Beta',2),('Beta',5)])
+        self.assertEqual([e['extent'] for e in result['entries']],['whole']*4+['partial']*2)
+        self.assertEqual(result['unparsed'],[])
+
+    def test_malformed_equals_title_does_not_become_a_new_series(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #1, #4 and = Beta (2021) #2'))
+        self.assertEqual([(e['series'],e['first']) for e in result['entries']],[('Alpha',1),('Alpha',4)])
+        self.assertEqual(result['unparsed'][0]['quote'],'= Beta (2021) #2')
+
+    def test_abbreviated_series_names_keep_literal_collecting_evidence(self):
+        for name in ('Ms. Marvel', 'Mr. Fantastic', 'Dr. Strange', 'Agents of S.H.I.E.L.D.'):
+            with self.subTest(name=name):
+                quote=name+' (2020) #1-5'
+                result=trial.inventory(self.packet('Synopsis: Collects '+quote+'. A plot begins.'))
+                self.assertEqual([(e['series'],e['year'],e['first'],e['last']) for e in result['entries']],[(name,2020,1,5)])
+                self.assertEqual(result['entries'][0]['evidence']['quote'],quote)
+                self.assertEqual(result['unparsed'],[])
+
+    def test_comma_issue_shorthand_retains_gap_and_context_evidence(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #1-3, #7-8, 11. A story.'))
+        self.assertEqual([(e['first'],e['last']) for e in result['entries']],[(1,3),(7,8),(11,11)])
+        self.assertEqual([e['evidence']['quote'] for e in result['entries']],['Alpha (2020) #1-3','#7-8','11'])
+        self.assertEqual(result['entries'][1]['seriesContext'],{'source':'S1','quote':'Alpha (2020) #1-3'})
+        self.assertEqual(result['entries'][2]['seriesContext'],result['entries'][1]['seriesContext'])
+        self.assertEqual(result['unparsed'],[])
+        self.assertFalse(result['complete'])
+
+    def test_shorthand_preserves_partial_scope_and_missing_year(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #1, material from #4-5, #8'))
+        self.assertEqual([e['extent'] for e in result['entries']],['whole','partial','partial'])
+        unresolved=trial.inventory(self.packet('Collects Alpha #1, #4-5'))
+        self.assertEqual(unresolved['entries'],[])
+        self.assertEqual(len(unresolved['unresolvedEntries']),2)
+        self.assertTrue(all(e['year'] is None for e in unresolved['unresolvedEntries']))
+
+    def test_shorthand_never_inherits_across_unknown_text_or_sources(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #1, epilogue, #4'))
+        self.assertEqual([(e['first'],e['last']) for e in result['entries']],[(1,1)])
+        self.assertEqual([e['quote'] for e in result['unparsed']],['epilogue','#4'])
+        packet=self.packet('Collects Alpha (2020) #1')
+        packet['sources'].append({'id':'S2','text':'Collects #4-5'})
+        self.assertEqual(len(trial.inventory(packet)['entries']),1)
+
+    def test_shorthand_rejects_variants_reversed_ranges_and_unknown_qualifiers(self):
+        for tail in ('#2.1','#2.AU','#5-3','#2 (cover)'):
+            with self.subTest(tail=tail):
+                result=trial.inventory(self.packet('Collects Alpha (2020) #1, '+tail+', #9'))
+                self.assertEqual(len(result['entries']),1)
+                self.assertEqual(len(result['unparsed']),2)
+
+    def test_bare_annual_is_not_a_same_series_numeric_continuation(self):
+        result=trial.inventory(self.packet('Collects Alpha (2020) #1-5, Annual #1, #3'))
+        self.assertEqual(len(result['entries']),1)
+        self.assertEqual([e['series'] for e in result['unresolvedEntries']],['Annual','Annual'])
+        self.assertTrue(all(e['year'] is None for e in result['unresolvedEntries']))
+
+    def test_undated_ampersand_ranges_stay_unresolved_and_keep_gaps(self):
+        result=trial.inventory(self.packet('Collects Alpha #1-3 & #8-9'))
+        self.assertEqual(result['entries'],[])
+        self.assertEqual([(e['first'],e['last']) for e in result['unresolvedEntries']],[(1,3),(8,9)])
+
+    def test_who_and_quoted_plot_openers_do_not_get_swallowed(self):
+        for ending in ('.Who is the hero?', '. "A new adventure begins!"'):
+            result=trial.inventory(self.packet('Collects Alpha (2020) #1-5'+ending))
+            self.assertEqual([(e['first'],e['last']) for e in result['entries']],[(1,5)])
+            self.assertEqual(result['unparsed'],[])
+        for tail in ('.Who','.WHO','.A','.AU'):
+            self.assertEqual(trial.inventory(self.packet('Collects Alpha (2020) #1'+tail))['entries'],[])
+
+    def test_formal_collecting_label_wins_over_casual_prose_but_not_two_lists(self):
+        text='A volume collecting many early adventures. Collecting Alpha (2020) #1-5.'
+        result=trial.inventory(self.packet(text))
+        self.assertEqual([(e['series'],e['last']) for e in result['entries']],[('Alpha',5)])
+        two=trial.inventory(self.packet('Collects Alpha (2020) #1-5. A plot. Collects Beta (2021) #1-5.'))
+        self.assertEqual(two['entries'],[])
+        self.assertTrue(two['unparsed'])
+
+    def test_generic_giant_size_label_requires_series_identity(self):
+        bad=trial.inventory(self.packet('Collects Alpha (2020) #1, Giant-Size (1974) #1, #3'))
+        self.assertEqual(len(bad['entries']),1)
+        self.assertEqual(len(bad['unparsed']),2)
+        good=trial.inventory(self.packet('Collects Giant-Size Alpha (1974) #1'))
+        self.assertEqual(good['entries'][0]['series'],'Giant-Size Alpha')
+
     def test_ampersand_between_series_preserves_title_and_disjoint_ranges(self):
         text = 'Alpha & Omega (2000) #1-4 & Beta (2001) #2-3'
         result = trial.inventory(self.packet('Collects '+text))

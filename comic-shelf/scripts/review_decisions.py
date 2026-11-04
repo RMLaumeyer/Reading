@@ -17,7 +17,7 @@ def load_queue(path):
     return hashlib.sha256(raw).hexdigest(), records
 
 
-def record(queue, decisions, isbn, action, reviewer, reviewer_kind, reason, correction=None, evidence=None):
+def record(queue, decisions, isbn, action, reviewer, reviewer_kind, reason, correction=None, evidence=None, authorization=None):
     digest, rows = load_queue(queue)
     sequence = 1
     if decisions.exists():
@@ -26,8 +26,10 @@ def record(queue, decisions, isbn, action, reviewer, reviewer_kind, reason, corr
                         for p in decisions.glob('*.json')), default=0) + 1
     if isbn not in rows or action not in ('accept', 'revise', 'reject', 'needs_research'):
         raise ValueError('Unknown ISBN or decision')
-    if reviewer_kind not in ('human', 'assistant') or not reviewer.strip() or not reason.strip():
+    if reviewer_kind not in ('human', 'assistant', 'delegated') or not reviewer.strip() or not reason.strip():
         raise ValueError('Reviewer identity, kind and rationale required')
+    if reviewer_kind == 'delegated' and not authorization:
+        raise ValueError('Delegated review requires explicit user authorization provenance')
     original = rows[isbn]
     proposal = original.get('proposedSynopsis') or {}
     if action == 'accept' and not proposal.get('value'):
@@ -46,6 +48,7 @@ def record(queue, decisions, isbn, action, reviewer, reviewer_kind, reason, corr
              'createdAt': datetime.datetime.now(datetime.timezone.utc).isoformat(),
              'queueSha256': digest, 'isbn': isbn, 'scope': 'synopsis_only', 'action': action,
              'reviewer': reviewer, 'reviewerKind': reviewer_kind, 'reason': reason,
+             'authorization': authorization,
              'originalSynopsis': proposal, 'correctedSynopsis': correction, 'evidence': evidence,
              'retainedReviewReasons': original['reviewReasons'], 'readyForPublication': False,
              'limitation': 'Exact citation checks do not verify semantic entailment or edition identity.'}

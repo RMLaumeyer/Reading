@@ -315,7 +315,10 @@ export default function Shelf() {
           </span>
           PANEL<span className="brand-light">/ your comic shelf</span>
         </a>
-        <a href="/reading-guides/" className="local-label">CHARACTER & TEAM READING GUIDES →</a>
+        <nav className="shelf-navigation" aria-label="Reading sections">
+          <a href="/reading-guides/" className="local-label">CHARACTER & TEAM GUIDES</a>
+          <a href="/event-timelines/" className="local-label">EVENT TIMELINES</a>
+        </nav>
         <span className="local-label">
           ON THIS COMPUTER · ORANGE COUNTY, FL
         </span>
@@ -674,7 +677,9 @@ export default function Shelf() {
                     <h3>What’s the story?</h3>
                     <p>{detail.summary}</p>
                     <p className="subtle">
-                      {detail.level === 'basic' ? 'Basic ISBN match · short publisher excerpt. Open Google Books below for the full synopsis. Story arcs and appearances are not yet checked.' : 'Spoiler-light summary based on the sources below.'}
+                      {detail.synopsisReview
+                        ? `${detail.synopsisReview.reviewerKind === 'human' ? 'Reviewed summary' : 'AI-reviewed summary'} based on the linked sources.${detail.level === 'basic' ? ' Story arcs and appearances are not yet checked.' : ''}`
+                        : detail.level === 'basic' ? 'Basic ISBN match · short publisher excerpt. Open Google Books below for the full synopsis. Story arcs and appearances are not yet checked.' : 'Spoiler-light summary based on the sources below.'}
                     </p>
                     <div className="story-list">
                       {detail.stories.map((s) => (

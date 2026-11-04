@@ -9,6 +9,54 @@ import approved_synopses
 
 
 class PromotionTests(Fixtures):
+    def prepare_initialization(self):
+        baseline = json.loads(self.base.read_text());del baseline['books']['book'];self.base.write_text(json.dumps(baseline))
+        self.prepare()
+        self.package = self.root/'initial-package'
+        stage.build(self.queue, self.decisions, self.root/'public/catalog.json', self.live,
+                    self.package, initialize_isbns=['123'])
+
+    def test_initialized_synopsis_survives_rebuild_and_revision_then_rolls_back_exactly(self):
+        self.prepare_initialization();before=self.live.read_bytes();self.publish()
+        overlay=self.root/'data/approved-synopses.json'
+        first=json.loads(self.live.read_text())['books']['book']
+        self.assertEqual(approved_synopses.apply({},overlay)['book'],first)
+        # A later ordinary synopsis edit must retain its initialization marker.
+        review.record(self.queue,self.decisions,'123','revise','Reviewer','human','Fixture correction',
+                      correction='Alpha fights again.',evidence=[{'source':'S1','quote':'Alpha fights.'}])
+        updated=self.root/'updated-package'
+        stage.build(self.queue,self.decisions,self.root/'public/catalog.json',self.live,updated)
+        receipt2=self.root/'receipt2'
+        promote.promote(self.root,updated,self.queue,self.decisions,receipt2)
+        rebuilt=approved_synopses.apply({},overlay)['book']
+        self.assertEqual(rebuilt['summary'],'Alpha fights again.')
+        existing={'book':{'summary':'Collector text','pages':200,'characters':[{'name':'Verified'}]}}
+        merged=approved_synopses.apply(existing,overlay)['book']
+        self.assertEqual(merged['pages'],200);self.assertEqual(merged['characters'],existing['book']['characters'])
+        promote.rollback(self.root,receipt2);promote.rollback(self.root,self.receipt)
+        self.assertEqual(self.live.read_bytes(),before)
+        self.assertFalse(overlay.exists())
+
+    def test_initialization_option_tamper_and_partial_write_fail_without_new_record(self):
+        self.prepare_initialization();before=self.live.read_bytes()
+        manifest=json.loads((self.package/'manifest.json').read_text());manifest['initializeIsbns']=[]
+        (self.package/'manifest.json').write_text(json.dumps(manifest))
+        with self.assertRaises(ValueError):self.publish()
+        self.assertEqual(self.live.read_bytes(),before)
+        manifest['initializeIsbns']=['123'];(self.package/'manifest.json').write_text(json.dumps(manifest))
+        manifest['changes'][0]['before']={'summary':'Invented prior record'}
+        (self.package/'manifest.json').write_text(json.dumps(manifest))
+        with self.assertRaises(ValueError):self.publish()
+        manifest['changes'][0]['before']=None
+        (self.package/'manifest.json').write_text(json.dumps(manifest))
+        original=promote.replace
+        def fail_live(path,data):
+            if path==self.live:raise OSError('Injected initialization write failure')
+            return original(path,data)
+        with patch.object(promote,'replace',side_effect=fail_live),self.assertRaises(OSError):self.publish()
+        self.assertEqual(self.live.read_bytes(),before)
+        self.assertFalse((self.root/'data/approved-synopses.json').exists())
+
     def prepare(self, kind='human', preview=False):
         (self.root/'public').mkdir()
         (self.root/'data').mkdir()
