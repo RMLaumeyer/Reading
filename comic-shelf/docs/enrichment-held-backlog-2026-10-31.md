@@ -1,5 +1,15 @@
 # Remaining held enrichment — October 31, 2026
 
+The November 8 recovery and fresh run completed **325 reviews** and published **141 synopses** locally. The current total is **679 approved (16.98%)** and **865 known holds**. Current artifacts are in data/local-ai-trials/twohundred-20261108. [November 8 session report](enrichment-twohundred-2026-11-08.md)
+
+The [additional 200-edition session](enrichment-twohundred-2026-11-05.md) published 77 reviewed synopses and held 123: **507 approved / 637 held**, with **12.68% of the 4,000-edition catalog approved**. Eight publication transactions and all frozen evidence checks verified. Production code/settings are unchanged; five drafts were accepted unchanged and 72 required editorial revision. Current handoff: data/local-ai-trials/twohundred-20261105. Earlier snapshots below remain historical.
+
+The [additional 100-edition session](enrichment-hundred-2026-11-05.md) published 53 reviewed synopses and held 47: **430 approved / 514 held**, with **10.75% of the 4,000-edition catalog approved**. Four publication transactions verified; production code/settings are unchanged. Current handoff: data/local-ai-trials/hundred-20261105. Earlier snapshots below remain historical.
+
+The [November 5 long session](enrichment-long-session-2026-11-05.md) reviewed 75 new editions plus one source-recovery execution and published 35 new synopses: **377 approved / 467 held**. Five transactions and three bounded wording corrections verified. Current handoff: data/local-ai-trials/continued-20261105c. Earlier snapshots below remain historical.
+
+The [November 5 continuation](enrichment-continuation-2026-11-05.md) published 28 reviewed synopses from 50 new editions, bringing approvals to **370** and known holds to **449**. Parser v26 fixes the SGT. collecting boundary while preserving year/annual holds. Current handoff: data/local-ai-trials/continued-20261105. Earlier snapshots below remain historical.
+
 The [sixth November 3 block](enrichment-continuation-2026-11-03f.md) published two reviewed synopses, bringing the approved total to **342** and known production-review backlog to **427**. World Tour gained included-issue publisher evidence; Phases of the Moon Knight passed explicit namespace review. Four saved research cases now have formal holds. Current handoff: data/local-ai-trials/continued-20261103f. Earlier snapshots below remain historical.
 
 The [fifth November 3 block](enrichment-continuation-2026-11-03e.md) published one unchanged Qwen recovery, bringing the approved total to **340** and known production-review backlog to **424**. The prospective five-case length comparison found coverage gains/tradeoffs but no unchanged clean synopsis; production stays at 60 words. Siege: Embedded now has a recorded failed lookup. Current handoff: data/local-ai-trials/continued-20261103e. Earlier snapshots below remain historical.

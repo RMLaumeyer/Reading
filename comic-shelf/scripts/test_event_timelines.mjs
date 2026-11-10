@@ -29,6 +29,12 @@ for (const file of fs.readdirSync(directory).filter(file=>file.endsWith('.json')
   assert.equal(shown(),event.steps.filter(step=>!step.isbns.length).length,`${file}: catalog gaps`);
   reset();element('phase').value='Aftermath';change();
   assert.equal(shown(),event.steps.filter(step=>step.phase==='Aftermath').length,`${file}: aftermath`);
+  if(event.steps.some(step=>step.era)){
+    reset();const era=event.steps.find(step=>step.era).era;element('era').value=era;change();
+    assert.equal(shown(),event.steps.filter(step=>step.era===era).length,`${file}: story arc`);
+    element('route').value='core';change();
+    assert.equal(shown(),event.steps.filter(step=>step.era===era&&step.role==='Core').length,`${file}: core story arc`);
+  }
   reset();assert.equal(shown(),event.steps.length,`${file}: reset`);
   count++;
 }
@@ -39,4 +45,14 @@ assert(hickman.steps.find(step=>step.id==='time-four').isbns.includes('978078519
 assert(hickman.steps.at(-1).issues.includes('#1–9'),'Secret Wars must reach #9');
 const civil=JSON.parse(fs.readFileSync(path.join(directory,'civil-war.json'),'utf8'));
 assert(civil.steps.findIndex(step=>step.id==='cap25')<civil.steps.findIndex(step=>step.id==='confession'),'Confession follows Captain America25');
-console.log(`All ${count} timelines: routes, issue-order rendering, format-aware availability, gaps, phases and reset passed. Hickman/Civil War ordering regressions passed.`);
+const krakoa=JSON.parse(fs.readFileSync(path.join(directory,'krakoa-era.json'),'utf8'));
+assert(krakoa.steps[0].issues.includes('House of X'),'Krakoa must begin with House/Powers');
+assert(krakoa.steps.at(-1).issues.includes('#35'),'Krakoa must continue past Inferno through the final epilogue');
+assert.equal(krakoa.steps.filter(step=>/Hellfire Gala\s?202[123]/.test(step.era)).length,3,'Krakoa must include all three Gala turns');
+assert(krakoa.steps.find(step=>step.id==='immortal-six-gap').isbns.length===0,'Do not silently claim Immortal6 is matched');
+const messiah=JSON.parse(fs.readFileSync(path.join(directory,'mutant-messiah-saga.json'),'utf8'));
+for(const [id,chapters]of [['messiah-complex',13],['messiah-war',7],['second-coming',14]])assert.equal(messiah.steps.find(step=>step.id===id).order.length,chapters,`Complete ${id} crossover order`);
+const cosmic=JSON.parse(fs.readFileSync(path.join(directory,'cosmic-war-of-kings.json'),'utf8'));
+assert(cosmic.steps.some(step=>step.issues.includes('Ignition')),'Thanos Imperative includes its opening one-shot');
+assert(cosmic.steps.some(step=>step.issues.includes('Devastation')),'Cosmic route includes the closing one-shot');
+console.log(`All ${count} timelines: routes, issue-order rendering, format-aware availability, gaps, story arcs, phases and reset passed. Key crossover/era completeness checks passed.`);

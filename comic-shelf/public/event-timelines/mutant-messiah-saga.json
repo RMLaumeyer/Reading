@@ -1,0 +1,151 @@
+{
+  "title":"The Mutant Messiah Saga",
+  "subtitle":"From M-Day and mutant survival to Hope’s return in Second Coming.",
+  "years":"2005–2011",
+  "checkedAt":"2026-11-06",
+  "intro":"The core trilogy here is Messiah Complex → Messiah War → Second Coming. The recommended wider route begins with House of M and the Decimation status quo, then follows Cable and Hope between the crossovers. Read each crossover’s chapters in the interwoven order shown; reading one participating series straight through breaks the sequence. Several Cable bridge issues could not be matched in your supplied catalog. The Messiah Trilogy Omnibus supplies the three core crossovers, but it is not the complete intervening Cable run. Optional team perspectives and later aftermath are clearly marked.",
+  "sources":{
+    "era":{"label":"Comic Book Treasury · Decimation through the Messiah trilogy","url":"https://www.comicbooktreasury.com/x-men-reading-order-part-4-the-messiah-trilogy-dark-reign-schism-avengers-vs-x-men-2007-2015/"},
+    "complex":{"label":"Comic Book Herald · Messiah Complex chapter order","url":"https://www.comicbookherald.com/previously-on-110-x-men-milestones/"},
+    "cable":{"label":"Crushing Krisis · Cable’s 2008 run and collection boundaries","url":"https://crushingkrisis.com/definitive-guide-to-collecting-x-men-as-graphic-novels/definitive-cable-collecting-guide-reading-order/"},
+    "war":{"label":"Comic Book Herald · Cable and Messiah War reading order","url":"https://www.comicbookherald.com/cable-reading-order/"},
+    "second":{"label":"X-Men Explorer · Second Coming chapter checklist","url":"https://xmen.sequentialreads.com/events/second-coming"},
+    "hope":{"label":"The Cosmic Circus · Cable and the Hope trilogy","url":"https://thecosmiccircus.com/cable-comics-reading-guide/"},
+    "omnibus":{"label":"Penguin Random House · Messiah Trilogy collected contents","url":"https://www.penguinrandomhouse.com/books/801685/x-men-the-messiah-trilogy-omnibus-david-finch-cover-by-ed-brubaker/"},
+    "school":{"label":"Google Books · exact-ISBN Childhood’s End collection","url":"https://books.google.com/books/about/New_X_Men.html?id=V5F0DwAAQBAJ"},
+    "readers":{"label":"r/xmen · route through the Messiah trilogy and Schism","url":"https://www.reddit.com/r/xmen/comments/ylfz3d/"}
+  },
+  "steps":[
+    {
+      "id":"house-of-m","title":"House of M: the M-Day foundation","issues":"House of M (2005) #1–8","era":"Decimation","phase":"Setup","role":"Recommended","year":2005,"date":"2005",
+      "why":"Establishes the crisis that gives the later mutant birth its significance. The eight main chapters are enough for this route; the full alternate-world tie-in line is optional.",
+      "isbns":["9780785170570"],
+      "match":"House Of M: Issues #1–8 is the original core series. House of M: Warzones! is a separate 2015 story and does not replace it.",
+      "sources":["era","readers"]
+    },
+    {
+      "id":"the-198","title":"Decimation: The 198","issues":"X-Men: The 198 (2006) #1–5","era":"Decimation","phase":"Setup","role":"Recommended","year":2006,"date":"2006",
+      "why":"A focused view of the remaining mutants and the school’s new status after M-Day. Decimation is a wider publishing period, not a single required miniseries.",
+      "isbns":["9781302494278"],
+      "match":"The supplied Decimation: X-Men – The 198 collection covers the five issues. Its inclusion of The 198 Files bonus material is not established by the catalog title; the five story issues are the selection here.",
+      "sources":["era"]
+    },
+    {
+      "id":"childhoods-end","title":"Optional school perspective: Childhood’s End","issues":"New X-Men (2004) #20–32","era":"Decimation","phase":"Setup","role":"Optional","year":2006,"date":"2006–2007",
+      "why":"Shows the student cast living through the post-M-Day crisis before their later crossover roles.",
+      "isbns":["9781302508203"],
+      "match":"Childhood’s End Complete Collection covers #16–32. For this stage, begin at #20: #16–19 are earlier House of M material, not a new set of post-event chapters. This is optional team context rather than part of the core trilogy.",
+      "sources":["school","era"]
+    },
+    {
+      "id":"blinded","title":"Blinded by the Light","issues":"X-Men (1991) #200–204","era":"Messiah Complex","phase":"Setup","role":"Recommended","year":2007,"date":"2007",
+      "why":"A close lead-in involving Rogue’s team and the Marauders. Finish this arc before the Messiah Complex one-shot.",
+      "isbns":["9781302483128"],
+      "match":"The exact five-issue collection is in the supplied catalog. These are the 1991-series issues, immediately before that series’ #205 crossover chapter.",
+      "sources":["era","readers"]
+    },
+    {
+      "id":"messiah-complex","title":"Messiah Complex: all 13 chapters","issues":"X-Men: Messiah Complex #1; Uncanny X-Men #492–494; X-Factor #25–27; New X-Men #44–46; X-Men #205–207","era":"Messiah Complex","phase":"Main event","role":"Core","year":2007,"date":"2007–2008",
+      "why":"The first central crossover of Hope’s story. Alternate between the participating titles in the chapter order below.",
+      "isbns":["9781302520120","9780785171461","9781302534783"],
+      "match":"Choose the Milestones edition, X-Men: Messiah Complex collection, or the Messiah Trilogy Omnibus; all three share the 13 core chapters. They are alternatives for this stage. The omnibus also overlaps the two later core events.",
+      "sources":["complex","omnibus"],
+      "order":[
+        "X-Men: Messiah Complex (2007) #1",
+        "Uncanny X-Men (1963) #492",
+        "X-Factor (2005) #25",
+        "New X-Men (2004) #44",
+        "X-Men (1991) #205",
+        "Uncanny X-Men (1963) #493",
+        "X-Factor (2005) #26",
+        "New X-Men (2004) #45",
+        "X-Men (1991) #206",
+        "Uncanny X-Men (1963) #494",
+        "X-Factor (2005) #27",
+        "New X-Men (2004) #46",
+        "X-Men (1991) #207"
+      ]
+    },
+    {
+      "id":"cable-early","title":"Cable & Hope on the run","issues":"Cable (2008) #1–12; King-Size Cable (2008) #1 after #5","era":"Messiah War","phase":"Setup","role":"Recommended","year":2008,"date":"2008–2009",
+      "why":"The first bridge follows Cable protecting Hope after Messiah Complex. Stop at #12 before the Messiah War crossover.",
+      "isbns":[],
+      "match":"No confirmed collection matching this full bridge in the supplied catalog. Look for Cable: The Last Hope Vol. 1, or the early Messiah War/Waiting for the End of the World trades. Cable Vol. 1: Messiah War (#1–5) is not the seven-chapter 2009 crossover. Cataloged 1993 and 2020 Cable books are different runs. Omnibus listings disagree about #11–12 and do not establish coverage of #1–10.",
+      "sources":["cable","hope"]
+    },
+    {
+      "id":"bishop","title":"Optional Bishop background","issues":"X-Men: The Times and Life of Lucas Bishop (2009) #1–3","era":"Messiah War","phase":"Setup","role":"Optional","year":2009,"date":"2009",
+      "why":"Adds Bishop’s perspective before the next crossover, without adding a mandatory step to the short route.",
+      "isbns":["9781302534783"],
+      "match":"The Bishop miniseries is confirmed in the local issue index for the Messiah Trilogy Omnibus. Other editions’ extra contents vary; this match does not assume every Messiah War trade contains it.",
+      "sources":["war","omnibus"]
+    },
+    {
+      "id":"messiah-war","title":"Messiah War: all seven chapters","issues":"X-Force/Cable: Messiah War #1; Cable (2008) #13–15; X-Force (2008) #14–16","era":"Messiah War","phase":"Main event","role":"Core","year":2009,"date":"2009",
+      "why":"The middle crossover joins X-Force to Cable and Hope’s future journey. It is included as core because this route follows the complete trilogy.",
+      "isbns":["9781302520564","9780785171430","9781302534783"],
+      "match":"Choose X-Men Milestones: Messiah War, X-Force/Cable: Messiah War, or the trilogy omnibus for the core crossover. Milestones and omnibus core chapters are confirmed by the local issue index. Do not read all three editions or treat the 2008 Cable Vol. 1 of the same subtitle as this event.",
+      "sources":["war","omnibus"],
+      "order":[
+        "X-Force/Cable: Messiah War (2009) #1",
+        "Cable (2008) #13",
+        "X-Force (2008) #14",
+        "Cable (2008) #14",
+        "X-Force (2008) #15",
+        "Cable (2008) #15",
+        "X-Force (2008) #16"
+      ]
+    },
+    {
+      "id":"cable-homecoming","title":"Cable’s road home","issues":"Cable (2008) #16–24","era":"Second Coming","phase":"Setup","role":"Recommended","year":2009,"date":"2009–2010",
+      "why":"Continue Cable and Hope after Messiah War, then stop before starting Second Coming. The main crossover supplies the next major turning point.",
+      "isbns":[],
+      "match":"No confirmed collection matching #16–24 in the supplied catalog. Relevant editions elsewhere are Cable: Stranded and Homecoming, or The Last Hope Vol. 2. Do not read a whole Last Hope Vol. 2 straight through here: it also overlaps Messiah War and reaches Cable #25, which belongs alongside Second Coming. The local trilogy omnibus index does not confirm this bridge.",
+      "sources":["cable","readers"]
+    },
+    {
+      "id":"second-coming","title":"Second Coming: all 14 chapters","issues":"Second Coming #1–2; Uncanny X-Men #523–525; New Mutants #12–14; X-Men: Legacy #235–237; X-Force #26–28","era":"Second Coming","phase":"Main event","role":"Core","year":2010,"date":"2010",
+      "why":"The trilogy’s final crossover. Follow the numbered sequence across all five titles rather than reading each title’s issues in a block.",
+      "isbns":["9780785171485","9781302534783"],
+      "match":"Choose X-Men: Second Coming or the Messiah Trilogy Omnibus. Although the catalog title of the former abbreviates its contents to #1–2, the verified local issue index confirms all 14 core chapters. Second Coming: Revelations and X-Factor: Second Coming contain side stories, not substitutes for these chapters. Prepare is optional recap material; Cable #25 is an optional companion, not a numbered core chapter.",
+      "sources":["second","omnibus"],
+      "order":[
+        "X-Men: Second Coming (2010) #1",
+        "Uncanny X-Men (1963) #523",
+        "New Mutants (2009) #12",
+        "X-Men Legacy (2008) #235",
+        "X-Force (2008) #26",
+        "Uncanny X-Men (1963) #524",
+        "New Mutants (2009) #13",
+        "X-Men Legacy (2008) #236",
+        "X-Force (2008) #27",
+        "Uncanny X-Men (1963) #525",
+        "New Mutants (2009) #14",
+        "X-Men Legacy (2008) #237",
+        "X-Force (2008) #28",
+        "X-Men: Second Coming (2010) #2"
+      ]
+    },
+    {
+      "id":"xfactor-side","title":"Optional parallel perspective: X-Factor","issues":"X-Factor (2005) #204–206","era":"Second Coming","phase":"Main event","role":"Optional","year":2010,"date":"2010 · alongside Second Coming",
+      "why":"A side branch during the event, listed separately so it does not interrupt the 14-chapter core path.",
+      "isbns":["9781302369453"],
+      "match":"X-Factor Vol. 10: Second Coming contains #204–206 and Nation X: X-Factor. This is supplementary material and does not contain the main event’s 14 chapters.",
+      "sources":["second"]
+    },
+    {
+      "id":"generation-hope","title":"Aftermath: The Birth of Generation Hope","issues":"Uncanny X-Men (1963) #526–529","era":"After Second Coming","phase":"Aftermath","role":"Recommended","year":2010,"date":"2010",
+      "why":"A direct follow-on for the new mutant situation after Second Coming.",
+      "isbns":["9781302369392"],
+      "match":"The exact Uncanny X-Men: The Birth of Generation Hope collection follows #525, the last Uncanny core chapter. This collection is a follow-up, not a second edition of the event.",
+      "sources":["era","readers"]
+    },
+    {
+      "id":"schism","title":"Where to go next: Schism","issues":"X-Men: Schism (2011) #1–5","era":"After Second Coming","phase":"Aftermath","role":"Optional","year":2011,"date":"2011 · later direction",
+      "why":"A later break in the X-Men’s leadership takes this era in a new direction. Avengers vs. X-Men (2012) is another later milestone; neither is needed to finish the Messiah trilogy.",
+      "isbns":["9780785181927"],
+      "match":"Schism’s five-issue main series is matched. The separate Avengers vs. X-Men event guide can continue the later story if desired; the Messiah saga ends with Second Coming and its immediate fallout.",
+      "sources":["era","readers"]
+    }
+  ]
+}

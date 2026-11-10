@@ -6,6 +6,29 @@ import edition_trial as trial
 
 
 class EditionTests(unittest.TestCase):
+    def test_sergeant_abbreviation_keeps_list_without_resolving_year_or_annual(self):
+        for title in ('SGT. FURY', 'Sgt. Fury', 'sgt. Fury'):
+            packet=self.packet('Collecting '+title+' #20-36 and ANNUAL #1-2. A separate story begins.')
+            packet['book']={'isbn':'9781302524357'}
+            packet['sources'][0]['text']+=' Bibliographic information: Volume 3 of Sgt. Fury Epic Collection (2019). ISBN 9781302524357'
+            result=trial.inventory(packet)
+            self.assertEqual(result['entries'],[])
+            self.assertEqual([(e['series'],e['year'],e['first'],e['last']) for e in result['unresolvedEntries']],
+                             [(title,None,20,36),('ANNUAL',None,1,2)])
+            self.assertEqual([e['quote'] for e in result['unparsed']],
+                             [title+' #20-36','ANNUAL #1-2'])
+            self.assertFalse(result['complete'])
+
+    def test_sergeant_abbreviation_does_not_hide_real_sentence_or_variant_boundaries(self):
+        quote='Sgt. Fury (1963) #20-36'
+        result=trial.inventory(self.packet('Collects '+quote+'. Sgt. Fury faces another threat.'))
+        self.assertEqual([e['evidence']['quote'] for e in result['entries']],[quote])
+        self.assertEqual(result['unparsed'],[])
+        for suffix in ('#20.1','#20.AU','#36-20'):
+            malformed=trial.inventory(self.packet('Collects SGT. FURY (1963) '+suffix))
+            self.assertEqual(malformed['entries'],[])
+            self.assertTrue(malformed['unparsed'])
+
     def test_versus_abbreviation_keeps_entire_collecting_title(self):
         for title in ('Black Panther vs. Deadpool','Black Panther Vs. Deadpool'):
             quote=title+' (2018) #1-5'

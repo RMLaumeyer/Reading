@@ -1,0 +1,197 @@
+{
+  "title": "Annihilation",
+  "subtitle": "The 2006 cosmic war and the beginning of Richard Rider’s modern era",
+  "years": "2005–2007",
+  "intro": "Start with the Prologue, then the parallel character miniseries, then Annihilation #1–6. Drax is optional background. The library’s original Book One, Two and Three cover this path; repeated book links identify different sections of the same borrowing. Complete Collections and Modern Era Epics overlap these books and are alternative packaging. This is the original event, separate from Annihilation: Scourge (2019), Annihilation 2099 or Annihilators (2011).",
+  "sources": {
+    "order": {
+      "label": "Omniverse Comics Guide · Annihilation order and fallout",
+      "url": "https://omniversecomics.guide/2023/02/11/annihilation-2006-2007-reading-order/"
+    },
+    "readers": {
+      "label": "Readers · why the parallel miniseries precede the finale",
+      "url": "https://www.reddit.com/r/Marvel/comments/1eguemi"
+    },
+    "bookone": {
+      "label": "Trade Reading Order · original three-book contents",
+      "url": "https://www.tradereadingorder.com/marvel-series/annihilation/"
+    },
+    "booktwo": {
+      "label": "Google Books · exact-ISBN Annihilation Book Two",
+      "url": "https://books.google.com/books/about/Annihilation_Book_Two.html?id=YSEJAgAAQBAJ"
+    },
+    "bookthree": {
+      "label": "Free Library catalog · exact-ISBN Book Three contents",
+      "url": "https://catalog.freelibrary.org/Record/2784748"
+    },
+    "nova": {
+      "label": "Comic Book Herald · Nova #1–3 versus Conquest #4–7",
+      "url": "https://www.comicbookherald.com/marvel-cosmic-reading-order/annihilation-conquest/"
+    }
+  },
+  "steps": [
+    {
+      "id": "drax",
+      "title": "Optional background: Drax’s new beginning",
+      "issues": "Drax the Destroyer (2005) #1–4",
+      "phase": "Setup",
+      "role": "Optional",
+      "year": 2005,
+      "date": "2005",
+      "why": "Establishes Drax and Cammi before the invasion.",
+      "isbns": [
+        "9781302484576"
+      ],
+      "match": "Read the Drax section of Annihilation Book One; the same book supplies the next two stages.",
+      "sources": [
+        "bookone"
+      ],
+      "order": [
+        "Drax the Destroyer #1–4",
+        "Annihilation: Prologue #1"
+      ]
+    },
+    {
+      "id": "prologue",
+      "title": "Annihilation Day",
+      "issues": "Annihilation: Prologue #1",
+      "phase": "Setup",
+      "role": "Core",
+      "year": 2006,
+      "date": "2006",
+      "why": "The invasion begins here.",
+      "isbns": [
+        "9781302484576"
+      ],
+      "match": "The Prologue is included in Book One. Start at this section if skipping Drax.",
+      "sources": [
+        "order",
+        "bookone"
+      ]
+    },
+    {
+      "id": "nova-mini",
+      "title": "Nova: the last centurion",
+      "issues": "Annihilation: Nova (2006) #1–4",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2006,
+      "date": "2006",
+      "why": "Richard Rider’s principal lead-in to the six-issue confrontation.",
+      "isbns": [
+        "9781302484576"
+      ],
+      "match": "Finish Book One’s four-issue Annihilation: Nova miniseries. This is not Nova (2007) #1–4.",
+      "sources": [
+        "order",
+        "bookone"
+      ]
+    },
+    {
+      "id": "surfer",
+      "title": "Silver Surfer: the heralds under attack",
+      "issues": "Annihilation: Silver Surfer #1–4",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2006,
+      "date": "2006",
+      "why": "The heralds’ branch supplies the Galactus side of the conflict.",
+      "isbns": [
+        "9780785182856"
+      ],
+      "match": "Read the Silver Surfer section in Book Two. Its other two miniseries follow below.",
+      "sources": [
+        "booktwo",
+        "order"
+      ]
+    },
+    {
+      "id": "skrull-ronan",
+      "title": "Parallel fronts: Super-Skrull and Ronan",
+      "issues": "Annihilation: Super-Skrull #1–4; Annihilation: Ronan #1–4",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2006,
+      "date": "2006",
+      "why": "Two other fronts converge on the central battle. Read each complete miniseries without alternating individual issues.",
+      "isbns": [
+        "9780785182856"
+      ],
+      "match": "Both are in Book Two; borrow once for this stage and Silver Surfer. Their relative order is flexible; finish both before Annihilation #1.",
+      "sources": [
+        "booktwo",
+        "readers"
+      ],
+      "order": [
+        "Annihilation: Super-Skrull #1–4",
+        "Annihilation: Ronan #1–4",
+        "Annihilation #1"
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Annihilation: the complete central miniseries",
+      "issues": "Annihilation (2006) #1–6",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2006,
+      "date": "2006–2007",
+      "why": "The separate fronts become one war. Read all six issues in order.",
+      "isbns": [
+        "9780785182849"
+      ],
+      "match": "Book Three contains the full #1–6 finale and the Heralds epilogue. It does not contain the earlier lead-in miniseries.",
+      "sources": [
+        "bookthree"
+      ],
+      "order": [
+        "Annihilation #1",
+        "Annihilation #2",
+        "Annihilation #3",
+        "Annihilation #4",
+        "Annihilation #5",
+        "Annihilation #6"
+      ]
+    },
+    {
+      "id": "heralds",
+      "title": "After the war: Heralds of Galactus",
+      "issues": "Annihilation: Heralds of Galactus #1–2",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2007,
+      "date": "2007",
+      "why": "A short look at the surviving heralds after the main finale.",
+      "isbns": [
+        "9780785182849"
+      ],
+      "match": "Already included in Book Three; read after Annihilation #6.",
+      "sources": [
+        "bookthree",
+        "order"
+      ]
+    },
+    {
+      "id": "nova-ongoing",
+      "title": "Bridge to Conquest: Nova’s ongoing begins",
+      "issues": "Nova (2007) #1–3",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2007,
+      "date": "2007",
+      "why": "Richard returns to Earth before the next cosmic crisis.",
+      "isbns": [
+        "9780785178194"
+      ],
+      "match": "Nova Vol. 1: Annihilation: Conquest collects #1–7. Read only #1–3 here; #4–7 belong in the Conquest timeline after its Prologue.",
+      "sources": [
+        "nova"
+      ],
+      "order": [
+        "Nova (2007) #1–3",
+        "Continue with Annihilation: Conquest Prologue; leave Nova #4–7 for that event"
+      ]
+    }
+  ],
+  "checkedAt": "2026-11-06"
+}

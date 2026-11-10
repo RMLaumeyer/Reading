@@ -1,0 +1,15 @@
+# Hawkeye source recovery — November 5, 2026
+
+Recovered **Hawkeye by Fraction & Aja: The Saga of Barton and Bishop (9781302940171)** from an empty description and published one reviewed synopsis, raising approvals **370 → 371** and reducing known holds **449 → 448**. Black Widow: Deadly Origin's lookup failed and remains held with a hashed acquisition audit; no identical retry is warranted.
+
+An accepted exact-ISBN public library record adds Hawkeye (2012) #1–22, a 2013 annual and Young Avengers Presents (2008) #6. The original packet, empty-input no-call outcome and source hashes remain intact; a new packet appends the intact source. Unlike the old empty input, this adds six eligible candidates. One new Qwen response selected two literal passages in 6.94 worker seconds, with zero failures.
+
+The parser leaves the year-before-Annual clause unparsed. The [publisher's annual heading](https://www.marvel.com/comics/issue/47398/hawkeye_annual_2013_1) corroborates the conventional Hawkeye Annual (2013) #1 namespace; publisher indexed metadata exposes the heading, date, credits and synopsis, while direct access returns 403. That limitation is explicit in the source assessment. A [different-format publisher collection](https://www.marvel.com/comics/collection/107823/hawkeye_by_fraction_aja_omnibus_hc_aja_cover_new_printing_2023_1) corroborates the same issue list but supplies no target ISBN, metadata or additional contents. No parser alias or issue ordering was changed.
+
+The reviewed correction covers Clint's defense of his apartment building and neighbors alongside Kate Bishop and a separate Kate/Los Angeles annual thread. Two short, noncontiguous literal annual excerpts totaling 14 words were added after inference and are marked as such. They are not represented as model input or output. The target's own collecting statement establishes that annual's membership. No confrontation outcome or unmentioned identity is invented.
+
+The first staging package correctly excluded the absent enrichment record. It remains preserved. A second package explicitly opts into the tested reviewed-synopsis initialization path. Pages, character/story lists, issue keys and order remain unknown; there is no inferred cover. The initialization marker survives canonical-overlay rebuild. Preflight, immutable decisions, manual-source provenance, source/raw-HTML hashes, publication backups and actual served bytes verified. Prior 370 approvals and unrelated fields remain intact.
+
+No production code changed in this recovery block; no test-suite rerun is claimed. The earlier November 5 parser validation remains 387 Python and 18 catalog tests. The collector stays paused. Localhost serves the updated data; no remote deployment occurred.
+
+Artifacts: data/local-ai-trials/continued-20261105b and source-recovery-one-20261105, including both staging packages, verification.json, publisher-issue-excerpts.json, source-assessment.json and the updated held map. The main 50-edition block is documented in [the first November 5 report](enrichment-continuation-2026-11-05.md).

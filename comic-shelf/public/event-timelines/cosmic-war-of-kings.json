@@ -1,0 +1,302 @@
+{
+  "title": "War of Kings → Realm of Kings → The Thanos Imperative",
+  "subtitle": "The next cosmic sequence after Annihilation and Conquest",
+  "years": "2006–2011",
+  "intro": "This path moves through three connected eras. Optional background and ongoing-series branches are separated from the central miniseries. Start at Road to War of Kings for a shorter route; read the complete War of Kings finale and Who Will Rule? before Realm of Kings. Realm is a one-shot plus parallel series, not a six-issue central event. Finish the Guardians/Nova bridge before Thanos Imperative: Ignition. The core and side-track recipes repeat anchors; repeated collection links mean borrow once. Dates describe original stories, not catalog reprints.",
+  "sources": {
+    "background": {
+      "label": "Comic Book Treasury · cosmic setup and collections",
+      "url": "https://www.comicbooktreasury.com/war-of-kings-reading-order/"
+    },
+    "road": {
+      "label": "How to Love Comics · cosmic collected-edition checklist",
+      "url": "https://www.howtolovecomics.com/2024/01/10/marvel-cosmic-reading-order/"
+    },
+    "war": {
+      "label": "Google Books · exact-ISBN War of Kings contents",
+      "url": "https://books.google.com/books/about/War_of_Kings.html?id=UWpoVURmXS8C"
+    },
+    "warorder": {
+      "label": "Comic Book Reading Orders · selective War of Kings issue placements",
+      "url": "https://comicbookreadingorders.com/marvel/events/war-of-kings-reading-order/"
+    },
+    "realm": {
+      "label": "Marvel · Realm of Kings one-shot publication",
+      "url": "https://www.marvel.com/comics/issue/29292/read"
+    },
+    "realmbook": {
+      "label": "Marvel · Realm of Kings collection contents",
+      "url": "https://www.marvel.com/comics/collection/29439/realm_of_kings_hardcover"
+    },
+    "realmorder": {
+      "label": "Comic Book Herald · Realm of Kings transition",
+      "url": "https://www.comicbookherald.com/marvel-cosmic-reading-order/realm-of-kings/"
+    },
+    "nova": {
+      "label": "Comic Book Treasury · Richard Rider series collections",
+      "url": "https://www.comicbooktreasury.com/nova-reading-order/"
+    },
+    "thanos": {
+      "label": "Free Library catalog · exact-ISBN Thanos Imperative contents",
+      "url": "https://catalog.freelibrary.org/Record/2785454"
+    },
+    "finale": {
+      "label": "Marvel · Thanos Imperative complete collection",
+      "url": "https://www.marvel.com/comics/issue/39651/thanos_imperative_trade_paperback"
+    },
+    "devastation": {
+      "label": "Grand Comics Database · Devastation (2011)",
+      "url": "https://www.comics.org/issue/795633/"
+    }
+  },
+  "steps": [
+    {
+      "id": "background",
+      "title": "Optional backstory: Vulcan and the Inhumans",
+      "issues": "Uncanny X-Men #475–486; X-Men: Emperor Vulcan #1–5; Silent War #1–6",
+      "phase": "Setup",
+      "role": "Optional",
+      "year": 2006,
+      "date": "2006–2008",
+      "why": "Two background paths explain the rival powers; none is required to read the main war.",
+      "isbns": [
+        "9781302377007",
+        "9781302479794",
+        "9781302377335"
+      ],
+      "match": "Three different books: Rise & Fall of the Shi’ar Empire leads into Emperor Vulcan. Silent War is a separate Inhuman background branch. These are complementary stories, not alternative editions.",
+      "sources": [
+        "background"
+      ],
+      "order": [
+        "Shi’ar branch: Uncanny X-Men #475–486 → X-Men: Emperor Vulcan #1–5",
+        "Inhuman branch: Silent War #1–6 → Secret Invasion: Inhumans #1–4 (in next stage)"
+      ],
+      "era": "War of Kings"
+    },
+    {
+      "id": "catch-up",
+      "title": "Optional catch-up: the ongoing heroes and Secret Invasion",
+      "issues": "Guardians of the Galaxy (2008) #1–12; Nova (2007) #13–22; Secret Invasion: Inhumans #1–4",
+      "phase": "Setup",
+      "role": "Optional",
+      "year": 2008,
+      "date": "2008–2009",
+      "why": "Useful continuity for readers following Richard, the Guardians or the royal family from Conquest.",
+      "isbns": [
+        "9780785180142",
+        "9781302367633",
+        "9780785179351",
+        "9780785179917",
+        "9781302481070"
+      ],
+      "match": "Consecutive Guardians books: Legacy #1–6 then War of Kings Book 1 #7–12. Consecutive Nova books: Secret Invasion #13–18 then Nova Corps #19–22. The Inhumans miniseries is a separate branch. None replaces the War of Kings core.",
+      "sources": [
+        "background",
+        "road"
+      ],
+      "order": [
+        "Guardians of the Galaxy (2008) #1–6 → #7–12",
+        "Nova (2007) #13–18 → #19–22",
+        "Secret Invasion: Inhumans #1–4 before Secret Invasion: War of Kings"
+      ],
+      "era": "War of Kings"
+    },
+    {
+      "id": "road",
+      "title": "Road to War of Kings",
+      "issues": "Secret Invasion: War of Kings #1; X-Men: Kingbreaker #1–4",
+      "phase": "Setup",
+      "role": "Recommended",
+      "year": 2008,
+      "date": "2008–2009",
+      "why": "The immediate political and Starjammer setup. The Saga recap is optional.",
+      "isbns": [
+        "9781302481018"
+      ],
+      "match": "This trade contains Kingbreaker, Secret Invasion: War of Kings and War of Kings Saga. It is much shorter than the similarly named Prelude Omnibus. Secret Invasion: War of Kings also appears in the main-event book below.",
+      "sources": [
+        "road"
+      ],
+      "order": [
+        "Optional War of Kings Saga recap",
+        "Secret Invasion: War of Kings #1",
+        "X-Men: Kingbreaker #1–4",
+        "War of Kings #1"
+      ],
+      "era": "War of Kings"
+    },
+    {
+      "id": "war-core",
+      "title": "War of Kings and its immediate epilogue",
+      "issues": "War of Kings #1–6; War of Kings: Who Will Rule? #1",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2009,
+      "date": "2009",
+      "why": "The full central war and the transition into its consequences.",
+      "isbns": [
+        "9780785182122"
+      ],
+      "match": "The exact digital edition contains Secret Invasion: War of Kings, main #1–6 and Who Will Rule? Read the setup one-shot only once if already covered in Road.",
+      "sources": [
+        "war"
+      ],
+      "order": [
+        "Secret Invasion: War of Kings #1 (skip if already read)",
+        "War of Kings #1–6",
+        "War of Kings: Who Will Rule? #1"
+      ],
+      "era": "War of Kings"
+    },
+    {
+      "id": "war-branches",
+      "title": "Optional war branches: Guardians and Nova",
+      "issues": "Guardians of the Galaxy (2008) #13–19; Nova (2007) #23–28",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2009,
+      "date": "2009",
+      "why": "Follow the ongoing heroes alongside the central war using this selective interleave.",
+      "isbns": [
+        "9781302368098",
+        "9780785182955"
+      ],
+      "match": "Two complementary tie-in books. The local Guardians book lists #13–19; the Nova book lists #23–28. Some print-edition guides give different endpoints, so these ranges follow the supplied digital records.",
+      "sources": [
+        "warorder"
+      ],
+      "order": [
+        "Nova #23 → War of Kings #1 → Nova #24 → War of Kings #2",
+        "Guardians #13–14 → War of Kings #3 → Guardians #15 → Nova #25–26",
+        "War of Kings #4–5 → Guardians #16 → War of Kings #6",
+        "Guardians #17 → Nova #27–28 → Who Will Rule? → Guardians #18–19"
+      ],
+      "era": "War of Kings"
+    },
+    {
+      "id": "realm-open",
+      "title": "Realm of Kings: the one-shot",
+      "issues": "Realm of Kings (2009) #1",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2009,
+      "date": "2009",
+      "why": "Open the next era after Who Will Rule? This is a single issue, not a numbered main miniseries.",
+      "isbns": [
+        "9781302480141"
+      ],
+      "match": "The Realm of Kings collection includes the opening one-shot plus the three optional miniseries in the next stage. Read its one-shot first.",
+      "sources": [
+        "realm",
+        "realmbook"
+      ],
+      "order": [
+        "War of Kings: Who Will Rule? #1",
+        "Realm of Kings #1"
+      ],
+      "era": "Realm of Kings"
+    },
+    {
+      "id": "realm-minis",
+      "title": "Optional Realm of Kings miniseries",
+      "issues": "Realm of Kings: Inhumans #1–5; Imperial Guard #1–5; Son of Hulk #1–4",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2009,
+      "date": "2009–2010",
+      "why": "Parallel viewpoints on the changed cosmic landscape. Each can be read as its own block after the opening one-shot.",
+      "isbns": [
+        "9781302480141"
+      ],
+      "match": "All three are in the same Realm of Kings book already linked above; no second borrowing is needed. These are side stories rather than mandatory steps between every Guardians or Nova issue.",
+      "sources": [
+        "realmbook",
+        "realmorder"
+      ],
+      "order": [
+        "Realm of Kings #1",
+        "Choose: Inhumans #1–5, Imperial Guard #1–5, and/or Son of Hulk #1–4"
+      ],
+      "era": "Realm of Kings"
+    },
+    {
+      "id": "realm-ongoings",
+      "title": "Recommended bridge: finish Guardians and Nova",
+      "issues": "Guardians of the Galaxy (2008) #20–25; Nova (2007) #29–36",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2009,
+      "date": "2009–2010",
+      "why": "These ongoing-series finales carry the heroes toward The Thanos Imperative.",
+      "isbns": [
+        "9781302369217",
+        "9781302368333"
+      ],
+      "match": "Two complementary volumes. Nova #29–31 are the preceding bridge; its #32–36 continue into this era. Guardians #25 is included, even though some event checklists stop at #24. Do not jump ahead to later Guardians relaunches.",
+      "sources": [
+        "realmorder",
+        "nova"
+      ],
+      "order": [
+        "After Who Will Rule?: Nova (2007) #29–31",
+        "Realm of Kings #1 (already read)",
+        "Guardians of the Galaxy (2008) #20–25 and Nova (2007) #32–36 — parallel series blocks",
+        "Then The Thanos Imperative: Ignition"
+      ],
+      "era": "Realm of Kings"
+    },
+    {
+      "id": "thanos-core",
+      "title": "The Thanos Imperative: Ignition and the complete main series",
+      "issues": "The Thanos Imperative: Ignition #1; The Thanos Imperative #1–6",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2010,
+      "date": "2010",
+      "why": "The connected cosmic saga reaches its central finale.",
+      "isbns": [
+        "9780785178910"
+      ],
+      "match": "The exact digital ISBN is independently confirmed to contain Ignition, all six main issues and Devastation. Read Ignition before #1; the catalog’s short “#1–6” title omits the one-shots.",
+      "sources": [
+        "thanos",
+        "finale"
+      ],
+      "order": [
+        "The Thanos Imperative: Ignition #1",
+        "The Thanos Imperative #1",
+        "The Thanos Imperative #2",
+        "The Thanos Imperative #3",
+        "The Thanos Imperative #4",
+        "The Thanos Imperative #5",
+        "The Thanos Imperative #6"
+      ],
+      "era": "The Thanos Imperative"
+    },
+    {
+      "id": "devastation",
+      "title": "Devastation: close the saga",
+      "issues": "The Thanos Imperative: Devastation #1",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2011,
+      "date": "2011",
+      "why": "A short epilogue after #6, setting up the next cosmic team.",
+      "isbns": [
+        "9780785178910"
+      ],
+      "match": "Already in the same Thanos Imperative volume. Annihilators (2011) is a later follow-up, not a replacement for this saga’s main event.",
+      "sources": [
+        "thanos",
+        "devastation"
+      ],
+      "order": [
+        "The Thanos Imperative #6",
+        "The Thanos Imperative: Devastation #1"
+      ],
+      "era": "The Thanos Imperative"
+    }
+  ],
+  "checkedAt": "2026-11-06"
+}

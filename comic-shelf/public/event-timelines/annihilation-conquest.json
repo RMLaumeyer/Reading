@@ -1,0 +1,214 @@
+{
+  "title": "Annihilation: Conquest",
+  "subtitle": "The Phalanx crisis and the road to the modern Guardians",
+  "years": "2007–2008",
+  "intro": "Read after Annihilation. Prologue and the lead-in miniseries come before the six-issue Conquest finale. Starlord introduces the team that leads toward Guardians of the Galaxy (2008). Nova means Richard Rider’s 2007 ongoing here, not the 2006 Annihilation miniseries or Sam Alexander’s 2013 series. The two Conquest books overlap Nova #4–7; repeated links mean sections of the same collection. The optional Knowhere recipe repeats core anchors to show the switches.",
+  "sources": {
+    "order": {
+      "label": "Comic Book Reading Orders · Conquest issue sequence",
+      "url": "https://comicbookreadingorders.com/marvel/events/annihilation-conquest-reading-order/"
+    },
+    "herald": {
+      "label": "Comic Book Herald · lead-in order and Nova overlap",
+      "url": "https://www.comicbookherald.com/marvel-cosmic-reading-order/annihilation-conquest/"
+    },
+    "first": {
+      "label": "Google Books · exact-ISBN Conquest Book 1 contents",
+      "url": "https://books.google.com/books/about/Annihilation.html?id=ufIYAAAAQBAJ"
+    },
+    "second": {
+      "label": "Google Books · exact-ISBN Conquest Book 2 contents",
+      "url": "https://books.google.ne/books?id=TR3bAQAAQBAJ"
+    },
+    "collections": {
+      "label": "Comic Book Treasury · Conquest and Guardians collections",
+      "url": "https://www.comicbooktreasury.com/annihilation-conquest-reading-order/"
+    },
+    "readers": {
+      "label": "Readers · Nova switches during Conquest",
+      "url": "https://www.reddit.com/r/MarvelUnlimited/comments/nkpjyc"
+    }
+  },
+  "steps": [
+    {
+      "id": "nova-start",
+      "title": "Optional catch-up: Nova #1–3",
+      "issues": "Nova (2007) #1–3",
+      "phase": "Setup",
+      "role": "Optional",
+      "year": 2007,
+      "date": "2007",
+      "why": "Skip if you read this bridge at the end of Annihilation.",
+      "isbns": [
+        "9780785178194"
+      ],
+      "match": "The first three issues of Nova Vol. 1 are pre-Conquest; do not finish all seven before the Prologue.",
+      "sources": [
+        "herald"
+      ]
+    },
+    {
+      "id": "prologue",
+      "title": "Conquest Prologue",
+      "issues": "Annihilation: Conquest Prologue #1",
+      "phase": "Setup",
+      "role": "Core",
+      "year": 2007,
+      "date": "2007",
+      "why": "Introduces the new crisis in the recovering Kree empire.",
+      "isbns": [
+        "9781302013882"
+      ],
+      "match": "Read the Prologue in Conquest Book 1. The same book also includes Starlord and Quasar below.",
+      "sources": [
+        "first"
+      ]
+    },
+    {
+      "id": "starlord",
+      "title": "Starlord: the mission team",
+      "issues": "Annihilation: Conquest – Starlord #1–4",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2007,
+      "date": "2007",
+      "why": "An important starting point for the modern Guardians lineup.",
+      "isbns": [
+        "9781302013882"
+      ],
+      "match": "Read the complete Starlord section of Book 1 before the main Conquest miniseries.",
+      "sources": [
+        "first",
+        "herald"
+      ]
+    },
+    {
+      "id": "quasar",
+      "title": "Quasar: Phyla-Vell and Moondragon",
+      "issues": "Annihilation: Conquest – Quasar #1–4",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2007,
+      "date": "2007",
+      "why": "A second principal lead-in to the finale.",
+      "isbns": [
+        "9781302013882"
+      ],
+      "match": "Also in Book 1. Read each lead-in miniseries as a block; individual #1s need not be alternated.",
+      "sources": [
+        "first",
+        "herald"
+      ]
+    },
+    {
+      "id": "nova-cross",
+      "title": "Nova’s Conquest crossover",
+      "issues": "Nova (2007) #4–7",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2007,
+      "date": "2007",
+      "why": "Richard’s direct involvement begins after the Prologue.",
+      "isbns": [
+        "9781302014070",
+        "9780785178194"
+      ],
+      "match": "Alternatives for these four issues: Conquest Book 2 or Nova Vol. 1 (#1–7). Book 2 is still needed later for the central Conquest series.",
+      "sources": [
+        "second",
+        "herald"
+      ],
+      "order": [
+        "Annihilation: Conquest Prologue #1",
+        "Nova (2007) #4–7",
+        "Annihilation: Conquest #1"
+      ]
+    },
+    {
+      "id": "wraith",
+      "title": "Optional parallel lead-in: Wraith",
+      "issues": "Annihilation: Conquest – Wraith #1–4",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2007,
+      "date": "2007",
+      "why": "Introduces another participant before the main miniseries.",
+      "isbns": [
+        "9781302014070"
+      ],
+      "match": "Read Book 2’s Wraith section before Conquest #1. Wraith and Nova #4–7 are parallel lead-ins, not sequels to the finale.",
+      "sources": [
+        "second"
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Conquest: the complete main series",
+      "issues": "Annihilation: Conquest #1–6",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2007,
+      "date": "2007–2008",
+      "why": "The lead-in threads meet in the six-issue resolution.",
+      "isbns": [
+        "9781302014070"
+      ],
+      "match": "Book 2 contains every main issue. Read numbered #1–6 straight through, or use the optional Nova recipe below.",
+      "sources": [
+        "second"
+      ],
+      "order": [
+        "Annihilation: Conquest #1–6"
+      ]
+    },
+    {
+      "id": "knowhere",
+      "title": "Optional Nova / Knowhere branch",
+      "issues": "Nova (2007) #8–12 and Annual #1",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2007,
+      "date": "2007–2008",
+      "why": "For readers following Nova continuously, these chapters run alongside the finale.",
+      "isbns": [
+        "9781302367688"
+      ],
+      "match": "Nova Vol. 2: Knowhere contains these issues. They are not in the two original Conquest books. The order shown follows the linked CBRO recipe; other guides shift parallel scenes slightly.",
+      "sources": [
+        "order",
+        "readers"
+      ],
+      "order": [
+        "Annihilation: Conquest #1–2",
+        "Nova (2007) #8–10",
+        "Nova Annual #1",
+        "Annihilation: Conquest #3–5",
+        "Nova (2007) #11–12",
+        "Annihilation: Conquest #6"
+      ]
+    },
+    {
+      "id": "guardians",
+      "title": "After Conquest: Guardians of the Galaxy",
+      "issues": "Guardians of the Galaxy (2008) #1–6",
+      "phase": "Aftermath",
+      "role": "Recommended",
+      "year": 2008,
+      "date": "2008",
+      "why": "The new team launches after the war.",
+      "isbns": [
+        "9780785180142"
+      ],
+      "match": "Legacy is the opening of Abnett and Lanning’s 2008 series. It follows Conquest #6; later Guardians #1 relaunches are different eras.",
+      "sources": [
+        "collections",
+        "order"
+      ],
+      "order": [
+        "Annihilation: Conquest #6",
+        "Guardians of the Galaxy (2008) #1–6"
+      ]
+    }
+  ],
+  "checkedAt": "2026-11-06"
+}

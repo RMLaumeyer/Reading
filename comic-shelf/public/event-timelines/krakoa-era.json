@@ -1,0 +1,826 @@
+{
+  "title": "The Krakoa era",
+  "subtitle": "A readable route from House of X/Powers of X to the June 2024 epilogue, matched to your library.",
+  "years": "2019–2024",
+  "checkedAt": "2026-11-06",
+  "intro": "Start with House of X/Powers of X. Core follows the central national/political story through Hickman, Gillen, the Galas, and the full 2024 ending; Recommended and Optional branches can be added by interest. This is a curated narrative/collection route, not every appearance or a strict publication-date list. Parallel team runs are grouped for readability, while event-spanning books are split explicitly so their later issues do not jump ahead. Multiple ISBNs may mean consecutive or parallel books; the match note explains which. All library matches use the supplied catalog snapshot, not live borrowing availability. Later combined editions overlap earlier trades. Most importantly, Inferno is Hickman’s exit, not the end of Krakoa.",
+  "sources": {
+    "hox": {
+      "label": "How to Love Comics · House/Powers release order",
+      "url": "https://www.howtolovecomics.com/2019/08/19/house-of-x-powers-of-x-reading-order/"
+    },
+    "collection": {
+      "label": "Crushing Krisis · Age of Krakoa collection contents",
+      "url": "https://crushingkrisis.com/definitive-guide-to-collecting-x-men-as-graphic-novels/x-men-the-age-of-krakoa-the-definitive-collecting-guide-reading-order/"
+    },
+    "trades": {
+      "label": "X-Men readers · complete Krakoa trade route",
+      "url": "https://www.reddit.com/r/xmen/comments/1dbad1a/the_complete_tpb_reading_order_for_the_entire/"
+    },
+    "issues": {
+      "label": "X-Men readers · narrative issue sequence",
+      "url": "https://www.reddit.com/r/xmen/comments/1d8sg25/the_complete_singleissue_reading_order_for_the/"
+    },
+    "swords": {
+      "label": "How to Love Comics · X of Swords checklist",
+      "url": "https://www.howtolovecomics.com/2020/08/23/x-men-x-of-swords-reading-order/"
+    },
+    "inferno": {
+      "label": "Marvel · Inferno2021 collection",
+      "url": "https://www.marvel.com/comics/collection/96785/inferno_hardcover"
+    },
+    "destiny": {
+      "label": "Comic Book Herald · Destiny of X",
+      "url": "https://www.comicbookherald.com/the-complete-marvel-reading-order-guide/jonathan-hickman-x-men-reading-order/destiny-of-x/"
+    },
+    "treasury": {
+      "label": "Comic Book Treasury · Destiny/Fall collected editions",
+      "url": "https://www.comicbooktreasury.com/x-men-reading-order-part-7/"
+    },
+    "sos": {
+      "label": "Marvel · Sins of Sinister official reading list",
+      "url": "https://www.marvel.com/comics/discover/2377/sins-of-sinister-the-complete-event"
+    },
+    "fall": {
+      "label": "Marvel Guides · Fall of X narrative order",
+      "url": "https://marvelguides.com/fall-of-x-reading-order"
+    },
+    "immortal": {
+      "label": "Marvel · Immortal X-Men Vol.1 verified contents",
+      "url": "https://www.marvel.com/comics/collection/91802/immortal_x-men_by_kieron_gillen_vol_1_trade_paperback"
+    },
+    "finale": {
+      "label": "Marvel · Krakoan Era Finale reading list",
+      "url": "https://share.marvel.com/comics/discover/2434/the-krakoan-era-finale"
+    },
+    "end": {
+      "label": "Publisher catalog · finale collection includes #35 A/B stories",
+      "url": "https://prhcomics.com/wp-content/uploads/2024/12/2025_January_PRH-Panels-Catalog-PDF.pdf"
+    },
+    "six": {
+      "label": "X-Men readers · missing trade issue discussion",
+      "url": "https://www.reddit.com/r/xmen/comments/1aj0pvb/"
+    },
+    "axe": {
+      "label": "Comic Book Herald · Judgment Day main and tie-in order",
+      "url": "https://www.comicbookherald.com/the-complete-marvel-reading-order-guide/marvel-fresh-start-reading-order/judgment-day-reading-order/"
+    }
+  },
+  "steps": [
+    {
+      "id": "house-powers",
+      "title": "House of X / Powers of X",
+      "issues": "House of X (2019) #1–6; Powers of X (2019) #1–6",
+      "era": "Foundation",
+      "phase": "Setup",
+      "role": "Core",
+      "year": 2019,
+      "date": "2019",
+      "why": "Begin here to establish the era.",
+      "isbns": [
+        "9781302517410"
+      ],
+      "match": "One collected story; follow the intended release order, not a rearrangement into in-universe chronology.",
+      "sources": [
+        "hox"
+      ],
+      "order": [
+        "House of X #1 → Powers of X #1 → House #2 → Powers #2–3 → House #3–4 → Powers #4 → House #5 → Powers #5 → House #6 → Powers #6."
+      ]
+    },
+    {
+      "id": "dawn-flagship",
+      "title": "Dawn of X: Hickman’s flagship",
+      "issues": "X-Men (2019) #1–11",
+      "era": "Dawn of X",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2019,
+      "date": "2019–2020",
+      "why": "Continue the nation-building story.",
+      "isbns": [
+        "9781302520335",
+        "9781302935061"
+      ],
+      "match": "Read Vol.1 (#1–6), then Vol.2 (#7–11). These are consecutive. The similarly titled Reign of X by Hickman editions cross era boundaries.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "excalibur",
+      "title": "Otherworld route into X of Swords",
+      "issues": "Excalibur (2019) #1–12",
+      "era": "Dawn of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2019,
+      "date": "2019–2020",
+      "why": "The most useful supporting run for the swords event.",
+      "isbns": [
+        "9781302520472",
+        "9781302523190"
+      ],
+      "match": "Read Vol.1 then Vol.2. In particular, #12 is the Excalibur prelude that the X of Swords collection does not include.",
+      "sources": [
+        "swords",
+        "collection"
+      ]
+    },
+    {
+      "id": "marauders",
+      "title": "Dawn of X branch: Marauders",
+      "issues": "Marauders (2019) #1–12",
+      "era": "Dawn of X",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2019,
+      "date": "2019–2020",
+      "why": "Follow Kate and the trading company alongside the flagship.",
+      "isbns": [
+        "9781302938826"
+      ],
+      "match": "The larger Duggan Vol.1 covers #1–12; the smaller #1–6 and #7–12 volumes are alternatives. Stop before #13, which is in X of Swords.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "security-branch",
+      "title": "Dawn of X branch: X-Force and Wolverine",
+      "issues": "X-Force (2019) #1–12; Wolverine (2020) #1–5",
+      "era": "Dawn of X",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2020,
+      "date": "2020",
+      "why": "A parallel security-and-espionage route.",
+      "isbns": [
+        "9781302520885",
+        "9781302935054",
+        "9781302935030"
+      ],
+      "match": "Read X-Force Vol.1 then Vol.2; Wolverine Vol.1 is the parallel solo opening. Their next crossover chapters are already in X of Swords. These books do not replace the main event.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "hellions-start",
+      "title": "Dawn of X branch: Hellions",
+      "issues": "Hellions (2020) #1–4",
+      "era": "Dawn of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2020,
+      "date": "2020",
+      "why": "A focused Sinister-led team branch.",
+      "isbns": [
+        "9781302523213"
+      ],
+      "match": "Vol.1 supplies #1–4. Its #5–6 continuation is in X of Swords; resume with Vol.2 afterward.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "x-of-swords",
+      "title": "X of Swords: the full crossover",
+      "issues": "X-Men #12 prelude; X of Swords: Creation, Stasis, Destruction; the 22 numbered crossover chapters",
+      "era": "X of Swords",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2020,
+      "date": "2020",
+      "why": "The first large convergence of the era.",
+      "isbns": [
+        "9781302935887"
+      ],
+      "match": "The event collection contains the full 22-part crossover plus X-Men #12. Excalibur #12 is a separate prelude in Excalibur Vol.2. Read the collection’s chapter order; the flagship alone is not a complete event.",
+      "sources": [
+        "swords",
+        "collection"
+      ],
+      "order": [
+        "Before the collection: Excalibur #12.",
+        "Then X-Men #12; follow chapters 1–22 from Creation through Destruction in the event collection."
+      ]
+    },
+    {
+      "id": "reign-flagship",
+      "title": "Reign of X: Hickman’s final flagship block",
+      "issues": "X-Men (2019) #16–20",
+      "era": "Reign of X",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2020,
+      "date": "2020–2021",
+      "why": "Return to the main series after the crossover.",
+      "isbns": [
+        "9781302938963",
+        "9781302531331"
+      ],
+      "match": "Original Vol.3 contains #16–20. Reign of X by Hickman Vol.2 is an alternative with #10–12,16–21 and Giant-Size extras; do not read its #21 yet. It omits crossover #13–15.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "sword-start",
+      "title": "Reign branch: S.W.O.R.D. begins",
+      "issues": "S.W.O.R.D. (2020) #1–5",
+      "era": "Reign of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2020,
+      "date": "2020–2021",
+      "why": "Useful groundwork for Ewing’s later X-Men Red.",
+      "isbns": [
+        "9781302938918"
+      ],
+      "match": "This is Al Ewing’s 2020 series, not the 2009 No Time to Breathe collection. #2–4 cross with King in Black; the branch remains optional for the main Krakoa route.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "hellions-middle",
+      "title": "Reign branch: Hellions before the Gala",
+      "issues": "Hellions (2020) #7–11",
+      "era": "Reign of X",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2020,
+      "date": "2020–2021",
+      "why": "Continue the Hellions thread after X of Swords.",
+      "isbns": [
+        "9781302938772"
+      ],
+      "match": "Vol.2 collects #7–12. Read #7–11 now; #12 occurs at the Gala and can be read with that stage.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "hellfire-2021",
+      "title": "The first Hellfire Gala",
+      "issues": "Marauders #21; X-Men (2019) #21; Planet-Size X-Men #1; S.W.O.R.D. #6",
+      "era": "Hellfire Gala 2021",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2021,
+      "date": "2021",
+      "why": "The next major change in Krakoa’s position.",
+      "isbns": [
+        "9781302931155",
+        "9781302939113",
+        "9781302533014"
+      ],
+      "match": "Choose the short Gala book or Red Carpet for the full night. Hellfire Galas (plural) is an alternative spanning all three annual Galas: read only its 2021 material here, saving the 2022/2023 events. X-Men #21 overlaps Hickman Reign Vol.2.",
+      "sources": [
+        "trades"
+      ],
+      "order": [
+        "Core night: Marauders #21 → X-Men #21 → Planet-Size X-Men #1 → S.W.O.R.D. #6.",
+        "If following branches, Hellions #12 and Way of X #3 also occur during the night."
+      ]
+    },
+    {
+      "id": "duggan-start",
+      "title": "The elected X-Men begin",
+      "issues": "X-Men (2021) #1–6",
+      "era": "Trials of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2021,
+      "date": "2021",
+      "why": "A new flagship cast follows the Gala.",
+      "isbns": [
+        "9781302940775"
+      ],
+      "match": "Duggan Vol.1 is a new 2021 series; Hickman’s 2019 numbering has ended. Read after the first Gala.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "sword-after-gala",
+      "title": "Space branch: S.W.O.R.D. after the Gala",
+      "issues": "S.W.O.R.D. (2020) #7–11; Cable Reloaded #1",
+      "era": "Trials of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2021,
+      "date": "2021",
+      "why": "Continue the space-side foundation for Red.",
+      "isbns": [
+        "9781302940690"
+      ],
+      "match": "Vol.2 continues after S.W.O.R.D. #6 in the Gala collection. Its Last Annihilation chapters cross a separate cosmic event; do not infer this book contains that whole event.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "way-of-x",
+      "title": "Krakoa’s beliefs: Way of X",
+      "issues": "Way of X #1–5; X-Men: The Onslaught Revelation #1",
+      "era": "Trials of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2021,
+      "date": "2021",
+      "why": "The starting point for the later Legion branch.",
+      "isbns": [
+        "9781302939830"
+      ],
+      "match": "The collection includes the Onslaught conclusion. #1–2 precede the Gala and #3 overlaps it; placed as one readable branch here before its 2022 follow-up.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "hellions-end",
+      "title": "Branch conclusion: Hellions",
+      "issues": "Hellions (2020) #13–18",
+      "era": "Trials of X",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2021,
+      "date": "2021",
+      "why": "Finish this self-contained supporting run.",
+      "isbns": [
+        "9781302940577"
+      ],
+      "match": "Vol.3 follows the Gala. Its plot is a branch, not a substitute for Inferno.",
+      "sources": [
+        "trades"
+      ]
+    },
+    {
+      "id": "inferno",
+      "title": "Inferno: Hickman’s conclusion",
+      "issues": "Inferno (2021) #1–4",
+      "era": "Inferno",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2021,
+      "date": "2021–2022",
+      "why": "The central political thread reaches a turning point.",
+      "isbns": [
+        "9781302940584"
+      ],
+      "match": "This four-issue 2021 miniseries is the correct Inferno; the 1989 crossover and Warzones collection are different stories.",
+      "sources": [
+        "inferno"
+      ]
+    },
+    {
+      "id": "lives-deaths",
+      "title": "X Lives / X Deaths of Wolverine",
+      "issues": "X Lives of Wolverine #1–5; X Deaths of Wolverine #1–5",
+      "era": "Transition to Destiny of X",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2022,
+      "date": "2022",
+      "why": "The bridge after Inferno.",
+      "isbns": [
+        "9781302941888"
+      ],
+      "match": "One collection contains both five-issue miniseries, not only five issues total. Read their alternating order.",
+      "sources": [
+        "treasury"
+      ],
+      "order": [
+        "X Lives #1 → X Deaths #1 → Lives #2 → Deaths #2 → continue alternating through both #5s."
+      ]
+    },
+    {
+      "id": "duggan-second",
+      "title": "The elected team before the second Gala",
+      "issues": "X-Men (2021) #7–12",
+      "era": "Destiny of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2022,
+      "date": "2022",
+      "why": "Continue the public-facing team’s story.",
+      "isbns": [
+        "9781302943608"
+      ],
+      "match": "Duggan Vol.2 follows #1–6 and leads into the 2022 Gala; it is not another edition of Vol.1.",
+      "sources": [
+        "destiny"
+      ]
+    },
+    {
+      "id": "immortal-opening",
+      "title": "Immortal X-Men: the new central thread",
+      "issues": "Immortal X-Men (2022) #1–3",
+      "era": "Destiny of X",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2022,
+      "date": "2022",
+      "why": "Begin Gillen’s Council story after Inferno.",
+      "isbns": [
+        "9781302944421"
+      ],
+      "match": "Vol.1 contains #1–5. Read #1–3 now; save #4 for after the second Gala and #5 for Judgment Day. Its locally verified range does not include #6.",
+      "sources": [
+        "immortal",
+        "issues"
+      ]
+    },
+    {
+      "id": "red-opening",
+      "title": "X-Men Red: Arakko before Judgment Day",
+      "issues": "X-Men Red (2022) #1–4",
+      "era": "Destiny of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2022,
+      "date": "2022",
+      "why": "Ewing’s parallel Arakko thread.",
+      "isbns": [
+        "9781302944285"
+      ],
+      "match": "Red Vol.1 contains #1–5; read #1–4 now, saving #5 for Judgment Day. This is the 2022 series, not Jean’s 2018 Red.",
+      "sources": [
+        "issues",
+        "destiny"
+      ]
+    },
+    {
+      "id": "legion-opening",
+      "title": "Legion branch: the first missions",
+      "issues": "Legion of X (2022) #1–5",
+      "era": "Destiny of X",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2022,
+      "date": "2022",
+      "why": "Continue Way of X before Sinister’s event.",
+      "isbns": [
+        "9781302944469"
+      ],
+      "match": "Vol.1 supplies #1–5. #4–5 sit just after the second Gala in detailed orders; you can read the short branch there. The next volume spans several later stages and must be split.",
+      "sources": [
+        "issues",
+        "destiny"
+      ]
+    },
+    {
+      "id": "hellfire-2022",
+      "title": "The second Hellfire Gala",
+      "issues": "X-Men: Hellfire Gala (2022) #1; then Immortal X-Men #4",
+      "era": "Hellfire Gala 2022",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2022,
+      "date": "2022",
+      "why": "The next annual pivot.",
+      "isbns": [
+        "9781302952099",
+        "9781302533014",
+        "9781302944421"
+      ],
+      "match": "Choose Hellfire Gala: Immortal or only the 2022 section of Hellfire Galas. Return to Immortal Vol.1 for #4 afterward. Supplemental collection stories are not all set on the same night.",
+      "sources": [
+        "treasury",
+        "issues"
+      ]
+    },
+    {
+      "id": "judgment-day",
+      "title": "A.X.E.: Judgment Day with mutant threads",
+      "issues": "A.X.E.: Judgment Day #1–6 and the Avengers/X-Men/Eternals one-shots; Immortal #5–7; Red #5–7; X-Men #13–14",
+      "era": "A.X.E.: Judgment Day",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2022,
+      "date": "2022",
+      "why": "Read the main event here; the listed mutant tie-ins add the parallel Krakoa and Arakko viewpoints.",
+      "isbns": [
+        "9781302944926",
+        "9781302944421",
+        "9781302524258",
+        "9781302944285",
+        "9781302523817",
+        "9781302523800"
+      ],
+      "match": "The main collection has Judgment Day #1–6 and the three A.X.E. one-shots. Other ISBNs are recommended parallel mutant collections, not alternatives: Immortal #5 is in Vol.1, #7 in Vol.2; Red #5 is in Vol.1, #6–7 in Vol.2; Duggan Vol.3 supplies #13–14. Immortal #6 is a confirmed issue but no library collection match is established here. The selection is partial for the Immortal tie-ins (#6 unmatched), not an assertion that every A.X.E. chapter is available.",
+      "sources": [
+        "axe",
+        "treasury"
+      ],
+      "order": [
+        "Main spine: Judgment Day #1–5 → A.X.E.: Avengers #1 → A.X.E.: X-Men #1 → A.X.E.: Eternals #1 → Judgment Day #6.",
+        "Mutant interleave: after Judgment #1 read Immortal #5 and Red #5; after Judgment #2 read X-Men #13; after Judgment #3 read Immortal #6 (unmatched), X-Men #14 and Red #6; after Judgment #4 read Red #7; after Judgment #5 read Immortal #7.",
+        "Optional Legion #6 is a Judgment tie-in in Legion Vol.2; save its later #7–10 for the next branch stage."
+      ]
+    },
+    {
+      "id": "immortal-six-gap",
+      "title": "Explicit library gap: Immortal X-Men #6",
+      "issues": "Immortal X-Men (2022) #6",
+      "era": "A.X.E.: Judgment Day",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2022,
+      "date": "2022",
+      "why": "A supporting Judgment Day chapter with uncertain local collection coverage.",
+      "isbns": [],
+      "match": "No confirmed local collection match for #6. Catalog and publisher listing for Immortal Vol.1 say #1–5; the supplied Vol.2 says #7–10. Some print references say Vol.1 includes #6, so verify the actual borrowing edition rather than assuming it is present. The core Judgment Day collection remains readable.",
+      "sources": [
+        "immortal",
+        "six"
+      ]
+    },
+    {
+      "id": "post-judgment",
+      "title": "After Judgment: the Sinister setup",
+      "issues": "Immortal X-Men #8–10; parallel recommended X-Men Red #8–10",
+      "era": "Destiny of X",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2022,
+      "date": "2022–2023",
+      "why": "Resume the main political story before Sins of Sinister.",
+      "isbns": [
+        "9781302524258",
+        "9781302523817"
+      ],
+      "match": "Reuse Immortal Vol.2 for the Core thread. Read Immortal #8, then (if following Red) Red #8–10 from Red Vol.2, then Immortal #9–10 as the immediate Sinister prelude. These are reused books; Red remains a recommended parallel route.",
+      "sources": [
+        "issues",
+        "sos"
+      ]
+    },
+    {
+      "id": "legion-later",
+      "title": "Legion branch around Sins of Sinister",
+      "issues": "Legion of X #7–10; later X-Men: Before the Fall — Sons of X #1",
+      "era": "Destiny of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2022,
+      "date": "2022–2023",
+      "why": "A useful supporting thread for later Council developments.",
+      "isbns": [
+        "9781302525262"
+      ],
+      "match": "Vol.2 contains #6–10 plus Sons of X. #6 belongs with Judgment Day; read #7–10 now for the Sinister setup, but save Sons of X until after Sins of Sinister. This is an editorial narrative grouping; #7 internally overlaps the event.",
+      "sources": [
+        "issues"
+      ]
+    },
+    {
+      "id": "sins-sinister",
+      "title": "Sins of Sinister: the complete event",
+      "issues": "Sins of Sinister #1; Immoral X-Men #1–3; Storm & the Brotherhood #1–3; Nightcrawlers #1–3; Dominion #1",
+      "era": "Sins of Sinister",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2023,
+      "date": "2023",
+      "why": "The next central crossover after Immortal #10.",
+      "isbns": [
+        "9781302525705"
+      ],
+      "match": "The event collection gathers all eleven chapters. Read its interleaved order through Dominion; three individual miniseries alone omit the opening and ending. Resume Sons of X from Legion Vol.2 afterward if following that branch.",
+      "sources": [
+        "sos"
+      ]
+    },
+    {
+      "id": "immortal-before-fall",
+      "title": "Before the Fall: the Council",
+      "issues": "Immortal X-Men #11–13; X-Men: Before the Fall — Sinister Four #1",
+      "era": "Before the Fall",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2023,
+      "date": "2023",
+      "why": "Continue the Council aftermath before the third Gala.",
+      "isbns": [
+        "9781302526344"
+      ],
+      "match": "Immortal Vol.3 includes the Sinister Four one-shot despite its catalog title listing only #11–13. These are the post-Sinister chapters. Its Sinister Four bonus and #12 have slightly different placements across guides; the expanded route follows Marvel Guides for the last pre-Gala block.",
+      "sources": [
+        "treasury",
+        "fall"
+      ],
+      "order": [
+        "The next three collection stages are parallel, not three entire runs to finish one after another. Use their books together if following every thread.",
+        "Core Council route: Immortal #11 → Sinister Four one-shot → Immortal #12–13 → the 2023 Gala.",
+        "Expanded narrative route: X-Men #15–21 (Dark Web around #17 is optional), Immortal #11, then X-Men #22–23 → Sinister Four → Immortal #12 → Red #11–12 → Heralds of Apocalypse → Immortal #13 → X-Men #24 → Red #13 → the 2023 Gala."
+      ]
+    },
+    {
+      "id": "red-before-fall",
+      "title": "Before the Fall: Arakko",
+      "issues": "X-Men Red #11–13; Before the Fall — Heralds of Apocalypse #1",
+      "era": "Before the Fall",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2023,
+      "date": "2023",
+      "why": "Continue Red’s parallel thread.",
+      "isbns": [
+        "9781302526146"
+      ],
+      "match": "Red Vol.3 includes the Heralds one-shot as well as #11–13. Read #11–12 → Heralds of Apocalypse → #13. These belong before the third Gala.",
+      "sources": [
+        "treasury",
+        "fall"
+      ]
+    },
+    {
+      "id": "duggan-before-fall",
+      "title": "Before the Fall: the elected team",
+      "issues": "X-Men (2021) #15–24",
+      "era": "Before the Fall",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2022,
+      "date": "2022–2023",
+      "why": "Finish the team’s pre-Gala block.",
+      "isbns": [
+        "9781302523800",
+        "9781302526139"
+      ],
+      "match": "Duggan Vol.3 supplies #15–18 after its Judgment tie-ins; Vol.4 supplies #19–24. #17 touches Dark Web; that Spider-Man crossover is optional to this route. Placed as a narrative block here rather than a strict publication sequence.",
+      "sources": [
+        "issues"
+      ]
+    },
+    {
+      "id": "hellfire-2023",
+      "title": "The third Hellfire Gala: Fall of X",
+      "issues": "X-Men: Hellfire Gala (2023) #1",
+      "era": "Hellfire Gala 2023",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2023,
+      "date": "2023",
+      "why": "The event that opens Fall of X.",
+      "isbns": [
+        "9781302527136",
+        "9781302533014"
+      ],
+      "match": "Choose Hellfire Gala: Fall of X or only the 2023 section of the combined Hellfire Galas. Its Invincible Iron Man #8 and Infinity Comic material are companion chapters, not different Gala years.",
+      "sources": [
+        "fall"
+      ]
+    },
+    {
+      "id": "fall-immortal",
+      "title": "Fall of X: Immortal and Jean Grey",
+      "issues": "Immortal X-Men #14–18; Jean Grey (2023) #1–4",
+      "era": "Fall of X",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2023,
+      "date": "2023–2024",
+      "why": "The Council/Phoenix thread continues toward Forever.",
+      "isbns": [
+        "9781302527570",
+        "9781302527242"
+      ],
+      "match": "Read Immortal #14–16, then Jean Grey: Flames of Fear #1–4, then Immortal #17–18. Jean’s miniseries is a separate collection, not included in Immortal Vol.4.",
+      "sources": [
+        "issues",
+        "fall"
+      ],
+      "order": [
+        "The Immortal, Red and elected-team stages below are parallel Fall of X collections; reading by series is the compact route.",
+        "For the Council/Phoenix thread: Immortal #14–16 → Jean Grey #1–4 → Immortal #17–18. All follow the 2023 Gala and precede the finale."
+      ]
+    },
+    {
+      "id": "fall-red",
+      "title": "Fall of X: Red’s final arc",
+      "issues": "X-Men Red (2022) #14–18",
+      "era": "Fall of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2023,
+      "date": "2023",
+      "why": "Conclude the Arakko series before Resurrection of Magneto.",
+      "isbns": [
+        "9781302527792"
+      ],
+      "match": "Red Vol.4 follows the 2023 Gala and closes Ewing’s Red run. It is not the conclusion of the whole Krakoa era.",
+      "sources": [
+        "treasury"
+      ]
+    },
+    {
+      "id": "fall-team",
+      "title": "Fall of X: the surviving X-Men",
+      "issues": "X-Men (2021) #25–29",
+      "era": "Fall of X",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2023,
+      "date": "2023",
+      "why": "Follow the flagship response to the Gala.",
+      "isbns": [
+        "9781302527785"
+      ],
+      "match": "Duggan Vol.5 supplies #25–29. Read its next volume, #30–34, inside the finale stage rather than treating Vol.5 as the end.",
+      "sources": [
+        "fall"
+      ]
+    },
+    {
+      "id": "fall-branches",
+      "title": "Fall of X branches: Kurt and the Vault",
+      "issues": "Uncanny Spider-Man #1–5 and X-Men Blue: Origins; Children of the Vault #1–4",
+      "era": "Fall of X",
+      "phase": "Main event",
+      "role": "Optional",
+      "year": 2023,
+      "date": "2023",
+      "why": "Choose either supporting branch during Fall of X.",
+      "isbns": [
+        "9781302528867",
+        "9781302527204"
+      ],
+      "match": "Separate stories: Uncanny Spider-Man is Kurt’s branch and includes Blue: Origins; Children of the Vault is a Cable/Bishop branch. Neither replaces the finale. Read Blue: Origins between Uncanny Spider-Man #4 and #5.",
+      "sources": [
+        "fall",
+        "treasury"
+      ]
+    },
+    {
+      "id": "magneto-return",
+      "title": "Resurrection of Magneto: collect it for the finale",
+      "issues": "Resurrection of Magneto (2024) #1–4",
+      "era": "Krakoa’s last stand",
+      "phase": "Main event",
+      "role": "Recommended",
+      "year": 2024,
+      "date": "2024",
+      "why": "The follow-up to Red joins the closing era.",
+      "isbns": [
+        "9781302529697"
+      ],
+      "match": "The collection contains all four issues. It continues X-Men Red, but is interleaved with the finale rather than a mandatory block to finish before Fall begins. In the route below, read #1–4 after Rise of the Powers of X #1. Marvel Guides offers an alternate narrative placement splitting #1–3 earlier and #4 during the battle.",
+      "sources": [
+        "fall",
+        "treasury"
+      ]
+    },
+    {
+      "id": "finale",
+      "title": "Fall / Rise with X-Men Forever",
+      "issues": "Fall of the House of X #1–5; Rise of the Powers of X #1–5; X-Men: Forever (2024) #1–4; X-Men #30–34; Dead X-Men #1–4",
+      "era": "Krakoa’s last stand",
+      "phase": "Main event",
+      "role": "Core",
+      "year": 2024,
+      "date": "2024",
+      "why": "Bring the Orchis and Dominion threads together.",
+      "isbns": [
+        "9781302529635",
+        "9781302530938",
+        "9781302529833",
+        "9781302529956"
+      ],
+      "match": "The Fall/Rise collection has both main miniseries and #35 material; it does NOT contain Forever, Dead X-Men, or X-Men #30–34. The other ISBNs supply those branches. Forever is the 2024 four-issue miniseries collected as Immortal Vol.5. Dead X-Men is recommended for the timeline mission; the two main miniseries plus Forever form the shorter central route. Follow the narrative sequence below, then the #35 epilogue stage. The order below follows the collected-reading route linked from Comic Book Treasury; Marvel Guides offers a different narrative placement for some companion issues. Both keep the paired endings before #35.",
+      "sources": [
+        "fall",
+        "treasury",
+        "finale"
+      ],
+      "order": [
+        "Recommended narrative route: X-Men #30–31 → Fall of the House of X #1 → Fall #2 → X-Men #32 → Fall #3 → X-Men #33 → Rise of the Powers of X #1.",
+        "If following the Red branch, read Resurrection of Magneto #1–4 here, after Rise #1.",
+        "Continue: X-Men: Forever #1 → Rise #2 → Dead X-Men #1–4 (recommended) → Rise #3–4 → Forever #2 → Fall #4 → X-Men #34 → Forever #3–4 → Fall #5 → Rise #5.",
+        "Invincible Iron Man, Avengers and Cable also cross the closing battle. This selected route does not claim to include every tie-in; the linked full guide places them."
+      ]
+    },
+    {
+      "id": "xmen-35",
+      "title": "The era’s closing epilogue: X-Men #35 / #700",
+      "issues": "X-Men (2021) #35 — Krakoa conclusion stories",
+      "era": "Krakoa’s epilogue",
+      "phase": "Aftermath",
+      "role": "Core",
+      "year": 2024,
+      "date": "June 2024",
+      "why": "Finish the era after both Fall #5 and Rise #5.",
+      "isbns": [
+        "9781302529635"
+      ],
+      "match": "Return to the concluding X-Men #35 material in the same Fall/Rise collection. The publisher specifies the A/B stories, not the complete oversized anniversary anthology. Duggan Vol.6 and the #1–34 omnibus do not supply #35. New From the Ashes stories are the next era.",
+      "sources": [
+        "end",
+        "treasury"
+      ]
+    }
+  ]
+}
