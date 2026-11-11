@@ -1,5 +1,19 @@
 # Remaining held enrichment — October 31, 2026
 
+The next 100-addition run brought the catalog to **2,402 approved synopses (60.05%)** and **1,116 known research holds**. [Session report](enrichment-third-100-2026-11-10.md)
+
+The next 100-addition run brought the catalog to **2,302 approved synopses (57.55%)** and **1,111 known research holds**. [Session report](enrichment-next-100-2026-11-10.md)
+
+The next 400-addition run brought the catalog to **2,202 approved synopses (55.05%)** and **1,103 known research holds**. [Session report](enrichment-400-2026-11-10.md)
+
+The next 300-addition run brought the catalog to **1,802 approved synopses (45.05%)** and **1,090 known research holds**. [Session report](enrichment-next-300-2026-11-10.md)
+
+The next 300-addition run brought the catalog to **1,502 approved synopses (37.55%)** and **1,071 known research holds**. [Session report](enrichment-300-additions-2026-11-10.md)
+
+The next 300-addition run brought the catalog to **1,202 approved synopses (30.05%)** and **1,058 known research holds**. [Session report](enrichment-300-additions-2026-11-09.md)
+
+The completed recovery and fresh run added **179 synopses**. Current totals are **902 approved (22.55%)** and **1042 known holds**. [Session report](enrichment-hundred-additions-2026-11-09.md)
+
 The November 8 recovery and fresh run completed **325 reviews** and published **141 synopses** locally. The current total is **679 approved (16.98%)** and **865 known holds**. Current artifacts are in data/local-ai-trials/twohundred-20261108. [November 8 session report](enrichment-twohundred-2026-11-08.md)
 
 The [additional 200-edition session](enrichment-twohundred-2026-11-05.md) published 77 reviewed synopses and held 123: **507 approved / 637 held**, with **12.68% of the 4,000-edition catalog approved**. Eight publication transactions and all frozen evidence checks verified. Production code/settings are unchanged; five drafts were accepted unchanged and 72 required editorial revision. Current handoff: data/local-ai-trials/twohundred-20261105. Earlier snapshots below remain historical.
