@@ -29,7 +29,7 @@ const guides = fs.readdirSync(directory).filter(name => name.endsWith('.json')).
 const header = `<header><a class="brand" href="/">▤ PANEL <span>/ reading guides</span></a><nav aria-label="Main navigation"><a href="/">Shelf</a><a href="/reading-guides/" aria-current="page">Character guides</a><a href="/event-timelines/">Event timelines</a></nav></header>`;
 const footer = `<footer>PANEL / Your library. Your next story. <a href="/reading-guides/">Browse all guides →</a></footer>`;
 function shell(title, content, script, attributes = '') {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Panel</title><link rel="stylesheet" href="/reading-guides/style.css"><script src="/reading-guides/${script}" defer></script></head><body id="top" ${attributes}>${header}<main>${content}</main>${footer}</body></html>`;
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Panel</title><link rel="stylesheet" href="/reading-guides/style.css"><script src="/reading-guides/${script}" defer></script><script type="module" src="/reading-controls.js"></script></head><body id="top" ${attributes}>${header}<main>${content}</main>${footer}</body></html>`;
 }
 for (const {slug, guide} of guides) {
   const checkedLabel = new Date(`${guide.checkedAt}T12:00:00Z`).toLocaleDateString('en-US', {month:'long',day:'numeric',year:'numeric',timeZone:'UTC'});

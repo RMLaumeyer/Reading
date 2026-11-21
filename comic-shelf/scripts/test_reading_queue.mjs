@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readQueue, saveStatus, queueKey} from '../public/reading-queue.js';
+let value = null;
+const storage = {getItem: () => value, setItem: (key, data) => { assert.equal(key, queueKey); value = data; }};
+assert.deepEqual(readQueue(storage), {});
+saveStatus('edition-a', 'want', storage);
+saveStatus('edition-b', 'reading', storage);
+assert.equal(readQueue(storage)['edition-a'].status, 'want');
+saveStatus('edition-a', 'finished', storage);
+assert.equal(readQueue(storage)['edition-b'].status, 'reading');
+saveStatus('edition-a', 'none', storage);
+assert.equal(readQueue(storage)['edition-a'], undefined);
+assert.throws(() => saveStatus('edition-b', 'invalid', storage));
+value = '{broken';
+assert.throws(() => saveStatus('edition-b', 'want', storage));
+assert.equal(value, '{broken');
+assert.throws(() => saveStatus('edition-b', 'want', {getItem: () => null, setItem: () => {throw Error('quota');}}));
+console.log('Reading queue: persistence, transitions, edition independence, removal and storage failures passed.');

@@ -180,15 +180,32 @@ export function filterBooks(books: Book[], f: Filters): Book[] {
     return n || title(a, b);
   });
 }
+export function nextInReadingPath(book: Book, orderedRun: Book[]) {
+  const detail = book.detail;
+  if (!detail?.readingPath.name) return undefined;
+  const own = new Set(detail.issueKeys);
+  return orderedRun.find((candidate) => {
+    const next = candidate.detail;
+    return (
+      next?.readingPath.name === detail.readingPath.name &&
+      !next.readingPath.alternative &&
+      next.readingPath.position > detail.readingPath.position &&
+      (!next.issueKeys.length || next.issueKeys.some((issue) => !own.has(issue)))
+    );
+  });
+}
+
 export function overlaps(book: Book, books: Book[]) {
   if (!book.detail) return [];
   const own = new Set(book.detail.issueKeys);
   return books
     .filter((b) => b.id !== book.id && b.detail)
-    .map((b) => ({
-      book: b,
-      count: b.detail!.issueKeys.filter((i) => own.has(i)).length,
-    }))
+    .map((b) => {
+      const issues = [...new Set(b.detail!.issueKeys)].filter((issue) =>
+        own.has(issue),
+      );
+      return { book: b, count: issues.length, issues };
+    })
     .filter((x) => x.count > 0)
     .sort((a, b) => b.count - a.count);
 }

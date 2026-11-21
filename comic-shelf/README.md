@@ -62,3 +62,9 @@ Panel refreshes enrichment and progress every 15 seconds. **Basic metadata** mea
 Progress lives in `data/enrichment-progress.json`; automatic records live in `data/automatic-enrichment.json`. Public metadata is updated as each record finishes, so no rebuild is required. HTTP 401/403/429 or a traffic challenge pauses the pass. Resume later instead of bypassing a source restriction. To retry previously unmatched or failed records manually, run `python scripts/enrich_catalog.py --retry` after the current pass has stopped. Cached pages are reused.
 
 Validation for this extension: `python scripts/test_enrichment.py`, `npm test`, `npm run typecheck`, and `npm run build`. Browser interactions have not been tested.
+
+## Personal reading queue
+
+Use Reading status on shelf cards, book details, guide matches, or event timeline matches to choose Want to read, Reading, or Finished. Choose Not in queue to remove an edition. The shelf queue filter includes saved editions regardless of enrichment or availability; other search filters can then narrow them. Continue reading opens books marked Reading, most recently updated first.
+
+Progress is stored in this browser on this device and shared across tabs at the same Panel address. Use the same hostname and browser profile each time. Clearing browser site data removes progress. Storage errors are shown without claiming a successful save. Run `node scripts/test_reading_queue.mjs` to check persistence and storage failure handling.

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
+import {routeCoverage} from '../public/event-timelines/issue-coverage.js';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const directory = path.join(root, 'public/event-timelines');
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'public/catalog.json'), 'utf8'));
@@ -29,8 +30,35 @@ const events = fs.readdirSync(directory).filter(file => file.endsWith('.json')).
   for (const source of Object.values(event.sources)) assert(new URL(source.url).protocol === 'https:', `${slug}: source URL`);
   return {slug, event};
 });
+
+const pilot = events.find(item => item.slug === 'hickman-secret-wars').event;
+const coverage = JSON.parse(fs.readFileSync(path.join(root, 'public/hickman-coverage.json'), 'utf8'));
+const requiredStages = pilot.steps.filter(step => step.role === 'Core');
+assert.deepEqual(Object.keys(coverage.core).sort(), requiredStages.map(step => step.id).sort());
+const validateIssues = (issues, owner) => {
+  assert(Array.isArray(issues) && issues.length && new Set(issues).size === issues.length, owner);
+  assert(issues.every(issue => /.+ \(\d{4}\) #\d+(?:\.[\dA-Z]+)?$/.test(issue)), owner);
+};
+for (const [step, issues] of Object.entries(coverage.core)) validateIssues(issues, step);
+for (const [isbn, edition] of Object.entries(coverage.editions)) {
+  assert.equal(catalog.books.filter(book => book.isbn === isbn).length, 1, isbn);
+  validateIssues(edition.issueKeys, isbn);
+  assert.equal(new URL(edition.source.url).protocol, 'https:', isbn);
+  if (edition.hoopla) {
+    const url = new URL(edition.hoopla.url);
+    assert.equal(url.protocol, 'https:', isbn);
+    assert.equal(url.hostname, 'www.hoopladigital.com', isbn);
+    assert(books.get(isbn).hooplaListed, `${isbn}: verify the snapshot before labeling a digital edition`);
+  }
+}
+for (const isbn of [...coverage.alternatives, ...requiredStages.flatMap(step => step.isbns)]) {
+  assert(coverage.editions[isbn], `${isbn}: missing pilot contents`);
+}
+assert.deepEqual(routeCoverage(pilot.steps, coverage, books, {}).missing, [], 'Hickman core issues missing coverage');
+
 function shell(title, content, script, attributes = '') {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Panel</title><link rel="stylesheet" href="/reading-guides/style.css"><link rel="stylesheet" href="/event-timelines/style.css"><script src="/event-timelines/${script}" defer></script></head><body id="top" ${attributes}><header><a class="brand" href="/">▤ PANEL <span>/ event timelines</span></a><nav aria-label="Main navigation"><a href="/">Shelf</a><a href="/reading-guides/">Character guides</a><a href="/event-timelines/" aria-current="page">Event timelines</a></nav></header><main>${content}</main><footer>PANEL / Follow the whole story. <a href="/event-timelines/">All event timelines →</a></footer></body></html>`;
+  const scriptMode = script === 'event.js' ? 'type="module"' : 'defer';
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} · Panel</title><link rel="stylesheet" href="/reading-guides/style.css"><link rel="stylesheet" href="/event-timelines/style.css"><script src="/event-timelines/${script}" ${scriptMode}></script><script type="module" src="/reading-controls.js"></script></head><body id="top" ${attributes}><header><a class="brand" href="/">▤ PANEL <span>/ event timelines</span></a><nav aria-label="Main navigation"><a href="/">Shelf</a><a href="/reading-guides/">Character guides</a><a href="/event-timelines/" aria-current="page">Event timelines</a></nav></header><main>${content}</main><footer>PANEL / Follow the whole story. <a href="/event-timelines/">All event timelines →</a></footer></body></html>`;
 }
 for (const {slug, event} of events) {
   const connections = {
@@ -46,11 +74,17 @@ for (const {slug, event} of events) {
   const relatedHtml = related.length ? `<section class="related-routes"><h2>Related timelines</h2><p>Explore a connected story next. These links are optional extensions of the selected route.</p><div class="related-links">${related.map(({slug:target,event:other})=>`<a href="/event-timelines/${escape(target)}.html">${escape(other.title)} →</a>`).join('')}</div></section>` : '';
   const eras = [...new Set(event.steps.map(step => step.era).filter(Boolean))];
   const eraFilter = eras.length ? `<label for="era">Story arc<select id="era"><option value="all">All arcs</option>${eras.map(era => `<option value="${escape(era)}">${escape(era)}</option>`).join('')}</select></label>` : '';
+  const routeProgress = slug === 'hickman-secret-wars' ? `<section class="method route-progress" aria-labelledby="progress-title">
+    <h2 id="progress-title">Your reading progress</h2>
+    <p>Mark a collection Finished on the timeline or shelf to count its confirmed issues as read.</p>
+    <div id="route-progress"><p>Checking issue coverage…</p></div>
+    <div id="route-alternatives"></div>
+  </section>` : '';
   const html = shell(`${event.title} timeline`, `
     <section class="hero"><p class="eyebrow">MARVEL / EVENT TIMELINE / ${escape(event.years)}</p><h1>${escape(event.title)}<br><em>Follow the story.</em></h1><p class="lede">${escape(event.subtitle)}</p><div class="stats" id="stats" aria-live="polite">Matching library collections…</div></section>
     <section class="event-intro"><h2>Your route through the event.</h2><p>${escape(event.intro)}</p><div class="route-legend"><span class="badge core">CORE · selected main route</span><span class="badge">RECOMMENDED · useful context</span><span class="badge">OPTIONAL · expand when interested</span></div></section>
     <section class="method"><h2>Use the sequence, then check the collection.</h2><p>Stages are in the recommended reading sequence, not simply sorted by publication date. <strong>Core is defined for this selected route</strong>: on the Hickman page it includes the lead-up saga, while on a self-contained event it can be the main miniseries alone. Expand “Issue order” where chapters cross between books. Optional tie-ins with repeated main-series anchors are alternate expansion paths, not instructions to reread those chapters after finishing the event. Read each match note before borrowing: some books overlap, some continue one another, and some provide only part of a stage.</p><p>Library matches use your supplied catalog snapshot, imported September 8, 2026. A catalog match can be a print record. <strong>“Hoopla listed” is not a live availability check.</strong> Unmatched stages stay visible; this does not prove the library lacks them. Story names may reveal turning points. Research checked ${escape(event.checkedAt)}.</p></section>
-    <section aria-labelledby="timeline-title"><div class="timeline-heading"><div><p class="eyebrow">THE READING SEQUENCE</p><h2 id="timeline-title">One stage at a time.</h2></div><p id="shown" aria-live="polite"></p></div>
+    ${routeProgress ? routeProgress + '\n    ' : ''}<section aria-labelledby="timeline-title"><div class="timeline-heading"><div><p class="eyebrow">THE READING SEQUENCE</p><h2 id="timeline-title">One stage at a time.</h2></div><p id="shown" aria-live="polite"></p></div>
     <form class="filters" id="filters"><label for="route">Route<select id="route"><option value="all">Full selected timeline</option><option value="core">Core route only</option><option value="recommended">Core + recommended context</option></select></label>${eraFilter}<label for="availability">Library match<select id="availability"><option value="all">All stages</option><option value="listed">Hoopla-listed stages</option><option value="missing">No confirmed match</option></select></label><label for="phase">Phase<select id="phase"><option value="all">All phases</option><option>Setup</option><option>Main event</option><option>Aftermath</option></select></label><button id="reset" type="button">Reset filters</button></form>
     <div id="timeline" aria-live="polite"><p>Loading event timeline…</p></div><noscript><p>Enable JavaScript to load this timeline’s catalog matches and filters.</p></noscript></section>
     <section class="sources"><p class="eyebrow">FOLLOW THE RESEARCH</p><h2>Reading-order sources</h2><p>Sources document the event route and collection contents. Adjacent parallel chapters can have more than one reasonable arrangement. The selected timeline keeps the main story clear and marks optional extensions.</p><ul id="sources"></ul></section>

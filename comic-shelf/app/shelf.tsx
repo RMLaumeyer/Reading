@@ -1,7 +1,8 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import { readQueue, saveStatus, queueKey, statuses, type Queue } from '../public/reading-queue.js';
+import hickmanCoverage from '../public/hickman-coverage.json';
 import { flushSync } from 'react-dom';
-import EnrichmentControls from './enrichment-controls';
 import {
   BookOpen,
   Search,
@@ -36,13 +37,49 @@ import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import {
   Book,
   Enrichment,
+  Source,
   Filters,
   initialFilters,
   filterBooks,
   matchesCharacter,
   overlaps,
+  nextInReadingPath,
   sortOptions,
 } from '@/lib/catalog';
+
+const verifiedEditions: Record<string, {
+  issueKeys: string[];
+  source: Source;
+  note?: string;
+  hoopla?: { url: string };
+  synopsisSource?: Source;
+  contentsOnlyUrl?: string;
+}> = hickmanCoverage.editions;
+
+function withVerifiedContents(book: Book, detail: Enrichment | undefined): Enrichment | undefined {
+  const verified = verifiedEditions[book.isbn];
+  if (!verified || !detail) return detail;
+
+  const sources = new Map(detail.sources.map(source => [source.url, source]));
+  if (verified.contentsOnlyUrl) {
+    sources.set(verified.contentsOnlyUrl, {
+      label: 'Google Books · table of contents only',
+      url: verified.contentsOnlyUrl,
+    });
+  }
+  sources.set(verified.source.url, verified.source);
+  if (verified.synopsisSource) sources.set(verified.synopsisSource.url, verified.synopsisSource);
+  return {
+    ...detail,
+    issueKeys: verified.issueKeys,
+    contentsNote: verified.note ?? 'Collected issues verified against the source for this ISBN.',
+    sources: [...sources.values()],
+    hooplaUrls: verified.hoopla
+      ? [...new Set([verified.hoopla.url, ...(detail.hooplaUrls ?? [])])]
+      : detail.hooplaUrls,
+  };
+}
+
 function Choice({
   label,
   value,
@@ -114,6 +151,24 @@ type ModelContext = {
   ) => void | Promise<void>;
 };
 export default function Shelf() {
+  const [queue, setQueue] = useState<Queue>({});
+  const [queueFilter, setQueueFilter] = useState('all');
+  const [queueError, setQueueError] = useState('');
+  useEffect(() => {
+    const sync = () => { try { setQueue(readQueue()); setQueueError(''); } catch { setQueueError('Reading progress could not be loaded. Check browser storage access.'); } };
+    sync();
+    const changed = (e: StorageEvent) => { if (e.key === queueKey || e.key === null) sync(); };
+    window.addEventListener('storage', changed);
+    return () => window.removeEventListener('storage', changed);
+  }, []);
+  const changeStatus = (id: string, status: string) => {
+    try { setQueue(saveStatus(id, status)); setQueueError(''); }
+    catch { setQueueError('Your change could not be saved. Check browser storage access and try again.'); }
+  };
+  const readingControl = (book: Book) => <label className="reading-control">Reading status
+    <select aria-label={'Reading status for ' + book.title} value={queue[book.id]?.status ?? 'none'} onChange={e => changeStatus(book.id, e.target.value)}>
+      {statuses.map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+    </select></label>;
   const [books, setBooks] = useState<Book[]>([]);
   const [filters, setFilters] = useState<Filters>(initialFilters);
   const [error, setError] = useState('');
@@ -134,7 +189,7 @@ export default function Shelf() {
         const extra = await data.json() as {books: Record<string, Enrichment>};
         if (!controller.signal.aborted) {
           setProgress(status);
-          setBooks(old => old.map(b => ({...b, detail: extra.books[b.id]})));
+          setBooks(old => old.map(b => ({...b, detail: withVerifiedContents(b, extra.books[b.id])})));
         }
       } catch { /* Keep the last successful snapshot during a transient failure. */ }
     };
@@ -168,7 +223,7 @@ export default function Shelf() {
           setBooks(
             catalog.books.map((b: Book) => ({
               ...b,
-              detail: enrichment.books[b.id],
+              detail: withVerifiedContents(b, enrichment.books[b.id]),
             })),
           );
           setLoading(false);
@@ -188,7 +243,7 @@ export default function Shelf() {
     setFilters((f) => ({ ...f, ...changes }));
     setPage(1);
   };
-  const results = useMemo(() => filterBooks(books, filters), [books, filters]);
+  const results = useMemo(() => filterBooks(books, filters).filter(b => queueFilter === 'all' || (queueFilter === 'saved' ? !!queue[b.id] : queue[b.id]?.status === queueFilter)), [books, filters, queue, queueFilter]);
   const enriched = books.filter((b) => b.detail);
   const countHoopla = books.filter((b) => b.hooplaListed).length;
   const characterNames = useMemo(
@@ -240,6 +295,7 @@ export default function Shelf() {
               Number(b.detail!.readingPath.alternative),
         )
     : [];
+  const nextBook = current ? nextInReadingPath(current, runBooks) : undefined;
   const pages = Math.max(1, Math.ceil(results.length / 24));
   const currentPage = Math.min(page, pages);
   const shown = results.slice((currentPage - 1) * 24, currentPage * 24);
@@ -362,6 +418,7 @@ export default function Shelf() {
               <button
                 onClick={() => {
                   setFilters(initialFilters);
+                  setQueueFilter('all');
                   setPage(1);
                 }}
               >
@@ -440,7 +497,20 @@ export default function Shelf() {
             </details>
           </aside>
           <div className="results-panel">
-            <EnrichmentControls onSelect={setSelected} />
+            <section className="reading-queue" aria-labelledby="queue-title">
+              <h2 id="queue-title">Your reading queue</h2>
+              <p>Saved in this browser on this device. Track each edition from the shelf, guides, or timelines.</p>
+              {queueError && <p role="alert">{queueError}</p>}
+              <label className="reading-control">Show books
+                <select value={queueFilter} onChange={e => { setQueueFilter(e.target.value); setPage(1); setFilters({...initialFilters, scope: 'all', availability: 'all'}); }}>
+                  <option value="all">All books</option><option value="saved">My queue</option>
+                  {statuses.filter(([key]) => key !== 'none').map(([key, label]) => <option key={key} value={key}>{label} ({Object.values(queue).filter(item => item.status === key).length})</option>)}
+                </select>
+              </label>
+              <h3>Continue reading</h3>
+              <div className="continue-books">{books.filter(b => queue[b.id]?.status === 'reading').sort((a,b) => queue[b.id].updatedAt - queue[a.id].updatedAt).map(b => <button key={b.id} onClick={() => setSelected(b.id)}>{b.title} <ArrowRight size={16}/></button>)}</div>
+              {!Object.values(queue).some(item => item.status === 'reading') && <p>Mark a book as Reading to pick it up here.</p>}
+            </section>
             <div className="result-controls">
               <Tabs
                 value={filters.scope}
@@ -507,15 +577,18 @@ export default function Shelf() {
             ) : !error && !results.length ? (
               <div className="empty">
                 <BookOpen size={30} />
-                <h3>No books match these filters.</h3>
+                <h3>{queueFilter === 'all' ? 'No books match these filters.' : 'No saved books match this view.'}</h3>
                 <p>
-                  {filters.scope === 'pilot'
+                  {queueFilter !== 'all'
+                    ? 'Add books using Reading status, or browse all books to find your next story.'
+                    : filters.scope === 'pilot'
                     ? 'This character or story may not have been enriched yet.'
                     : 'Try fewer filters or a different title.'}
                 </p>
                 <button
                   className="primary-button"
-                  onClick={() =>
+                  onClick={() => {
+                    if (queueFilter !== 'all') { setQueueFilter('all'); setFilters({...initialFilters, scope: 'all', availability: 'all'}); setPage(1); return; }
                     update(
                       filters.scope === 'pilot'
                         ? { scope: 'all', starting: false, run: 'All runs' }
@@ -527,10 +600,10 @@ export default function Shelf() {
                             starting: false,
                             availability: 'all',
                           },
-                    )
-                  }
+                    );
+                  }}
                 >
-                  {filters.scope === 'pilot'
+                  {queueFilter !== 'all' ? 'Browse all books' : filters.scope === 'pilot'
                     ? 'Search the full catalog'
                     : 'Clear filters'}
                 </button>
@@ -580,6 +653,7 @@ export default function Shelf() {
                         </span>
                       </div>
                     </button>
+                    {readingControl(b)}
                   </article>
                 ))}
               </div>
@@ -632,6 +706,7 @@ export default function Shelf() {
           </SheetHeader>
           {current && (
             <div className="detail-body">
+              {readingControl(current)}
               <div className="detail-top">
                 <Cover key={current.id} book={current} large />
                 <div className="detail-facts">
@@ -739,6 +814,18 @@ export default function Shelf() {
                         ? 'Alternative collection'
                         : `Step ${detail.readingPath.position}`}
                     </p>}
+                    {nextBook && (
+                      <button
+                        className="overlap-link"
+                        onClick={() => setSelected(nextBook.id)}
+                      >
+                        <span>
+                          {nextBook.title}
+                          <small>Next in this run</small>
+                        </span>
+                        <ArrowRight size={17} />
+                      </button>
+                    )}
                     <ol className="reading-list">
                       {runBooks.map((b) => (
                         <li key={b.id}>
@@ -815,18 +902,22 @@ export default function Shelf() {
                         These books share checked issues. Extra material
                         can differ.
                       </p>
-                      {shared.map(({ book, count }) => (
-                        <button
-                          className="overlap-link"
-                          key={book.id}
-                          onClick={() => setSelected(book.id)}
-                        >
-                          <span>
-                            {book.title.replace(/: Issues? #.*$/i, '')}
-                            <small>{count} shared issues</small>
-                          </span>
-                          <ArrowRight size={17} />
-                        </button>
+                      {shared.map(({ book, count, issues }) => (
+                        <div key={book.id}>
+                          <button
+                            className="overlap-link"
+                            onClick={() => setSelected(book.id)}
+                          >
+                            <span>{book.title}</span>
+                            <ArrowRight size={17} />
+                          </button>
+                          <details>
+                            <summary>{count} shared {count === 1 ? 'issue' : 'issues'}</summary>
+                            <ul className="issue-list">
+                              {issues.map((issue) => <li key={issue}>{issue}</li>)}
+                            </ul>
+                          </details>
+                        </div>
                       ))}
                     </section>
                   )}

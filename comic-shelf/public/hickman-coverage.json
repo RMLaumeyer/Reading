@@ -1,0 +1,330 @@
+{
+  "checkedAt": "2026-11-21",
+  "core": {
+    "two-teams": [
+      "Avengers (2012) #1",
+      "Avengers (2012) #2",
+      "Avengers (2012) #3",
+      "Avengers (2012) #4",
+      "New Avengers (2013) #1",
+      "New Avengers (2013) #2",
+      "New Avengers (2013) #3",
+      "New Avengers (2013) #4",
+      "New Avengers (2013) #5",
+      "New Avengers (2013) #6",
+      "Avengers (2012) #5",
+      "Avengers (2012) #6"
+    ],
+    "white-event": [
+      "Avengers (2012) #7",
+      "Avengers (2012) #8",
+      "Avengers (2012) #9",
+      "Avengers (2012) #10",
+      "Avengers (2012) #11"
+    ],
+    "prelude": [
+      "Avengers (2012) #12",
+      "Avengers (2012) #13"
+    ],
+    "infinity": [
+      "New Avengers (2013) #7",
+      "Avengers (2012) #14",
+      "Avengers (2012) #15",
+      "Avengers (2012) #16",
+      "Avengers (2012) #17",
+      "Infinity (2013) #1",
+      "New Avengers (2013) #8",
+      "Avengers (2012) #18",
+      "Infinity (2013) #2",
+      "New Avengers (2013) #9",
+      "Avengers (2012) #19",
+      "Infinity (2013) #3",
+      "Avengers (2012) #20",
+      "Infinity (2013) #4",
+      "Avengers (2012) #21",
+      "New Avengers (2013) #10",
+      "Infinity (2013) #5",
+      "Avengers (2012) #22",
+      "Avengers (2012) #23",
+      "New Avengers (2013) #11",
+      "Infinity (2013) #6",
+      "New Avengers (2013) #12"
+    ],
+    "other-worlds": [
+      "New Avengers (2013) #13",
+      "New Avengers (2013) #14",
+      "New Avengers (2013) #15",
+      "Avengers (2012) #24",
+      "Avengers (2012) #25",
+      "Avengers (2012) #26",
+      "Avengers (2012) #27",
+      "Avengers (2012) #28",
+      "New Avengers (2013) #16",
+      "New Avengers (2013) #17"
+    ],
+    "infinite-avengers": [
+      "Avengers (2012) #29",
+      "Avengers (2012) #30",
+      "Avengers (2012) #31",
+      "Avengers (2012) #32",
+      "Avengers (2012) #33",
+      "Avengers (2012) #34"
+    ],
+    "perfect-world": [
+      "New Avengers (2013) #18",
+      "New Avengers (2013) #19",
+      "New Avengers (2013) #20",
+      "New Avengers (2013) #21",
+      "New Avengers (2013) #22",
+      "New Avengers (2013) #23"
+    ],
+    "time-one": [
+      "Avengers (2012) #35",
+      "New Avengers (2013) #24",
+      "New Avengers (2013) #25",
+      "Avengers (2012) #36",
+      "Avengers (2012) #37"
+    ],
+    "time-two": [
+      "New Avengers (2013) #26",
+      "Avengers (2012) #38",
+      "New Avengers (2013) #27",
+      "Avengers (2012) #39",
+      "New Avengers (2013) #28"
+    ],
+    "time-three": [
+      "Avengers (2012) #40",
+      "New Avengers (2013) #29",
+      "Avengers (2012) #41",
+      "New Avengers (2013) #30",
+      "Avengers (2012) #42"
+    ],
+    "time-four": [
+      "New Avengers (2013) #31",
+      "Avengers (2012) #43",
+      "New Avengers (2013) #32",
+      "Avengers (2012) #44",
+      "New Avengers (2013) #33"
+    ],
+    "secret-wars": [
+      "Secret Wars (2015) #1",
+      "Secret Wars (2015) #2",
+      "Secret Wars (2015) #3",
+      "Secret Wars (2015) #4",
+      "Secret Wars (2015) #5",
+      "Secret Wars (2015) #6",
+      "Secret Wars (2015) #7",
+      "Secret Wars (2015) #8",
+      "Secret Wars (2015) #9"
+    ]
+  },
+  "editions": {
+    "9781302013622": {
+      "issueKeys": ["Avengers (2012) #1", "Avengers (2012) #2", "Avengers (2012) #3", "Avengers (2012) #4", "Avengers (2012) #5", "Avengers (2012) #6"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=I2FAVEujjacC"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12003676"
+      }
+    },
+    "9781302013738": {
+      "issueKeys": ["New Avengers (2013) #1", "New Avengers (2013) #2", "New Avengers (2013) #3", "New Avengers (2013) #4", "New Avengers (2013) #5", "New Avengers (2013) #6"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=qD3ZA_KnGLEC"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12205491"
+      }
+    },
+    "9781302013639": {
+      "issueKeys": ["Avengers (2012) #7", "Avengers (2012) #8", "Avengers (2012) #9", "Avengers (2012) #10", "Avengers (2012) #11"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=6X_q49YAgokC"
+      }
+    },
+    "9781302368920": {
+      "issueKeys": ["Avengers (2012) #12", "Avengers (2012) #13", "Avengers (2012) #14", "Avengers (2012) #15", "Avengers (2012) #16", "Avengers (2012) #17"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=Zdp6AAAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12003749"
+      }
+    },
+    "9781302376987": {
+      "issueKeys": ["Avengers (2012) #14", "Avengers (2012) #15", "Avengers (2012) #16", "Avengers (2012) #17", "Avengers (2012) #18", "Avengers (2012) #19", "Avengers (2012) #20", "Avengers (2012) #21", "Avengers (2012) #22", "Avengers (2012) #23", "New Avengers (2013) #7", "New Avengers (2013) #8", "New Avengers (2013) #9", "New Avengers (2013) #10", "New Avengers (2013) #11", "New Avengers (2013) #12", "Infinity (2013) #1", "Infinity (2013) #2", "Infinity (2013) #3", "Infinity (2013) #4", "Infinity (2013) #5", "Infinity (2013) #6", "Infinity: Against the Tide Infinite Comic (2013) #1", "Infinity: Against the Tide Infinite Comic (2013) #2"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=CokdAwAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12003710"
+      },
+      "note": "The table of contents and Hoopla agree that the Avengers chapters begin at #14. The Google Books description starts at #12, so #12–13 are left out of this inventory. The two Against the Tide issues are outside the selected core route."
+    },
+    "9781302378578": {
+      "issueKeys": ["New Avengers (2013) #13", "New Avengers (2013) #14", "New Avengers (2013) #15", "New Avengers (2013) #16", "New Avengers (2013) #17"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=pgzlAwAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12205478",
+        "isbnEvidence": "Saved Hoopla ISBN metadata"
+      },
+      "note": "New Avengers (2013) #13 is the Inhumanity chapter also listed as #13.INH."
+    },
+    "9781302378790": {
+      "issueKeys": ["Avengers (2012) #24", "Avengers (2012) #25", "Avengers (2012) #26", "Avengers (2012) #27", "Avengers (2012) #28"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://freelibrary.overdrive.com/media/5901693"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12205472"
+      }
+    },
+    "9781302437398": {
+      "issueKeys": ["Avengers (2012) #29", "Avengers (2012) #30", "Avengers (2012) #31", "Avengers (2012) #32", "Avengers (2012) #33", "Avengers (2012) #34"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=kwvNBAAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12205477"
+      }
+    },
+    "9781302441197": {
+      "issueKeys": ["New Avengers (2013) #18", "New Avengers (2013) #19", "New Avengers (2013) #20", "New Avengers (2013) #21", "New Avengers (2013) #22", "New Avengers (2013) #23"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=cQzNBAAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12282236",
+        "isbnEvidence": "Saved Hoopla ISBN metadata"
+      }
+    },
+    "9781302478490": {
+      "issueKeys": ["Avengers (2012) #35", "New Avengers (2013) #24", "New Avengers (2013) #25", "Avengers (2012) #36", "Avengers (2012) #37"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://ajax.overdrive.com/ajax-visitor/content/media/4455448"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12020948"
+      }
+    },
+    "9781302478926": {
+      "issueKeys": ["New Avengers (2013) #26", "Avengers (2012) #38", "New Avengers (2013) #27", "Avengers (2012) #39", "New Avengers (2013) #28"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=Oe9wBgAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12020885"
+      }
+    },
+    "9781302480233": {
+      "issueKeys": ["Avengers (2012) #40", "New Avengers (2013) #29", "Avengers (2012) #41", "New Avengers (2013) #30", "Avengers (2012) #42"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://catalog.freelibrary.org/Record/2784767"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12020930",
+        "isbnEvidence": "https://discover.ajaxlibrary.ca/Hoopla/12020930"
+      }
+    },
+    "9780785192244": {
+      "issueKeys": ["New Avengers (2013) #31", "Avengers (2012) #43", "New Avengers (2013) #32", "Avengers (2012) #44", "New Avengers (2013) #33"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=MuezrQEACAAJ"
+      },
+      "note": "This ISBN is the hardcover. The digital Complete Collection Vol. 5 also contains these five chapters."
+    },
+    "9781302482732": {
+      "issueKeys": ["Secret Wars (2015) #1", "Secret Wars (2015) #2", "Secret Wars (2015) #3", "Secret Wars (2015) #4", "Secret Wars (2015) #5", "Secret Wars (2015) #6", "Secret Wars (2015) #7", "Secret Wars (2015) #8", "Secret Wars (2015) #9"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://catalog.freelibrary.org/Record/2711474"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/12020846",
+        "isbnEvidence": "Saved Hoopla ISBN metadata"
+      },
+      "note": "The optional Free Comic Book Day prologue is one story from that issue. It is excluded from whole-issue coverage.",
+      "synopsisSource": {
+        "label": "Marvel via OverDrive · exact ISBN synopsis",
+        "url": "https://knoxcounty.overdrive.com/media/5402963"
+      },
+      "contentsOnlyUrl": "https://books.google.com/books/about/Secret_Wars.html?id=4S1_CgAAQBAJ"
+    },
+    "9781302520632": {
+      "issueKeys": ["Avengers (2012) #1", "Avengers (2012) #2", "Avengers (2012) #3", "Avengers (2012) #4", "Avengers (2012) #5", "New Avengers (2013) #1", "New Avengers (2013) #2", "New Avengers (2013) #3", "New Avengers (2013) #4", "New Avengers (2013) #5", "New Avengers (2013) #6"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=m8jRDwAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/14607614"
+      },
+      "note": "The excerpted Astonishing Tales: Mojoworld material is outside whole-issue coverage. Avengers #6 is in Complete Collection Vol. 2."
+    },
+    "9781302523091": {
+      "issueKeys": ["Avengers (2012) #6", "Avengers (2012) #7", "Avengers (2012) #8", "Avengers (2012) #9", "Avengers (2012) #10", "Avengers (2012) #11", "Avengers (2012) #12", "Avengers (2012) #13", "Avengers (2012) #14", "Avengers (2012) #15", "Avengers (2012) #16", "Avengers (2012) #17", "New Avengers (2013) #7"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=qyL8DwAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/14607586"
+      },
+      "note": "The Shang-Chi: Master of Kung Fu excerpt is outside whole-issue coverage."
+    },
+    "9781302935634": {
+      "issueKeys": ["Avengers (2012) #18", "Avengers (2012) #19", "Avengers (2012) #20", "Avengers (2012) #21", "Avengers (2012) #22", "Avengers (2012) #23", "New Avengers (2013) #8", "New Avengers (2013) #9", "New Avengers (2013) #10", "New Avengers (2013) #11", "New Avengers (2013) #12", "Infinity (2013) #1", "Infinity (2013) #2", "Infinity (2013) #3", "Infinity (2013) #4", "Infinity (2013) #5", "Infinity (2013) #6"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=5WsFEAAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/14607593"
+      }
+    },
+    "9781302936662": {
+      "issueKeys": ["Avengers (2012) #24", "Avengers (2012) #25", "Avengers (2012) #26", "Avengers (2012) #27", "Avengers (2012) #28", "Avengers (2012) #29", "Avengers (2012) #30", "Avengers (2012) #31", "Avengers (2012) #32", "Avengers (2012) #33", "Avengers (2012) #34", "New Avengers (2013) #13", "New Avengers (2013) #14", "New Avengers (2013) #15", "New Avengers (2013) #16", "New Avengers (2013) #17", "New Avengers (2013) #18", "New Avengers (2013) #19", "New Avengers (2013) #20", "New Avengers (2013) #21", "New Avengers (2013) #22", "New Avengers (2013) #23"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=eNAQEAAAQBAJ"
+      },
+      "note": "Includes New Avengers #13, the Inhumanity chapter also labeled #13.INH.",
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/14085317"
+      }
+    },
+    "9781302941925": {
+      "issueKeys": ["Avengers (2012) #35", "Avengers (2012) #36", "Avengers (2012) #37", "Avengers (2012) #38", "Avengers (2012) #39", "Avengers (2012) #40", "Avengers (2012) #41", "Avengers (2012) #42", "Avengers (2012) #43", "Avengers (2012) #44", "New Avengers (2013) #24", "New Avengers (2013) #25", "New Avengers (2013) #26", "New Avengers (2013) #27", "New Avengers (2013) #28", "New Avengers (2013) #29", "New Avengers (2013) #30", "New Avengers (2013) #31", "New Avengers (2013) #32", "New Avengers (2013) #33"],
+      "source": {
+        "label": "Edition contents · ISBN match",
+        "url": "https://books.google.com/books?id=smhlEAAAQBAJ"
+      },
+      "hoopla": {
+        "url": "https://www.hoopladigital.com/comic/15225509"
+      }
+    }
+  },
+  "alternatives": [
+    "9781302520632",
+    "9781302523091",
+    "9781302935634",
+    "9781302936662",
+    "9781302941925"
+  ]
+}

@@ -1,18 +1,22 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
+import {initEventTimeline} from '../public/event-timelines/event.js';
+import {routeCoverage} from '../public/event-timelines/issue-coverage.js';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const directory = path.join(root,'public/event-timelines');
 const catalog = JSON.parse(fs.readFileSync(path.join(root,'public/catalog.json'),'utf8'));
-const renderer = fs.readFileSync(path.join(directory,'event.js'),'utf8');
+const coverage = JSON.parse(fs.readFileSync(path.join(root,'public/hickman-coverage.json'),'utf8'));
 let count = 0;
 for (const file of fs.readdirSync(directory).filter(file=>file.endsWith('.json'))) {
   const event = JSON.parse(fs.readFileSync(path.join(directory,file),'utf8'));
   const elements = new Map();
   function element(id){if(!elements.has(id))elements.set(id,{value:'all',innerHTML:'',textContent:'',events:{},addEventListener(type,callback){this.events[type]=callback;}});return elements.get(id);}
-  await vm.runInNewContext(renderer,{document:{body:{dataset:{event:file.slice(0,-5)}},getElementById:element},URL,fetch:async url=>({ok:true,json:async()=>url==='/catalog.json'?catalog:event})});
+  const doc = {body:{dataset:{event:file.slice(0,-5)}}, getElementById:element};
+  const responses = {'/catalog.json': catalog, '/hickman-coverage.json': coverage};
+  const fetcher = async url => ({ok:true, json:async () => responses[url] ?? event});
+  await initEventTimeline(doc, fetcher, {addEventListener(){}, localStorage:{getItem: () => null}});
   const shown=()=>(element('timeline').innerHTML.match(/<article /g)||[]).length;
   const change=()=>element('filters').events.change();
   const reset=()=>element('reset').events.click();
@@ -39,6 +43,22 @@ for (const file of fs.readdirSync(directory).filter(file=>file.endsWith('.json')
   count++;
 }
 const hickman=JSON.parse(fs.readFileSync(path.join(directory,'hickman-secret-wars.json'),'utf8'));
+const byIsbn = new Map(catalog.books.map(book => [book.isbn, book]));
+const finished = (...isbns) => Object.fromEntries(isbns.map(isbn => [byIsbn.get(isbn).id, {status:'finished'}]));
+const hickmanCoverage = queue => routeCoverage(hickman.steps, coverage, byIsbn, queue);
+assert.equal(hickmanCoverage({}).total, 92);
+assert.equal(hickmanCoverage({}).fullyMappedStages, 12);
+const throughPrelude = finished('9781302013622', '9781302013738', '9781302013639', '9781302368920');
+const afterPrelude = hickmanCoverage(throughPrelude);
+assert.equal(afterPrelude.next.book.isbn, '9781302376987');
+assert.deepEqual(afterPrelude.repeats, ['Avengers (2012) #14', 'Avengers (2012) #15', 'Avengers (2012) #16', 'Avengers (2012) #17']);
+assert.equal(afterPrelude.adds.length, 18);
+assert.equal(afterPrelude.read, 23);
+const throughInfinity = {...throughPrelude, ...finished('9781302376987')};
+assert.equal(hickmanCoverage(throughInfinity).read, 41, 'Repeat issues and bonus material should not inflate core progress');
+assert.equal(hickmanCoverage({...throughInfinity, ...finished(...coverage.alternatives, '9781302482732')}).next, undefined);
+assert.equal(hickmanCoverage(finished(...coverage.alternatives, '9781302482732')).read, 92);
+
 const infinity=hickman.steps.find(step=>step.id==='infinity');
 assert(infinity.order.indexOf('Infinity #1')<infinity.order.indexOf('New Avengers #8'),'Infinity: place NA8 after Infinity1');
 assert(hickman.steps.find(step=>step.id==='time-four').isbns.includes('9780785192244'),'Time Runs Out must include the final volume');

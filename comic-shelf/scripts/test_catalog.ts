@@ -4,6 +4,7 @@ import { test } from 'node:test';
 import {
   filterBooks,
   initialFilters,
+  nextInReadingPath,
   overlaps,
   type Book,
   type Enrichment,
@@ -212,6 +213,21 @@ test('X-Men batch contains fifty records with conservative edition matching', ()
   assert.equal(shared.find(x=>x.book.isbn==='9780785170037')?.count,6);
   assert.equal(shared.find(x=>x.book.isbn==='9780785170044')?.count,6);
 });
+test('Astonishing X-Men continues past issues already collected in the selected edition', () => {
+  const first = get('9780785170037');
+  const dangerous = get('9780785170044');
+  const torn = get('9780785170051');
+  const epic = get('9781302527464');
+  const last = get('9780785170068');
+  const run = [first, epic, dangerous, torn, last];
+
+  assert.equal(nextInReadingPath(first, run)?.id, dangerous.id);
+  assert.equal(nextInReadingPath(epic, run)?.id, torn.id);
+  assert.equal(nextInReadingPath(last, run), undefined);
+  assert.deepEqual(overlaps(epic, [dangerous])[0]?.issues, dangerous.detail!.issueKeys);
+  assert.deepEqual(overlaps(epic, [get('9781302502607')]), []);
+});
+
 test('Search handles punctuation and character aliases', () => {
   assert.ok(
     filterBooks(books, {

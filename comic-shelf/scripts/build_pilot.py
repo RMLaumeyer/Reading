@@ -95,6 +95,8 @@ def main():
         enriched.update(json.loads(editorial_file.read_text(encoding='utf-8')))
     import approved_synopses
     enriched = approved_synopses.apply(enriched, ROOT/'data/approved-synopses.json')
+    import verified_contents
+    verified_contents.apply(catalog['books'], enriched)
     out={'updatedAt':DATE,'books':enriched}
     (ROOT/'public/enrichment.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
     report={'catalogRecords':len(catalog['books']),'hooplaListed':sum(b['hooplaListed'] for b in catalog['books']),

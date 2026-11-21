@@ -1,5 +1,11 @@
 # Remaining held enrichment — October 31, 2026
 
+The November 12 enrichment run brought the catalog to **3,414 approved synopses (85.35%)** and **203 known research holds**. [Session report](enrichment-next-300-2026-11-12.md)
+
+The next 300-addition run brought the catalog to **3,202 approved synopses (80.05%)** and **340 known research holds**. [Session report](enrichment-300-2026-11-12.md)
+
+The next 200-addition run brought the catalog to **2,902 approved synopses (72.55%)** and **640 known research holds**. [Session report](enrichment-200-2026-11-11.md)
+
 The next 100-addition run brought the catalog to **2,702 approved synopses (67.55%)** and **840 known research holds**. [Session report](enrichment-300-2026-11-11.md)
 
 The next 100-addition run brought the catalog to **2,402 approved synopses (60.05%)** and **1,116 known research holds**. [Session report](enrichment-third-100-2026-11-10.md)

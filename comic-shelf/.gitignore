@@ -46,3 +46,6 @@ panel-error.log
 data/enrichment.lock
 data/pause-enrichment
 enrichment-*.log
+/auto-enrichment.log
+/openlibrary-*.log
+/tsconfig.tsbuildinfo
